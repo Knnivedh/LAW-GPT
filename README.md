@@ -1,5 +1,11 @@
 # ⚖️ LAW-GPT: Advanced Agentic RAG for Legal Intelligence
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/Knnivedh/LAW-GPT?style=social)](https://github.com/Knnivedh/LAW-GPT/stargazers)
+[![Forks](https://img.shields.io/github/forks/Knnivedh/LAW-GPT?style=social)](https://github.com/Knnivedh/LAW-GPT/network/members)
+[![Issues](https://img.shields.io/github/issues/Knnivedh/LAW-GPT)](https://github.com/Knnivedh/LAW-GPT/issues)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
 ![LAW-GPT Banner](assets/banner.png)
 
 LAW-GPT is a state-of-the-art legal intelligence platform powered by an Agentic Retrieval-Augmented Generation (RAG) engine. It is designed to provide precise, context-aware legal responses based on a comprehensive ingestion of statutes, case law, and consumer documents.
