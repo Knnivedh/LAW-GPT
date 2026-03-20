@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-12-20T09:35:40.980543",
+  "overall_score": 45.75,
+  "overall_grade": "F - NOT READY",
+  "recommendation": "\u274c CRITICAL: System requires major fixes",
+  "results": [
+    {
+      "test_id": "Q4",
+      "title": "Contract Law + Arbitration",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 65.0,
+      "grade": "C - Acceptable",
+      "duration": 6.3
+    },
+    {
+      "test_id": "Q5",
+      "title": "Consumer Law + Medical Negligence",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 7.5,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "Missing key element: Bolam Test",
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [
+        "CRITICAL: Major legal elements missing"
+      ],
+      "total_score": 57.5,
+      "grade": "D - Poor",
+      "duration": 3.72
+    },
+    {
+      "test_id": "Q6",
+      "title": "Property Law + Constitutional Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 65.0,
+      "grade": "C - Acceptable",
+      "duration": 3.63
+    },
+    {
+      "test_id": "Q7",
+      "title": "Cyber Law + Evidence Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 65.0,
+      "grade": "C - Acceptable",
+      "duration": 3.93
+    },
+    {
+      "test_id": "Q8",
+      "title": "Criminal Law + Bail Jurisprudence",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 65.0,
+      "grade": "C - Acceptable",
+      "duration": 3.78
+    },
+    {
+      "test_id": "Q9",
+      "title": "Administrative Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 7.5,
+        "case_laws": 10.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [],
+      "strengths": [
+        "Comprehensive response length",
+        "Cited: Maneka Gandhi",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [
+        "CRITICAL: Major legal elements missing"
+      ],
+      "total_score": 67.5,
+      "grade": "C - Acceptable",
+      "duration": 7.49
+    },
+    {
+      "test_id": "Q10",
+      "title": "Special Marriage Act + Constitutional Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 22.5,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 72.5,
+      "grade": "B - Good",
+      "duration": 3.83
+    }
+  ],
+  "statistics": {
+    "total_tests": 10,
+    "completed": 7,
+    "critical_failures": 5,
+    "passed": 1,
+    "failed": 1
+  },
+  "top_gaps": [
+    [
+      "No landmark case laws cited",
+      6
+    ],
+    [
+      "Missing key element: Bolam Test",
+      1
+    ]
+  ]
+}

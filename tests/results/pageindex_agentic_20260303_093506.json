@@ -1,0 +1,137 @@
+{
+  "suite": "test_pageindex_agentic_integration",
+  "timestamp": "20260303T093506",
+  "total": 25,
+  "passed": 25,
+  "failed": 0,
+  "skipped": 0,
+  "pass_pct": 100.0,
+  "elapsed_s": 2.95,
+  "results": [
+    {
+      "id": "PI-01",
+      "status": "PASS",
+      "note": "is_available=False (no key)"
+    },
+    {
+      "id": "PI-02",
+      "status": "PASS",
+      "note": "is_available=True (key+package)"
+    },
+    {
+      "id": "PI-03",
+      "status": "PASS",
+      "note": "All 6 statute queries activate"
+    },
+    {
+      "id": "PI-04",
+      "status": "PASS",
+      "note": "Non-statute queries correctly skipped"
+    },
+    {
+      "id": "PI-05",
+      "status": "PASS",
+      "note": "Returns '' when not available"
+    },
+    {
+      "id": "PI-06",
+      "status": "PASS",
+      "note": "Returns '' on empty registry"
+    },
+    {
+      "id": "PI-07",
+      "status": "PASS",
+      "note": "Top doc: Bharatiya_Nyaya_Sanhita"
+    },
+    {
+      "id": "PI-08",
+      "status": "PASS",
+      "note": "Flat map: 4 nodes"
+    },
+    {
+      "id": "PI-09",
+      "status": "PASS",
+      "note": "LLM tree search parses correctly"
+    },
+    {
+      "id": "PI-10",
+      "status": "PASS",
+      "note": "Malformed JSON \u2192 empty list"
+    },
+    {
+      "id": "PI-11",
+      "status": "PASS",
+      "note": "Already-indexed doc skipped (no re-upload)"
+    },
+    {
+      "id": "PI-12",
+      "status": "PASS",
+      "note": "All 8 required keywords present (26 total)"
+    },
+    {
+      "id": "PI-13",
+      "status": "PASS",
+      "note": "pageindex.retrieve() called for statute_lookup"
+    },
+    {
+      "id": "PI-14",
+      "status": "PASS",
+      "note": "pageindex.retrieve() NOT called for simple query"
+    },
+    {
+      "id": "PI-15",
+      "status": "PASS",
+      "note": "Graceful fallback when pageindex returns ''"
+    },
+    {
+      "id": "PI-16",
+      "status": "PASS",
+      "note": "RetrievalPacket produced; synthesis can use context"
+    },
+    {
+      "id": "PI-17",
+      "status": "PASS",
+      "note": "Planner strategy=statute_lookup"
+    },
+    {
+      "id": "PI-18",
+      "status": "PASS",
+      "note": "pageindex_retriever attr present in __init__"
+    },
+    {
+      "id": "PI-19",
+      "status": "PASS",
+      "note": "pageindex_retriever forwarded to AgenticRAGEngine"
+    },
+    {
+      "id": "PI-20",
+      "status": "PASS",
+      "note": "query() uses agentic_engine path"
+    },
+    {
+      "id": "PI-21",
+      "status": "PASS",
+      "note": "Short query 'Section 302' activates"
+    },
+    {
+      "id": "PI-22",
+      "status": "PASS",
+      "note": "Hindi query with 'section' keyword activates"
+    },
+    {
+      "id": "PI-23",
+      "status": "PASS",
+      "note": "Mixed query activates on 'ipc' keyword"
+    },
+    {
+      "id": "PI-24",
+      "status": "PASS",
+      "note": "Combined output from 2 doc(s)"
+    },
+    {
+      "id": "PI-25",
+      "status": "PASS",
+      "note": "No LLM \u2192 empty node list"
+    }
+  ]
+}

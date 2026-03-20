@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<title>LAW-GPT 10-Dimension Accuracy Report — 20260303_003839</title>
+<style>
+  body{background:#0f172a;color:#e2e8f0;font-family:monospace;padding:20px}
+  h1{color:#7dd3fc;} h2{color:#94a3b8;}
+  .summary{background:#1e293b;border-radius:8px;padding:20px;margin-bottom:20px}
+  .stat{display:inline-block;margin:0 20px;text-align:center}
+  .stat .val{font-size:2em;font-weight:bold;color:#38bdf8}
+  table{width:100%;border-collapse:collapse;}
+  th{background:#1e293b;color:#94a3b8;padding:8px;text-align:left;font-size:12px}
+  td{padding:6px 10px;border-bottom:1px solid #1e293b;font-size:12px}
+  .dim-header td{font-size:13px}
+</style>
+</head>
+<body>
+<h1>LAW-GPT v3.0 — 10-Dimension Accuracy Comparison</h1>
+<div class="summary">
+  <div class="stat"><div class="val" style="color:#22c55e">81.8%</div><div>Overall</div></div>
+  <div class="stat"><div class="val">9/11</div><div>Pass/Total</div></div>
+  <div class="stat"><div class="val" style="color:#ef4444">2</div><div>Failed</div></div>
+  <div class="stat"><div class="val">185.8s</div><div>Duration</div></div>
+  <div class="stat"><div class="val" style="color:#94a3b8">20260303_003839</div><div>Timestamp</div></div>
+</div>
+<table>
+  <tr>
+    <th>ID</th><th>Status</th><th>Question</th><th>Score</th>
+    <th>KW</th><th>Sec</th><th>Fact</th><th>Latency</th><th>Strategy</th>
+  </tr>
+  
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            FPR — Factual Precision &nbsp;
+            <span style="color:#f59e0b">4/6 (66.7%)</span>
+            avg_score=76.2% avg_lat=16.8s
+          </td>
+        </tr>
+        <tr style="background:#450a0a">
+          <td>FPR-01</td>
+          <td><span style="color:#ef4444">FAIL</span></td>
+          <td title="On exactly what date did the Bharatiya Nyaya Sanhita, 2023 come into force?">On exactly what date did the Bharatiya Nyaya Sanhita, 2023 c...</td>
+          <td>50%</td>
+          <td>2/3</td>
+          <td>1/1</td>
+          <td>0/1</td>
+          <td>23.76s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>FPR-02</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="How many chapters and sections does the Bharatiya Nyaya Sanhita, 2023 contain?">How many chapters and sections does the Bharatiya Nyaya Sanh...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>19.46s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#450a0a">
+          <td>FPR-03</td>
+          <td><span style="color:#ef4444">FAIL</span></td>
+          <td title="What are the three new criminal laws that replaced India's colonial-era criminal">What are the three new criminal laws that replaced India's c...</td>
+          <td>33%</td>
+          <td>1/3</td>
+          <td>1/3</td>
+          <td>1/3</td>
+          <td>20.58s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>FPR-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What is the pecuniary jurisdiction of the National Consumer Disputes Redressal C">What is the pecuniary jurisdiction of the National Consumer ...</td>
+          <td>74%</td>
+          <td>4/5</td>
+          <td>1/1</td>
+          <td>1/2</td>
+          <td>7.03s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>FPR-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="In which year was the Navtej Singh Johar judgment delivered, and which article w">In which year was the Navtej Singh Johar judgment delivered,...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>6.93s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>FPR-06</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="How many new offences were added in the BNS that were not present in the IPC?">How many new offences were added in the BNS that were not pr...</td>
+          <td>100%</td>
+          <td>5/5</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>23.1s</td>
+          <td>research</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            AFV — Agentic Feature Verification &nbsp;
+            <span style="color:#22c55e">5/5 (100.0%)</span>
+            avg_score=100.0% avg_lat=14.8s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-01</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What is Section 302 IPC for murder punishment?">What is Section 302 IPC for murder punishment?...</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>14.78s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-02</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is Section 302 IPC for murder punishment?">What is Section 302 IPC for murder punishment?...</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>2.57s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-03</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Explain the fundamental rights under Part III of the Indian Constitution in deta">Explain the fundamental rights under Part III of the Indian ...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>12.62s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What does Section 101 of the BNS say?">What does Section 101 of the BNS say?...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>2/2</td>
+          <td>2/2</td>
+          <td>36.25s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="How does the Agentic RAG system in LAW-GPT work? What is the reasoning trace?">How does the Agentic RAG system in LAW-GPT work? What is the...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>0/1</td>
+          <td>1/1</td>
+          <td>7.69s</td>
+          <td>research</td>
+        </tr>
+</table>
+</body></html>

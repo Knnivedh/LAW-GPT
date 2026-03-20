@@ -1,0 +1,795 @@
+{
+  "test_info": {
+    "name": "LAW-GPT v3.0 Accuracy & Latency Ground Truth Test",
+    "date": "2026-02-28T09:57:13.752063",
+    "backend_url": "https://lawgpt-backend2024.azurewebsites.net",
+    "total_questions": 25,
+    "total_duration_sec": 200.4
+  },
+  "overall_accuracy": {
+    "composite_score": 0.1205,
+    "keyword_hit_rate": 0.1173,
+    "section_citation_accuracy": 0.2,
+    "factual_accuracy": 0.0633,
+    "grade": "F"
+  },
+  "latency": {
+    "fresh_queries": {
+      "count": 24,
+      "avg_sec": 8.304,
+      "median_sec": 8.617,
+      "min_sec": 0.997,
+      "max_sec": 23.286,
+      "p95_sec": 20.845
+    }
+  },
+  "per_question": [
+    {
+      "question": "What is the punishment for murder under the Bharatiya Nyaya Sanhita (BNS)?",
+      "category": "criminal",
+      "difficulty": "basic",
+      "composite_score": 0.9,
+      "keyword_score": 1.0,
+      "section_score": 0.6667,
+      "fact_score": 1.0,
+      "latency_sec": 1.011,
+      "confidence": 0.95,
+      "sources_count": 5,
+      "from_cache": true,
+      "strategy": "n/a",
+      "missed_keywords": [],
+      "missed_sections": [
+        "Section 101"
+      ],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe question pertains to the punishment for murder under the Bharatiya Nyaya Sanhita (BNS), specifically Section 302. The BNS is a proposed criminal code in India, and Section 302 deals with the punishment for murder. The punishment for murder under this section includes death, impr"
+    },
+    {
+      "question": "What are the new offences added in the Bharatiya Nyaya Sanhita (BNS) that were not in the IPC?",
+      "category": "criminal",
+      "difficulty": "intermediate",
+      "composite_score": 0.48,
+      "keyword_score": 0.6,
+      "section_score": 1.0,
+      "fact_score": 0.0,
+      "latency_sec": 2.721,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "organised crime",
+        "terrorism"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "organised crime",
+        "terrorism",
+        "mob lynching"
+      ],
+      "answer_preview": "What specific sections of Bharatiya Nyaya Sanhita (BNS) should be compared with the Indian Penal Code (IPC) to identify new offenses added in BNS that were not in the IPC?"
+    },
+    {
+      "question": "Has sedition been removed under the new criminal law reforms in India? What replaced it?",
+      "category": "criminal",
+      "difficulty": "intermediate",
+      "composite_score": 0.3433,
+      "keyword_score": 0.2,
+      "section_score": 0.5,
+      "fact_score": 0.3333,
+      "latency_sec": 1.051,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "removed",
+        "sovereignty",
+        "unity",
+        "integrity"
+      ],
+      "missed_sections": [
+        "Section 152"
+      ],
+      "missed_facts": [
+        "sovereignty",
+        "unity and integrity"
+      ],
+      "answer_preview": "What is the specific section in Bharatiya Nyaya Sanhita (BNS) that replaced sedition, and do you have written confirmation or a reference to this change from an official government source?"
+    },
+    {
+      "question": "What is the punishment for theft under Indian law?",
+      "category": "criminal",
+      "difficulty": "basic",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 1.041,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "theft",
+        "imprisonment",
+        "fine",
+        "punishment"
+      ],
+      "missed_sections": [
+        "Section 303",
+        "Section 379"
+      ],
+      "missed_facts": [
+        "imprisonment",
+        "fine",
+        "three years"
+      ],
+      "answer_preview": "\"What is the specific date of implementation of Bharatiya Nyaya Sanhita (BNS) and do you have written confirmation from an official government source?\""
+    },
+    {
+      "question": "What is the legal definition and punishment for dowry death in India?",
+      "category": "criminal",
+      "difficulty": "advanced",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 1.033,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "dowry death",
+        "seven years",
+        "marriage",
+        "cruelty",
+        "husband",
+        "relative"
+      ],
+      "missed_sections": [
+        "Section 304B",
+        "Section 498A",
+        "Section 80"
+      ],
+      "missed_facts": [
+        "seven years",
+        "unnatural",
+        "cruelty",
+        "dowry"
+      ],
+      "answer_preview": "What is the specific section in Bharatiya Nyaya Sanhita (BNS) that replaced sedition, and do you have written confirmation or a reference to this change from an official government source?"
+    },
+    {
+      "question": "What are the fundamental rights guaranteed under Part III of the Indian Constitution?",
+      "category": "constitutional",
+      "difficulty": "basic",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 10.312,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "equality",
+        "freedom",
+        "exploitation",
+        "religion",
+        "cultural",
+        "educational",
+        "constitutional remedies"
+      ],
+      "missed_sections": [
+        "Article 14",
+        "Article 19",
+        "Article 21",
+        "Article 32",
+        "Part III"
+      ],
+      "missed_facts": [
+        "right to equality",
+        "right to freedom",
+        "right against exploitation",
+        "freedom of religion",
+        "right to constitutional remedies"
+      ],
+      "answer_preview": "What is the specific date of implementation of Bharatiya Nyaya Sanhita (BNS) and do you have written confirmation from an official government source?"
+    },
+    {
+      "question": "What is the right to privacy in India and which Supreme Court case established it as a fundamental right?",
+      "category": "constitutional",
+      "difficulty": "advanced",
+      "composite_score": 0.06,
+      "keyword_score": 0.2,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 8.716,
+      "confidence": 0.8,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [
+        "privacy",
+        "fundamental right",
+        "Puttaswamy",
+        "Article 21"
+      ],
+      "missed_sections": [
+        "Article 21"
+      ],
+      "missed_facts": [
+        "Puttaswamy",
+        "fundamental right",
+        "Article 21",
+        "2017"
+      ],
+      "answer_preview": "**Case Summary**\nThe Bharatiya Nyaya Sanhita (BNS) is a new legislation that has been enacted to consolidate and amend the provisions relating to offenses in India. The BNS has repealed the Indian Penal Code (IPC), which was the primary legislation governing offenses in India since 1860. The BNS has"
+    },
+    {
+      "question": "What did the Supreme Court hold in the Navtej Singh Johar case regarding Section 377?",
+      "category": "constitutional",
+      "difficulty": "advanced",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 2.134,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "Section 377",
+        "unconstitutional",
+        "homosexuality",
+        "consensual",
+        "decriminalised",
+        "adults"
+      ],
+      "missed_sections": [
+        "Section 377",
+        "Article 14",
+        "Article 15",
+        "Article 21"
+      ],
+      "missed_facts": [
+        "unconstitutional",
+        "consensual",
+        "decriminalised",
+        "2018"
+      ],
+      "answer_preview": "What is the exact date of the Supreme Court's decision in the Navtej Singh Johar case, and do you have any written documentation or news articles confirming this date?"
+    },
+    {
+      "question": "What are the key features of the Consumer Protection Act, 2019 and how is it different from the 1986 Act?",
+      "category": "consumer",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 1.094,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "Consumer Protection Act",
+        "2019",
+        "1986",
+        "CCPA",
+        "e-commerce",
+        "mediation"
+      ],
+      "missed_sections": [
+        "Consumer Protection Act, 2019"
+      ],
+      "missed_facts": [
+        "Central Consumer Protection Authority",
+        "e-commerce",
+        "1986",
+        "mediation"
+      ],
+      "answer_preview": "What is the exact date of the Supreme Court's decision in the Navtej Singh Johar case, and do you have any written documentation or news articles confirming this date?"
+    },
+    {
+      "question": "What are the consumer rights defined under the Consumer Protection Act 2019?",
+      "category": "consumer",
+      "difficulty": "basic",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 1.025,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "consumer rights",
+        "protection",
+        "hazardous",
+        "informed",
+        "redressal"
+      ],
+      "missed_sections": [
+        "Consumer Protection Act, 2019"
+      ],
+      "missed_facts": [
+        "hazardous",
+        "quality",
+        "quantity",
+        "redressal",
+        "competitive prices"
+      ],
+      "answer_preview": "What is the exact date of the Supreme Court's decision in the Navtej Singh Johar case, and do you have any written documentation or news articles confirming this date?"
+    },
+    {
+      "question": "What is the jurisdiction of District, State and National Consumer Disputes Redressal Commissions?",
+      "category": "consumer",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 6.104,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "District",
+        "State",
+        "National",
+        "Commission",
+        "crore",
+        "jurisdiction"
+      ],
+      "missed_sections": [
+        "Consumer Protection Act"
+      ],
+      "missed_facts": [
+        "District",
+        "State",
+        "National",
+        "crore"
+      ],
+      "answer_preview": "Do you have written documentation or news articles confirming the date of the Supreme Court's decision in the Navtej Singh Johar case, and does it mention the key points of the decision, including any relevant case law or precedents?"
+    },
+    {
+      "question": "What is domestic violence under the Protection of Women from Domestic Violence Act, 2005? What types of abuse are covered?",
+      "category": "family",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 13.13,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "domestic violence",
+        "physical",
+        "sexual",
+        "verbal",
+        "emotional",
+        "economic",
+        "abuse"
+      ],
+      "missed_sections": [
+        "Section 3",
+        "PWDVA",
+        "Protection of Women from Domestic Violence Act"
+      ],
+      "missed_facts": [
+        "physical abuse",
+        "sexual abuse",
+        "verbal",
+        "emotional",
+        "economic abuse"
+      ],
+      "answer_preview": "Do you have written documentation or news articles confirming the date of the Supreme Court's decision in the Navtej Singh Johar case, and does it mention the key points of the decision, including any relevant case law or precedents?"
+    },
+    {
+      "question": "What reliefs can an aggrieved woman seek under the Protection of Women from Domestic Violence Act?",
+      "category": "family",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 16.174,
+      "confidence": 0.9,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [
+        "protection order",
+        "residence order",
+        "monetary relief",
+        "custody",
+        "compensation"
+      ],
+      "missed_sections": [
+        "PWDVA",
+        "Protection of Women from Domestic Violence Act"
+      ],
+      "missed_facts": [
+        "protection order",
+        "residence order",
+        "monetary relief",
+        "custody",
+        "compensation"
+      ],
+      "answer_preview": "**Case Summary**\nThe Navtej Singh Johar case, decided by the Supreme Court of India in 2018, is a landmark judgment that decriminalized consensual homosexual relationships between adults in private. The case challenged the constitutional validity of Section 377 of the Indian Penal Code (IPC), which "
+    },
+    {
+      "question": "When did the Bharatiya Nyaya Sanhita (BNS) come into effect and what laws did it replace?",
+      "category": "transition",
+      "difficulty": "basic",
+      "composite_score": 0.36,
+      "keyword_score": 0.2,
+      "section_score": 1.0,
+      "fact_score": 0.0,
+      "latency_sec": 23.286,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "1 July 2024",
+        "Indian Penal Code",
+        "IPC",
+        "replace"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "1 July 2024",
+        "Indian Penal Code",
+        "1860"
+      ],
+      "answer_preview": "What is the exact date of implementation of the Bharatiya Nyaya Sanhita (BNS) in the specific states you are concerned about, and do you have any written records or official notifications confirming this?"
+    },
+    {
+      "question": "What are the three new criminal laws that replaced the colonial-era laws in India in 2024?",
+      "category": "transition",
+      "difficulty": "intermediate",
+      "composite_score": 0.3,
+      "keyword_score": 0.3333,
+      "section_score": 0.3333,
+      "fact_score": 0.25,
+      "latency_sec": 11.195,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "Bharatiya Nagarik Suraksha Sanhita",
+        "Bharatiya Sakshya"
+      ],
+      "missed_sections": [
+        "BNSS",
+        "BSA"
+      ],
+      "missed_facts": [
+        "Bharatiya Nagarik Suraksha Sanhita",
+        "Bharatiya Sakshya",
+        "Indian Penal Code"
+      ],
+      "answer_preview": "What are the specific dates of implementation of the Bharatiya Nyaya Sanhita (BNS) in the states you are concerned about, and do you have any written records or official notifications confirming this, including the names of the laws replaced by BNS?"
+    },
+    {
+      "question": "How many chapters and sections does the Bharatiya Nyaya Sanhita have?",
+      "category": "transition",
+      "difficulty": "basic",
+      "composite_score": 0.36,
+      "keyword_score": 0.2,
+      "section_score": 1.0,
+      "fact_score": 0.0,
+      "latency_sec": 11.23,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "20",
+        "358",
+        "chapters",
+        "sections"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "20 chapters",
+        "358 sections"
+      ],
+      "answer_preview": "What are the specific dates of implementation of the Bharatiya Nyaya Sanhita (BNS) in the states you are concerned about, and do you have any written records or official notifications confirming this, including the names of the laws replaced by BNS?"
+    },
+    {
+      "question": "What were the Vishaka Guidelines and why were they important for workplace sexual harassment law in India?",
+      "category": "landmark_case",
+      "difficulty": "advanced",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 12.166,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "Vishaka",
+        "sexual harassment",
+        "workplace",
+        "guidelines",
+        "Supreme Court"
+      ],
+      "missed_sections": [
+        "Vishaka"
+      ],
+      "missed_facts": [
+        "Vishaka",
+        "sexual harassment",
+        "workplace",
+        "1997"
+      ],
+      "answer_preview": "What are the specific dates of implementation of the Bharatiya Nyaya Sanhita (BNS) in the states you are concerned about, and do you have any written records or official notifications confirming this, including the names of the laws replaced by BNS, along with the corresponding sections-wise compari"
+    },
+    {
+      "question": "What is the significance of the Kesavananda Bharati case in Indian constitutional law?",
+      "category": "landmark_case",
+      "difficulty": "advanced",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 13.104,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "Kesavananda Bharati",
+        "basic structure",
+        "Constitution",
+        "amendment",
+        "Parliament"
+      ],
+      "missed_sections": [
+        "Article 368"
+      ],
+      "missed_facts": [
+        "basic structure",
+        "Parliament",
+        "amend"
+      ],
+      "answer_preview": "What are the specific dates of implementation of the Bharatiya Nyaya Sanhita (BNS) in the states you are concerned about, and do you have any written records or official notifications confirming this, including the names of the laws replaced by BNS, along with the corresponding sections-wise compari"
+    },
+    {
+      "question": "If a person commits murder and also destroys evidence to cover it up, what are the applicable BNS/IPC sections and their respective punishments?",
+      "category": "criminal",
+      "difficulty": "multi_hop",
+      "composite_score": 0.06,
+      "keyword_score": 0.2,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 19.096,
+      "confidence": 0.8,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [
+        "murder",
+        "evidence",
+        "imprisonment",
+        "destruction"
+      ],
+      "missed_sections": [
+        "Section 302",
+        "Section 201",
+        "Section 101"
+      ],
+      "missed_facts": [
+        "death",
+        "imprisonment for life",
+        "evidence"
+      ],
+      "answer_preview": "**Case Summary**\nThe Bharatiya Nyaya Sanhita (BNS) is a new criminal code implemented in India, replacing colonial-era laws such as the Indian Penal Code (IPC). The BNS came into effect on July 1, 2024, and its implementation has significant implications for existing IPC cases. This analysis will ex"
+    },
+    {
+      "question": "A woman in a live-in relationship faces physical and economic abuse from her partner. What legal remedies are available to her under Indian law?",
+      "category": "family",
+      "difficulty": "multi_hop",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 20.845,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "domestic violence",
+        "live-in",
+        "protection order",
+        "PWDVA",
+        "498A"
+      ],
+      "missed_sections": [
+        "PWDVA",
+        "Section 498A"
+      ],
+      "missed_facts": [
+        "Protection of Women from Domestic Violence Act",
+        "live-in",
+        "protection order"
+      ],
+      "answer_preview": "What is the exact date of the incident or the start of the physical and economic abuse, and do you have any written or photographic evidence to support your claims?"
+    },
+    {
+      "question": "A consumer bought a defective car worth Rs 15 lakhs from an authorized dealer. The dealer refuses to replace or refund. Which consumer forum should the consumer approach and what remedies are available?",
+      "category": "consumer",
+      "difficulty": "multi_hop",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 1.254,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "District",
+        "Consumer",
+        "Commission",
+        "defective",
+        "refund",
+        "replacement",
+        "compensation"
+      ],
+      "missed_sections": [
+        "Consumer Protection Act"
+      ],
+      "missed_facts": [
+        "District",
+        "defective",
+        "compensation"
+      ],
+      "answer_preview": "Q2: \"What specific defect or problem did you notice, and when did you first notice it? Do you have written or photographic evidence to support your claims?\""
+    },
+    {
+      "question": "What is RERA and how does it protect homebuyers in India?",
+      "category": "property",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 0.997,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "RERA",
+        "Real Estate",
+        "Regulatory Authority",
+        "homebuyer",
+        "registration",
+        "builder"
+      ],
+      "missed_sections": [
+        "RERA"
+      ],
+      "missed_facts": [
+        "Real Estate",
+        "Regulatory Authority",
+        "registration",
+        "builder"
+      ],
+      "answer_preview": "What is the duration of the live-in relationship and do you have any written or photographic evidence to support your claims of physical and economic abuse?"
+    },
+    {
+      "question": "What is the right to free legal aid in India and who is entitled to it?",
+      "category": "constitutional",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 1.478,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "legal aid",
+        "Article 39A",
+        "Legal Services",
+        "free",
+        "weaker sections"
+      ],
+      "missed_sections": [
+        "Article 39A",
+        "Legal Services Authorities Act"
+      ],
+      "missed_facts": [
+        "legal aid",
+        "free"
+      ],
+      "answer_preview": "Q: \"Do you have the appointment letter or any other document that proves the duration of the live-in relationship, and did you have a written agreement or any other document that outlines the maintenance requirements or economic abuse?\""
+    },
+    {
+      "question": "What is Section 498A of the IPC and why has it been controversial?",
+      "category": "criminal",
+      "difficulty": "advanced",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "latency_sec": 11.597,
+      "confidence": 0.0,
+      "sources_count": 0,
+      "from_cache": false,
+      "strategy": "unknown",
+      "missed_keywords": [
+        "498A",
+        "cruelty",
+        "husband",
+        "relatives",
+        "dowry",
+        "misuse"
+      ],
+      "missed_sections": [
+        "Section 498A",
+        "IPC"
+      ],
+      "missed_facts": [
+        "cruelty",
+        "husband",
+        "relatives",
+        "dowry"
+      ],
+      "answer_preview": "Do you have a written document or record of the marriage registration details, and if so, can you provide me with the registration date and a copy of the document?"
+    },
+    {
+      "question": "What is anticipatory bail under Indian law and when can it be granted?",
+      "category": "procedural",
+      "difficulty": "intermediate",
+      "composite_score": 0.15,
+      "keyword_score": 0.0,
+      "section_score": 0.5,
+      "fact_score": 0.0,
+      "latency_sec": 8.518,
+      "confidence": 0.8,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [
+        "anticipatory bail",
+        "arrest",
+        "non-bailable",
+        "Section 438",
+        "High Court",
+        "Sessions Court"
+      ],
+      "missed_sections": [
+        "Section 438"
+      ],
+      "missed_facts": [
+        "anticipatory bail",
+        "arrest",
+        "non-bailable"
+      ],
+      "answer_preview": "**Case Summary**\nThe case involves a woman in a live-in relationship in India who is facing physical and economic abuse from her partner. The woman seeks legal remedies to protect herself from the abuse and potentially terminate the live-in relationship. The facts of the case are not fully disclosed"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "generated": "20260303_000015",
+  "overall_pass": false,
+  "total_passed": 0,
+  "total_failed": 1,
+  "total_tests": 1,
+  "pass_rate_pct": 0.0,
+  "suites": [
+    {
+      "suite_id": "s7",
+      "name": "10-Dimension Accuracy Comparison (60+ tests)",
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "total": 1,
+      "duration": 124.87326788902283,
+      "score_pct": 0.0,
+      "details": [],
+      "stdout": "\n\u001b[1m\u001b[96m====================================================================\n  LAW-GPT v3.0 \u2014 10-DIMENSION ACCURACY COMPARISON TEST\n  Target: https://lawgpt-backend2024.azurewebsites.net\n  Date:   2026-03-03 00:00:15\n====================================================================\u001b[0m\n\u001b[96m[INFO]\u001b[0m Checking backend at https://lawgpt-backend2024.azurewebsites.net ...\n  Waiting... (119s left)\n  Waiting... (110s left)\n  Waiting... (101s left)\n  Waiting... (92s left)\n  Waiting... (83s left)\n  Waiting... (74s left)\n  Waiting... (65s left)\n  Waiting... (56s left)\n  Waiting... (48s left)\n  Waiting... (39s left)\n  Waiting... (30s left)\n  Waiting... (21s left)\n  Waiting... (12s left)\n  Waiting... (3s left)\n\n\u001b[91mFATAL: Backend unreachable at https://lawgpt-backend2024.azurewebsites.net\u001b[0m\n",
+      "error": "",
+      "ran": true
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "test_info": {
+    "name": "LAW-GPT v3.0 Accuracy & Latency Ground Truth Test",
+    "date": "2026-03-03T09:42:28.867390",
+    "backend_url": "https://lawgpt-backend2024.azurewebsites.net",
+    "total_questions": 25,
+    "total_duration_sec": 274.93
+  },
+  "overall_accuracy": {
+    "composite_score": 0.8568,
+    "keyword_hit_rate": 0.8682,
+    "section_citation_accuracy": 0.9033,
+    "factual_accuracy": 0.8133,
+    "grade": "A"
+  },
+  "latency": {
+    "fresh_queries": {
+      "count": 25,
+      "avg_sec": 10.993,
+      "median_sec": 7.261,
+      "min_sec": 4.607,
+      "max_sec": 45.641,
+      "p95_sec": 17.02
+    }
+  },
+  "per_question": [
+    {
+      "question": "What is the punishment for murder under the Bharatiya Nyaya Sanhita (BNS)?",
+      "category": "criminal",
+      "difficulty": "basic",
+      "composite_score": 0.9,
+      "keyword_score": 1.0,
+      "section_score": 0.6667,
+      "fact_score": 1.0,
+      "latency_sec": 6.022,
+      "confidence": 0.8,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [],
+      "missed_sections": [
+        "Section 101"
+      ],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe question pertains to the punishment for murder under the Bharatiya Nyaya Sanhita (BNS), specifically Section 302. However, upon reviewing the provided documents, it appears that the relevant section is actually Section 103 of the BNS, which corresponds to Section 302 of the Indi"
+    },
+    {
+      "question": "What are the new offences added in the Bharatiya Nyaya Sanhita (BNS) that were not in the IPC?",
+      "category": "criminal",
+      "difficulty": "intermediate",
+      "composite_score": 0.6733,
+      "keyword_score": 0.8,
+      "section_score": 1.0,
+      "fact_score": 0.3333,
+      "latency_sec": 5.527,
+      "confidence": 0.8,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "statute_lookup",
+      "missed_keywords": [
+        "organised crime"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "organised crime",
+        "mob lynching"
+      ],
+      "answer_preview": "**Case Summary**: The Bharatiya Nyaya Sanhita (BNS) is a new penal code that has been enacted to consolidate and amend the provisions relating to offences in India. The BNS has introduced several new offences that were not present in the Indian Penal Code (IPC). In this analysis, we will examine the"
+    },
+    {
+      "question": "Has sedition been removed under the new criminal law reforms in India? What replaced it?",
+      "category": "criminal",
+      "difficulty": "intermediate",
+      "composite_score": 0.8067,
+      "keyword_score": 0.8,
+      "section_score": 1.0,
+      "fact_score": 0.6667,
+      "latency_sec": 7.261,
+      "confidence": 0.8,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [
+        "removed"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "unity and integrity"
+      ],
+      "answer_preview": "**Case Summary**: The offence of sedition, previously governed by Section 124A of the Indian Penal Code (IPC), has been a topic of debate and controversy in India. With the introduction of the Bharatiya Nyaya Sanhita (BNS), 2023, there have been significant changes to the criminal law framework in I"
+    },
+    {
+      "question": "What is the punishment for theft under Indian law?",
+      "category": "criminal",
+      "difficulty": "basic",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 11.992,
+      "confidence": 0.8,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe offence of theft is defined under Section 303 of the Bharatiya Nyaya Sanhita 2023, which states that whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is sai"
+    },
+    {
+      "question": "What is the legal definition and punishment for dowry death in India?",
+      "category": "criminal",
+      "difficulty": "advanced",
+      "composite_score": 0.8,
+      "keyword_score": 1.0,
+      "section_score": 0.6667,
+      "fact_score": 0.75,
+      "latency_sec": 14.228,
+      "confidence": 0.85,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [],
+      "missed_sections": [
+        "Section 80"
+      ],
+      "missed_facts": [
+        "unnatural"
+      ],
+      "answer_preview": "**Case Summary**: Dowry death is a serious issue in India, where a bride is subjected to cruelty and harassment by her husband or his relatives for dowry, leading to her death. The Indian Penal Code (IPC) and other relevant laws in India provide for severe punishment for those found guilty of dowry "
+    },
+    {
+      "question": "What are the fundamental rights guaranteed under Part III of the Indian Constitution?",
+      "category": "constitutional",
+      "difficulty": "basic",
+      "composite_score": 0.5514,
+      "keyword_score": 0.5714,
+      "section_score": 1.0,
+      "fact_score": 0.2,
+      "latency_sec": 14.53,
+      "confidence": 0.9,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [
+        "exploitation",
+        "cultural",
+        "constitutional remedies"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "right to freedom",
+        "right against exploitation",
+        "freedom of religion",
+        "right to constitutional remedies"
+      ],
+      "answer_preview": "**Case Summary**\nThe Indian Constitution, under Part III, guarantees certain fundamental rights to its citizens. These rights are enshrined in Articles 14 to 35 and are essential for the protection of individual liberty, dignity, and equality. The retrieved documents provide some insight into specif"
+    },
+    {
+      "question": "What is the right to privacy in India and which Supreme Court case established it as a fundamental right?",
+      "category": "constitutional",
+      "difficulty": "advanced",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 9.423,
+      "confidence": 0.9,
+      "sources_count": 3,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe right to privacy in India has been a subject of debate and discussion for many years. The Indian Constitution does not explicitly mention the right to privacy as a fundamental right. However, the Supreme Court of India has recognized the right to privacy as an integral part of t"
+    },
+    {
+      "question": "What did the Supreme Court hold in the Navtej Singh Johar case regarding Section 377?",
+      "category": "constitutional",
+      "difficulty": "advanced",
+      "composite_score": 0.725,
+      "keyword_score": 0.6667,
+      "section_score": 0.75,
+      "fact_score": 0.75,
+      "latency_sec": 5.959,
+      "confidence": 0.9,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [
+        "homosexuality",
+        "decriminalised"
+      ],
+      "missed_sections": [
+        "Article 15"
+      ],
+      "missed_facts": [
+        "decriminalised"
+      ],
+      "answer_preview": "**Case Summary**\nThe Navtej Singh Johar vs Union of India (2018) case was a landmark judgment delivered by the Supreme Court of India, where the court held that Section 377 of the Indian Penal Code (IPC), which criminalized consensual homosexual acts between adults, was unconstitutional. The court r"
+    },
+    {
+      "question": "What are the key features of the Consumer Protection Act, 2019 and how is it different from the 1986 Act?",
+      "category": "consumer",
+      "difficulty": "intermediate",
+      "composite_score": 0.8,
+      "keyword_score": 0.6667,
+      "section_score": 1.0,
+      "fact_score": 0.75,
+      "latency_sec": 7.04,
+      "confidence": 0.85,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [
+        "CCPA",
+        "e-commerce"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "e-commerce"
+      ],
+      "answer_preview": "**Case Summary**\nThe Consumer Protection Act, 2019 (the \"2019 Act\") is a legislation that aims to provide better protection to consumers in India. The 2019 Act repeals the Consumer Protection Act, 1986 (the \"1986 Act\") and introduces new provisions to address the changing needs of consumers in the d"
+    },
+    {
+      "question": "What are the consumer rights defined under the Consumer Protection Act 2019?",
+      "category": "consumer",
+      "difficulty": "basic",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 5.73,
+      "confidence": 0.85,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**: The Consumer Protection Act, 2019, is a comprehensive legislation that aims to protect the interests of consumers in India. The Act defines consumer rights, which are essential for ensuring that consumers are protected against unfair trade practices and are provided with accurate i"
+    },
+    {
+      "question": "What is the jurisdiction of District, State and National Consumer Disputes Redressal Commissions?",
+      "category": "consumer",
+      "difficulty": "intermediate",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 5.514,
+      "confidence": 0.9,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe Consumer Protection Act, 2019, establishes a three-tier consumer dispute redressal mechanism in India, comprising the District Consumer Disputes Redressal Commission (District Forum), the State Consumer Disputes Redressal Commission (State Forum), and the National Consumer Dispu"
+    },
+    {
+      "question": "What is domestic violence under the Protection of Women from Domestic Violence Act, 2005? What types of abuse are covered?",
+      "category": "family",
+      "difficulty": "intermediate",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 6.148,
+      "confidence": 0.9,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "statute_lookup",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe Protection of Women from Domestic Violence Act, 2005 (PWDVA) is a comprehensive legislation aimed at protecting women from domestic violence in India. The Act provides a broad definition of domestic violence, covering various forms of abuse, including physical, emotional, verbal"
+    },
+    {
+      "question": "What reliefs can an aggrieved woman seek under the Protection of Women from Domestic Violence Act?",
+      "category": "family",
+      "difficulty": "intermediate",
+      "composite_score": 0.86,
+      "keyword_score": 0.8,
+      "section_score": 1.0,
+      "fact_score": 0.8,
+      "latency_sec": 11.36,
+      "confidence": 0.9,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [
+        "compensation"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "compensation"
+      ],
+      "answer_preview": "**Case Summary**: The Protection of Women from Domestic Violence Act, 2005 (PWDVA) is a comprehensive legislation that provides various reliefs to an aggrieved woman who has been subjected to domestic violence. The Act aims to protect women from domestic violence and provide them with a safe and sec"
+    },
+    {
+      "question": "When did the Bharatiya Nyaya Sanhita (BNS) come into effect and what laws did it replace?",
+      "category": "transition",
+      "difficulty": "basic",
+      "composite_score": 0.6733,
+      "keyword_score": 0.8,
+      "section_score": 1.0,
+      "fact_score": 0.3333,
+      "latency_sec": 45.641,
+      "confidence": 0.6,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "research",
+      "missed_keywords": [
+        "1 July 2024"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "1 July 2024",
+        "1860"
+      ],
+      "answer_preview": "**Case Summary**\nThe Bharatiya Nyaya Sanhita (BNS) is a comprehensive legal code that has replaced several existing laws in India, including the Indian Penal Code (IPC) and the Code of Criminal Procedure (CrPC). The effective date of the BNS is July 1, 2024, and it has repealed the IPC and other law"
+    },
+    {
+      "question": "What are the three new criminal laws that replaced the colonial-era laws in India in 2024?",
+      "category": "transition",
+      "difficulty": "intermediate",
+      "composite_score": 0.4,
+      "keyword_score": 0.3333,
+      "section_score": 0.3333,
+      "fact_score": 0.5,
+      "latency_sec": 16.002,
+      "confidence": 0.6,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "research",
+      "missed_keywords": [
+        "Bharatiya Nagarik Suraksha Sanhita",
+        "Bharatiya Sakshya"
+      ],
+      "missed_sections": [
+        "BNSS",
+        "BSA"
+      ],
+      "missed_facts": [
+        "Bharatiya Nagarik Suraksha Sanhita",
+        "Bharatiya Sakshya"
+      ],
+      "answer_preview": "**Case Summary**: The user has inquired about the three new criminal laws enacted in India in 2024 that replaced the Indian Penal Code (IPC) and other colonial-era laws. However, the retrieved documents do not provide explicit information about the three new laws. Nevertheless, we can analyze the av"
+    },
+    {
+      "question": "How many chapters and sections does the Bharatiya Nyaya Sanhita have?",
+      "category": "transition",
+      "difficulty": "basic",
+      "composite_score": 0.74,
+      "keyword_score": 0.8,
+      "section_score": 1.0,
+      "fact_score": 0.5,
+      "latency_sec": 4.607,
+      "confidence": 0.8,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [
+        "358"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "358 sections"
+      ],
+      "answer_preview": "**Case Summary**: The Bharatiya Nyaya Sanhita (BNS), 2023, is a comprehensive legislation that consolidates and amends the provisions relating to offences in India. The user has inquired about the total number of chapters and sections in the BNS, 2023.\n\n**Legal Framework**: The BNS, 2023, is enacted"
+    },
+    {
+      "question": "What were the Vishaka Guidelines and why were they important for workplace sexual harassment law in India?",
+      "category": "landmark_case",
+      "difficulty": "advanced",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 5.623,
+      "confidence": 0.9,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe Vishaka Guidelines were a set of guidelines laid down by the Supreme Court of India in the landmark case of Vishaka v. State of Rajasthan (1997) to address the issue of workplace sexual harassment. The guidelines were formulated in the absence of a specific law on the subject an"
+    },
+    {
+      "question": "What is the significance of the Kesavananda Bharati case in Indian constitutional law?",
+      "category": "landmark_case",
+      "difficulty": "advanced",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 11.371,
+      "confidence": 0.85,
+      "sources_count": 5,
+      "from_cache": false,
+      "strategy": "research",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe Kesavananda Bharati case (1973) is a landmark judgment in Indian constitutional law that established the doctrine of basic structure, which holds that certain fundamental features of the Constitution are beyond the power of Parliament to amend. This case has had a profound impac"
+    },
+    {
+      "question": "If a person commits murder and also destroys evidence to cover it up, what are the applicable BNS/IPC sections and their respective punishments?",
+      "category": "criminal",
+      "difficulty": "multi_hop",
+      "composite_score": 0.9,
+      "keyword_score": 1.0,
+      "section_score": 0.6667,
+      "fact_score": 1.0,
+      "latency_sec": 16.859,
+      "confidence": 0.85,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [],
+      "missed_sections": [
+        "Section 101"
+      ],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nIn this scenario, we are dealing with a person who commits murder and then destroys evidence to cover up the crime. The applicable laws for such offenses are the Indian Penal Code (IPC) and the Bharatiya Nyaya Sanhita (BNS). The IPC is the existing penal code, while the BNS is the n"
+    },
+    {
+      "question": "A woman in a live-in relationship faces physical and economic abuse from her partner. What legal remedies are available to her under Indian law?",
+      "category": "family",
+      "difficulty": "multi_hop",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 17.02,
+      "confidence": 0.85,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nA woman in a live-in relationship is facing physical and economic abuse from her partner. The situation is complex, and the woman needs to explore available legal remedies under Indian law to protect herself and her rights. The Indian Penal Code (IPC) and other relevant laws provide"
+    },
+    {
+      "question": "A consumer bought a defective car worth Rs 15 lakhs from an authorized dealer. The dealer refuses to replace or refund. Which consumer forum should the consumer approach and what remedies are available?",
+      "category": "consumer",
+      "difficulty": "multi_hop",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 16.365,
+      "confidence": 0.85,
+      "sources_count": 8,
+      "from_cache": false,
+      "strategy": "multi_hop",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe consumer purchased a defective car worth Rs 15 lakhs from an authorized dealer. Despite repeated complaints and attempts to rectify the issue, the problem persists, and the dealer refuses to replace or refund the vehicle. The consumer seeks to approach a consumer forum for redre"
+    },
+    {
+      "question": "What is RERA and how does it protect homebuyers in India?",
+      "category": "property",
+      "difficulty": "intermediate",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 12.19,
+      "confidence": 0.85,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "statute_lookup",
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**: The Real Estate (Regulation and Development) Act, 2016 (RERA) is a landmark legislation that aims to protect the interests of homebuyers in India by promoting transparency, accountability, and fairness in the real estate sector. The Act regulates the development and sale of residen"
+    },
+    {
+      "question": "What is the right to free legal aid in India and who is entitled to it?",
+      "category": "constitutional",
+      "difficulty": "intermediate",
+      "composite_score": 0.94,
+      "keyword_score": 0.8,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "latency_sec": 6.126,
+      "confidence": 0.9,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [
+        "weaker sections"
+      ],
+      "missed_sections": [],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**: The right to free legal aid in India is a fundamental right that ensures equal access to justice for all citizens, particularly those who cannot afford legal representation. The Indian legal system provides for free legal aid under various statutes, including the Code of Criminal P"
+    },
+    {
+      "question": "What is Section 498A of the IPC and why has it been controversial?",
+      "category": "criminal",
+      "difficulty": "advanced",
+      "composite_score": 0.85,
+      "keyword_score": 0.8333,
+      "section_score": 1.0,
+      "fact_score": 0.75,
+      "latency_sec": 5.947,
+      "confidence": 0.9,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "statute_lookup",
+      "missed_keywords": [
+        "dowry"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "dowry"
+      ],
+      "answer_preview": "**Case Summary**\nSection 498A of the Indian Penal Code (IPC) is a provision that deals with husband or relative of husband of a woman subjecting her to cruelty. The section has been a subject of controversy due to its potential for misuse and the challenges faced by the accused in defending themselv"
+    },
+    {
+      "question": "What is anticipatory bail under Indian law and when can it be granted?",
+      "category": "procedural",
+      "difficulty": "intermediate",
+      "composite_score": 0.8,
+      "keyword_score": 0.8333,
+      "section_score": 0.5,
+      "fact_score": 1.0,
+      "latency_sec": 6.339,
+      "confidence": 0.85,
+      "sources_count": 4,
+      "from_cache": false,
+      "strategy": "simple",
+      "missed_keywords": [
+        "Sessions Court"
+      ],
+      "missed_sections": [
+        "CrPC"
+      ],
+      "missed_facts": [],
+      "answer_preview": "**Case Summary**\nThe user is seeking information on anticipatory bail under the Code of Criminal Procedure, 1973, in India. The context provided involves a scenario where an individual is facing a potential case under Section 498A of the Indian Penal Code, 1860, and is seeking anticipatory bail. The"
+    }
+  ]
+}

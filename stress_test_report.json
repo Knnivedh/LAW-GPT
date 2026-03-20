@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Social Media Censorship & Data Localization",
+        "status": "PASSED (Clarification Triggered)",
+        "duration": 2.412048816680908,
+        "questions_asked": 5,
+        "triggered": true
+    },
+    {
+        "id": 2,
+        "title": "E-Commerce Counterfeit & Intermediary Liability",
+        "status": "FAILED (No clarification asked)",
+        "duration": 4.290898561477661,
+        "questions_asked": 0,
+        "triggered": false
+    },
+    {
+        "id": 3,
+        "title": "Health-Tech Breach & Genetic Privacy",
+        "status": "PASSED (Clarification Triggered)",
+        "duration": 1.9698071479797363,
+        "questions_asked": 5,
+        "triggered": true
+    },
+    {
+        "id": 4,
+        "title": "Fintech Algorithmic Bias & Micro-Lending",
+        "status": "PASSED (Clarification Triggered)",
+        "duration": 2.0594482421875,
+        "questions_asked": 5,
+        "triggered": true
+    },
+    {
+        "id": 5,
+        "title": "Gig Work Surveillance & Right to Dignity",
+        "status": "PASSED (Clarification Triggered)",
+        "duration": 1.7271971702575684,
+        "questions_asked": 5,
+        "triggered": true
+    },
+    {
+        "id": 6,
+        "title": "Smart City Surveillance & Facial Recognition",
+        "status": "PASSED (Clarification Triggered)",
+        "duration": 2.309678077697754,
+        "questions_asked": 5,
+        "triggered": true
+    },
+    {
+        "id": 7,
+        "title": "Educational App Data Monetization",
+        "status": "FAILED (No clarification asked)",
+        "duration": 6.380150079727173,
+        "questions_asked": 0,
+        "triggered": false
+    },
+    {
+        "id": 8,
+        "title": "Crypto-Exchange Freeze & Natural Justice",
+        "status": "PASSED (Clarification Triggered)",
+        "duration": 5.173883438110352,
+        "questions_asked": 5,
+        "triggered": true
+    },
+    {
+        "id": 9,
+        "title": "OTT Platform Self-Regulation & Free Speech",
+        "status": "FAILED (No clarification asked)",
+        "duration": 20.360967874526978,
+        "questions_asked": 0,
+        "triggered": false
+    },
+    {
+        "id": 10,
+        "title": "Smart-Home Eavesdropping & Contractual Waiver",
+        "status": "FAILED (No clarification asked)",
+        "duration": 17.517374992370605,
+        "questions_asked": 0,
+        "triggered": false
+    }
+]

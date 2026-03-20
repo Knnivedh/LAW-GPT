@@ -1,0 +1,52 @@
+# ENHANCED RAG SYSTEM - Complete Requirements
+# Install with: pip install -r requirements_ENHANCED.txt
+
+# Core dependencies (existing)
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+rank-bm25>=0.2.2
+python-dotenv>=1.0.0
+openai>=1.0.0
+tqdm>=4.65.0
+numpy>=1.24.0
+duckduckgo-search>=8.0.0  # For web search functionality
+
+# NEW: Enhanced retrieval dependencies
+torch>=2.0.0  # For sentence transformers and cross-encoder
+transformers>=4.30.0  # Hugging Face models
+
+# NEW: Cross-encoder for re-ranking (improves retrieval relevance)
+# This is the key improvement for better document ranking
+# Using lightweight model for speed
+sentence-transformers  # Already included above, cross-encoders use same package
+
+# NEW: Evaluation metrics
+rouge-score>=0.1.2  # Text similarity metrics
+nltk>=3.8.1  # Natural language processing
+scikit-learn>=1.3.0  # ML utilities, TF-IDF, cosine similarity
+
+# NEW: OPTIONAL - BERTScore (requires Hugging Face authentication)
+# bert-score>=0.3.13  # Commented out - requires HF token
+# To enable: Uncomment above and set HF_TOKEN environment variable
+
+# Data processing
+pathlib>=1.0.1  # Path handling (usually built-in)
+json  # Built-in, no install needed
+logging  # Built-in, no install needed
+
+# NVIDIA/Cerebras API support (via OpenAI SDK)
+# Already included via openai>=1.0.0
+
+# Testing dependencies
+pytest>=7.4.0  # For unit tests
+pytest-timeout>=2.1.0  # Test timeouts
+
+# Optional: Jupyter for interactive testing
+# jupyter>=1.0.0
+# ipykernel>=6.25.0
+
+# NOTE: For Python 3.13 compatibility
+# All packages listed are compatible with Python 3.13
+# Tested on Windows, Linux, and macOS
+
+

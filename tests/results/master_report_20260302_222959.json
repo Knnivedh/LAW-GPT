@@ -1,0 +1,192 @@
+{
+  "generated": "20260302_222959",
+  "overall_pass": false,
+  "total_passed": 2,
+  "total_failed": 23,
+  "total_tests": 28,
+  "pass_rate_pct": 7.14,
+  "suites": [
+    {
+      "suite_id": "s1",
+      "name": "PageIndex + Agentic RAG Integration",
+      "passed": 2,
+      "failed": 1,
+      "skipped": 0,
+      "total": 3,
+      "duration": 2.9221386909484863,
+      "score_pct": 66.66666666666666,
+      "details": [
+        {
+          "status": "PASS",
+          "text": "\u001b[92m\u001b[1mALL TESTS PASSED \u2714\u001b[0m"
+        },
+        {
+          "status": "PASS",
+          "text": "Score: 25/25 (100%)  |  passed=25 failed=0 skipped=0  |  time=2.3s"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[PLANNER] LLM planner failed: expected string or bytes-like obje"
+        }
+      ],
+      "stdout": "\n\u001b[1m\u001b[96m====================================================================\n  LAW-GPT \u2014 PageIndex + Agentic RAG Integration Tests\n====================================================================\u001b[0m\n\n\u001b[1m[Section 1/4] Unit \u2014 PageIndexRetriever\u001b[0m\nRAG Storage initialized at: C:\\Users\\LOQ\\Downloads\\LAW-GPT_new\\LAW-GPT_new\\LAW-GPT\\PERMANENT_RAG_FILES\nWARNING - Configuration: Configuration errors:\nDATA directory not found: C:\\Users\\LOQ\\Downloads\\LAW-GPT_new\\LAW-GPT_new\\LAW-GPT\\DATA\n  \u001b[92m\u2714 PASS\u001b[0m  PI-01  [is_available=False (no key)]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-02  [is_available=True (key+package)]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-03  [All 6 statute queries activate]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-04  [Non-statute queries correctly skipped]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-05  [Returns '' when not available]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-06  [Returns '' on empty registry]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-07  [Top doc: Bharatiya_Nyaya_Sanhita]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-08  [Flat map: 4 nodes]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-09  [LLM tree search parses correctly]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-10  [Malformed JSON \u2192 empty list]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-11  [Already-indexed doc skipped (no re-upload)]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-12  [All 8 required keywords present (26 total)]\n\n\u001b[1m[Section 2/4] Integration \u2014 AgenticRAGEngine \u2194 PageIndexRetriever\u001b[0m\n  \u001b[92m\u2714 PASS\u001b[0m  PI-13  [pageindex.retrieve() called for statute_lookup]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-14  [pageindex.retrieve() NOT called for simple query]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-15  [Graceful fallback when pageindex returns '']\n  \u001b[92m\u2714 PASS\u001b[0m  PI-16  [RetrievalPacket produced; synthesis can use context]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-17  [Planner strategy=statute_lookup]\n\n\u001b[1m[Section 3/4] Unified RAG \u2014 PageIndex Wiring\u001b[0m\n  \u001b[92m\u2714 PASS\u001b[0m  PI-18  [pageindex_retriever attr present in __init__]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-19  [pageindex_retriever forwarded to AgenticRAGEngine]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-20  [query() uses agentic_engine path]\n\n\u001b[1m[Section 4/4] Edge Cases\u001b[0m\n  \u001b[92m\u2714 PASS\u001b[0m  PI-21  [Short query 'Section 302' activates]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-22  [Hindi query with 'section' keyword activates]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-23  [Mixed query activates on 'ipc' keyword]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-24  [Combined output from 2 doc(s)]\n  \u001b[92m\u2714 PASS\u001b[0m  PI-25  [No LLM \u2192 empty node list]\n\n\u001b[1m====================================================================\u001b[0m\n  \u001b[92m\u001b[1mALL TESTS PASSED \u2714\u001b[0m\n  Score: 25/25 (100%)  |  passed=25 failed=0 skipped=0  |  time=2.3s\n====================================================================\n\n  Results saved \u2192 C:\\Users\\LOQ\\Downloads\\LAW-GPT_new\\LAW-GPT_new\\LAW-GPT\\tests\\results\\pageindex_agentic_20260302_223002.json\n",
+      "error": "",
+      "ran": true
+    },
+    {
+      "suite_id": "s2",
+      "name": "Agentic RAG Comprehensive (T01\u2013T37)",
+      "passed": 0,
+      "failed": 21,
+      "skipped": 0,
+      "total": 21,
+      "duration": 30.32781720161438,
+      "score_pct": 0.0,
+      "details": [
+        {
+          "status": "FAIL",
+          "text": "test_llm_failure_falls_back_to_rule_based (__main__.T12_LLMPlanner.test_llm_failure_falls_back_to_rule_based) ... WARNIN"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[LLM] Attempt 2 failed: LLM down"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[LLM] Attempt 3 failed: LLM down"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[PLANNER] LLM planner failed: LLM call failed after 3 attempts. "
+        },
+        {
+          "status": "FAIL",
+          "text": "test_caps_at_12_docs (__main__.T13_RetrievalStage.test_caps_at_12_docs) ... WARNING:kaanoon_test.system_adapters.agentic"
+        },
+        {
+          "status": "FAIL",
+          "text": "Duplicate documents are removed. ... WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[RETRIEVER] PageIndex retri"
+        },
+        {
+          "status": "FAIL",
+          "text": "test_primary_retrieval (__main__.T13_RetrievalStage.test_primary_retrieval) ... WARNING:kaanoon_test.system_adapters.age"
+        },
+        {
+          "status": "FAIL",
+          "text": "test_sub_query_retrieval (__main__.T13_RetrievalStage.test_sub_query_retrieval) ... WARNING:kaanoon_test.system_adapters"
+        },
+        {
+          "status": "FAIL",
+          "text": "test_synthesis_failure_returns_fallback (__main__.T14_SynthesisStage.test_synthesis_failure_returns_fallback) ... WARNIN"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[LLM] Attempt 2 failed: LLM fail"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[LLM] Attempt 3 failed: LLM fail"
+        },
+        {
+          "status": "FAIL",
+          "text": "ERROR:kaanoon_test.system_adapters.agentic_rag_engine:[SYNTHESISER] LLM synthesis failed: LLM call failed after 3 attemp"
+        },
+        {
+          "status": "FAIL",
+          "text": "test_verifier_failure_defaults_to_accept (__main__.T15_VerificationStage.test_verifier_failure_defaults_to_accept) ... W"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[LLM] Attempt 2 failed: boom"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[LLM] Attempt 3 failed: boom"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[VERIFIER] Verification failed: LLM call failed after 3 attempts"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[RETRIEVER] PageIndex retrieval failed (non-fatal): 'AgenticRAGE"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[RETRIEVER] PageIndex retrieval failed (non-fatal): 'AgenticRAGE"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[RETRIEVER] PageIndex retrieval failed (non-fatal): 'AgenticRAGE"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[RETRIEVER] PageIndex retrieval failed (non-fatal): 'AgenticRAGE"
+        },
+        {
+          "status": "FAIL",
+          "text": "WARNING:kaanoon_test.system_adapters.agentic_rag_engine:[RETRIEVER] PageIndex retrieval failed (non-fatal): 'AgenticRAGE"
+        }
+      ],
+      "stdout": "RAG Storage initialized at: C:\\Users\\LOQ\\Downloads\\LAW-GPT_new\\LAW-GPT_new\\LAW-GPT\\PERMANENT_RAG_FILES\nWARNING - Configuration: Configuration errors:\nDATA directory not found: C:\\Users\\LOQ\\Downloads\\LAW-GPT_new\\LAW-GPT_new\\LAW-GPT\\DATA\n================================================================================\n COMPREHENSIVE AGENTIC RAG TEST SUITE \u2014 LAW-GPT\n 37 test classes \u00b7 80+ test methods\n================================================================================\n\n [LIVE TESTS DISABLED] \u2014 Set RUN_LIVE_TESTS=1 to enable\n\n",
+      "error": "",
+      "ran": true
+    },
+    {
+      "suite_id": "s3",
+      "name": "Live Deployment Verification (16 endpoints)",
+      "passed": 0,
+      "failed": 0,
+      "skipped": 1,
+      "total": 1,
+      "duration": 0.0,
+      "score_pct": 0.0,
+      "details": [],
+      "stdout": "",
+      "error": "",
+      "ran": false
+    },
+    {
+      "suite_id": "s4",
+      "name": "Accuracy Ground Truth (25 questions)",
+      "passed": 0,
+      "failed": 0,
+      "skipped": 1,
+      "total": 1,
+      "duration": 0.0,
+      "score_pct": 0.0,
+      "details": [],
+      "stdout": "",
+      "error": "",
+      "ran": false
+    },
+    {
+      "suite_id": "s5",
+      "name": "Conversational Accuracy (5-Q Rule)",
+      "passed": 0,
+      "failed": 0,
+      "skipped": 1,
+      "total": 1,
+      "duration": 0.0,
+      "score_pct": 0.0,
+      "details": [],
+      "stdout": "",
+      "error": "",
+      "ran": false
+    },
+    {
+      "suite_id": "s6",
+      "name": "Frontend Auth Unit Tests (Vitest)",
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "total": 1,
+      "duration": 0.0,
+      "score_pct": 0.0,
+      "details": [],
+      "stdout": "",
+      "error": "[WinError 2] The system cannot find the file specified",
+      "ran": true
+    }
+  ]
+}

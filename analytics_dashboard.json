@@ -1,0 +1,31 @@
+{
+  "system": {
+    "uptime_seconds": 22,
+    "uptime_formatted": "0:00:22",
+    "start_time": "2025-11-08T22:58:10.369355"
+  },
+  "queries": {
+    "total": 4,
+    "by_category": {
+      "property_law": 3,
+      "society_law": 1
+    },
+    "last_24h": 4
+  },
+  "performance": {
+    "avg_latency_ms": 5556.61,
+    "min_latency_ms": 1.35,
+    "max_latency_ms": 9371.82,
+    "p95_latency_ms": 9371.82
+  },
+  "errors": {
+    "total": 0,
+    "recent": []
+  },
+  "usage": {
+    "kaanoon_used": 2,
+    "from_cache": 1,
+    "avg_answer_length": 949
+  },
+  "generated_at": "2025-11-08T22:58:32.602468"
+}

@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+.env
+
+# Large Data Directories (Migrated to Supabase)
+# DATA/
+CONSUMER_DATA_COLLECTION/
+chroma_db_hybrid/
+chroma_db_statutes/
+old_chroma_db/
+PERMANENT_RAG_FILES/
+deployment_bundle/
+pageindex_test/
+static_chat/
+static_home/
+TEST/
+TEST_SPRIT/
+testsprite_tests/
+azure_build_logs/
+azure_latest_logs/
+azure_logs/
+tmp/
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDEs
+.vscode/
+.idea/
+.cursor/
+.windsurf/
+
+# Logs
+*.log
+
+# Large Files
+*.zip
+*.exe

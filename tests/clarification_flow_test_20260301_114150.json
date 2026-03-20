@@ -1,0 +1,271 @@
+{
+  "timestamp": "20260301_114150",
+  "backend": "https://lawgpt-backend2024.azurewebsites.net",
+  "overall_pass": true,
+  "results": [
+    {
+      "name": "Wrongful Termination",
+      "passed": true,
+      "steps": [
+        {
+          "turn": 0,
+          "status": "clarification",
+          "progress": "1Q",
+          "clar": true
+        },
+        {
+          "turn": 1,
+          "status": "clarification",
+          "progress": "2Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 2,
+          "status": "clarification",
+          "progress": "3Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 3,
+          "status": "clarification",
+          "progress": "4Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 4,
+          "status": "clarification",
+          "progress": "5Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 5,
+          "status": "unknown",
+          "progress": "",
+          "is_clar": false,
+          "is_final": true
+        }
+      ],
+      "errors": [],
+      "clar_triggered": true,
+      "questions_asked": 5,
+      "got_final": true,
+      "kw_ratio": 0.75,
+      "kw_hits": [
+        "industrial disputes",
+        "notice",
+        "gratuity",
+        "termination",
+        "employment",
+        "section"
+      ]
+    },
+    {
+      "name": "Builder Delay / RERA",
+      "passed": true,
+      "steps": [
+        {
+          "turn": 0,
+          "status": "clarification",
+          "progress": "1Q",
+          "clar": true
+        },
+        {
+          "turn": 1,
+          "status": "clarification",
+          "progress": "2Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 2,
+          "status": "clarification",
+          "progress": "3Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 3,
+          "status": "clarification",
+          "progress": "4Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 4,
+          "status": "clarification",
+          "progress": "5Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 5,
+          "status": "unknown",
+          "progress": "",
+          "is_clar": false,
+          "is_final": true
+        }
+      ],
+      "errors": [],
+      "clar_triggered": true,
+      "questions_asked": 5,
+      "got_final": true,
+      "kw_ratio": 0.875,
+      "kw_hits": [
+        "rera",
+        "real estate",
+        "possession",
+        "compensation",
+        "refund",
+        "interest",
+        "builder"
+      ]
+    },
+    {
+      "name": "Consumer Defective Product",
+      "passed": true,
+      "steps": [
+        {
+          "turn": 0,
+          "status": "clarification",
+          "progress": "1Q",
+          "clar": true
+        },
+        {
+          "turn": 1,
+          "status": "clarification",
+          "progress": "2Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 2,
+          "status": "clarification",
+          "progress": "3Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 3,
+          "status": "clarification",
+          "progress": "4Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 4,
+          "status": "clarification",
+          "progress": "5Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 5,
+          "status": "unknown",
+          "progress": "",
+          "is_clar": false,
+          "is_final": true
+        }
+      ],
+      "errors": [],
+      "clar_triggered": true,
+      "questions_asked": 5,
+      "got_final": true,
+      "kw_ratio": 1.0,
+      "kw_hits": [
+        "consumer protection",
+        "defect",
+        "refund",
+        "compensation",
+        "district commission",
+        "consumer forum",
+        "complaint"
+      ]
+    },
+    {
+      "name": "Domestic Violence / Dowry Harassment",
+      "passed": true,
+      "steps": [
+        {
+          "turn": 0,
+          "status": "clarification",
+          "progress": "1Q",
+          "clar": true
+        },
+        {
+          "turn": 1,
+          "status": "clarification",
+          "progress": "2Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 2,
+          "status": "clarification",
+          "progress": "3Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 3,
+          "status": "clarification",
+          "progress": "4Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 4,
+          "status": "clarification",
+          "progress": "5Q",
+          "is_clar": true,
+          "is_final": false
+        },
+        {
+          "turn": 5,
+          "status": "unknown",
+          "progress": "",
+          "is_clar": false,
+          "is_final": true
+        }
+      ],
+      "errors": [],
+      "clar_triggered": true,
+      "questions_asked": 5,
+      "got_final": true,
+      "kw_ratio": 0.75,
+      "kw_hits": [
+        "domestic violence",
+        "pwdva",
+        "section 498",
+        "dowry",
+        "protection",
+        "magistrate"
+      ]
+    },
+    {
+      "name": "Simple Query Bypass",
+      "checks": [
+        {
+          "label": "Basic criminal law",
+          "passed": true
+        },
+        {
+          "label": "Constitutional law",
+          "passed": true
+        },
+        {
+          "label": "New laws",
+          "passed": true
+        },
+        {
+          "label": "Consumer forum",
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

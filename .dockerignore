@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env.local
+
+# Environment files (with secrets)
+config/.env
+.env
+
+# Vector databases (large binary — mount as Docker volumes)
+chroma_db_hybrid/
+chroma_db_statutes/
+old_chroma_db/
+pageindex_store/
+
+# Data files (large — mount or rebuild separately)
+DATA/
+BACKUP_DATA/
+CONSUMER_DATA_COLLECTION/
+SC_Judgments_FULL/
+PERMANENT_RAG_FILES/
+
+# Test/benchmark results
+results/
+advanced_legal_test_*.json
+lawgpt_eval_report_*.txt
+conv_eval_*.txt
+
+# Logs
+logs/
+*.log
+
+# Git
+.git/
+.gitignore
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend build artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/

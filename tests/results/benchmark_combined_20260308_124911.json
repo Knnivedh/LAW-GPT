@@ -1,0 +1,36 @@
+{
+  "timestamp": "20260308_124911",
+  "target_url": "https://lawgpt-backend2024.azurewebsites.net",
+  "overall_accuracy": 1.0,
+  "total_questions": 17,
+  "total_passed": 17,
+  "suites_passed": 1,
+  "suites_total": 1,
+  "avg_latency_sec": 10.86,
+  "modules": [
+    {
+      "test_id": "T11-ROUTE",
+      "test_name": "Routing & Clarification",
+      "total": 17,
+      "passed": 17,
+      "accuracy": 1.0,
+      "avg_latency_sec": 10.86,
+      "suite_pass": true,
+      "extra": {
+        "module": "T11",
+        "part_a": {
+          "total": 6,
+          "passed": 6
+        },
+        "part_b": {
+          "total": 5,
+          "passed": 5
+        },
+        "part_c": {
+          "total": 6,
+          "passed": 6
+        }
+      }
+    }
+  ]
+}

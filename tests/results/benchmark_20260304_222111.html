@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>LAW-GPT Benchmark Report</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh;padding:24px}
+  h1{font-size:1.8rem;font-weight:700;color:#7c3aed;margin-bottom:4px}
+  .sub{color:#94a3b8;font-size:.9rem;margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-bottom:32px}
+  .card{background:#1e293b;border-radius:12px;padding:18px;border:1px solid #334155}
+  .card-title{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8;margin-bottom:6px}
+  .card-val{font-size:2rem;font-weight:700;line-height:1}
+  .card-sub{font-size:.8rem;color:#64748b;margin-top:4px}
+  .pass{color:#22c55e}.fail{color:#ef4444}.warn{color:#f59e0b}
+  table{width:100%;border-collapse:collapse;margin-bottom:32px}
+  th{background:#1e293b;padding:10px 14px;text-align:left;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:#94a3b8;border-bottom:1px solid #334155}
+  td{padding:10px 14px;border-bottom:1px solid #1e293b;font-size:.88rem}
+  tr:hover td{background:#1e293b}
+  .badge{display:inline-block;border-radius:9999px;padding:2px 10px;font-size:.72rem;font-weight:600}
+  .badge-pass{background:#14532d;color:#4ade80}.badge-fail{background:#450a0a;color:#f87171}
+  details{margin-bottom:8px}
+  summary{cursor:pointer;padding:8px 12px;background:#1e293b;border-radius:6px;font-size:.82rem;color:#a5b4fc;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  .detail-body{background:#0f172a;border:1px solid #1e293b;border-top:none;border-radius:0 0 6px 6px;padding:12px;font-size:.78rem;line-height:1.6;white-space:pre-wrap;overflow-x:auto;max-height:300px;overflow-y:auto}
+  .section-title{font-size:1.1rem;font-weight:600;color:#a5b4fc;margin:24px 0 12px}
+  .meta{color:#64748b;font-size:.78rem}
+  footer{margin-top:40px;text-align:center;color:#334155;font-size:.78rem}
+</style>
+</head>
+<body>
+<h1>&#x2696;&#xfe0f; LAW-GPT Benchmark Report</h1>
+<p class="sub">Endpoint: <code>https://lawgpt-backend2024.azurewebsites.net</code> &mdash; 20260304_222111</p>
+<div class="grid">
+<div class="card"><div class="card-title">Suite Pass Rate</div><div class="card-val pass">4/4</div><div class="card-sub">100%</div></div>
+<div class="card"><div class="card-title">Overall Accuracy</div><div class="card-val pass">69/91</div><div class="card-sub">83.2%</div></div>
+<div class="card"><div class="card-title">Avg Latency</div><div class="card-val pass">11.0s</div><div class="card-sub">per query</div></div>
+<div class="card"><div class="card-title">Questions Tested</div><div class="card-val pass">91</div><div class="card-sub">across all modules</div></div>
+</div>
+<p class="section-title">Module Summary</p>
+<table>
+<tr><th>Module ID</th><th>Test Name</th><th>Pass/Total</th><th>Accuracy</th><th>Avg Latency</th><th>Status</th></tr>
+<tr><td><b>T2-MCQ</b></td><td>Legal Knowledge Accuracy (MCQ)</td><td>32/51</td><td class="pass">62.7%</td><td>6.4s</td><td><span class="badge badge-pass">PASS</span></td></tr>
+<tr><td><b>T6-CTX</b></td><td>Context Retention (2-turn chains)</td><td>20/20</td><td class="pass">100.0%</td><td>6.6s</td><td><span class="badge badge-pass">PASS</span></td></tr>
+<tr><td><b>T7-LONGDOC</b></td><td>Long Document Processing (SC judgments)</td><td>10/10</td><td class="pass">100.0%</td><td>7.7s</td><td><span class="badge badge-pass">PASS</span></td></tr>
+<tr><td><b>T10-ROBUST</b></td><td>Robustness (noisy input variants)</td><td>7/10</td><td class="pass">70.0%</td><td>23.5s</td><td><span class="badge badge-pass">PASS</span></td></tr>
+</table>
+<p class="section-title">Per-Question Details</p>
+<p class="meta" style="margin:16px 0 6px"><b>T2-MCQ</b> — Legal Knowledge Accuracy (MCQ)</p>
+<details><summary>✗ Under which section of IPC is the punishment for cheating defined?  [7.04s]</summary><div class="detail-body">{
+  "q_num": 1,
+  "question": "Under which section of IPC is the punishment for cheating defined?",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "420",
+  "method": "miss",
+  "passed": false,
+  "latency": 7.04,
+  "answer_excerpt": "**Case Summary**: The question pertains to the section of the Indian Penal Code (IPC) that deals with the punishment for cheating. Cheating is a criminal offense under the IPC, and it involves deceivi"
+}</div></details>
+<details><summary>✓ IPC Section 302 deals with:  [7.13s]</summary><div class="detail-body">{
+  "q_num": 2,
+  "question": "IPC Section 302 deals with:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "murder",
+  "method": "value_match",
+  "passed": true,
+  "latency": 7.13,
+  "answer_excerpt": "**Case Summary**\nThe question requires an analysis of the offence defined under IPC Section 302. Based on the provided documents, it appears that the section deals with the offence of murder. However,"
+}</div></details>
+<details><summary>✗ The minimum punishment for rape under IPC Section 376 is:  [6.34s]</summary><div class="detail-body">{
+  "q_num": 3,
+  "question": "The minimum punishment for rape under IPC Section 376 is:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "seven",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.34,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the minimum punishment for rape under IPC Section 376 of the Indian Penal Code. The retrieved documents provide information on the punishment for rape under t"
+}</div></details>
+<details><summary>✓ Which IPC section defines 'theft'?  [5.77s]</summary><div class="detail-body">{
+  "q_num": 4,
+  "question": "Which IPC section defines 'theft'?",
+  "correct_letter": "A",
+  "extracted_letter": "A",
+  "fallback_kw": "378",
+  "method": "letter_match",
+  "passed": true,
+  "latency": 5.77,
+  "answer_excerpt": "**Case Summary**: The question requires the identification of the specific section of the Indian Penal Code (IPC) that defines theft. The IPC is a comprehensive code that outlines various offenses and"
+}</div></details>
+<details><summary>✓ IPC Section 498A deals with:  [7.2s]</summary><div class="detail-body">{
+  "q_num": 5,
+  "question": "IPC Section 498A deals with:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "498",
+  "method": "value_match",
+  "passed": true,
+  "latency": 7.2,
+  "answer_excerpt": "**Case Summary**: The question requires an understanding of the offence defined under IPC Section 498A. The section is often invoked in cases of marital disputes and allegations of cruelty by the husb"
+}</div></details>
+<details><summary>✗ Which section of BNS replaces IPC Section 302 (murder)?  [6.14s]</summary><div class="detail-body">{
+  "q_num": 6,
+  "question": "Which section of BNS replaces IPC Section 302 (murder)?",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "101",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.14,
+  "answer_excerpt": "**Case Summary**: The question pertains to the identification of the section in the Bangladesh Penal Code (BNS) that corresponds to IPC Section 302, which deals with the punishment for murder. However"
+}</div></details>
+<details><summary>✓ What is the punishment for dacoity under IPC Section 395?  [6.76s]</summary><div class="detail-body">{
+  "q_num": 7,
+  "question": "What is the punishment for dacoity under IPC Section 395?",
+  "correct_letter": "D",
+  "extracted_letter": "A",
+  "fallback_kw": "ten",
+  "method": "value_match",
+  "passed": true,
+  "latency": 6.76,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the punishment for dacoity under the Indian Penal Code (IPC), specifically Section 395. However, the retrieved documents refer to the Bharatiya Nyaya Sanhita "
+}</div></details>
+<details><summary>✓ IPC Section 124A (sedition) has been replaced in BNS by which section?  [6.04s]</summary><div class="detail-body">{
+  "q_num": 8,
+  "question": "IPC Section 124A (sedition) has been replaced in BNS by which section?",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "152",
+  "method": "value_match",
+  "passed": true,
+  "latency": 6.04,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the equivalent section for IPC Section 124A (sedition) in the Bangladesh Penal Code (BNS). However, upon reviewing the provided documents, it appears that the"
+}</div></details>
+<details><summary>✓ Under IPC Section 379, what offence is defined?  [5.21s]</summary><div class="detail-body">{
+  "q_num": 9,
+  "question": "Under IPC Section 379, what offence is defined?",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "theft",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.21,
+  "answer_excerpt": "**Case Summary**\nThe question requires an analysis of the Indian Penal Code (IPC) to determine the offence defined under Section 379. The IPC is a comprehensive code that outlines various offences and"
+}</div></details>
+<details><summary>✓ Culpable homicide not amounting to murder is covered under:  [5.94s]</summary><div class="detail-body">{
+  "q_num": 10,
+  "question": "Culpable homicide not amounting to murder is covered under:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "304",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.94,
+  "answer_excerpt": "**Case Summary**: The question pertains to the section of the Indian Penal Code (IPC) that covers culpable homicide not amounting to murder. This is a critical distinction within the realm of criminal"
+}</div></details>
+<details><summary>✓ Right to Equality is guaranteed under which Article of the Indian Constitution?  [6.66s]</summary><div class="detail-body">{
+  "q_num": 11,
+  "question": "Right to Equality is guaranteed under which Article of the Indian Constitution?",
+  "correct_letter": "A",
+  "extracted_letter": "A",
+  "fallback_kw": "14",
+  "method": "letter_match",
+  "passed": true,
+  "latency": 6.66,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the Right to Equality, a fundamental right enshrined in the Indian Constitution. The retrieved documents provide insight into the legal framework governing co"
+}</div></details>
+<details><summary>✓ Article 21 of the Indian Constitution protects:  [6.74s]</summary><div class="detail-body">{
+  "q_num": 12,
+  "question": "Article 21 of the Indian Constitution protects:",
+  "correct_letter": "B",
+  "extracted_letter": "B",
+  "fallback_kw": "life",
+  "method": "letter_match",
+  "passed": true,
+  "latency": 6.74,
+  "answer_excerpt": "**Case Summary**: The question requires an analysis of the fundamental right protected under Article 21 of the Indian Constitution. The correct answer is B) Right to Life and Personal Liberty. This ar"
+}</div></details>
+<details><summary>✓ The Right to Constitutional Remedies (writ jurisdiction) is under:  [5.69s]</summary><div class="detail-body">{
+  "q_num": 13,
+  "question": "The Right to Constitutional Remedies (writ jurisdiction) is under:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "32",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.69,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the article of the Indian Constitution that deals with the Right to Constitutional Remedies and writ jurisdiction. This is a fundamental concept in Indian con"
+}</div></details>
+<details><summary>✓ Which article abolishes untouchability?  [5.56s]</summary><div class="detail-body">{
+  "q_num": 14,
+  "question": "Which article abolishes untouchability?",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "17",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.56,
+  "answer_excerpt": "**Case Summary**: The question pertains to the identification of the article in the Indian Constitution that abolishes untouchability. This is a fundamental aspect of ensuring equality and preventing "
+}</div></details>
+<details><summary>✓ Directive Principles of State Policy are in which Part of the Constitution?  [6.75s]</summary><div class="detail-body">{
+  "q_num": 15,
+  "question": "Directive Principles of State Policy are in which Part of the Constitution?",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "four",
+  "method": "value_match",
+  "passed": true,
+  "latency": 6.75,
+  "answer_excerpt": "**Case Summary**: The question pertains to the location of the Directive Principles of State Policy (DPSP) within the Indian Constitution. The DPSP is a set of guidelines that are fundamental to the g"
+}</div></details>
+<details><summary>✓ The Preamble of the Indian Constitution was amended to include 'Socialist' and '  [6.66s]</summary><div class="detail-body">{
+  "q_num": 16,
+  "question": "The Preamble of the Indian Constitution was amended to include 'Socialist' and '",
+  "correct_letter": "A",
+  "extracted_letter": "A",
+  "fallback_kw": "42",
+  "method": "letter_match",
+  "passed": true,
+  "latency": 6.66,
+  "answer_excerpt": "**Case Summary**: The question pertains to the constitutional amendment that added the terms 'Socialist' and 'Secular' to the Preamble of the Indian Constitution. The Preamble is a crucial part of the"
+}</div></details>
+<details><summary>✗ Article 370 (special status of J&K) was effectively abrogated in which year?  [7.61s]</summary><div class="detail-body">{
+  "q_num": 17,
+  "question": "Article 370 (special status of J&K) was effectively abrogated in which year?",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "2019",
+  "method": "miss",
+  "passed": false,
+  "latency": 7.61,
+  "answer_excerpt": "**Case Summary**: The question pertains to the abrogation of Article 370 of the Indian Constitution, which granted special status to Jammu and Kashmir. The correct year of abrogation is to be determin"
+}</div></details>
+<details><summary>✓ Freedom of speech and expression is guaranteed under:  [5.68s]</summary><div class="detail-body">{
+  "q_num": 18,
+  "question": "Freedom of speech and expression is guaranteed under:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "19",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.68,
+  "answer_excerpt": "**Case Summary**: The question pertains to the fundamental right to freedom of speech and expression as enshrined in the Indian Constitution. The correct answer can be deduced by analyzing the provisi"
+}</div></details>
+<details><summary>✓ The concept of 'Basic Structure' doctrine was established in:  [5.5s]</summary><div class="detail-body">{
+  "q_num": 19,
+  "question": "The concept of 'Basic Structure' doctrine was established in:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "kesavananda",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.5,
+  "answer_excerpt": "**Case Summary**\nThe 'Basic Structure' doctrine is a fundamental concept in Indian constitutional law that was established to limit the power of Parliament to amend the Constitution. This doctrine hol"
+}</div></details>
+<details><summary>✓ Which article provides reservation for SCs and STs in public employment?  [6.93s]</summary><div class="detail-body">{
+  "q_num": 20,
+  "question": "Which article provides reservation for SCs and STs in public employment?",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "16",
+  "method": "value_match",
+  "passed": true,
+  "latency": 6.93,
+  "answer_excerpt": "**Case Summary**: The question pertains to the reservation of Scheduled Castes (SCs) and Scheduled Tribes (STs) in public employment, as mandated by the Indian Constitution. The correct article that p"
+}</div></details>
+<details><summary>✓ The Consumer Protection Act 2019 replaced which earlier Act?  [5.63s]</summary><div class="detail-body">{
+  "q_num": 21,
+  "question": "The Consumer Protection Act 2019 replaced which earlier Act?",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "1986",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.63,
+  "answer_excerpt": "**Case Summary**: The question seeks to identify the earlier Act replaced by the Consumer Protection Act 2019 in India. The correct answer can be deduced from the retrieved legal documents, specifical"
+}</div></details>
+<details><summary>✓ Under Consumer Protection Act 2019, the District Commission handles complaints u  [7.52s]</summary><div class="detail-body">{
+  "q_num": 22,
+  "question": "Under Consumer Protection Act 2019, the District Commission handles complaints u",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "crore",
+  "method": "value_match",
+  "passed": true,
+  "latency": 7.52,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the monetary limit for complaints handled by the District Commission under the Consumer Protection Act 2019. The Act establishes a three-tier consumer dispute"
+}</div></details>
+<details><summary>✗ 'Deficiency in service' under Consumer Protection Act means:  [6.34s]</summary><div class="detail-body">{
+  "q_num": 23,
+  "question": "'Deficiency in service' under Consumer Protection Act means:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "deficiency",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.34,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the meaning of 'deficiency in service' under the Indian Consumer Protection Act, 2019. The Act defines 'deficiency' in Section 2(11) as any fault, imperfectio"
+}</div></details>
+<details><summary>✓ The National Consumer Disputes Redressal Commission (NCDRC) handles cases above:  [7.27s]</summary><div class="detail-body">{
+  "q_num": 24,
+  "question": "The National Consumer Disputes Redressal Commission (NCDRC) handles cases above:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "ten crore",
+  "method": "value_match",
+  "passed": true,
+  "latency": 7.27,
+  "answer_excerpt": "**Case Summary**: The question pertains to the monetary limit for cases handled by the National Consumer Disputes Redressal Commission (NCDRC) in India. The NCDRC is the apex consumer court in India, "
+}</div></details>
+<details><summary>✓ E-commerce platforms are regulated under which rules under CPA 2019?  [7.21s]</summary><div class="detail-body">{
+  "q_num": 25,
+  "question": "E-commerce platforms are regulated under which rules under CPA 2019?",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "e-commerce",
+  "method": "value_match",
+  "passed": true,
+  "latency": 7.21,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the specific rules under the Consumer Protection Act 2019 that regulate e-commerce platforms in India. The Act defines 'e-commerce entity' under Section 2(16)"
+}</div></details>
+<details><summary>✓ Hindu marriage is governed by which Act?  [8.01s]</summary><div class="detail-body">{
+  "q_num": 26,
+  "question": "Hindu marriage is governed by which Act?",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "hindu marriage",
+  "method": "value_match",
+  "passed": true,
+  "latency": 8.01,
+  "answer_excerpt": "**Case Summary**: The question pertains to the specific Act that governs Hindu marriages in India. The retrieved documents provide information on the legal framework governing family law in India, inc"
+}</div></details>
+<details><summary>✗ Under Hindu Succession Act 1956 (amended 2005), daughters have equal coparcenary  [6.8s]</summary><div class="detail-body">{
+  "q_num": 27,
+  "question": "Under Hindu Succession Act 1956 (amended 2005), daughters have equal coparcenary",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "2005",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.8,
+  "answer_excerpt": "**Case Summary**: The question pertains to the amendment of the Hindu Succession Act, 1956, which granted equal coparcenary rights to daughters. The retrieved documents, however, relate to the Compani"
+}</div></details>
+<details><summary>✗ The Protection of Women from Domestic Violence Act was enacted in:  [7.81s]</summary><div class="detail-body">{
+  "q_num": 28,
+  "question": "The Protection of Women from Domestic Violence Act was enacted in:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "2005",
+  "method": "miss",
+  "passed": false,
+  "latency": 7.81,
+  "answer_excerpt": "**Case Summary**: The question pertains to the enactment year of the Protection of Women from Domestic Violence Act in India. The retrieved documents provide information about the Act's provisions and"
+}</div></details>
+<details><summary>✓ Maintenance for wife after divorce (Hindu) is governed by which section of HMA?  [5.52s]</summary><div class="detail-body">{
+  "q_num": 29,
+  "question": "Maintenance for wife after divorce (Hindu) is governed by which section of HMA?",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "25",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.52,
+  "answer_excerpt": "**Case Summary**: The question pertains to the section of the Hindu Marriage Act (HMA) that governs maintenance for a wife after divorce in India. The retrieved documents, however, do not directly add"
+}</div></details>
+<details><summary>✓ Under Muslim personal law, Triple Talaq was declared unconstitutional in which c  [7.38s]</summary><div class="detail-body">{
+  "q_num": 30,
+  "question": "Under Muslim personal law, Triple Talaq was declared unconstitutional in which c",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "shayara",
+  "method": "value_match",
+  "passed": true,
+  "latency": 7.38,
+  "answer_excerpt": "**Case Summary**\nThe case in question is related to the constitutional validity of Triple Talaq, also known as Talaq-e-Biddat, under Muslim personal law in India. The practice of Triple Talaq allows a"
+}</div></details>
+<details><summary>✓ FIR stands for:  [5.43s]</summary><div class="detail-body">{
+  "q_num": 31,
+  "question": "FIR stands for:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "first information",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.43,
+  "answer_excerpt": "**Case Summary**: The question revolves around the meaning of the acronym \"FIR\" in the context of Indian law. The retrieved documents provide information on various aspects of Indian law, including th"
+}</div></details>
+<details><summary>✗ Under CrPC Section 167, the maximum period of judicial remand for heinous offenc  [6.62s]</summary><div class="detail-body">{
+  "q_num": 32,
+  "question": "Under CrPC Section 167, the maximum period of judicial remand for heinous offenc",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "90",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.62,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the maximum period of judicial remand for heinous offences under Section 167 of the Code of Criminal Procedure, 1973 (CrPC) in India. However, the retrieved d"
+}</div></details>
+<details><summary>✗ Bail in non-bailable offence is granted under CrPC Section:  [8.0s]</summary><div class="detail-body">{
+  "q_num": 33,
+  "question": "Bail in non-bailable offence is granted under CrPC Section:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "437",
+  "method": "miss",
+  "passed": false,
+  "latency": 8.0,
+  "answer_excerpt": "**Case Summary**: The question pertains to the provision under the Code of Criminal Procedure (CrPC) that deals with the grant of bail in non-bailable offenses in India. Non-bailable offenses are seri"
+}</div></details>
+<details><summary>✗ Anticipatory bail in India is granted under CrPC Section:  [6.13s]</summary><div class="detail-body">{
+  "q_num": 34,
+  "question": "Anticipatory bail in India is granted under CrPC Section:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "438",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.13,
+  "answer_excerpt": "**Case Summary**: The question pertains to the provision under the Code of Criminal Procedure (CrPC) that deals with the grant of anticipatory bail in India. Anticipatory bail is a provision that allo"
+}</div></details>
+<details><summary>✓ The Bharatiya Nagarik Suraksha Sanhita (BNSS) replaced:  [5.69s]</summary><div class="detail-body">{
+  "q_num": 35,
+  "question": "The Bharatiya Nagarik Suraksha Sanhita (BNSS) replaced:",
+  "correct_letter": "B",
+  "extracted_letter": "B",
+  "fallback_kw": "crpc",
+  "method": "letter_match",
+  "passed": true,
+  "latency": 5.69,
+  "answer_excerpt": "**Case Summary**: The question requires us to identify the act that was replaced by the Bharatiya Nagarik Suraksha Sanhita (BNSS) in India. The retrieved documents provide information about the new cr"
+}</div></details>
+<details><summary>✗ The Vishaka guidelines on sexual harassment in workplace were laid down in:  [4.81s]</summary><div class="detail-body">{
+  "q_num": 36,
+  "question": "The Vishaka guidelines on sexual harassment in workplace were laid down in:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "1997",
+  "method": "miss",
+  "passed": false,
+  "latency": 4.81,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the Vishaka guidelines on sexual harassment in the workplace, which were laid down by the Supreme Court of India. These guidelines were a landmark judgment th"
+}</div></details>
+<details><summary>✗ The POSH Act (Prevention of Sexual Harassment at Workplace) was enacted in:  [5.31s]</summary><div class="detail-body">{
+  "q_num": 37,
+  "question": "The POSH Act (Prevention of Sexual Harassment at Workplace) was enacted in:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "2013",
+  "method": "miss",
+  "passed": false,
+  "latency": 5.31,
+  "answer_excerpt": "**Case Summary**: The question pertains to the enactment year of the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, also known as the POSH Act. The Act aims"
+}</div></details>
+<details><summary>✗ Right to Privacy was declared a fundamental right by Supreme Court in which year  [7.1s]</summary><div class="detail-body">{
+  "q_num": 38,
+  "question": "Right to Privacy was declared a fundamental right by Supreme Court in which year",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "2017",
+  "method": "miss",
+  "passed": false,
+  "latency": 7.1,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the declaration of the Right to Privacy as a fundamental right by the Supreme Court of India. This is a landmark judgment that has significant implications fo"
+}</div></details>
+<details><summary>✗ Section 377 IPC (criminalising consensual same-sex acts) was struck down in:  [6.71s]</summary><div class="detail-body">{
+  "q_num": 39,
+  "question": "Section 377 IPC (criminalising consensual same-sex acts) was struck down in:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "navtej",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.71,
+  "answer_excerpt": "**Case Summary**\nThe question pertains to the landmark cases that led to the striking down of Section 377 of the Indian Penal Code (IPC), which criminalized consensual same-sex acts. The correct answe"
+}</div></details>
+<details><summary>✗ The Maneka Gandhi case expanded the scope of which Article?  [6.14s]</summary><div class="detail-body">{
+  "q_num": 40,
+  "question": "The Maneka Gandhi case expanded the scope of which Article?",
+  "correct_letter": "D",
+  "extracted_letter": "A",
+  "fallback_kw": "maneka",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.14,
+  "answer_excerpt": "**Case Summary**\nThe Maneka Gandhi case, formally known as Maneka Gandhi v. Union of India (1978), is a landmark judgment in Indian constitutional law. The case involved a challenge to the provisions "
+}</div></details>
+<details><summary>✗ The Transfer of Property Act governs transfers of immovable property in India si  [5.05s]</summary><div class="detail-body">{
+  "q_num": 41,
+  "question": "The Transfer of Property Act governs transfers of immovable property in India si",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "1882",
+  "method": "miss",
+  "passed": false,
+  "latency": 5.05,
+  "answer_excerpt": "**Case Summary**: The question requires determining the year the Transfer of Property Act started governing transfers of immovable property in India. The retrieved documents provide information on the"
+}</div></details>
+<details><summary>✓ A sale deed for immovable property must be:  [6.79s]</summary><div class="detail-body">{
+  "q_num": 42,
+  "question": "A sale deed for immovable property must be:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "register",
+  "method": "value_match",
+  "passed": true,
+  "latency": 6.79,
+  "answer_excerpt": "**Case Summary**\nThe question requires an analysis of the requirements for a sale deed of immovable property in India. The retrieved documents provide information on the Transfer of Property Act, 1882"
+}</div></details>
+<details><summary>✗ The Indian Contract Act was enacted in:  [6.36s]</summary><div class="detail-body">{
+  "q_num": 43,
+  "question": "The Indian Contract Act was enacted in:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "1872",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.36,
+  "answer_excerpt": "**Case Summary**: The question pertains to the enactment year of the Indian Contract Act, which is a fundamental legislation governing contracts in India. The retrieved documents provide evidence of t"
+}</div></details>
+<details><summary>✓ A contract with a minor in India is:  [8.02s]</summary><div class="detail-body">{
+  "q_num": 44,
+  "question": "A contract with a minor in India is:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "void",
+  "method": "value_match",
+  "passed": true,
+  "latency": 8.02,
+  "answer_excerpt": "**Case Summary**\nThe question revolves around the legal status of a contract with a minor in India. In India, the Indian Contract Act, 1872 (hereinafter referred to as the \"Act\") governs contracts. Th"
+}</div></details>
+<details><summary>✓ RERA (Real Estate Regulatory Authority) was established under which Act?  [5.34s]</summary><div class="detail-body">{
+  "q_num": 45,
+  "question": "RERA (Real Estate Regulatory Authority) was established under which Act?",
+  "correct_letter": "B",
+  "extracted_letter": "B",
+  "fallback_kw": "rera",
+  "method": "letter_match",
+  "passed": true,
+  "latency": 5.34,
+  "answer_excerpt": "**Case Summary**: The question revolves around the establishment of the Real Estate Regulatory Authority (RERA) and the Indian Act under which it was established. The correct answer is option B) Real "
+}</div></details>
+<details><summary>✗ The Information Technology Act in India was enacted in:  [5.54s]</summary><div class="detail-body">{
+  "q_num": 46,
+  "question": "The Information Technology Act in India was enacted in:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "2000",
+  "method": "miss",
+  "passed": false,
+  "latency": 5.54,
+  "answer_excerpt": "**Case Summary**: The question pertains to the enactment year of the Information Technology Act in India. The retrieved documents provide information on the Act's provisions and its role in the Indian"
+}</div></details>
+<details><summary>✓ Section 66A of IT Act (offensive online messages) was struck down by SC in which  [7.35s]</summary><div class="detail-body">{
+  "q_num": 47,
+  "question": "Section 66A of IT Act (offensive online messages) was struck down by SC in which",
+  "correct_letter": "A",
+  "extracted_letter": "A",
+  "fallback_kw": "shreya",
+  "method": "letter_match",
+  "passed": true,
+  "latency": 7.35,
+  "answer_excerpt": "**Case Summary**\nThe case that led to the striking down of Section 66A of the IT Act by the Supreme Court of India is Shreya Singhal v. Union of India (2015). This landmark judgment was delivered on M"
+}</div></details>
+<details><summary>✗ The Digital Personal Data Protection Act (DPDPA) was enacted in:  [6.0s]</summary><div class="detail-body">{
+  "q_num": 48,
+  "question": "The Digital Personal Data Protection Act (DPDPA) was enacted in:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "2023",
+  "method": "miss",
+  "passed": false,
+  "latency": 6.0,
+  "answer_excerpt": "**Case Summary**: The question pertains to the enactment year of the Digital Personal Data Protection Act (DPDPA) in India. The DPDPA is a legislation that aims to protect the personal data of individ"
+}</div></details>
+<details><summary>✓ Cyberstalking in India is covered under:  [6.0s]</summary><div class="detail-body">{
+  "q_num": 49,
+  "question": "Cyberstalking in India is covered under:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "354",
+  "method": "value_match",
+  "passed": true,
+  "latency": 6.0,
+  "answer_excerpt": "**Case Summary**: The question pertains to the legal framework governing cyberstalking in India. The retrieved documents provide insights into the Information Technology Act, 2000, and the Bharatiya N"
+}</div></details>
+<details><summary>✓ The nodal agency for cybercrime in India is:  [6.54s]</summary><div class="detail-body">{
+  "q_num": 50,
+  "question": "The nodal agency for cybercrime in India is:",
+  "correct_letter": "C",
+  "extracted_letter": "A",
+  "fallback_kw": "i4c",
+  "method": "value_match",
+  "passed": true,
+  "latency": 6.54,
+  "answer_excerpt": "**Case Summary**: The question pertains to the identification of the nodal agency responsible for handling cybercrime in India. The retrieved documents provide information on the Information Technolog"
+}</div></details>
+<details><summary>✓ Under PMLA 2002, the Enforcement Directorate investigates:  [5.56s]</summary><div class="detail-body">{
+  "q_num": 51,
+  "question": "Under PMLA 2002, the Enforcement Directorate investigates:",
+  "correct_letter": "B",
+  "extracted_letter": "A",
+  "fallback_kw": "money laundering",
+  "method": "value_match",
+  "passed": true,
+  "latency": 5.56,
+  "answer_excerpt": "**Case Summary**\nThe question requires an understanding of the types of offences investigated by the Enforcement Directorate under the Prevention of Money Laundering Act, 2002 (PMLA). The Enforcement "
+}</div></details>
+<p class="meta" style="margin:16px 0 6px"><b>T6-CTX</b> — Context Retention (2-turn chains)</p>
+<details><summary>✗ Explain IPC Section 420 cheating.  [6.2s]</summary><div class="detail-body">{
+  "chain": 1,
+  "turn1_q": "Explain IPC Section 420 cheating.",
+  "turn1_pass": true,
+  "turn1_lat": 6.2,
+  "turn2_q": "What is the maximum sentence for that offence?",
+  "turn2_pass": true,
+  "turn2_lat": 7.79,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**\nthe question pertains to the explanation of ipc section 420, which deals with cheating in india. however, the retrieved documents provide information on the bharatiya nyaya sanhita 20",
+  "turn2_answer": "**case summary**\nthe question pertains to the maximum punishment for cheating under ipc section 420 in india. cheating is a criminal offense that involves dishonestly inducing a person to deliver prop"
+}</div></details>
+<details><summary>✗ What is the Prevention of Money Laundering Act?  [5.86s]</summary><div class="detail-body">{
+  "chain": 2,
+  "turn1_q": "What is the Prevention of Money Laundering Act?",
+  "turn1_pass": true,
+  "turn1_lat": 5.86,
+  "turn2_q": "Which agency enforces it?",
+  "turn2_pass": true,
+  "turn2_lat": 5.65,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the prevention of money laundering act, 2002 (pmla) is a crucial legislation in india aimed at preventing and controlling money laundering. the act defines money laundering, prescrib",
+  "turn2_answer": "**case summary**: the question pertains to the enforcement of the prevention of money laundering act, 2002 (pmla) in india. the retrieved documents, however, relate to the securities and exchange boar"
+}</div></details>
+<details><summary>✗ What is IPC Section 302?  [2.0s]</summary><div class="detail-body">{
+  "chain": 3,
+  "turn1_q": "What is IPC Section 302?",
+  "turn1_pass": true,
+  "turn1_lat": 2.0,
+  "turn2_q": "What is the equivalent section in the new BNS?",
+  "turn2_pass": true,
+  "turn2_lat": 5.92,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the indian penal code (ipc) is a comprehensive criminal code that outlines various offenses and their corresponding punishments. section 302 of the ipc deals with the punishment for ",
+  "turn2_answer": "**case summary**: the question pertains to the equivalent section of ipc section 302 in the bangladesh penal code (bns). however, based on the provided documents, it appears that the query is actually"
+}</div></details>
+<details><summary>✗ Explain the Hindu Marriage Act 1955.  [8.46s]</summary><div class="detail-body">{
+  "chain": 4,
+  "turn1_q": "Explain the Hindu Marriage Act 1955.",
+  "turn1_pass": true,
+  "turn1_lat": 8.46,
+  "turn2_q": "What are the grounds for divorce under it?",
+  "turn2_pass": true,
+  "turn2_lat": 7.59,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the hindu marriage act, 1955 is a comprehensive legislation that governs the institution of marriage among hindus in india. the act provides for the conditions of a valid hindu marri",
+  "turn2_answer": "**case summary**: the hindu marriage act, 1955, provides the legal framework for hindu marriages in india, including the grounds for divorce. the act has undergone several amendments since its enactme"
+}</div></details>
+<details><summary>✗ What is the Consumer Protection Act 2019?  [7.06s]</summary><div class="detail-body">{
+  "chain": 5,
+  "turn1_q": "What is the Consumer Protection Act 2019?",
+  "turn1_pass": true,
+  "turn1_lat": 7.06,
+  "turn2_q": "What is the pecuniary limit of the District Commission?",
+  "turn2_pass": true,
+  "turn2_lat": 5.88,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the consumer protection act, 2019 is a comprehensive legislation that aims to protect the interests of consumers in india. the act replaces the earlier consumer protection act, 1986,",
+  "turn2_answer": "**case summary**: the question pertains to the pecuniary jurisdiction of the district consumer disputes redressal commission in india, which is established under the consumer protection act, 2019. the"
+}</div></details>
+<details><summary>✗ What is anticipatory bail?  [6.38s]</summary><div class="detail-body">{
+  "chain": 6,
+  "turn1_q": "What is anticipatory bail?",
+  "turn1_pass": true,
+  "turn1_lat": 6.38,
+  "turn2_q": "Under which code is it granted in the new criminal law?",
+  "turn2_pass": true,
+  "turn2_lat": 7.12,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the user is seeking information on anticipatory bail under the code of criminal procedure, 1973, in the context of a potential case under section 498a of the indian penal code. the u",
+  "turn2_answer": "**case summary**: the question pertains to the specific right or provision granted under the new criminal law in india, which has undergone significant changes with the enactment of three new laws in "
+}</div></details>
+<details><summary>✗ What is the Right to Information Act?  [6.38s]</summary><div class="detail-body">{
+  "chain": 7,
+  "turn1_q": "What is the Right to Information Act?",
+  "turn1_pass": true,
+  "turn1_lat": 6.38,
+  "turn2_q": "Within how many days must a public authority respond?",
+  "turn2_pass": true,
+  "turn2_lat": 7.53,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the right to information act, 2005 (rti act) is a landmark legislation in india that aims to promote transparency and accountability in the functioning of public authorities. the act",
+  "turn2_answer": "**case summary**: the question pertains to the time limit within which a public authority must respond to a request under the right to information act, 2005 in india. the act aims to promote transpare"
+}</div></details>
+<details><summary>✗ Explain Section 498A of IPC.  [6.9s]</summary><div class="detail-body">{
+  "chain": 8,
+  "turn1_q": "Explain Section 498A of IPC.",
+  "turn1_pass": true,
+  "turn1_lat": 6.9,
+  "turn2_q": "Is the offence cognisable and non-bailable?",
+  "turn2_pass": true,
+  "turn2_lat": 5.88,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the query revolves around the explanation of section 498a of the indian penal code (ipc), which pertains to the husband or relative of the husband subjecting a woman to cruelty. the ",
+  "turn2_answer": "**case summary**: the question revolves around the nature of the offence under section 498a of the indian penal code (ipc), which deals with husband or relative of husband of a woman subjecting her to"
+}</div></details>
+<details><summary>✗ What is the Vishaka case about?  [6.12s]</summary><div class="detail-body">{
+  "chain": 9,
+  "turn1_q": "What is the Vishaka case about?",
+  "turn1_pass": true,
+  "turn1_lat": 6.12,
+  "turn2_q": "What legislation followed from those guidelines?",
+  "turn2_pass": true,
+  "turn2_lat": 8.48,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**\nthe vishaka vs state of rajasthan (1997) case is a landmark judgment in indian law that deals with the issue of sexual harassment at the workplace. the case was filed by vishaka, a no",
+  "turn2_answer": "**case summary**\nthe vishaka guidelines on sexual harassment at the workplace were a landmark judgment passed by the supreme court of india, which laid down guidelines to prevent and address sexual ha"
+}</div></details>
+<details><summary>✗ Explain Article 21 of the Indian Constitution.  [7.39s]</summary><div class="detail-body">{
+  "chain": 10,
+  "turn1_q": "Explain Article 21 of the Indian Constitution.",
+  "turn1_pass": true,
+  "turn1_lat": 7.39,
+  "turn2_q": "How did the Maneka Gandhi case expand its scope?",
+  "turn2_pass": true,
+  "turn2_lat": 7.4,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**\narticle 21 of the indian constitution is a fundamental right that protects the life and personal liberty of individuals. it states that \"no person shall be deprived of his life or per",
+  "turn2_answer": "**case summary**\nthe maneka gandhi case (1978) was a landmark judgment in indian law that dealt with the issue of passport impoundment and the right to travel abroad. the case involved maneka gandhi, "
+}</div></details>
+<details><summary>✗ What is IPC Section 376 about?  [6.54s]</summary><div class="detail-body">{
+  "chain": 11,
+  "turn1_q": "What is IPC Section 376 about?",
+  "turn1_pass": true,
+  "turn1_lat": 6.54,
+  "turn2_q": "What is the minimum sentence for rape?",
+  "turn2_pass": true,
+  "turn2_lat": 5.55,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: ipc section 376 pertains to the punishment for rape, which is a serious offense under indian law. the section prescribes rigorous imprisonment for a term of not less than ten years, ",
+  "turn2_answer": "**case summary**: the question pertains to the minimum sentence for rape under the indian penal code (ipc). the ipc prescribes a minimum sentence of ten years of rigorous imprisonment for rape, which "
+}</div></details>
+<details><summary>✗ What is the Dowry Prohibition Act?  [6.54s]</summary><div class="detail-body">{
+  "chain": 12,
+  "turn1_q": "What is the Dowry Prohibition Act?",
+  "turn1_pass": true,
+  "turn1_lat": 6.54,
+  "turn2_q": "What is the maximum penalty for giving or taking dowry?",
+  "turn2_pass": true,
+  "turn2_lat": 5.72,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**\nthe dowry prohibition act, 1961 is a legislation enacted to prohibit the giving or taking of dowry in india. the act aims to prevent the demanding, giving, or taking of dowry, and pro",
+  "turn2_answer": "**case summary**\nthe question pertains to the maximum penalty under the dowry prohibition act in india for giving or taking dowry. the dowry prohibition act, 1961, is a legislation aimed at prohibitin"
+}</div></details>
+<details><summary>✗ What is the Motor Vehicles Act 1988?  [7.66s]</summary><div class="detail-body">{
+  "chain": 13,
+  "turn1_q": "What is the Motor Vehicles Act 1988?",
+  "turn1_pass": true,
+  "turn1_lat": 7.66,
+  "turn2_q": "What is the penalty for drunk driving under it?",
+  "turn2_pass": true,
+  "turn2_lat": 5.65,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the motor vehicles act, 1988 is a comprehensive legislation that regulates the use of motor vehicles in india. the act aims to provide a framework for the registration, licensing, an",
+  "turn2_answer": "**case summary**: the question pertains to the penalty for drunk driving under the motor vehicles act, 1988 in india. the retrieved documents, however, do not directly address the specific penalty for"
+}</div></details>
+<details><summary>✗ Explain the law on cyberstalking in India.  [8.68s]</summary><div class="detail-body">{
+  "chain": 14,
+  "turn1_q": "Explain the law on cyberstalking in India.",
+  "turn1_pass": true,
+  "turn1_lat": 8.68,
+  "turn2_q": "Which Act covers it primarily — IPC or IT Act?",
+  "turn2_pass": true,
+  "turn2_lat": 6.1,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**\ncyberstalking is a serious issue in india, and the laws governing it are primarily found in the information technology act, 2000 (it act) and the bharatiya nyaya sanhita, 2023 (bns). ",
+  "turn2_answer": "**case summary**\nthe question revolves around determining the primary legislation that covers cyber crimes in india, with the options being the indian penal code (ipc) and the information technology a"
+}</div></details>
+<details><summary>✗ What is RERA and what does it protect?  [6.95s]</summary><div class="detail-body">{
+  "chain": 15,
+  "turn1_q": "What is RERA and what does it protect?",
+  "turn1_pass": true,
+  "turn1_lat": 6.95,
+  "turn2_q": "What is the penalty for a developer who delays registration?",
+  "turn2_pass": true,
+  "turn2_lat": 7.92,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the real estate (regulation and development) act, 2016 (rera) is a central legislation that regulates the real estate sector in india. the act established the real estate regulatory ",
+  "turn2_answer": "**case summary**: the question pertains to the penalty imposed on a developer for delaying the registration of a real estate project under the real estate (regulation and development) act, 2016 (rera)"
+}</div></details>
+<details><summary>✗ What are the fundamental rights in the Indian Constitution?  [5.79s]</summary><div class="detail-body">{
+  "chain": 16,
+  "turn1_q": "What are the fundamental rights in the Indian Constitution?",
+  "turn1_pass": true,
+  "turn1_lat": 5.79,
+  "turn2_q": "Which of those rights can be suspended during a national emergency?",
+  "turn2_pass": true,
+  "turn2_lat": 5.56,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the question pertains to the fundamental rights enshrined in part iii of the indian constitution. however, the retrieved documents do not provide direct information on this topic. th",
+  "turn2_answer": "**case summary**: the question pertains to the suspension of fundamental rights under part iii of the indian constitution during a national emergency. the retrieved documents do not provide sufficient"
+}</div></details>
+<details><summary>✗ What is the Negotiable Instruments Act and cheque bounce?  [8.15s]</summary><div class="detail-body">{
+  "chain": 17,
+  "turn1_q": "What is the Negotiable Instruments Act and cheque bounce?",
+  "turn1_pass": true,
+  "turn1_lat": 8.15,
+  "turn2_q": "What is the prescribed time limit to file a complaint under Section 138?",
+  "turn2_pass": true,
+  "turn2_lat": 5.87,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**\nthe negotiable instruments act, 1881 is a comprehensive legislation that governs the use of negotiable instruments, including cheques, in india. cheque bounce, also known as dishonour",
+  "turn2_answer": "**case summary**\nthe negotiable instruments act, 1881 (the \"act\") prescribes the time limit for filing a complaint under section 138, which deals with the dishonour of cheques. the act provides a fram"
+}</div></details>
+<details><summary>✗ Explain Section 304B of IPC — dowry death.  [6.2s]</summary><div class="detail-body">{
+  "chain": 18,
+  "turn1_q": "Explain Section 304B of IPC — dowry death.",
+  "turn1_pass": true,
+  "turn1_lat": 6.2,
+  "turn2_q": "What is the evidentiary presumption under this section?",
+  "turn2_pass": true,
+  "turn2_lat": 5.7,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**\nsection 304b of the indian penal code (ipc) pertains to dowry death, which is a significant social issue in india. the provision aims to curb the menace of dowry demands and related v",
+  "turn2_answer": "**case summary**\nthe question pertains to the evidentiary presumption under section 304b of the indian penal code (ipc), which deals with dowry deaths. this section imposes severe penalties on individ"
+}</div></details>
+<details><summary>✗ What is the Protection of Children from Sexual Offences (POCSO) Act?  [8.43s]</summary><div class="detail-body">{
+  "chain": 19,
+  "turn1_q": "What is the Protection of Children from Sexual Offences (POCSO) Act?",
+  "turn1_pass": true,
+  "turn1_lat": 8.43,
+  "turn2_q": "What is the minimum age a child is protected under POCSO?",
+  "turn2_pass": true,
+  "turn2_lat": 6.01,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the protection of children from sexual offences (pocso) act, 2012 is a comprehensive legislation in india that aims to protect children from sexual abuse, exploitation, and pornograp",
+  "turn2_answer": "**case summary**: the protection of children from sexual offences (pocso) act, 2012 is a comprehensive legislation aimed at protecting children from various forms of sexual abuse, exploitation, and po"
+}</div></details>
+<details><summary>✗ What is Section 124A IPC (sedition)?  [6.58s]</summary><div class="detail-body">{
+  "chain": 20,
+  "turn1_q": "What is Section 124A IPC (sedition)?",
+  "turn1_pass": true,
+  "turn1_lat": 6.58,
+  "turn2_q": "Has sedition been retained in the new BNS?",
+  "turn2_pass": true,
+  "turn2_lat": 6.52,
+  "chain_pass": true,
+  "turn1_answer": "**case summary**: the question pertains to the provisions and penalties under section 124a of the indian penal code (ipc) regarding sedition. however, as per the retrieved documents, specifically docu",
+  "turn2_answer": "**case summary**: the question revolves around whether sedition remains a punishable offense under the bharatiya nyaya sanhita, 2023 (bns). the retrieved documents indicate that ipc section 124a, whic"
+}</div></details>
+<p class="meta" style="margin:16px 0 6px"><b>T7-LONGDOC</b> — Long Document Processing (SC judgments)</p>
+<details><summary>✓ LD-01  [7.11s]</summary><div class="detail-body">{
+  "id": "LD-01",
+  "task": "summarize",
+  "passed": true,
+  "composite": 0.83,
+  "keyword_score": 1.0,
+  "section_score": 0.333,
+  "fact_score": 1.0,
+  "verdict_hit": true,
+  "latency": 7.11,
+  "answer_excerpt": "**Case Summary**\nThe Kesavananda Bharati v. State of Kerala (1973) Supreme Court judgment is a landmark case in Indian constitutional law. The case involved a challenge to the 24th and 25th Constitutional Amendments, which aimed to amend the Constitution to give Parliament unlimited power to amend a",
+  "missed_kw": [],
+  "missed_sec": [
+    "24th amendment",
+    "25th amendment"
+  ]
+}</div></details>
+<details><summary>✓ LD-02  [7.42s]</summary><div class="detail-body">{
+  "id": "LD-02",
+  "task": "extract_verdict",
+  "passed": true,
+  "composite": 0.872,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 0.5,
+  "verdict_hit": true,
+  "latency": 7.42,
+  "answer_excerpt": "**Case Summary**\nThe Maneka Gandhi v. Union of India case (1978 SC 597) is a landmark judgment in Indian constitutional law. The case involved the impounding of Maneka Gandhi's passport by the Indian government without providing her with reasons. The Supreme Court of India held that this action viol",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<details><summary>✓ LD-03  [6.16s]</summary><div class="detail-body">{
+  "id": "LD-03",
+  "task": "list_sections",
+  "passed": true,
+  "composite": 0.936,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 0.75,
+  "verdict_hit": true,
+  "latency": 6.16,
+  "answer_excerpt": "**Case Summary**\nThe Vishaka v. State of Rajasthan judgment is a landmark case in Indian law that deals with the issue of sexual harassment of women at the workplace. The case was decided by the Supreme Court of India in 1997 and laid down guidelines to prevent sexual harassment of women at the work",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<details><summary>✓ LD-04  [7.87s]</summary><div class="detail-body">{
+  "id": "LD-04",
+  "task": "summarize",
+  "passed": true,
+  "composite": 1.0,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 1.0,
+  "verdict_hit": true,
+  "latency": 7.87,
+  "answer_excerpt": "**Case Summary**\nThe Navtej Singh Johar v. Union of India (2018) judgment is a landmark decision that decriminalized consensual homosexual acts between adults in private. The case was heard by a five-judge constitutional bench of the Supreme Court of India, which unanimously read down Section 377 of",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<details><summary>✓ LD-05  [5.87s]</summary><div class="detail-body">{
+  "id": "LD-05",
+  "task": "extract_verdict",
+  "passed": true,
+  "composite": 1.0,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 1.0,
+  "verdict_hit": true,
+  "latency": 5.87,
+  "answer_excerpt": "**Case Summary**\nThe case of K.S. Puttaswamy v. Union of India (2017) is a landmark judgment in Indian constitutional law, where a nine-judge bench of the Supreme Court unanimously held that the right to privacy is a fundamental right guaranteed under Article 21 of the Constitution of India. This ju",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<details><summary>✓ LD-06  [6.85s]</summary><div class="detail-body">{
+  "id": "LD-06",
+  "task": "summarize",
+  "passed": true,
+  "composite": 1.0,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 1.0,
+  "verdict_hit": true,
+  "latency": 6.85,
+  "answer_excerpt": "**Case Summary**\nThe Mandal Commission case, also known as Indra Sawhney v. Union of India (1993), is a landmark judgment delivered by a nine-judge bench of the Supreme Court of India. The case dealt with the issue of reservation for Other Backward Classes (OBCs) in central government jobs. The Cour",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<details><summary>✓ LD-07  [11.42s]</summary><div class="detail-body">{
+  "id": "LD-07",
+  "task": "list_sections",
+  "passed": true,
+  "composite": 0.885,
+  "keyword_score": 1.0,
+  "section_score": 0.8,
+  "fact_score": 0.75,
+  "verdict_hit": true,
+  "latency": 11.42,
+  "answer_excerpt": "**Case Summary**\nThe Shah Bano Begum v. Mohd Ahmed Khan judgment is a landmark case in Indian legal history, where the Supreme Court held that a Muslim woman is entitled to maintenance from her former husband beyond the Iddat period under Section 125 of the Code of Criminal Procedure (CrPC). The Cou",
+  "missed_kw": [],
+  "missed_sec": [
+    "1986 act"
+  ]
+}</div></details>
+<details><summary>✓ LD-08  [6.91s]</summary><div class="detail-body">{
+  "id": "LD-08",
+  "task": "extract_verdict",
+  "passed": true,
+  "composite": 0.936,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 0.75,
+  "verdict_hit": true,
+  "latency": 6.91,
+  "answer_excerpt": "**Case Summary**\nThe Shreya Singhal v. Union of India (2015) judgment is a landmark decision that dealt with the constitutional validity of certain provisions of the Information Technology Act, 2000 (IT Act). The Supreme Court of India struck down Section 66A of the IT Act, which pertained to the pu",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<details><summary>✓ LD-09  [8.01s]</summary><div class="detail-body">{
+  "id": "LD-09",
+  "task": "summarize",
+  "passed": true,
+  "composite": 0.936,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 0.75,
+  "verdict_hit": true,
+  "latency": 8.01,
+  "answer_excerpt": "**Case Summary**\nThe Olga Tellis v. Bombay Municipal Corporation case (1985) is a landmark judgment in Indian constitutional law. The case involved the eviction of pavement dwellers in Bombay by the Municipal Corporation. The petitioners, led by Olga Tellis, challenged the eviction notices issued by",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<details><summary>✓ LD-10  [8.89s]</summary><div class="detail-body">{
+  "id": "LD-10",
+  "task": "extract_sections",
+  "passed": true,
+  "composite": 0.936,
+  "keyword_score": 1.0,
+  "section_score": 1.0,
+  "fact_score": 0.75,
+  "verdict_hit": true,
+  "latency": 8.89,
+  "answer_excerpt": "**Case Summary**\nThe Aruna Shanbaug case (2011) 4 SCC 454 and the Common Cause v. Union of India (2018) judgment are two landmark cases that have shaped the legal framework related to passive euthanasia, living wills, and the right to die with dignity in India. The Supreme Court has recognized the r",
+  "missed_kw": [],
+  "missed_sec": []
+}</div></details>
+<p class="meta" style="margin:16px 0 6px"><b>T10-ROBUST</b> — Robustness (noisy input variants)</p>
+<details><summary>✗ What is IPC Section 420 cheating?  [0s]</summary><div class="detail-body">{
+  "id": "RB-01",
+  "base_question": "What is IPC Section 420 cheating?",
+  "variants_passed": 3,
+  "question_passed": true,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "WHAT IS IPC SECTION 420?????",
+      "passed": true,
+      "kw_score": 0.75,
+      "latency": 5.99,
+      "answer_excerpt": "**Case Summary**: Section 420 of the Indian Penal Code (IPC) pertains to the offense of cheating and dishonestly inducing delivery of property. The section states that whoever cheats and thereby disho"
+    },
+    {
+      "variant": 2,
+      "text": "tell me ipc 420 quickly bro plss",
+      "passed": true,
+      "kw_score": 0.75,
+      "latency": 7.55,
+      "answer_excerpt": "**Case Summary**\nThe user has requested information about Section 420 of the Indian Penal Code (IPC), which pertains to cheating and dishonestly inducing delivery of property. However, the retrieved d"
+    },
+    {
+      "variant": 3,
+      "text": "IPC 420 mein cheating ka kya provision hai",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 6.51,
+      "answer_excerpt": "**Case Summary**\nThe question pertains to the provisions for cheating under Section 420 of the Indian Penal Code (IPC). The</div></details>
+<details><summary>✗ What is FIR (First Information Report)?  [0s]</summary><div class="detail-body">{
+  "id": "RB-02",
+  "base_question": "What is FIR (First Information Report)?",
+  "variants_passed": 3,
+  "question_passed": true,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "WHAT IS FIR?????? explain now",
+      "passed": true,
+      "kw_score": 0.75,
+      "latency": 8.18,
+      "answer_excerpt": "**Case Summary**\nThe question pertains to the concept of a First Information Report (FIR) under Indian law. An FIR is a written document prepared by the police when they receive information about the "
+    },
+    {
+      "variant": 2,
+      "text": "fir kya hota hai bro, fir means??",
+      "passed": true,
+      "kw_score": 0.75,
+      "latency": 6.56,
+      "answer_excerpt": "**Case Summary**: The user is inquiring about the meaning of FIR (First Information Report) in Indian law. The context provided does not contain a specific case, but rather a general inquiry about the"
+    },
+    {
+      "variant": 3,
+      "text": "FIR kya hai aur kaise file karte hain",
+      "passed": true,
+      "kw_score": 0.75,
+      "latency": 10.96,
+      "answer_excerpt": "**Case Summary**\nThe question pertains to the concept of a First Information Report (FIR) under Indian law and the pro</div></details>
+<details><summary>✗ What is IPC Section 302 murder punishment?  [0s]</summary><div class="detail-body">{
+  "id": "RB-03",
+  "base_question": "What is IPC Section 302 murder punishment?",
+  "variants_passed": 3,
+  "question_passed": true,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "IPC 302 PUNISHMENT!!! murder section???",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 6.11,
+      "answer_excerpt": "**Case Summary**\nThe question pertains to the punishment for murder under Section 302 of the Indian Penal Code (IPC). The IPC is a comprehensive criminal code that outlines the punishments for various"
+    },
+    {
+      "variant": 2,
+      "text": "302 ipc punishmnet for mueder pls explain",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 6.37,
+      "answer_excerpt": "**Case Summary**\nThe question pertains to the punishment for murder under Section 302 of the Indian Penal Code (IPC). The IPC is a comprehensive criminal code that outlines the punishments for various"
+    },
+    {
+      "variant": 3,
+      "text": "murder ki saza kya hai IPC mein",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 6.25,
+      "answer_excerpt": "**Case Summary**\nThe question pertains to the punishment for murder under the Indian Penal Code (IPC). The</div></details>
+<details><summary>✗ What are the grounds for anticipatory bail in India?  [0s]</summary><div class="detail-body">{
+  "id": "RB-04",
+  "base_question": "What are the grounds for anticipatory bail in India?",
+  "variants_passed": 3,
+  "question_passed": true,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "anticipatory bail grounds???? what are those!!",
+      "passed": true,
+      "kw_score": 0.8,
+      "latency": 6.19,
+      "answer_excerpt": "**Case Summary**: The user is seeking information on the grounds for granting anticipatory bail under Indian law. The retrieved documents provide some context, including a scenario where an individual"
+    },
+    {
+      "variant": 2,
+      "text": "anticipatory bail kaise milti hai bhai grounds bata",
+      "passed": true,
+      "kw_score": 0.8,
+      "latency": 6.29,
+      "answer_excerpt": "**Case Summary**: The user is seeking information on the grounds for granting anticipatory bail under the Code of Criminal Procedure, 1973 in India. The user has provided some context, including a sit"
+    },
+    {
+      "variant": 3,
+      "text": "ante-cipatory bail ke liye kya conditions hain",
+      "passed": true,
+      "kw_score": 0.8,
+      "latency": 10.92,
+      "answer_excerpt": "**Case Summary**\nThe user is seeking information on the condition</div></details>
+<details><summary>✗ What is Article 21 of the Indian Constitution?  [0s]</summary><div class="detail-body">{
+  "id": "RB-05",
+  "base_question": "What is Article 21 of the Indian Constitution?",
+  "variants_passed": 3,
+  "question_passed": true,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "ARTICLE 21 CONSTITUTION OF INDIA??? EXPLAIN!!!!!",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 6.65,
+      "answer_excerpt": "**Case Summary**\nArticle 21 of the Constitution of India is a fundamental right that guarantees the right to life and personal liberty. The retrieved documents, however, do not provide sufficient info"
+    },
+    {
+      "variant": 2,
+      "text": "article 21 kya hai yr constitution mein",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 5.37,
+      "answer_excerpt": "**Case Summary**: The question pertains to Article 21 of the Indian Constitution, which is a fundamental right that protects the right to life and personal liberty. The retrieved documents, however, d"
+    },
+    {
+      "variant": 3,
+      "text": "Aritcle 21 Constutution of Indiaa what does it say",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 6.02,
+      "answer_excerpt": "**Case Summary**: The user has inquired about the contents of Article 21 of th</div></details>
+<details><summary>✗ What is Consumer Protection Act 2019?  [0s]</summary><div class="detail-body">{
+  "id": "RB-06",
+  "base_question": "What is Consumer Protection Act 2019?",
+  "variants_passed": 3,
+  "question_passed": true,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "consumer protection act 2019!!! explain NOW plz",
+      "passed": true,
+      "kw_score": 0.5,
+      "latency": 6.21,
+      "answer_excerpt": "**Case Summary**: The Consumer Protection Act, 2019 is a comprehensive legislation that aims to protect the interests of consumers in India. The Act provides for the establishment of a Central Consume"
+    },
+    {
+      "variant": 2,
+      "text": "consumer proteciton act kya hai 2019 wala",
+      "passed": true,
+      "kw_score": 0.5,
+      "latency": 12.81,
+      "answer_excerpt": "**Case Summary**\nThe Consumer Protection Act, 2019 is a legislation that aims to protect the rights of consumers in India. The Act replaces the earlier Consumer Protection Act, 1986, and provides for "
+    },
+    {
+      "variant": 3,
+      "text": "CPA 2019 — consumer ke kya rights hai",
+      "passed": true,
+      "kw_score": 0.75,
+      "latency": 18.42,
+      "answer_excerpt": "**Case Summary**\nThe Consumer Protection Act, 2019 (CPA 2019) is a legislation that aims to pro</div></details>
+<details><summary>✗ What is the Dowry Prohibition Act 1961?  [0s]</summary><div class="detail-body">{
+  "id": "RB-07",
+  "base_question": "What is the Dowry Prohibition Act 1961?",
+  "variants_passed": 3,
+  "question_passed": true,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "DOWRY PROHIBITION ACT??? 1961 explain!!!",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 14.92,
+      "answer_excerpt": "**Case Summary**\nThe Dowry Prohibition Act, 1961 is a landmark legislation in India aimed at prohibiting the giving or taking of dowry, a social evil that has been a major contributor to violence agai"
+    },
+    {
+      "variant": 2,
+      "text": "dowry prohibition act kya hai 1961 ke baad",
+      "passed": true,
+      "kw_score": 0.75,
+      "latency": 8.76,
+      "answer_excerpt": "**Case Summary**\nDowry Prohibition Act, 1961 ek mahatvapoorn kanoon hai jo dowry pratha ko rokne ke liye banaya gaya tha. Is kanoon ke tahat, dowry mangne ya dena dono hi apradh mana gaya hai. Agar ko"
+    },
+    {
+      "variant": 3,
+      "text": "dahej rokne ka kanoon kya hai india mein",
+      "passed": true,
+      "kw_score": 1.0,
+      "latency": 22.44,
+      "answer_excerpt": "**Case Summary**: The user is seeking information about the laws against dowry in India. Dowry i</div></details>
+<details><summary>✗ How to file a cheque bounce complaint under Section 138 NI Act?  [0s]</summary><div class="detail-body">{
+  "id": "RB-08",
+  "base_question": "How to file a cheque bounce complaint under Section 138 NI Act?",
+  "variants_passed": 0,
+  "question_passed": false,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "cheque bounce 138 complaint HOW TO FILE???",
+      "passed": false,
+      "kw_score": 0.4,
+      "latency": 62.19,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'cheque bounce 138 complaint HOW TO FILE???' relates to Indian law. Please try "
+    },
+    {
+      "variant": 2,
+      "text": "cheque bounce ho gaya yaar 138 ka case kaise karo",
+      "passed": false,
+      "kw_score": 0.2,
+      "latency": 20.43,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'cheque bounce ho gaya yaar 138 ka case kaise karo' relates to Indian law. Plea"
+    },
+    {
+      "variant": 3,
+      "text": "cheque bounce case filing procedure NI Act 138",
+      "passed": false,
+      "kw_score": 0.2,
+      "latency": 20.49,
+      "answer_excerpt": "I was unable to generate a complete answer due to a ser</div></details>
+<details><summary>✗ What is IPC Section 498A cruelty by husband?  [0s]</summary><div class="detail-body">{
+  "id": "RB-09",
+  "base_question": "What is IPC Section 498A cruelty by husband?",
+  "variants_passed": 1,
+  "question_passed": false,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "498A IPC!!! husband cruelty kya hota hai???",
+      "passed": true,
+      "kw_score": 0.6,
+      "latency": 117.58,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about '498A IPC!!! husband cruelty kya hota hai???' relates to Indian law. Please try"
+    },
+    {
+      "variant": 2,
+      "text": "498a case kya hota hai bro wife pe cruelty",
+      "passed": false,
+      "kw_score": 0.4,
+      "latency": 94.95,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about '498a case kya hota hai bro wife pe cruelty' relates to Indian law. Please try "
+    },
+    {
+      "variant": 3,
+      "text": "pati dwara patni ke sath zulm ka section kya hai",
+      "passed": false,
+      "kw_score": 0.0,
+      "latency": 29.91,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on th</div></details>
+<details><summary>✗ What is the Right to Information Act RTI?  [0s]</summary><div class="detail-body">{
+  "id": "RB-10",
+  "base_question": "What is the Right to Information Act RTI?",
+  "variants_passed": 0,
+  "question_passed": false,
+  "variants": [
+    {
+      "variant": 1,
+      "text": "RTI ACT what is it!!!! RIGHT TO INFORMATION???",
+      "passed": false,
+      "kw_score": 0.4,
+      "latency": 109.94,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'RTI ACT what is it!!!! RIGHT TO INFORMATION???' relates to Indian law. Please "
+    },
+    {
+      "variant": 2,
+      "text": "rti kya hota hai bhai jaldi batao",
+      "passed": false,
+      "kw_score": 0.2,
+      "latency": 29.85,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'rti kya hota hai bhai jaldi batao' relates to Indian law. Please try again."
+    },
+    {
+      "variant": 3,
+      "text": "Right to Information RTI kaise use karte hai India mein",
+      "passed": false,
+      "kw_score": 0.4,
+      "latency": 29.86,
+      "answer_excerpt": "I was unable to generate a complete answer due to a service issue. Based on the re</div></details>
+<footer>LAW-GPT Benchmark Suite &mdash; generated 20260304_222111</footer>
+</body></html>

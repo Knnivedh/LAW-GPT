@@ -1,0 +1,145 @@
+{
+  "test_id": "T11",
+  "base_url": "https://lawgpt-backend2024.azurewebsites.net",
+  "total_pass": 17,
+  "total_cases": 17,
+  "accuracy": 1.0,
+  "part_a": [
+    {
+      "id": "RC-S01",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 197,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 2.64
+    },
+    {
+      "id": "RC-S02",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 194,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 2.91
+    },
+    {
+      "id": "RC-S03",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 243,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 2.81
+    },
+    {
+      "id": "RC-S04",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 125,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 2.21
+    },
+    {
+      "id": "RC-S05",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 186,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 4.05
+    },
+    {
+      "id": "RC-S06",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 167,
+      "kw_hits": 2,
+      "kw_total": 2,
+      "lat": 2.07
+    }
+  ],
+  "part_b": [
+    {
+      "id": "RC-C01",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.35,
+      "preview": "What is the exact date of termination and your last drawn salary, and do you hav"
+    },
+    {
+      "id": "RC-C02",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.22,
+      "preview": "What is the exact date of vacating the property and do you have any written agre"
+    },
+    {
+      "id": "RC-C03",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 29.24,
+      "preview": "What is the exact date of the cheque and the amount involved in the cheque bounc"
+    },
+    {
+      "id": "RC-C04",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 28.38,
+      "preview": "What is the exact date of your marriage and the registration details of your mar"
+    },
+    {
+      "id": "RC-C05",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 32.22,
+      "preview": "Do you have any documentation or written communication from the mobile payment a"
+    }
+  ],
+  "part_c": [
+    {
+      "turn": 0,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 26.63
+    },
+    {
+      "turn": 1,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 7.72
+    },
+    {
+      "turn": 2,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 7.8
+    },
+    {
+      "turn": 3,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 8.16
+    },
+    {
+      "turn": 4,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 10.38
+    },
+    {
+      "turn": 5,
+      "passed": true,
+      "query_type": "case_consultation",
+      "words": 663,
+      "kw_hits": 5,
+      "lat": 15.54
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+# Azure App Service Deployment — LAW-GPT Backend
+# Uses Azure Service Principal login (no Basic Auth / publish profile required)
+#
+# REQUIRED SECRETS (add in GitHub → Settings → Secrets → Actions):
+#
+#   AZURE_CREDENTIALS    : Service Principal JSON (format below)
+#   AZURE_RESOURCE_GROUP : Optional secret fallback for resource group name
+#   GROQ_API_KEY         : Groq API key #1
+#   GROQ_API_KEY_2       : Groq API key #2
+#   GROQ_API_KEY_3       : Groq API key #3
+#   GROQ_API_KEY_4       : Groq API key #4
+#   GROQ_API_KEY_5       : Groq API key #5
+#   CEREBRAS_API_KEY     : Cerebras API key
+#   PAGEINDEX_API_KEY    : Optional PageIndex API key
+#   SUPABASE_URL         : Optional Supabase project URL
+#   SUPABASE_SERVICE_ROLE_KEY : Optional Supabase service role key
+#   SUPABASE_KEY         : Optional Supabase anon/service key
+#   NVIDIA_API_KEY       : Optional NVIDIA API key
+#
+# RECOMMENDED REPOSITORY VARIABLES (GitHub → Settings → Secrets and variables → Actions → Variables):
+#   AZURE_WEBAPP_NAME    : App Service name (e.g. "lawgpt-backend2024")
+#   AZURE_WEBAPP_HOST    : App hostname (e.g. "lawgpt-backend2024.azurewebsites.net")
+#   AZURE_RESOURCE_GROUP : Resource group name (e.g. "lawgpt-rg")
+#   PYTHON_VERSION       : Python runtime version (e.g. "3.11")
+#
+# AZURE_CREDENTIALS JSON format:'
+
+
+
+
+
+
+
+'
+# {
+#   "clientId": "<service-principal-client-id>",
+#   "clientSecret": "<service-principal-client-secret>",
+#   "subscriptionId": "<azure-subscription-id>",
+#   "tenantId": "<azure-tenant-id>",
+#   "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+#   "resourceManagerEndpointUrl": "https://management.azure.com/",
+#   "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+#   "managementEndpointUrl": "https://management.core.windows.net/"
+# }
+
+name: Build and deploy Python app to Azure Web App
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: ${{ vars.AZURE_WEBAPP_NAME || 'lawgpt-backend2024' }}
+  AZURE_WEBAPP_HOST: ${{ vars.AZURE_WEBAPP_HOST || 'lawgpt-backend2024.azurewebsites.net' }}
+  AZURE_RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP || 'lawgpt-rg' }}
+  PYTHON_VERSION: ${{ vars.PYTHON_VERSION || '3.11' }}
+  HEALTH_PATH: /api/health
+  SMOKE_QUERY_PATH: /api/query
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Validate required deployment secrets
+        env:
+          AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+        run: |
+          test -n "$AZURE_CREDENTIALS" || { echo "Missing AZURE_CREDENTIALS"; exit 1; }
+          test -n "$GROQ_API_KEY" || { echo "Missing GROQ_API_KEY"; exit 1; }
+          test -n "$CEREBRAS_API_KEY" || { echo "Missing CEREBRAS_API_KEY"; exit 1; }
+
+      - name: Install dependencies (validation)
+        run: |
+          python -m venv venv
+          venv/bin/pip install --upgrade pip
+          venv/bin/pip install -r requirements.txt
+
+      - name: Zip source code for deployment
+        run: |
+          zip release.zip . -r \
+            --exclude "*/.git/*" \
+            --exclude "*/.github/*" \
+            --exclude "*/venv/*" \
+            --exclude "*/.venv/*" \
+            --exclude "*/chroma_db*/*" \
+            --exclude "*/__pycache__/*" \
+            --exclude "*.pyc" \
+            --exclude "*.pyo" \
+            --exclude "*.log" \
+            --exclude "*/node_modules/*" \
+            --exclude "*/frontend/dist/*" \
+            --exclude "*/tmp/*" \
+            --exclude "*.zip" \
+            --exclude "*.exe" \
+            --exclude "*.dll" \
+            --exclude "*/testsprite_tests/*" \
+            --exclude "*/TEST/*" \
+            --exclude "*/TEST_SPRIT/*" \
+            --exclude "*/CONSUMER_DATA_COLLECTION/*" \
+            --exclude "*/deployment_bundle/*" \
+            --exclude "*/azure_logs*/*" \
+            --exclude "*/azure_build_logs*/*" \
+            --exclude "*/PERMANENT_RAG_FILES/*" \
+            --exclude "*/DATA/*"
+
+      # Login using Service Principal — no Basic Auth required
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # CRITICAL FIX: Set API keys as Azure App Service environment variables.
+      # Runtime config should come from App Service settings, not a packaged .env file.
+      - name: Configure Azure App Settings
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          PAGEINDEX_API_KEY: ${{ secrets.PAGEINDEX_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: |
+          az webapp config appsettings set \
+            --name "$AZURE_WEBAPP_NAME" \
+            --resource-group "$AZURE_RESOURCE_GROUP" \
+            --settings \
+              GROQ_API_KEY="$GROQ_API_KEY" \
+              GROQ_API_KEY_2="$GROQ_API_KEY_2" \
+              GROQ_API_KEY_3="$GROQ_API_KEY_3" \
+              GROQ_API_KEY_4="$GROQ_API_KEY_4" \
+              GROQ_API_KEY_5="$GROQ_API_KEY_5" \
+              CEREBRAS_API_KEY="$CEREBRAS_API_KEY" \
+              PAGEINDEX_API_KEY="$PAGEINDEX_API_KEY" \
+              SUPABASE_URL="$SUPABASE_URL" \
+              SUPABASE_SERVICE_ROLE_KEY="$SUPABASE_SERVICE_ROLE_KEY" \
+              SUPABASE_KEY="$SUPABASE_KEY" \
+              NVIDIA_API_KEY="$NVIDIA_API_KEY" \
+              ENABLE_ORYX_BUILD=true \
+              SCM_DO_BUILD_DURING_DEPLOYMENT=true \
+              WEBSITE_RUN_FROM_PACKAGE=1 \
+              PYTHONPATH="/home/site/wwwroot" \
+              PORT=8000
+
+      - name: Deploy zip to Azure Web App
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          slot-name: 'Production'
+          package: release.zip
+          # Use 1 worker on F1 free tier (1 GB RAM) to avoid OOM.
+          # Upgrade to B2 tier and set -w 2 for production traffic.
+          startup-command: 'gunicorn -w 1 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000 --timeout 600 --graceful-timeout 120 main:app'
+
+      - name: Verify deployment health
+        run: |
+          HEALTH_URL="https://$AZURE_WEBAPP_HOST$HEALTH_PATH"
+          echo "Waiting 90s for cold boot..."
+          sleep 90
+          STATUS=$(curl -s -o /tmp/health.json -w "%{http_code}" --max-time 30 \
+            "$HEALTH_URL" || echo "000")
+          echo "Health check HTTP status: $STATUS"
+          test "$STATUS" = "200" || { echo "Deployment failed health check"; cat /tmp/health.json || true; exit 1; }
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path('/tmp/health.json').read_text())
+          assert payload.get('status') in {'ready', 'healthy'}, payload
+          assert payload.get('rag_initializing') is not True, payload
+          print('Health payload OK:', payload)
+          PY
+
+      - name: Run post-deploy smoke test
+        run: |
+          SMOKE_QUERY_URL="https://$AZURE_WEBAPP_HOST$SMOKE_QUERY_PATH"
+          RESPONSE=$(curl -s --max-time 45 \
+            -H "Content-Type: application/json" \
+            -d '{"question":"Hello","session_id":"github_actions_smoke","user_id":"github_actions"}' \
+            "$SMOKE_QUERY_URL")
+          echo "$RESPONSE" > /tmp/smoke.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path('/tmp/smoke.json').read_text())
+          response = payload.get('response', {})
+          assert isinstance(response, dict) and response.get('answer'), payload
+          assert response.get('status') in {'direct', 'clarification'}, payload
+          print('Smoke test OK:', response.get('status'))
+          PY
+
+      - name: Logout
+        run: az logout
+        if: always()

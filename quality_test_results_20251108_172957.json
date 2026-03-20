@@ -1,0 +1,1010 @@
+[
+  {
+    "query": "What is IPC Section 302?",
+    "category": "IPC_Sections",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:21:49.981105",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "murder",
+        "death",
+        "life imprisonment",
+        "intention"
+      ],
+      "missing_keywords": [],
+      "answer_length": 886,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": true,
+      "overall_score": 100.0,
+      "verdict": "PASS"
+    },
+    "answer": "IPC Section 302: Punishment for Murder\n\nIPC Section 302 prescribes punishment for murder under the Indian Penal Code, 1860. Whoever commits murder shall be punished with death, or imprisonment for life, or imprisonment for a term which may extend to imprisonment for life, and shall also be liable to fine. Murder requires intention to cause death (mens rea) and the act causing death (actus reus). This section is often invoked when the accused intentionally causes the death of another person. The Supreme Court in Bachan Singh v. State of Punjab (1980) upheld the constitutionality of Section 302 and established the \"rarest of rare\" doctrine for death penalty.\n\nPenalty: Death penalty (rarest of rare cases) OR Life imprisonment OR Imprisonment up to life + fine\n\nRelated Sections: 300 (Definition of murder), 299 (Culpable homicide), 304 (Culpable homicide not amounting to murder)",
+    "latency": 0.01
+  },
+  {
+    "query": "Explain IPC 420 with examples",
+    "category": "IPC_Sections",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:21:52.502825",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "cheating",
+        "dishonestly",
+        "fraud",
+        "deception"
+      ],
+      "missing_keywords": [],
+      "answer_length": 510,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "fast_response": true,
+      "overall_score": 100.0,
+      "verdict": "PASS"
+    },
+    "answer": "IPC Section 420: Cheating and Dishonestly Inducing Delivery of Property\n\nIPC Section 420 punishes cheating and dishonestly inducing a person to deliver property or make/alter/destroy valuable security. The essential elements are: (1) Dishonest or fraudulent intention, (2) Deception of person, (3) Delivery of property or valuable security. Punishment: Imprisonment up to 7 years + fine.\n\nPenalty: Imprisonment up to 7 years + fine\n\nRelated Sections: 415 (Definition of cheating), 417 (Punishment for cheating)",
+    "latency": 0.01
+  },
+  {
+    "query": "What is the difference between IPC 302 and IPC 304?",
+    "category": "IPC_Sections",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:21:55.057870",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.75,
+      "found_keywords": [
+        "murder",
+        "culpable homicide",
+        "intention"
+      ],
+      "missing_keywords": [
+        "knowledge"
+      ],
+      "answer_length": 886,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "compares_concepts": false,
+      "fast_response": true,
+      "overall_score": 92.5,
+      "verdict": "PASS"
+    },
+    "answer": "IPC Section 302: Punishment for Murder\n\nIPC Section 302 prescribes punishment for murder under the Indian Penal Code, 1860. Whoever commits murder shall be punished with death, or imprisonment for life, or imprisonment for a term which may extend to imprisonment for life, and shall also be liable to fine. Murder requires intention to cause death (mens rea) and the act causing death (actus reus). This section is often invoked when the accused intentionally causes the death of another person. The Supreme Court in Bachan Singh v. State of Punjab (1980) upheld the constitutionality of Section 302 and established the \"rarest of rare\" doctrine for death penalty.\n\nPenalty: Death penalty (rarest of rare cases) OR Life imprisonment OR Imprisonment up to life + fine\n\nRelated Sections: 300 (Definition of murder), 299 (Culpable homicide), 304 (Culpable homicide not amounting to murder)",
+    "latency": 0.01
+  },
+  {
+    "query": "What is IPC 498A?",
+    "category": "IPC_Sections",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:21:57.575151",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "cruelty",
+        "husband",
+        "relatives",
+        "woman",
+        "dowry"
+      ],
+      "missing_keywords": [],
+      "answer_length": 488,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "fast_response": true,
+      "overall_score": 100.0,
+      "verdict": "PASS"
+    },
+    "answer": "IPC Section 498A: Husband or Relative of Husband Subjecting Woman to Cruelty\n\nIPC Section 498A punishes cruelty by husband or relatives of husband towards a married woman. Cruelty includes: (1) Willful conduct likely to drive woman to suicide or cause grave injury, (2) Harassment for unlawful demand of property. This is a cognizable, non-bailable, and non-compoundable offense.\n\nPenalty: Imprisonment up to 3 years + fine\n\nRelated Sections: 304B (Dowry death), 306 (Abetment of suicide)",
+    "latency": 0.01
+  },
+  {
+    "query": "Explain IPC 376 and its amendments",
+    "category": "IPC_Sections",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:22:00.103793",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.75,
+      "found_keywords": [
+        "rape",
+        "sexual assault",
+        "punishment"
+      ],
+      "missing_keywords": [
+        "consent"
+      ],
+      "answer_length": 439,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "fast_response": true,
+      "overall_score": 92.5,
+      "verdict": "PASS"
+    },
+    "answer": "IPC Section 376: Punishment for Rape\n\nIPC Section 376 prescribes punishment for rape. The section was amended significantly in 2013 and 2018. Punishment ranges from minimum 10 years to life imprisonment, or even death penalty in certain aggravated cases. The section covers various forms of sexual assault.\n\nPenalty: Minimum 10 years to life imprisonment, or death in aggravated cases + fine\n\nRelated Sections: 376A, 376B, 376C, 376D, 376E",
+    "latency": 0.01
+  },
+  {
+    "query": "How to file an FIR?",
+    "category": "Legal_Procedures",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:22:02.626784",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "police station",
+        "cognizable",
+        "section 154",
+        "crpc"
+      ],
+      "missing_keywords": [],
+      "answer_length": 592,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_procedure": true,
+      "fast_response": true,
+      "overall_score": 100.0,
+      "verdict": "PASS"
+    },
+    "answer": "FIR stands for First Information Report.\n\nA First Information Report (FIR) is a written document prepared by the police when they receive information about the commission of a cognizable offense. As per Section 154 of CrPC, every information relating to a cognizable offense must be recorded by the officer in charge of a police station. The FIR sets the criminal law in motion and is the first step in the investigation process.\n\nEnacted/Established: CrPC 1973\n\nKey Sections/Provisions: Section 154 CrPC (FIR), Section 156 CrPC (Investigation), Section 157 CrPC (Procedure for investigation)",
+    "latency": 0.01
+  },
+  {
+    "query": "What is the difference between FIR and complaint?",
+    "category": "Legal_Procedures",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:22:05.155484",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.5,
+      "found_keywords": [
+        "cognizable",
+        "police"
+      ],
+      "missing_keywords": [
+        "non-cognizable",
+        "magistrate"
+      ],
+      "answer_length": 592,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "compares_concepts": false,
+      "fast_response": true,
+      "overall_score": 85.0,
+      "verdict": "PASS"
+    },
+    "answer": "FIR stands for First Information Report.\n\nA First Information Report (FIR) is a written document prepared by the police when they receive information about the commission of a cognizable offense. As per Section 154 of CrPC, every information relating to a cognizable offense must be recorded by the officer in charge of a police station. The FIR sets the criminal law in motion and is the first step in the investigation process.\n\nEnacted/Established: CrPC 1973\n\nKey Sections/Provisions: Section 154 CrPC (FIR), Section 156 CrPC (Investigation), Section 157 CrPC (Procedure for investigation)",
+    "latency": 0.01
+  },
+  {
+    "query": "How does bail work in India?",
+    "category": "Legal_Procedures",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:22:50.099346",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.8,
+      "found_keywords": [
+        "bail",
+        "crpc",
+        "anticipatory",
+        "regular"
+      ],
+      "missing_keywords": [
+        "surety"
+      ],
+      "answer_length": 1835,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 89.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nBail in India is a constitutional right, guaranteed under Article 21 of the Constitution, which ensures that a person is not detained without a fair trial. The Code of Criminal Procedure, 1973 (CrPC) governs the bail process. In essence, bail allows an accused person to be released from police custody or jail, pending trial, on certain conditions.\n\n**Key Legal Points**\n\n* The CrPC provides for two types of bail: regular bail (Section 437) and anticipatory bail (Section 438).\n* Regular bail is granted after the accused is arrested, while anticipatory bail is granted before the arrest.\n* The court considers factors like the severity of the offense, the accused's past record, and the likelihood of the accused fleeing or tampering with evidence when deciding bail.\n\n**Case Law & Precedents**\n\n* In the landmark case of **Gurbaksh Singh Sibbia v. State of Punjab (1980) 2 SCC 565**, the Supreme Court held that anticipatory bail is a valuable right that should not be denied unless there are compelling reasons to do so.\n\n**Practical Steps**\n\nIf you or someone you know is seeking bail, it is essential to:\n\n1. Consult a lawyer experienced in criminal law.\n2. Gather all relevant documents, including the FIR, charge sheet, and any other evidence.\n3. Prepare a strong bail application, highlighting the accused's good conduct, lack of prior convictions, and willingness to cooperate with the investigation.\n4. Be prepared to provide sureties, if required, to ensure the accused's presence in court.\n\n**Important Notes**\n\n* Bail is not a right in cases where the punishment is death or life imprisonment (CrPC Section 437).\n* The court may impose conditions on bail, such as regular appearances or restrictions on travel.\n* Failure to comply with bail conditions can result in cancellation of bail and re-arrest.",
+    "latency": 42.428380250930786
+  },
+  {
+    "query": "What is the process for filing a divorce in India?",
+    "category": "Legal_Procedures",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:23:13.992412",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.5,
+      "found_keywords": [
+        "petition",
+        "grounds"
+      ],
+      "missing_keywords": [
+        "mutual consent",
+        "contested"
+      ],
+      "answer_length": 2608,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "provides_procedure": true,
+      "fast_response": false,
+      "overall_score": 80.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nTo file a divorce in India, you can follow the process outlined below. However, please note that since you have already applied for a no-fault divorce in the USA, you may need to consider the implications of obtaining a divorce in India as well.\n\n**Legal Basis**\n\nThe Hindu Marriage Act, 1955 (HMA) governs divorce proceedings in India for Hindus. Section 13 of the HMA provides the grounds for divorce, which include:\n\n* Adultery (Section 13(1)(i))\n* Cruelty (Section 13(1)(ia))\n* Desertion (Section 13(1)(ib))\n* Conversion to another religion (Section 13(1)(ii))\n* Mental disorder (Section 13(1)(iii))\n* Leprosy (Section 13(1)(iv))\n* Venereal disease (Section 13(1)(v))\n* Renunciation of the world (Section 13(1)(vi))\n\n**Case Law & Precedents**\n\nIn the case of **Narendra v. K. Meena** (2016) 9 SCC 455, the Supreme Court held that a foreign divorce decree can be recognized in India if it is obtained in accordance with the laws of the foreign country and is not contrary to public policy or morality.\n\n**Detailed Analysis**\n\nTo file a divorce in India, you will need to follow these steps:\n\n1. **Determine the grounds for divorce**: Identify the grounds for divorce under Section 13 of the HMA that apply to your situation.\n2. **Prepare the divorce petition**: Draft a divorce petition stating the grounds for divorce, the facts of the case, and the relief sought.\n3. **File the divorce petition**: File the divorce petition in the Family Court or the District Court, as the case may be, having jurisdiction over the matter.\n4. **Serve the divorce petition**: Serve the divorce petition on the respondent (your spouse) along with a copy of the petition and a notice of the court proceedings.\n5. **Appear before the court**: Appear before the court on the date fixed for the hearing and present your case.\n6. **Obtain a divorce decree**: If the court is satisfied with the grounds for divorce and the evidence presented, it will grant a divorce decree.\n\n**Practical Steps**\n\n1. Consult a lawyer specializing in family law to guide you through the process.\n2. Gather evidence to support your grounds for divorce.\n3. Prepare a draft of the divorce petition and review it with your lawyer.\n4. File the divorce petition in the appropriate court and serve it on your spouse.\n5. Appear before the court on the date fixed for the hearing and present your case.\n\n**Important Notes**\n\n* If you have already obtained a divorce decree in the USA, you may need to consider the implications of obtaining a divorce in India as well.\n* The court may require you to provide proof of the foreign divorce",
+    "latency": 21.35049843788147
+  },
+  {
+    "query": "How to file a consumer complaint?",
+    "category": "Legal_Procedures",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:23:29.773989",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.75,
+      "found_keywords": [
+        "goods",
+        "services",
+        "deficiency"
+      ],
+      "missing_keywords": [
+        "consumer forum"
+      ],
+      "answer_length": 1919,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_procedure": true,
+      "fast_response": false,
+      "overall_score": 87.5,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nTo file a consumer complaint, you need to follow a step-by-step process, which includes sending a legal notice to the opposite party, preparing a complaint petition, and filing it before the appropriate consumer court. The Consumer Protection Act, 1986, provides a framework for filing consumer complaints.\n\n**Legal Basis**\n\nThe Consumer Protection Act, 1986, is the primary legislation governing consumer complaints in India. Section 2(1)(c) of the Act defines a \"consumer\" as any person who buys or hires any goods or services for a consideration. Section 12 of the Act provides the procedure for filing a consumer complaint.\n\n**Case Law & Precedents**\n\nIn the case of **Fair Air Engineers Pvt. Ltd. v. N.K. Modi** (1996) 4 SCC 516, the Supreme Court held that a consumer complaint can be filed against a service provider for deficiency in service.\n\n**Detailed Analysis**\n\nHere's a step-by-step guide to filing a consumer complaint:\n\n1. **Send a Legal Notice**: Send a legal notice to the opposite party (the education consultant in your case) stating the grievances and demanding compensation or relief. The notice should be sent through registered post with acknowledgement due.\n2. **Prepare a Complaint Petition**: Prepare a complaint petition in the prescribed format (Form II of the Consumer Protection Rules, 1987). The petition should contain the following details:\n\t* Name and address of the complainant (you)\n\t* Name and address of the opposite party (the education consultant)\n\t* Details of the goods or services purchased\n\t* Grievances and relief sought\n\t* Supporting documents (e.g., receipts, invoices, correspondence)\n3. **File the Complaint Petition**: File the complaint petition before the appropriate consumer court. The court's jurisdiction is determined by the value of the goods or services purchased and the place of purchase.\n\t* District Consumer Disputes Redressal Forum (DC",
+    "latency": 13.251598119735718
+  },
+  {
+    "query": "What is the Kesavananda Bharati case about?",
+    "category": "Case_Laws",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:23:53.293005",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "basic structure",
+        "constitution",
+        "amendment",
+        "supreme court"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2824,
+      "answer_length_adequate": true,
+      "has_sections": false,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 80.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nThe Kesavananda Bharati case is a landmark Supreme Court judgment that dealt with the issue of the Parliament's power to amend the Constitution of India. The case is about the extent to which the Parliament can amend the Constitution, and whether there are any limitations on this power.\n\n**Legal Basis**\n\nThe case revolves around Article 368 of the Constitution of India, which deals with the power of the Parliament to amend the Constitution. The Article states that the Parliament has the power to amend the Constitution by a two-thirds majority in both Houses of Parliament.\n\n**Case Law & Precedents**\n\nThe Kesavananda Bharati case (1973) 4 SCC 225 is a landmark judgment that established the doctrine of the \"basic structure\" of the Constitution. The Supreme Court held that while the Parliament has the power to amend the Constitution, there are certain fundamental features of the Constitution that cannot be altered or destroyed. These features include the principles of democracy, secularism, and federalism.\n\n**Detailed Analysis**\n\nThe case began as a challenge to the Kerala Land Reforms Act, 1963, which was passed by the Kerala State Legislature. The Act was challenged on the ground that it was unconstitutional and that the Parliament had exceeded its power in amending the Constitution. The Supreme Court ultimately held that while the Parliament has the power to amend the Constitution, there are certain limitations on this power.\n\nThe Court established the doctrine of the \"basic structure\" of the Constitution, which holds that certain fundamental features of the Constitution cannot be altered or destroyed. This doctrine has since been applied in numerous cases to limit the power of the Parliament to amend the Constitution.\n\n**Practical Steps**\n\nIf you are dealing with a constitutional issue, it is essential to understand the doctrine of the \"basic structure\" of the Constitution. This doctrine can be used to challenge any amendment to the Constitution that seeks to alter or destroy the fundamental features of the Constitution.\n\n**Important Notes**\n\nThe Kesavananda Bharati case is a landmark judgment that has had a significant impact on the development of constitutional law in India. The doctrine of the \"basic structure\" of the Constitution has been applied in numerous cases to limit the power of the Parliament to amend the Constitution. However, it is essential to note that the doctrine is not absolute and can be subject to interpretation by the Courts.\n\nIn the context of the provided legal sources, the Kesavananda Bharati case is not directly relevant to the issues discussed. However, the case is an essential part of the constitutional law framework in India and can be used to understand the limitations on the power of the Parliament to amend the Constitution.",
+    "latency": 20.97075843811035
+  },
+  {
+    "query": "Explain Vishaka Guidelines",
+    "category": "Case_Laws",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:24:09.329143",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "sexual harassment",
+        "workplace",
+        "women",
+        "guidelines"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2135,
+      "answer_length_adequate": true,
+      "has_sections": false,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 80.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nThe Vishaka Guidelines are a set of guidelines laid down by the Supreme Court of India in 1997 to prevent and address sexual harassment at the workplace. These guidelines aim to create a safe and respectful work environment for women and provide a framework for employers to prevent and respond to incidents of sexual harassment.\n\n**Legal Basis**\n\nThe Vishaka Guidelines were formulated in the case of Vishaka v. State of Rajasthan (1997) 6 SCC 241, where the Supreme Court held that sexual harassment at the workplace is a violation of a woman's right to equality and dignity under Article 14 and Article 21 of the Constitution of India. The guidelines are based on the principles of equality, justice, and human dignity.\n\n**Case Law & Precedents**\n\nThe landmark case of Vishaka v. State of Rajasthan (1997) 6 SCC 241 is the foundation of the Vishaka Guidelines. In this case, the Supreme Court recognized the need for a framework to prevent and address sexual harassment at the workplace and laid down guidelines for employers to follow.\n\n**Detailed Analysis**\n\nThe Vishaka Guidelines provide a framework for employers to prevent and respond to incidents of sexual harassment at the workplace. The guidelines require employers to:\n\n* Create a safe and respectful work environment\n* Establish a complaint mechanism for reporting incidents of sexual harassment\n* Appoint a committee to investigate and address complaints\n* Take disciplinary action against perpetrators\n* Provide counseling and support to victims\n\n**Practical Steps**\n\nTo implement the Vishaka Guidelines, employers can take the following practical steps:\n\n* Develop a policy on sexual harassment that outlines the complaint mechanism and disciplinary action\n* Establish a committee to investigate and address complaints\n* Provide training and awareness programs for employees on sexual harassment\n* Ensure that all employees are aware of the policy and complaint mechanism\n* Take prompt and effective action in response to complaints\n\n**Important Notes**\n\nIt is essential to note that the Vishaka Guidelines are not a substitute for legislation, but",
+    "latency": 13.521146297454834
+  },
+  {
+    "query": "What is Rarest of Rare doctrine?",
+    "category": "Case_Laws",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:24:25.040941",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.75,
+      "found_keywords": [
+        "death penalty",
+        "bachan singh",
+        "alternative"
+      ],
+      "missing_keywords": [
+        "life imprisonment"
+      ],
+      "answer_length": 2011,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": false,
+      "has_legal_references": false,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 62.5,
+      "verdict": "FAIL"
+    },
+    "answer": "**Direct Answer**\n\nThe Rarest of Rare doctrine is a principle used by the Supreme Court of India to determine whether the death penalty should be imposed in a particular case. It is a guideline to help judges decide when the death penalty is warranted, considering the gravity of the crime and the circumstances surrounding it.\n\n**Legal Basis**\n\nThe Rarest of Rare doctrine is not explicitly mentioned in any statute, but it has been developed through judicial pronouncements. The Supreme Court has held that the death penalty should be imposed only in the \"rarest of rare\" cases, where the crime is of an exceptionally heinous nature (Bachan Singh v. State of Punjab (1980) 2 SCC 684).\n\n**Case Law & Precedents**\n\nIn Bachan Singh v. State of Punjab (1980) 2 SCC 684, the Supreme Court laid down the guidelines for imposing the death penalty. The court held that the death penalty should be imposed only when the crime is of an exceptionally heinous nature, and the circumstances surrounding the crime are such that there is no alternative but to impose the death penalty.\n\n**Detailed Analysis**\n\nThe Rarest of Rare doctrine is a subjective test that takes into account various factors, including the nature of the crime, the circumstances surrounding the crime, and the character of the accused. The doctrine is not a rigid formula, but rather a guideline to help judges exercise their discretion in imposing the death penalty.\n\n**Practical Steps**\n\nIf you are facing a situation where the death penalty is being considered, it is essential to consult with a lawyer who can help you understand the Rarest of Rare doctrine and its application to your case. Your lawyer can help you gather evidence and present arguments to demonstrate that the death penalty is not warranted in your case.\n\n**Important Notes**\n\nThe Rarest of Rare doctrine is a developing area of law, and the Supreme Court has continued to refine its guidelines over the years. It is crucial to stay updated with the latest developments in this",
+    "latency": 13.184271097183228
+  },
+  {
+    "query": "What are fundamental rights under Indian Constitution?",
+    "category": "Constitutional_Law",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:24:51.286515",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "article",
+        "equality",
+        "freedom",
+        "rights",
+        "part iii"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2841,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 95.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nFundamental rights under the Indian Constitution are a set of basic rights and freedoms guaranteed to all citizens of India. These rights are enshrined in Part III of the Constitution and are essential for the well-being and dignity of individuals. They include the right to equality, freedom, and protection of life and personal liberty.\n\n**Legal Basis**\n\nThe fundamental rights are enshrined in Part III of the Indian Constitution, which consists of Articles 14 to 35. These articles guarantee various rights and freedoms to citizens, including:\n\n* Article 14: Equality before the law\n* Article 15: Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth\n* Article 16: Equality of opportunity in matters of public employment\n* Article 17: Abolition of untouchability\n* Article 19: Protection of certain rights regarding freedom of speech, assembly, association, movement, and residence\n* Article 20: Protection in respect of conviction for offenses\n* Article 21: Protection of life and personal liberty\n* Article 22: Protection against arrest and detention in certain cases\n* Article 23: Prohibition of traffic in human beings and forced labor\n* Article 24: Prohibition of employment of children in factories, etc.\n* Article 25: Freedom of conscience and free profession, practice, and propagation of religion\n* Article 26: Freedom to manage religious affairs\n* Article 27: Freedom as to payment of taxes for promotion of any particular religion\n* Article 28: Freedom as to attendance at religious instruction or religious worship in certain educational institutions\n* Article 29: Protection of interests of minorities\n* Article 30: Right of minorities to establish and administer educational institutions\n* Article 31: Saving of laws providing for acquisition of estates, etc.\n* Article 32: Remedies for enforcement of rights conferred by this Part\n* Article 33: Power of Parliament to modify the rights conferred by this Part in their application to the armed forces, etc.\n* Article 34: Restriction on rights conferred by this Part while martial law is in force in any area\n* Article 35: Legislation to give effect to the provisions of this Part\n\n**Case Law & Precedents**\n\nThe Supreme Court of India has consistently upheld the importance of fundamental rights in various landmark judgments, including:\n\n* **Kesavananda Bharati v. State of Kerala (1973) 4 SCC 225**: The Supreme Court held that the fundamental rights are an integral part of the Constitution and cannot be amended or abrogated.\n* **Maneka Gandhi v. Union of India (1978) 1 SCC 248**: The Supreme Court held that the right to life and personal liberty under Article 21 is a fundamental right that cannot be restricted except by a law that is reasonable and just.\n* **Olga Tellis v. Bombay Municipal Corporation (1985)",
+    "latency": 23.393485069274902
+  },
+  {
+    "query": "Explain Article 21 of Indian Constitution",
+    "category": "Constitutional_Law",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:25:08.248728",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.5,
+      "found_keywords": [
+        "life",
+        "personal liberty"
+      ],
+      "missing_keywords": [
+        "right to life",
+        "due process"
+      ],
+      "answer_length": 1916,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 80.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nArticle 21 of the Indian Constitution is a fundamental right that protects the life and personal liberty of every individual. It states that \"No person shall be deprived of his life or personal liberty except according to procedure established by law.\" This means that the government cannot take away a person's life or freedom without following the proper legal procedures.\n\n**Legal Basis**\n\nArticle 21, Indian Constitution:\n\"No person shall be deprived of his life or personal liberty except according to procedure established by law.\"\n\n**Case Law & Precedents**\n\nManeka Gandhi v. Union of India (1978) 1 SCC 248: This landmark case established that Article 21 is not limited to mere physical existence, but also includes the right to live with dignity.\n\n**Detailed Analysis**\n\nArticle 21 is a crucial provision that ensures the protection of individual rights. The phrase \"procedure established by law\" means that any law that deprives a person of their life or liberty must be reasonable, just, and fair. This article has been interpreted by the courts to include various aspects of personal liberty, such as the right to education, healthcare, and a clean environment.\n\n**Practical Steps**\n\nIf you believe that your life or personal liberty is being threatened, you can:\n\n1. Approach the High Court or Supreme Court for a writ petition (a formal request for protection of your rights).\n2. File a complaint with the National Human Rights Commission (NHRC) or the State Human Rights Commission (SHRC).\n3. Seek assistance from a lawyer or a human rights organization.\n\n**Important Notes**\n\nWhile Article 21 provides a broad protection of individual rights, it is not absolute. The government can impose reasonable restrictions on personal liberty in the interest of national security, public order, or morality. However, such restrictions must be justified and proportionate to the threat posed.",
+    "latency": 14.446056842803955
+  },
+  {
+    "query": "What is the difference between Article 32 and Article 226?",
+    "category": "Constitutional_Law",
+    "difficulty": "hard",
+    "timestamp": "2025-11-08T17:25:34.253123",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "writ",
+        "supreme court",
+        "high court",
+        "remedy"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2977,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "compares_concepts": true,
+      "fast_response": false,
+      "overall_score": 95.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nArticle 32 and Article 226 are two fundamental provisions in the Constitution of India that deal with the enforcement of fundamental rights. The primary difference between the two is that Article 32 provides a constitutional remedy for the enforcement of fundamental rights, whereas Article 226 provides a statutory remedy for the enforcement of fundamental rights, as well as other rights.\n\n**Legal Basis**\n\n* Article 32 of the Constitution of India states: \"The right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by this Part is guaranteed.\"\n* Article 226 of the Constitution of India states: \"Notwithstanding anything in Article 32, every High Court shall have power, throughout the territories in relation to which it exercises jurisdiction, to issue to any person or authority, including in appropriate cases, any Government, within those territories directions, orders or writs, including writs in the nature of habeas corpus, mandamus, prohibition, quo warranto and certiorari, or any of them, for the enforcement of any of the rights conferred by Part III and for any other purpose.\"\n\n**Case Law & Precedents**\n\n* In the landmark case of **Kesavananda Bharati v. State of Kerala (1973) 4 SCC 225**, the Supreme Court held that Article 32 is a constitutional remedy for the enforcement of fundamental rights, whereas Article 226 is a statutory remedy.\n* In **S.P. Gupta v. Union of India (1981) Supp SCC 87**, the Supreme Court held that Article 226 can be invoked not only for the enforcement of fundamental rights but also for other purposes, such as the enforcement of statutory rights.\n\n**Detailed Analysis**\n\nArticle 32 provides a constitutional remedy for the enforcement of fundamental rights, which are enshrined in Part III of the Constitution. This article guarantees the right to move the Supreme Court by appropriate proceedings for the enforcement of these rights. On the other hand, Article 226 provides a statutory remedy for the enforcement of fundamental rights, as well as other rights. This article empowers the High Courts to issue directions, orders, or writs for the enforcement of these rights.\n\nThe key differences between Article 32 and Article 226 are:\n\n* **Jurisdiction**: Article 32 provides jurisdiction to the Supreme Court, whereas Article 226 provides jurisdiction to the High Courts.\n* **Remedy**: Article 32 provides a constitutional remedy, whereas Article 226 provides a statutory remedy.\n* **Scope**: Article 32 is limited to the enforcement of fundamental rights, whereas Article 226 is broader in scope and can be invoked for the enforcement of other rights as well.\n\n**Practical Steps**\n\nIf you are seeking to enforce a fundamental right, you can approach the Supreme Court under Article 32. However, if you are seeking to enforce a statutory right or any other right, you can approach the High Court under Article 226.\n\n**Important Notes**\n\n* Article 32 is a",
+    "latency": 23.475392818450928
+  },
+  {
+    "query": "What is the difference between cognizable and non-cognizable offenses?",
+    "category": "Criminal_Law",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:26:01.017733",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "police",
+        "arrest",
+        "warrant",
+        "magistrate"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2736,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "compares_concepts": true,
+      "fast_response": false,
+      "overall_score": 95.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nCognizable and non-cognizable offenses are two categories of crimes under the Indian Penal Code (IPC). The main difference between them lies in the police's power to arrest and investigate without a warrant. Cognizable offenses are serious crimes where the police can arrest the accused without a warrant, while non-cognizable offenses are less serious crimes where the police need a warrant to arrest the accused.\n\n**Legal Basis**\n\nThe classification of offenses into cognizable and non-cognizable is based on the Code of Criminal Procedure (CrPC), 1973. According to Section 2(c) of the CrPC, \"cognizable offense\" means an offense for which, and \"cognizable case\" means a case in which, a police officer may, in accordance with the Second Schedule, arrest without warrant. On the other hand, Section 2(g) defines \"non-cognizable offense\" as an offense for which, and \"non-cognizable case\" means a case in which, a police officer has no authority to arrest without warrant.\n\n**Case Law & Precedents**\n\nIn the landmark case of **State of Maharashtra v. Dr. Praful B. Desai** (2003) 4 SCC 601, the Supreme Court held that the police have the power to arrest without warrant in cognizable cases, but in non-cognizable cases, they need to obtain a warrant from a magistrate.\n\n**Detailed Analysis**\n\nHere's a step-by-step comparison of cognizable and non-cognizable offenses:\n\n|  | Cognizable Offenses | Non-Cognizable Offenses |\n| --- | --- | --- |\n| **Definition** | Serious crimes where police can arrest without warrant | Less serious crimes where police need a warrant to arrest |\n| **Police Power** | Police can arrest without warrant | Police need a warrant to arrest |\n| **Investigation** | Police can investigate without magistrate's permission | Police need magistrate's permission to investigate |\n| **Examples** | Murder, Rape, Robbery | Petty theft, Mischief, Public nuisance |\n\n**Practical Steps**\n\nIf you are accused of a cognizable offense, you may be arrested by the police without a warrant. However, if you are accused of a non-cognizable offense, the police need to obtain a warrant from a magistrate before arresting you. In both cases, it is essential to seek legal advice from a qualified lawyer to understand your rights and options.\n\n**Important Notes**\n\n* If the case is cognizable, you have to get a notice under Section 41A of the CrPC before being arrested.\n* If the notice hasn't been served, you cannot be arrested.\n* In non-cognizable cases, the police need to obtain a warrant from a magistrate before arresting the accused.\n\nRemember, this is a general explanation, and the specific laws and procedures may vary depending on the circumstances of your case. It is always best to consult a",
+    "latency": 24.245172023773193
+  },
+  {
+    "query": "What is anticipatory bail?",
+    "category": "Criminal_Law",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:26:18.360922",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.75,
+      "found_keywords": [
+        "section 438",
+        "arrest",
+        "crpc"
+      ],
+      "missing_keywords": [
+        "protection"
+      ],
+      "answer_length": 1849,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 87.5,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nAnticipatory bail is a type of bail that is granted to a person who is likely to be arrested by the police, but has not yet been arrested. It is a preventive measure that allows the person to avoid arrest and detention by the police. Anticipatory bail is granted by the court before the person is taken into custody.\n\n**Legal Basis**\n\nThe concept of anticipatory bail is rooted in Section 438 of the Code of Criminal Procedure, 1973 (CrPC), which states that \"when any person has reason to believe that he may be arrested on an accusation of having committed a non-bailable offence, he may apply to the High Court or the Court of Session for a direction under this section; and that the High Court or the Court of Session may, if it thinks fit, direct that in the event of such arrest, he shall be released on bail.\"\n\n**Case Law & Precedents**\n\nIn the landmark case of Gurbaksh Singh Sibbia v. State of Punjab (1980) 2 SCC 565, the Supreme Court of India held that the power to grant anticipatory bail is not limited to cases where the accused is likely to be arrested, but also extends to cases where the accused is likely to be harassed or intimidated by the police.\n\n**Practical Steps**\n\nIf you are likely to be arrested by the police, you can apply for anticipatory bail by filing an application in the High Court or the Court of Session. You will need to provide reasons why you believe you are likely to be arrested and why you should be granted anticipatory bail. You will also need to provide sureties and comply with any conditions imposed by the court.\n\n**Important Notes**\n\nAnticipatory bail is not a right, but a discretionary power of the court. The court may refuse to grant anticipatory bail if it is not satisfied that the accused is likely to be arrested or if it believes that the accused is likely to abscond or",
+    "latency": 14.792962551116943
+  },
+  {
+    "query": "Explain the concept of mens rea and actus reus",
+    "category": "Criminal_Law",
+    "difficulty": "hard",
+    "timestamp": "2025-11-08T17:26:48.357383",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.5,
+      "found_keywords": [
+        "intention",
+        "essential"
+      ],
+      "missing_keywords": [
+        "guilty mind",
+        "criminal act"
+      ],
+      "answer_length": 2738,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 80.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nMens rea and actus reus are two fundamental concepts in criminal law that determine the guilt of an accused person. Mens rea refers to the mental state or intention of the accused, while actus reus refers to the physical act or action that constitutes the crime.\n\n**Legal Basis**\n\nIn Indian law, the concept of mens rea is rooted in the Indian Penal Code (IPC), 1860. Section 32 of the IPC states that \"nothing is an offence which is not intended to cause death, or grievous hurt, and which, in the ordinary course of nature, is not likely to cause death, or grievous hurt.\" This section emphasizes the importance of mens rea in determining the guilt of an accused.\n\nOn the other hand, actus reus is the physical act or action that constitutes the crime. This concept is also recognized in the IPC, which defines various crimes and prescribes punishments for them.\n\n**Case Law & Precedents**\n\nIn the landmark case of **K.M. Nanavati v. State of Maharashtra (1962) 3 SCR 940**, the Supreme Court of India held that mens rea is an essential ingredient of a crime, and that the prosecution must prove the accused's intention or knowledge to establish guilt.\n\nIn another important case, **State of Maharashtra v. Mayer Hans George (1965) 2 SCR 247**, the Supreme Court held that actus reus is a necessary element of a crime, and that the prosecution must prove the physical act or action that constitutes the crime.\n\n**Detailed Analysis**\n\nTo understand the concept of mens rea and actus reus, let's consider an example. Suppose a person, A, intentionally hits another person, B, with a stick, causing grievous hurt. In this case, A's mental state (mens rea) is one of intention, as he intended to cause harm to B. The physical act of hitting B with a stick (actus reus) constitutes the crime of grievous hurt under Section 325 of the IPC.\n\nHowever, if A had accidentally hit B with the stick, without any intention to cause harm, the mens rea element would be missing, and A would not be guilty of the crime.\n\n**Practical Steps**\n\nTo establish guilt in a criminal case, the prosecution must prove both mens rea and actus reus. The accused's mental state and intention must be established through evidence, such as witness statements, documents, or expert testimony. Similarly, the physical act or action that constitutes the crime must be proven through evidence, such as forensic reports, witness statements, or video footage.\n\n**Important Notes**\n\n* Mens rea and actus reus are essential elements of a crime, and the prosecution must prove both to establish guilt.\n* The concept of mens rea emphasizes the importance of intention and knowledge in determining guilt.\n* Actus reus refers to the physical act or action that",
+    "latency": 27.443068265914917
+  },
+  {
+    "query": "What is a civil suit?",
+    "category": "Civil_Law",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:27:05.723955",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.8,
+      "found_keywords": [
+        "dispute",
+        "cpc",
+        "plaintiff",
+        "defendant"
+      ],
+      "missing_keywords": [
+        "rights"
+      ],
+      "answer_length": 1929,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 89.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nA civil suit is a legal proceeding where one party (the plaintiff) seeks a remedy or compensation from another party (the defendant) for a non-criminal dispute or issue. It is a formal process where the parties present their case to a court, and the court makes a decision based on the evidence and applicable laws.\n\n**Legal Basis**\n\nThe Code of Civil Procedure, 1908 (CPC) governs civil suits in India. Section 9 of the CPC states that the courts shall have jurisdiction to try all suits of a civil nature except those that are specifically excluded.\n\n**Case Law & Precedents**\n\nIn the landmark case of **Kesavananda Bharati v. State of Kerala (1973) 4 SCC 225**, the Supreme Court of India held that the power of the judiciary to decide civil suits is an essential feature of the Constitution.\n\n**Detailed Analysis**\n\nA civil suit can arise from various disputes, such as contract disputes, property disputes, family disputes, or torts (civil wrongs). The plaintiff files a plaint (a written complaint) with the court, stating the facts of the case and the relief sought. The defendant is then required to file a written statement in response. The court may then order the parties to provide evidence, and after considering the evidence, the court will deliver a judgment.\n\n**Practical Steps**\n\nIf you are considering filing a civil suit, you should:\n\n1. Consult with a lawyer to determine the best course of action.\n2. Gather all relevant documents and evidence to support your case.\n3. File a plaint with the court, stating the facts of the case and the relief sought.\n4. Be prepared to present your case in court and respond to the defendant's arguments.\n\n**Important Notes**\n\nIt is essential to note that civil suits can be time-consuming and costly. It is crucial to carefully consider the merits of your case before filing a suit. Additionally, alternative dispute resolution methods, such as mediation",
+    "latency": 14.853052139282227
+  },
+  {
+    "query": "How to get injunction in civil cases?",
+    "category": "Civil_Law",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:27:31.710765",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.6,
+      "found_keywords": [
+        "order 39",
+        "cpc",
+        "temporary"
+      ],
+      "missing_keywords": [
+        "permanent",
+        "interim"
+      ],
+      "answer_length": 2723,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_procedure": true,
+      "fast_response": false,
+      "overall_score": 83.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nTo get an injunction in a civil case, you need to file an application under Order 39 of the Code of Civil Procedure (CPC), 1908, which provides for temporary injunctions. The court may grant an injunction if it is satisfied that the plaintiff has a prima facie case and that the balance of convenience is in their favor.\n\n**Legal Basis**\n\n* Order 39, Rule 1 of the CPC, 1908: \"Where in any suit it is proved by affidavit or otherwise— (a) that any property in dispute in a suit is in danger of being wasted, damaged or alienated by any party to the suit, or wrongly sold in execution of a decree; or (b) that the defendant threatens, or intends, to remove or dispose of his property in a manner which would prejudice the plaintiff's case; the Court may by order grant a temporary injunction to restrain such act, or make such other order for the purpose of staying and preventing the wasting, damaging, alienation, sale, removal or disposition of the property as the Court thinks fit until the disposal of the suit or until further orders.\"\n* Section 94 of the CPC, 1908: \"In order to prevent the ends of justice from being defeated, the Court may, if it is satisfied that the defendant is about to dispose of the whole or any part of his property, with the intention of defeating the plaintiff's claim, grant a temporary injunction to restrain him from doing so.\"\n\n**Case Law & Precedents**\n\n* Hardev Singh v. Gurmail Singh (2007) 2 SCC 401: The Supreme Court held that the grant of an injunction is a discretionary power of the court, and it should be exercised with caution and only when it is necessary to prevent injustice.\n\n**Detailed Analysis**\n\nTo get an injunction in a civil case, you need to follow these steps:\n\n1. **File an application**: File an application under Order 39 of the CPC, 1908, in the court where the suit is pending.\n2. **Provide affidavit**: Provide an affidavit in support of the application, stating the facts and circumstances that necessitate the grant of an injunction.\n3. **Show prima facie case**: Show that you have a prima facie case, i.e., a case that is likely to succeed on the basis of the evidence presented.\n4. **Balance of convenience**: Show that the balance of convenience is in your favor, i.e., that the grant of an injunction will not cause undue hardship to the defendant.\n5. **Court's discretion**: The court will exercise its discretion and grant an injunction if it is satisfied that it is necessary to prevent injustice.\n\n**Practical Steps**\n\n1. Consult a lawyer and provide them with all the necessary documents and information.\n2. File an application under Order 39 of the CPC, 1908, in the court where the suit is pending.\n3. Provide an affidavit",
+    "latency": 23.463918209075928
+  },
+  {
+    "query": "What are the grounds for divorce under Hindu Marriage Act?",
+    "category": "Family_Law",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:28:01.032043",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "adultery",
+        "cruelty",
+        "desertion",
+        "conversion"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2707,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 95.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nUnder the Hindu Marriage Act, 1955, there are several grounds for divorce, including cruelty, adultery, desertion, and mental disorder, among others. These grounds are specified in Section 13 of the Act.\n\n**Legal Basis**\n\nThe Hindu Marriage Act, 1955, is the governing law for Hindu marriages in India. Section 13 of the Act provides the grounds for divorce, which include:\n\n* Cruelty (Section 13(1)(ia))\n* Adultery (Section 13(1)(i))\n* Desertion (Section 13(1)(ib))\n* Mental disorder (Section 13(1)(iii))\n* Leprosy (Section 13(1)(iv))\n* Venereal disease (Section 13(1)(v))\n* Renunciation of the world (Section 13(1)(vi))\n* Presumption of death (Section 13(1)(vii))\n\n**Case Law & Precedents**\n\nIn the landmark case of **Narendra v. K. Meena** (2016) 9 SCC 455, the Supreme Court held that the grounds for divorce under the Hindu Marriage Act are not exhaustive, and the court may consider other grounds, such as irretrievable breakdown of marriage.\n\n**Detailed Analysis**\n\nTo understand the grounds for divorce under the Hindu Marriage Act, it is essential to analyze the provisions of Section 13. The section provides that a petition for divorce may be presented on the grounds specified therein. The grounds are divided into two categories: those that are applicable to both husband and wife, and those that are applicable only to the wife.\n\nThe grounds applicable to both husband and wife include cruelty, adultery, desertion, and mental disorder. Cruelty includes both physical and mental cruelty, while adultery refers to the act of having sexual intercourse with someone other than the spouse. Desertion means the abandonment of the spouse without reasonable cause.\n\nThe grounds applicable only to the wife include the husband's marriage to another woman, the husband's conversion to another religion, and the husband's suffering from a virulent and incurable form of leprosy.\n\n**Practical Steps**\n\nIf you are seeking a divorce under the Hindu Marriage Act, you should:\n\n1. Consult a lawyer to determine the grounds for divorce applicable to your case.\n2. Gather evidence to support your claim, such as documents, witness statements, and medical records.\n3. File a petition for divorce in the family court, specifying the grounds for divorce and the relief sought.\n4. Serve the petition on the respondent spouse.\n5. Attend court hearings and present your case.\n\n**Important Notes**\n\n* The Hindu Marriage Act is applicable to Hindus, Buddhists, Jains, and Sikhs.\n* The Act does not apply to Muslims, Christians, and Parsis, who are governed by their respective personal laws.\n* The grounds for divorce under the Hindu Marriage Act are not exhaustive, and the court may consider other",
+    "latency": 26.76823616027832
+  },
+  {
+    "query": "What is Section 498A IPC about cruelty to women?",
+    "category": "Family_Law",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:28:03.573578",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "husband",
+        "relatives",
+        "cruelty",
+        "harassment",
+        "dowry"
+      ],
+      "missing_keywords": [],
+      "answer_length": 488,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "fast_response": true,
+      "overall_score": 100.0,
+      "verdict": "PASS"
+    },
+    "answer": "IPC Section 498A: Husband or Relative of Husband Subjecting Woman to Cruelty\n\nIPC Section 498A punishes cruelty by husband or relatives of husband towards a married woman. Cruelty includes: (1) Willful conduct likely to drive woman to suicide or cause grave injury, (2) Harassment for unlawful demand of property. This is a cognizable, non-bailable, and non-compoundable offense.\n\nPenalty: Imprisonment up to 3 years + fine\n\nRelated Sections: 304B (Dowry death), 306 (Abetment of suicide)",
+    "latency": 0.01
+  },
+  {
+    "query": "What is the right to maintenance under Section 125 CrPC?",
+    "category": "Family_Law",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:28:14.281258",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.8,
+      "found_keywords": [
+        "wife",
+        "children",
+        "parents",
+        "maintenance"
+      ],
+      "missing_keywords": [
+        "monthly"
+      ],
+      "answer_length": 985,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 89.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nThe right to maintenance under Section 125 of the Code of Criminal Procedure (CrPC) is a statutory right that enables a person to claim financial support from their spouse or relatives in certain circumstances. This provision is designed to prevent vagrancy and destitution, ensuring that individuals who are unable to maintain themselves receive necessary support. The right to maintenance is not limited to wives but also extends to husbands, children, and parents who are unable to maintain themselves.\n\n**Legal Basis**\n\nSection 125 of the CrPC, 1973, states:\n\n\"(1) If any person having sufficient means neglects or refuses to maintain—\n\n(a) his wife, unable to maintain herself, or\n(b) his legitimate or illegitimate minor child, whether married or not, unable to maintain itself, or\n(c) his legitimate or illegitimate child (not being a married daughter) who has attained majority, where such child is, by reason of any physical or mental abnormality or injury,",
+    "latency": 8.167383432388306
+  },
+  {
+    "query": "What is the Transfer of Property Act?",
+    "category": "Property_Law",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:28:29.343204",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "sale",
+        "mortgage",
+        "lease",
+        "gift",
+        "transfer"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2867,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "provides_definition": true,
+      "fast_response": false,
+      "overall_score": 95.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nThe Transfer of Property Act, 1882, is a comprehensive legislation that governs the transfer of immovable property in India through various modes such as sale, mortgage, lease, exchange, and gift. This Act provides a framework for the transfer of property, ensuring that the rights of the parties involved are protected.\n\n**Legal Basis**\n\nThe Transfer of Property Act, 1882, is a central legislation that applies to the whole of India, except for the state of Jammu and Kashmir. The Act is divided into 10 chapters and 137 sections, which deal with various aspects of property transfer, including the definition of transfer, the modes of transfer, and the rights and liabilities of the parties involved.\n\n**Case Law & Precedents**\n\nThe concept of transfer of property has been extensively dealt with by the Indian courts. In the landmark case of **Ram Baran v. Ram Mohit** (AIR 1967 SC 744), the Supreme Court held that the Transfer of Property Act is a comprehensive legislation that governs all transfers of immovable property in India. The Court also held that the Act is applicable to all transfers of property, whether made by a natural person or by a company.\n\n**Detailed Analysis**\n\nThe Transfer of Property Act, 1882, is based on the principle of **\"nemo dat quod non habet\"**, which means that no one can transfer a better title than what he himself possesses. This principle is reflected in Section 6 of the Act, which provides that a transfer of property can only be made by a person who has a valid title to the property.\n\nThe Act also deals with the concept of **\"lis pendens\"**, which means that a pending litigation affects the transfer of property. Section 52 of the Act provides that a transfer of property made during the pendency of a suit is invalid, unless the transfer is made with the permission of the court.\n\n**Practical Steps**\n\nIf you are planning to transfer immovable property in India, it is essential to ensure that the transfer is made in accordance with the provisions of the Transfer of Property Act, 1882. Here are some practical steps to follow:\n\n1. Ensure that the transferor has a valid title to the property.\n2. Verify that there are no pending litigations affecting the property.\n3. Obtain the necessary permissions and approvals from the relevant authorities.\n4. Execute a valid transfer deed, which should be registered with the relevant authorities.\n\n**Important Notes**\n\n1. The Transfer of Property Act, 1882, is a comprehensive legislation that governs all transfers of immovable property in India.\n2. The Act is applicable to all transfers of property, whether made by a natural person or by a company.\n3. The concept of **\"adverse possession\"** is not applicable to transfers of property made under the Act.\n4. The Act provides for the protection of the rights of the parties involved in a transfer of",
+    "latency": 12.512876987457275
+  },
+  {
+    "query": "How does adverse possession work in India?",
+    "category": "Property_Law",
+    "difficulty": "hard",
+    "timestamp": "2025-11-08T17:28:43.324070",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.8,
+      "found_keywords": [
+        "12 years",
+        "continuous",
+        "possession",
+        "hostile"
+      ],
+      "missing_keywords": [
+        "title"
+      ],
+      "answer_length": 2965,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 89.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nAdverse possession in India allows a person to gain ownership of a property if they have possessed it for a certain period, usually 12 years, in a manner that is open, continuous, and hostile to the original owner's interests. This concept is governed by various statutes, including the Limitation Act, 1963, and the Transfer of Property Act, 1882.\n\n**Legal Basis**\n\nThe Limitation Act, 1963, specifically deals with the concept of adverse possession. According to Section 27 of the Limitation Act, 1963, \"No suit shall be instituted to recover any property which has been adverse possession for a period of twelve years from the date of dispossession.\" This means that if a person has possessed a property for 12 years in a manner that is adverse to the original owner's interests, they can gain ownership of the property.\n\n**Case Law & Precedents**\n\nThe concept of adverse possession has been extensively dealt with by the Indian courts. In the landmark case of **P. Mahendran v. State of Tamil Nadu (2007) 12 SCC 755**, the Supreme Court held that \"adverse possession is a right which is acquired by a person who has taken possession of the property of another, without the consent of the owner, and has continued in possession for a period of twelve years.\"\n\n**Detailed Analysis**\n\nTo understand how adverse possession works in India, let's break it down step by step:\n\n1. **Possession**: The person claiming adverse possession must have taken physical possession of the property.\n2. **Open and continuous possession**: The possession must be open, continuous, and without any interruption for a period of 12 years.\n3. **Hostile possession**: The possession must be hostile to the original owner's interests, meaning that the person claiming adverse possession must have taken possession without the owner's consent.\n4. **Limitation period**: The person claiming adverse possession must have possessed the property for a period of 12 years from the date of dispossession.\n\n**Practical Steps**\n\nIf you are a property owner and someone is claiming adverse possession over your property, here are some practical steps you can take:\n\n1. **Verify the possession**: Check if the person claiming adverse possession has taken physical possession of the property.\n2. **Check the limitation period**: Verify if the person has possessed the property for a period of 12 years from the date of dispossession.\n3. **Consult a lawyer**: Consult a lawyer to understand your rights and options.\n\n**Important Notes**\n\n1. **Exceptions**: There are certain exceptions to the concept of adverse possession, such as possession by a tenant or a licensee.\n2. **Limitations**: The concept of adverse possession is subject to certain limitations, such as the requirement of open and continuous possession.\n3. **Recent developments**: Recent developments in property law have focused on enhancing effectiveness, ensuring compliance, and protecting stakeholder interests.",
+    "latency": 11.445224285125732
+  },
+  {
+    "query": "What is Section 420 of Companies Act 2013?",
+    "category": "Corporate_Law",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:28:45.870307",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.0,
+      "found_keywords": [],
+      "missing_keywords": [
+        "company",
+        "corporate",
+        "provision"
+      ],
+      "answer_length": 510,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "fast_response": true,
+      "overall_score": 70.0,
+      "verdict": "PASS"
+    },
+    "answer": "IPC Section 420: Cheating and Dishonestly Inducing Delivery of Property\n\nIPC Section 420 punishes cheating and dishonestly inducing a person to deliver property or make/alter/destroy valuable security. The essential elements are: (1) Dishonest or fraudulent intention, (2) Deception of person, (3) Delivery of property or valuable security. Punishment: Imprisonment up to 7 years + fine.\n\nPenalty: Imprisonment up to 7 years + fine\n\nRelated Sections: 415 (Definition of cheating), 417 (Punishment for cheating)",
+    "latency": 0.01
+  },
+  {
+    "query": "What is IPC 999?",
+    "category": "Edge_Cases",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:28:48.421804",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.0,
+      "found_keywords": [],
+      "missing_keywords": [
+        "not exist",
+        "invalid",
+        "no such section"
+      ],
+      "answer_length": 575,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": false,
+      "provides_definition": true,
+      "identifies_error": false,
+      "fast_response": true,
+      "overall_score": 70.0,
+      "verdict": "PASS"
+    },
+    "answer": "IPC stands for Indian Penal Code.\n\nThe Indian Penal Code (IPC) is the main criminal code of India, enacted in 1860 and came into force on January 1, 1862. It is a comprehensive code covering all substantive aspects of criminal law, including crimes against the state, crimes against the person, crimes against property, and crimes against public order. The IPC applies to all citizens of India and is enforced by state governments.\n\nEnacted/Established: 1860\n\nKey Sections/Provisions: 302 (Murder), 304 (Culpable homicide), 420 (Cheating), 376 (Rape), 498A (Cruelty to women)",
+    "latency": 0.01
+  },
+  {
+    "query": "Can I murder someone in self-defense?",
+    "category": "Edge_Cases",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:28:58.843487",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.5,
+      "found_keywords": [
+        "self-defense",
+        "private defense"
+      ],
+      "missing_keywords": [
+        "exception",
+        "ipc 100"
+      ],
+      "answer_length": 1677,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 80.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\nNo, you cannot murder someone in self-defense. While self-defense is a valid legal defense, it does not justify murder. The law allows for reasonable force to be used in self-defense, but it must be proportionate to the threat.\n\n**Legal Basis**\nThe Indian Penal Code (IPC) Section 302 defines murder, while Section 96 to 106 deal with the right of private defense. Specifically, IPC Section 96 states that \"nothing is an offense which is done in the exercise of the right of private defense.\" However, this right is subject to certain conditions and limitations.\n\n**Case Law & Precedents**\nIn the case of **Bhagwan Singh v. State of Punjab (1952) 3 SCR 756**, the Supreme Court held that the right of private defense is not a license to kill, but rather a limited right to use reasonable force to protect oneself or others from harm.\n\n**Detailed Analysis**\nTo justify self-defense, you must show that you were faced with an imminent threat of harm, and that the force used was proportionate to the threat. Murder, on the other hand, is a premeditated act of killing, which is not justified even in self-defense.\n\n**Practical Steps**\nIf you are faced with a situation where you need to defend yourself, try to:\n\n1. Avoid using force if possible\n2. Use only reasonable force necessary to protect yourself\n3. Retreat from the situation if possible\n4. Seek help from law enforcement or others if possible\n\n**Important Notes**\nRemember that self-defense is a complex area of law, and each situation is unique. If you are facing a situation where you need to defend yourself, it is always best to seek advice from a qualified lawyer or law enforcement professional.",
+    "latency": 7.907860994338989
+  },
+  {
+    "query": "xyz abc random question",
+    "category": "Edge_Cases",
+    "difficulty": "easy",
+    "timestamp": "2025-11-08T17:29:06.058452",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.25,
+      "found_keywords": [
+        "legal"
+      ],
+      "missing_keywords": [
+        "clarify",
+        "understand",
+        "rephrase"
+      ],
+      "answer_length": 1443,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "handles_unclear": false,
+      "fast_response": true,
+      "overall_score": 77.5,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\nThe concept of adverse possession is not applicable in this scenario as the cultivator, XYZ, has been cultivating the land through his workers, indicating a lack of physical possession and intent to possess. Additionally, the Corruption and Benami Acts may be relevant in cases of corruption and illegal transactions, but they do not directly relate to adverse possession.\n\n**Key Legal Points**\n\n* Adverse possession requires physical possession and intent to possess, which is lacking in this scenario.\n* The Corruption and Benami Acts deal with corruption and illegal transactions, respectively.\n\n**Case Law & Precedents**\nThe landmark case of **P.T. Munichikkanna Reddy v. Revamma** (2007) 6 SCC 59 highlights the importance of physical possession and intent to possess in adverse possession claims.\n\n**Practical Steps**\nIf XYZ wishes to claim ownership of the land, they should consider filing a lawsuit for declaration of title based on other grounds, such as inheritance or purchase. However, they must demonstrate clear evidence of ownership and possession.\n\n**Important Notes**\nIt is essential to note that adverse possession laws vary across jurisdictions, and the specific laws of the state or country where the land is located should be consulted. Additionally, corruption and benami transactions can have severe legal consequences, and it is crucial to ensure that all transactions are legitimate and transparent.",
+    "latency": 4.670585870742798
+  },
+  {
+    "query": "आईपीसी धारा 302 क्या है?",
+    "category": "Multilingual",
+    "difficulty": "medium",
+    "timestamp": "2025-11-08T17:29:16.698861",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.5,
+      "found_keywords": [
+        "हत्या"
+      ],
+      "missing_keywords": [
+        "murder"
+      ],
+      "answer_length": 837,
+      "answer_length_adequate": true,
+      "has_sections": false,
+      "has_citations": false,
+      "has_legal_references": false,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 40.0,
+      "verdict": "FAIL"
+    },
+    "answer": "**Direct Answer**\nआईपीसी धारा 302 हत्या के लिए दंड की व्यवस्था करती है, जिसमें किसी व्यक्ति की मृत्यु का कारण बनने वाले व्यक्ति को दंडित किया जाता है। यह धारा हत्या के मामलों में सबसे गंभीर अपराधों में से एक है। \n\n**Legal Basis**\nभारतीय दंड संहिता (आईपीसी), 1860 की धारा 302 में कहा गया है: \"जो कोई भी व्यक्ति किसी अन्य व्यक्ति की मृत्यु का कारण बनता है, वह हत्या का दोषी होगा और उसे मृत्युदंड या आजीवन कारावास की सजा हो सकती है, और साथ ही जुर्माना भी लगाया जा सकता है।\"\n\n**Case Law & Precedents**\nइस संबंध में एक महत्वपूर्ण मामला है: \"Bachan Singh v. State of Punjab (1980) 2 SCC 684\", जिसमें सर्वोच्च न्यायालय ने हत्या के मामलों में मृत्युदंड के प्रयोग पर विचार किया था।\n\n**Practical Steps**\nयदि आपको लगता है कि आपके खिलाफ आईपीसी धारा 302 के तहत मामला दर्ज किया गया है, तो आपको तुरंत एक अनुभवी वकील से संपर्क करना चाहिए। आपको अपने अधिक",
+    "latency": 8.084329843521118
+  },
+  {
+    "query": "A person was arrested without warrant for a non-cognizable offense. What are his rights?",
+    "category": "Complex_Scenarios",
+    "difficulty": "hard",
+    "timestamp": "2025-11-08T17:29:29.791309",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.6,
+      "found_keywords": [
+        "arrest",
+        "non-cognizable",
+        "warrant"
+      ],
+      "missing_keywords": [
+        "illegal",
+        "rights"
+      ],
+      "answer_length": 2137,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 83.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nIf a person is arrested without a warrant for a non-cognizable offense, they have the right to be released on bail, as non-cognizable offenses are bailable. They can also file a complaint against the police for wrongful arrest.\n\n**Legal Basis**\n\nAccording to the Code of Criminal Procedure, 1973 (CrPC), a non-cognizable offense is defined under Section 2(c) as an offense in which a police officer has no authority to make an arrest without a warrant. Section 41 of the CrPC states that a person arrested without a warrant must be released on bail, unless there are reasonable grounds for believing that the accused has committed a non-bailable offense.\n\n**Case Law & Precedents**\n\nIn the case of **D.K. Basu v. State of West Bengal (1997) 1 SCC 416**, the Supreme Court held that a person arrested without a warrant must be produced before a magistrate within 24 hours, and the magistrate must inform the accused of their right to bail.\n\n**Detailed Analysis**\n\nWhen a person is arrested without a warrant for a non-cognizable offense, they have the right to be released on bail. The police officer must inform the accused of their right to bail and produce them before a magistrate within 24 hours. The magistrate must then consider the accused's application for bail and release them on bail, unless there are reasonable grounds for believing that the accused has committed a non-bailable offense.\n\n**Practical Steps**\n\nIf you or someone you know is arrested without a warrant for a non-cognizable offense, you should:\n\n1. Inform the police officer that you want to be released on bail.\n2. Ask to be produced before a magistrate within 24 hours.\n3. Apply for bail before the magistrate.\n4. If the magistrate refuses bail, you can appeal to a higher court.\n\n**Important Notes**\n\n* The police officer must have reasonable grounds for believing that the accused has committed a non-bailable offense to deny bail.\n* The accused has the right to be informed of the grounds for their arrest and the right to bail.\n* The accused can file a complaint against the police for wrongful arrest if they are not released on bail.",
+    "latency": 10.55356764793396
+  },
+  {
+    "query": "Can a confessional statement made to police be used as evidence?",
+    "category": "Complex_Scenarios",
+    "difficulty": "hard",
+    "timestamp": "2025-11-08T17:29:43.093355",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 1.0,
+      "found_keywords": [
+        "section 25",
+        "evidence act",
+        "inadmissible",
+        "magistrate"
+      ],
+      "missing_keywords": [],
+      "answer_length": 2259,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 95.0,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nA confessional statement made to the police can be used as evidence, but it is subject to certain conditions and limitations. The admissibility of such a statement depends on the circumstances under which it was made.\n\n**Legal Basis**\n\nAccording to Section 25 of the Indian Evidence Act, 1872, a confession made to a police officer cannot be used as evidence against the accused. However, Section 26 of the same Act provides an exception, stating that a confession made to a police officer can be used as evidence if it is made in the immediate presence of a Magistrate.\n\n**Case Law & Precedents**\n\nIn the landmark case of **Pakala Narayana Swami v. Emperor (1939) 41 BOMLR 710**, the Privy Council held that a confession made to a police officer is inadmissible as evidence, unless it is made in the immediate presence of a Magistrate.\n\n**Detailed Analysis**\n\nWhen a person makes a confessional statement to the police, it is essential to determine whether the statement was made voluntarily or under duress. If the statement was made under duress or coercion, it is inadmissible as evidence. However, if the statement was made voluntarily, it can be used as evidence, subject to the conditions mentioned above.\n\n**Practical Steps**\n\nIf you have made a confessional statement to the police, it is crucial to consult with a lawyer to determine the admissibility of the statement as evidence. Your lawyer can help you understand the circumstances under which the statement was made and advise you on the best course of action.\n\n**Important Notes**\n\n* A confessional statement made to the police is not admissible as evidence unless it is made in the immediate presence of a Magistrate.\n* The admissibility of a confessional statement depends on the circumstances under which it was made.\n* If you have made a confessional statement to the police, it is essential to consult with a lawyer to determine the admissibility of the statement as evidence.\n\nIn the context of the previous conversation, it is essential to note that a confessional statement made to the police can be used as evidence, but it is subject to certain conditions and limitations. The admissibility of such a statement depends on the circumstances under which it was made.",
+    "latency": 10.773476839065552
+  },
+  {
+    "query": "What happens if someone commits a crime while mentally ill?",
+    "category": "Complex_Scenarios",
+    "difficulty": "hard",
+    "timestamp": "2025-11-08T17:29:56.876011",
+    "response_received": true,
+    "metrics": {
+      "keyword_coverage": 0.75,
+      "found_keywords": [
+        "section 84",
+        "unsound mind",
+        "defense"
+      ],
+      "missing_keywords": [
+        "insanity"
+      ],
+      "answer_length": 2682,
+      "answer_length_adequate": true,
+      "has_sections": true,
+      "has_citations": true,
+      "has_legal_references": true,
+      "has_case_law": true,
+      "fast_response": false,
+      "overall_score": 87.5,
+      "verdict": "PASS"
+    },
+    "answer": "**Direct Answer**\n\nIf someone commits a crime while mentally ill, they may not be held criminally liable due to their mental incapacity. The Indian Penal Code (IPC) provides for a defense of \"unsoundness of mind\" under Section 84, which states that nothing is an offense which is done by a person who, at the time of doing it, by reason of unsoundness of mind, is incapable of knowing the nature of the act, or that he is doing what is either wrong or contrary to law.\n\n**Legal Basis**\n\n* IPC Section 84: \"Act of a person of unsound mind.—Nothing is an offense which is done by a person who, at the time of doing it, by reason of unsoundness of mind, is incapable of knowing the nature of the act, or that he is doing what is either wrong or contrary to law.\"\n* Code of Criminal Procedure (CrPC) Section 328: \"Procedure where accused is suspected to be of unsound mind.—If it appears to the Magistrate that the accused is of unsound mind and incapable of entering a defense, the Magistrate shall order an inquiry into the fact of such unsoundness.\"\n\n**Case Law & Precedents**\n\n* In the case of **Dahyabhai Chhaganbhai Thakkar v. State of Gujarat (1964) 7 SCR 361**, the Supreme Court held that the defense of unsoundness of mind is a complete defense, and if the accused is found to be of unsound mind at the time of committing the offense, they cannot be held criminally liable.\n* In **State of Maharashtra v. Narendra Dattatraya Wagle (1994) 2 SCC 394**, the Supreme Court held that the burden of proving unsoundness of mind lies on the accused, and it is not for the prosecution to prove that the accused was of sound mind.\n\n**Detailed Analysis**\n\nWhen someone commits a crime while mentally ill, the court will consider whether they were capable of understanding the nature of their actions and whether they knew what they were doing was wrong. If the accused is found to be of unsound mind, they may not be held criminally liable. However, this defense is not automatic, and the accused must prove that they were of unsound mind at the time of committing the offense.\n\n**Practical Steps**\n\nIf someone is accused of committing a crime while mentally ill, they should:\n\n1. Seek medical attention and obtain a certificate from a qualified medical professional stating their mental condition at the time of the offense.\n2. Inform their lawyer about their mental condition, and provide them with the medical certificate.\n3. The lawyer should then raise the defense of unsoundness of mind in court and provide evidence to support it.\n\n**Important Notes**\n\n* The defense of unsoundness of mind is not a get-out-of-jail-free card. The accused must prove that they were genuinely of uns",
+    "latency": 11.254877090454102
+  }
+]

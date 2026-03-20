@@ -1,0 +1,1418 @@
+{
+  "test_info": {
+    "name": "LAW-GPT v3.0 Multi-Turn Conversational Accuracy Test",
+    "type": "conversational_multi_turn",
+    "date": "2026-03-03T01:45:48.996877",
+    "backend_url": "https://lawgpt-backend2024.azurewebsites.net",
+    "total_questions": 25,
+    "max_turns_per_question": 6,
+    "total_duration_sec": 21.5
+  },
+  "overall_accuracy": {
+    "composite_score": 0.4666,
+    "keyword_hit_rate": 0.5,
+    "section_citation_accuracy": 0.45,
+    "factual_accuracy": 0.454,
+    "grade": "F"
+  },
+  "conversation_stats": {
+    "final_answers_obtained": 25,
+    "partial_answers": 0,
+    "avg_turns_per_question": 1,
+    "direct_answers_1_turn": 25,
+    "multi_turn_conversations": 0
+  },
+  "latency": {
+    "total_conversation": {
+      "avg_sec": 0.857,
+      "median_sec": 0.84,
+      "min_sec": 0.756,
+      "max_sec": 1.243
+    },
+    "first_response": {
+      "avg_sec": 0.857,
+      "min_sec": 0.756,
+      "max_sec": 1.243
+    }
+  },
+  "per_question": [
+    {
+      "question_number": 1,
+      "question": "What is the punishment for murder under the Bharatiya Nyaya Sanhita (BNS)?",
+      "category": "criminal",
+      "difficulty": "basic",
+      "composite_score": 0.9,
+      "keyword_score": 1.0,
+      "section_score": 0.6667,
+      "fact_score": 1.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.884,
+      "first_response_latency_sec": 0.884,
+      "missed_keywords": [],
+      "missed_sections": [
+        "Section 101"
+      ],
+      "missed_facts": [],
+      "matched_keywords": [
+        "murder",
+        "death",
+        "imprisonment",
+        "life",
+        "BNS",
+        "punishment"
+      ],
+      "matched_sections": [
+        "Section 302",
+        "BNS"
+      ],
+      "matched_facts": [
+        "death",
+        "imprisonment for life",
+        "fine"
+      ],
+      "final_answer_preview": "**Case Summary**\nThe question pertains to the punishment for murder under the Bharatiya Nyaya Sanhita (BNS), specifically Section 302. However, upon reviewing the provided documents, it appears that the section numbers mentioned in the documents do not match the query. The relevant section for punishment for murder is actually discussed under sections that seem to refer back to the Indian Penal Code (IPC) sections, such as Section 302 IPC for murder.\n\n**Legal Framework**\nThe legal framework for ",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is the punishment for murder under the Bharatiya Nyaya Sanhita (BNS)?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nThe question pertains to the punishment for murder under the Bharatiya Nyaya Sanhita (BNS), specifically Section 302. However, upon reviewing the provided documents, it appears that t",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.884
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question": "What are the new offences added in the Bharatiya Nyaya Sanhita (BNS) that were not in the IPC?",
+      "category": "criminal",
+      "difficulty": "intermediate",
+      "composite_score": 0.48,
+      "keyword_score": 0.6,
+      "section_score": 1.0,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.785,
+      "first_response_latency_sec": 0.785,
+      "missed_keywords": [
+        "organised crime",
+        "terrorism"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "organised crime",
+        "terrorism",
+        "mob lynching"
+      ],
+      "matched_keywords": [
+        "BNS",
+        "IPC",
+        "new"
+      ],
+      "matched_sections": [
+        "BNS"
+      ],
+      "matched_facts": [],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What are the new offences added in the Bharatiya Nyaya Sanhita (BNS) that were not in the IPC?' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What are the new offences added in the Bharatiya Nyaya Sanhita (BNS) that were not in the IPC?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What are the new offences added in the Bharatiya Nyaya Sanhita (BNS) that were",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.785
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question": "Has sedition been removed under the new criminal law reforms in India? What replaced it?",
+      "category": "criminal",
+      "difficulty": "intermediate",
+      "composite_score": 0.2533,
+      "keyword_score": 0.4,
+      "section_score": 0.0,
+      "fact_score": 0.3333,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 8,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.816,
+      "first_response_latency_sec": 0.816,
+      "missed_keywords": [
+        "sovereignty",
+        "unity",
+        "integrity"
+      ],
+      "missed_sections": [
+        "BNS",
+        "Section 152"
+      ],
+      "missed_facts": [
+        "sovereignty",
+        "unity and integrity"
+      ],
+      "matched_keywords": [
+        "sedition",
+        "removed"
+      ],
+      "matched_sections": [],
+      "matched_facts": [
+        "sedition"
+      ],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'Has sedition been removed under the new criminal law reforms in India? What replaced it?' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "Has sedition been removed under the new criminal law reforms in India? What replaced it?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'Has sedition been removed under the new criminal law reforms in India? What re",
+          "confidence": 0.95,
+          "sources": 8,
+          "latency_sec": 0.816
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question": "What is the punishment for theft under Indian law?",
+      "category": "criminal",
+      "difficulty": "basic",
+      "composite_score": 0.15,
+      "keyword_score": 0.5,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.791,
+      "first_response_latency_sec": 0.791,
+      "missed_keywords": [
+        "imprisonment",
+        "fine"
+      ],
+      "missed_sections": [
+        "Section 378",
+        "Section 304"
+      ],
+      "missed_facts": [
+        "imprisonment",
+        "fine",
+        "three years"
+      ],
+      "matched_keywords": [
+        "theft",
+        "punishment"
+      ],
+      "matched_sections": [],
+      "matched_facts": [],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is the punishment for theft under Indian law?' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is the punishment for theft under Indian law?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is the punishment for theft under Indian law?' relates to Indian law. Ple",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.791
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question": "What is the legal definition and punishment for dowry death in India?",
+      "category": "criminal",
+      "difficulty": "advanced",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 0,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.84,
+      "first_response_latency_sec": 0.84,
+      "missed_keywords": [
+        "dowry death",
+        "seven years",
+        "marriage",
+        "cruelty",
+        "husband",
+        "relative"
+      ],
+      "missed_sections": [
+        "Section 304B",
+        "Section 498A",
+        "Section 80"
+      ],
+      "missed_facts": [
+        "seven years",
+        "unnatural",
+        "cruelty",
+        "dowry"
+      ],
+      "matched_keywords": [],
+      "matched_sections": [],
+      "matched_facts": [],
+      "final_answer_preview": "",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is the legal definition and punishment for dowry death in India?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "",
+          "confidence": 0.95,
+          "sources": 0,
+          "latency_sec": 0.84
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "question": "What are the fundamental rights guaranteed under Part III of the Indian Constitution?",
+      "category": "constitutional",
+      "difficulty": "basic",
+      "composite_score": 0.7114,
+      "keyword_score": 0.5714,
+      "section_score": 1.0,
+      "fact_score": 0.6,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.876,
+      "first_response_latency_sec": 0.876,
+      "missed_keywords": [
+        "exploitation",
+        "cultural",
+        "constitutional remedies"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "forced labour",
+        "constitutional remedies"
+      ],
+      "matched_keywords": [
+        "equality",
+        "freedom",
+        "religion",
+        "educational"
+      ],
+      "matched_sections": [
+        "Article 14",
+        "Article 19",
+        "Article 21",
+        "Article 32",
+        "Part III"
+      ],
+      "matched_facts": [
+        "equality before law",
+        "freedom of speech",
+        "propagation of religion"
+      ],
+      "final_answer_preview": "**Case Summary**\nThe question pertains to the fundamental rights guaranteed to citizens of India under Part III of the Indian Constitution. Part III, also known as the Bill of Rights, encompasses Articles 14 to 35, which provide a comprehensive framework for the protection of individual rights and freedoms. The retrieved documents, however, do not directly address the fundamental rights under Part III, as they primarily relate to the Consumer Protection Act, 2019. Therefore, this analysis will r",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What are the fundamental rights guaranteed under Part III of the Indian Constitution?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nThe question pertains to the fundamental rights guaranteed to citizens of India under Part III of the Indian Constitution. Part III, also known as the Bill of Rights, encompasses Arti",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.876
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "question": "What is the right to privacy in India and which Supreme Court case established it as a fundamental right?",
+      "category": "constitutional",
+      "difficulty": "advanced",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 8,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.974,
+      "first_response_latency_sec": 0.974,
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "matched_keywords": [
+        "privacy",
+        "fundamental right",
+        "Puttaswamy",
+        "Article 21",
+        "Supreme Court"
+      ],
+      "matched_sections": [
+        "Article 21"
+      ],
+      "matched_facts": [
+        "Puttaswamy",
+        "fundamental right",
+        "Article 21",
+        "2017"
+      ],
+      "final_answer_preview": "**Case Summary**\nThe right to privacy in India has been a subject of debate and discussion for several years. The Indian Constitution does not explicitly mention the right to privacy as a fundamental right. However, the Supreme Court of India has established it as a fundamental right through its judgments. The most significant judgment in this regard is the Justice K.S. Puttaswamy (Retd.) vs. Union of India (2017) case, also known as the Right to Privacy case.\n\n**Legal Framework**\nThe Indian Con",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is the right to privacy in India and which Supreme Court case established it as a fundamental right?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nThe right to privacy in India has been a subject of debate and discussion for several years. The Indian Constitution does not explicitly mention the right to privacy as a fundamental ",
+          "confidence": 0.95,
+          "sources": 8,
+          "latency_sec": 0.974
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "question": "What did the Supreme Court hold in the Navtej Singh Johar case regarding Section 377?",
+      "category": "constitutional",
+      "difficulty": "advanced",
+      "composite_score": 0.125,
+      "keyword_score": 0.1667,
+      "section_score": 0.25,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 7,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.786,
+      "first_response_latency_sec": 0.786,
+      "missed_keywords": [
+        "unconstitutional",
+        "homosexual",
+        "consensual",
+        "decriminalized",
+        "adults"
+      ],
+      "missed_sections": [
+        "Article 14",
+        "Article 15",
+        "Article 21"
+      ],
+      "missed_facts": [
+        "unconstitutional",
+        "consensual",
+        "decriminalized",
+        "2018"
+      ],
+      "matched_keywords": [
+        "Section 377"
+      ],
+      "matched_sections": [
+        "Section 377"
+      ],
+      "matched_facts": [],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What did the Supreme Court hold in the Navtej Singh Johar case regarding Section 377?' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What did the Supreme Court hold in the Navtej Singh Johar case regarding Section 377?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What did the Supreme Court hold in the Navtej Singh Johar case regarding Secti",
+          "confidence": 0.95,
+          "sources": 7,
+          "latency_sec": 0.786
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "question": "What are the key features of the Consumer Protection Act, 2019 and how is it different from the 1986 Act?",
+      "category": "consumer",
+      "difficulty": "intermediate",
+      "composite_score": 0.55,
+      "keyword_score": 0.5,
+      "section_score": 1.0,
+      "fact_score": 0.25,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.769,
+      "first_response_latency_sec": 0.769,
+      "missed_keywords": [
+        "CCPA",
+        "e-commerce",
+        "mediation"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "Central Consumer Protection Authority",
+        "e-commerce",
+        "mediation"
+      ],
+      "matched_keywords": [
+        "Consumer Protection Act",
+        "2019",
+        "1986"
+      ],
+      "matched_sections": [
+        "Consumer Protection Act, 2019"
+      ],
+      "matched_facts": [
+        "1986"
+      ],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What are the key features of the Consumer Protection Act, 2019 and how is it different from the 1986' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What are the key features of the Consumer Protection Act, 2019 and how is it different from the 1986 Act?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What are the key features of the Consumer Protection Act, 2019 and how is it d",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.769
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "question": "What are the consumer rights defined under the Consumer Protection Act 2019?",
+      "category": "consumer",
+      "difficulty": "basic",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 0,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.904,
+      "first_response_latency_sec": 0.904,
+      "missed_keywords": [
+        "consumer rights",
+        "protection",
+        "hazardous",
+        "informed",
+        "redressal"
+      ],
+      "missed_sections": [
+        "Consumer Protection Act, 2019"
+      ],
+      "missed_facts": [
+        "hazardous",
+        "quality",
+        "quantity",
+        "redressal",
+        "competitive prices"
+      ],
+      "matched_keywords": [],
+      "matched_sections": [],
+      "matched_facts": [],
+      "final_answer_preview": "",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What are the consumer rights defined under the Consumer Protection Act 2019?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "",
+          "confidence": 0.95,
+          "sources": 0,
+          "latency_sec": 0.904
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "question": "What is the jurisdiction of District, State and National Consumer Disputes Redressal Commissions?",
+      "category": "consumer",
+      "difficulty": "intermediate",
+      "composite_score": 0.55,
+      "keyword_score": 0.8333,
+      "section_score": 0.0,
+      "fact_score": 0.75,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 8,
+      "final_strategy": "n/a",
+      "total_latency_sec": 1.243,
+      "first_response_latency_sec": 1.243,
+      "missed_keywords": [
+        "crore"
+      ],
+      "missed_sections": [
+        "Consumer Protection Act"
+      ],
+      "missed_facts": [
+        "crore"
+      ],
+      "matched_keywords": [
+        "District",
+        "State",
+        "National",
+        "Commission",
+        "jurisdiction"
+      ],
+      "matched_sections": [],
+      "matched_facts": [
+        "District",
+        "State",
+        "National"
+      ],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is the jurisdiction of District, State and National Consumer Disputes Redressal Commissions?' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is the jurisdiction of District, State and National Consumer Disputes Redressal Commissions?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is the jurisdiction of District, State and National Consumer Disputes Red",
+          "confidence": 0.95,
+          "sources": 8,
+          "latency_sec": 1.243
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "question": "What is domestic violence under the Protection of Women from Domestic Violence Act, 2005? What types of abuse are covered?",
+      "category": "family",
+      "difficulty": "intermediate",
+      "composite_score": 0.1429,
+      "keyword_score": 0.1429,
+      "section_score": 0.3333,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 4,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.863,
+      "first_response_latency_sec": 0.863,
+      "missed_keywords": [
+        "physical",
+        "sexual",
+        "verbal",
+        "emotional",
+        "economic",
+        "abuse"
+      ],
+      "missed_sections": [
+        "Section 3",
+        "PWDVA"
+      ],
+      "missed_facts": [
+        "physical abuse",
+        "sexual abuse",
+        "verbal",
+        "emotional",
+        "economic abuse"
+      ],
+      "matched_keywords": [
+        "domestic violence"
+      ],
+      "matched_sections": [
+        "Protection of Women from Domestic Violence Act"
+      ],
+      "matched_facts": [],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is domestic violence under the Protection of Women from Domestic Violence Act, 2005? What types' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is domestic violence under the Protection of Women from Domestic Violence Act, 2005? What types of abuse are covered?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is domestic violence under the Protection of Women from Domestic Violence",
+          "confidence": 0.95,
+          "sources": 4,
+          "latency_sec": 0.863
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "question": "What reliefs can an aggrieved woman seek under the Protection of Women from Domestic Violence Act?",
+      "category": "family",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 0,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.85,
+      "first_response_latency_sec": 0.85,
+      "missed_keywords": [
+        "protection order",
+        "residence order",
+        "monetary relief",
+        "custody",
+        "compensation"
+      ],
+      "missed_sections": [
+        "PWDVA",
+        "Protection of Women from Domestic Violence Act"
+      ],
+      "missed_facts": [
+        "protection order",
+        "residence order",
+        "monetary relief",
+        "custody",
+        "compensation"
+      ],
+      "matched_keywords": [],
+      "matched_sections": [],
+      "matched_facts": [],
+      "final_answer_preview": "",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What reliefs can an aggrieved woman seek under the Protection of Women from Domestic Violence Act?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "",
+          "confidence": 0.95,
+          "sources": 0,
+          "latency_sec": 0.85
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "question": "When did the Bharatiya Nyaya Sanhita (BNS) come into effect and what laws did it replace?",
+      "category": "transition",
+      "difficulty": "basic",
+      "composite_score": 0.94,
+      "keyword_score": 0.8,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.832,
+      "first_response_latency_sec": 0.832,
+      "missed_keywords": [
+        "july 2024"
+      ],
+      "missed_sections": [],
+      "missed_facts": [],
+      "matched_keywords": [
+        "BNS",
+        "Indian Penal Code",
+        "IPC",
+        "replace"
+      ],
+      "matched_sections": [
+        "BNS",
+        "Bharatiya Nyaya Sanhita"
+      ],
+      "matched_facts": [
+        "july 1, 2024",
+        "Indian Penal Code",
+        "1860"
+      ],
+      "final_answer_preview": "**Case Summary**\nThe Bharatiya Nyaya Sanhita (BNS) is a comprehensive legislation that aims to consolidate and amend the provisions relating to offenses in India. The effective date of the BNS is not explicitly stated in the provided documents, but it can be inferred that it came into force on a date appointed by the Central Government, as mentioned in Section 1 of the BNS. The BNS has repealed the Indian Penal Code (IPC), 1860, and has saved the previous operations, rights, privileges, obligati",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "When did the Bharatiya Nyaya Sanhita (BNS) come into effect and what laws did it replace?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nThe Bharatiya Nyaya Sanhita (BNS) is a comprehensive legislation that aims to consolidate and amend the provisions relating to offenses in India. The effective date of the BNS is not ",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.832
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "question": "What are the three new criminal laws that replaced the colonial-era laws in India in 2024?",
+      "category": "transition",
+      "difficulty": "intermediate",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 0,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.858,
+      "first_response_latency_sec": 0.858,
+      "missed_keywords": [
+        "Bharatiya Nyaya Sanhita",
+        "Bharatiya Nagarik Suraksha Sanhita",
+        "Bharatiya Sakshya"
+      ],
+      "missed_sections": [
+        "BNS",
+        "BNSS",
+        "BSA"
+      ],
+      "missed_facts": [
+        "Bharatiya Nyaya Sanhita",
+        "Bharatiya Nagarik Suraksha Sanhita",
+        "Bharatiya Sakshya",
+        "Indian Penal Code"
+      ],
+      "matched_keywords": [],
+      "matched_sections": [],
+      "matched_facts": [],
+      "final_answer_preview": "",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What are the three new criminal laws that replaced the colonial-era laws in India in 2024?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "",
+          "confidence": 0.95,
+          "sources": 0,
+          "latency_sec": 0.858
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "question": "How many chapters and sections does the Bharatiya Nyaya Sanhita have?",
+      "category": "transition",
+      "difficulty": "basic",
+      "composite_score": 0.32,
+      "keyword_score": 0.4,
+      "section_score": 0.0,
+      "fact_score": 0.5,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.9,
+      "first_response_latency_sec": 0.9,
+      "missed_keywords": [
+        "20",
+        "358",
+        "BNS"
+      ],
+      "missed_sections": [
+        "BNS"
+      ],
+      "missed_facts": [
+        "20 chapters"
+      ],
+      "matched_keywords": [
+        "chapters",
+        "sections"
+      ],
+      "matched_sections": [],
+      "matched_facts": [
+        "bharatiya nyaya sanhita"
+      ],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'How many chapters and sections does the Bharatiya Nyaya Sanhita have?' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "How many chapters and sections does the Bharatiya Nyaya Sanhita have?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'How many chapters and sections does the Bharatiya Nyaya Sanhita have?' relates",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.9
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "question": "What were the Vishaka Guidelines and why were they important for workplace sexual harassment law in India?",
+      "category": "landmark_case",
+      "difficulty": "advanced",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 3,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.882,
+      "first_response_latency_sec": 0.882,
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "matched_keywords": [
+        "Vishaka",
+        "sexual harassment",
+        "workplace",
+        "guidelines",
+        "Supreme Court"
+      ],
+      "matched_sections": [
+        "Vishaka"
+      ],
+      "matched_facts": [
+        "Vishaka",
+        "sexual harassment",
+        "workplace",
+        "1997"
+      ],
+      "final_answer_preview": "**Case Summary**\nThe Vishaka Guidelines were a set of guidelines issued by the Supreme Court of India in the landmark case of Vishaka v. State of Rajasthan (1997) to address the issue of sexual harassment of women at the workplace. The guidelines were a significant step towards recognizing and preventing workplace sexual harassment in India.\n\n**Legal Framework**\nThe legal framework for addressing workplace sexual harassment in India is primarily governed by the Constitution of India, specificall",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What were the Vishaka Guidelines and why were they important for workplace sexual harassment law in India?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nThe Vishaka Guidelines were a set of guidelines issued by the Supreme Court of India in the landmark case of Vishaka v. State of Rajasthan (1997) to address the issue of sexual harass",
+          "confidence": 0.95,
+          "sources": 3,
+          "latency_sec": 0.882
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "question": "What is the significance of the Kesavananda Bharati case in Indian constitutional law?",
+      "category": "landmark_case",
+      "difficulty": "advanced",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 3,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.875,
+      "first_response_latency_sec": 0.875,
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "matched_keywords": [
+        "Kesavananda Bharati",
+        "basic structure",
+        "Constitution",
+        "amendment",
+        "Parliament"
+      ],
+      "matched_sections": [
+        "Article 368"
+      ],
+      "matched_facts": [
+        "basic structure",
+        "Parliament",
+        "amend"
+      ],
+      "final_answer_preview": "**Case Summary**\nThe Kesavananda Bharati case (1973) is a landmark judgment in Indian constitutional law that has had a profound impact on the country's constitutional framework. The case involved a challenge to the Constitution (Twenty-Fifth Amendment) Act, 1971, which had amended Article 31C of the Constitution, providing immunity to laws enacted under Article 39(b) and (c) from judicial review. The petitioners, led by Kesavananda Bharati, a Hindu monk, argued that the amendment was unconstitu",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is the significance of the Kesavananda Bharati case in Indian constitutional law?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nThe Kesavananda Bharati case (1973) is a landmark judgment in Indian constitutional law that has had a profound impact on the country's constitutional framework. The case involved a c",
+          "confidence": 0.95,
+          "sources": 3,
+          "latency_sec": 0.875
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "question": "If a person commits murder and also destroys evidence to cover it up, what are the applicable BNS/IPC sections and their respective punishments?",
+      "category": "criminal",
+      "difficulty": "multi_hop",
+      "composite_score": 0.2533,
+      "keyword_score": 0.4,
+      "section_score": 0.0,
+      "fact_score": 0.3333,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 8,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.893,
+      "first_response_latency_sec": 0.893,
+      "missed_keywords": [
+        "punishment",
+        "imprisonment",
+        "destruction"
+      ],
+      "missed_sections": [
+        "Section 302",
+        "Section 201",
+        "Section 101"
+      ],
+      "missed_facts": [
+        "death",
+        "imprisonment for life"
+      ],
+      "matched_keywords": [
+        "murder",
+        "evidence"
+      ],
+      "matched_sections": [],
+      "matched_facts": [
+        "evidence"
+      ],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'If a person commits murder and also destroys evidence to cover it up, what are the applicable BNS/IP' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "If a person commits murder and also destroys evidence to cover it up, what are the applicable BNS/IPC sections and their respective punishments?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'If a person commits murder and also destroys evidence to cover it up, what are",
+          "confidence": 0.95,
+          "sources": 8,
+          "latency_sec": 0.893
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "question": "A woman in a live-in relationship faces physical and economic abuse from her partner. What legal remedies are available to her under Indian law?",
+      "category": "family",
+      "difficulty": "multi_hop",
+      "composite_score": 0.0,
+      "keyword_score": 0.0,
+      "section_score": 0.0,
+      "fact_score": 0.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 0,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.819,
+      "first_response_latency_sec": 0.819,
+      "missed_keywords": [
+        "domestic violence",
+        "live-in",
+        "protection order",
+        "PWDVA",
+        "498A"
+      ],
+      "missed_sections": [
+        "PWDVA",
+        "Section 498A"
+      ],
+      "missed_facts": [
+        "Protection of Women from Domestic Violence Act",
+        "live-in",
+        "protection order"
+      ],
+      "matched_keywords": [],
+      "matched_sections": [],
+      "matched_facts": [],
+      "final_answer_preview": "",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "A woman in a live-in relationship faces physical and economic abuse from her partner. What legal remedies are available to her under Indian law?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "",
+          "confidence": 0.95,
+          "sources": 0,
+          "latency_sec": 0.819
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "question": "A consumer bought a defective car worth Rs 15 lakhs from an authorized dealer. The dealer refuses to replace or refund. Which consumer forum should the consumer approach and what remedies are available?",
+      "category": "consumer",
+      "difficulty": "multi_hop",
+      "composite_score": 0.219,
+      "keyword_score": 0.2857,
+      "section_score": 0.0,
+      "fact_score": 0.3333,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 8,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.756,
+      "first_response_latency_sec": 0.756,
+      "missed_keywords": [
+        "District",
+        "Commission",
+        "refund",
+        "replacement",
+        "compensation"
+      ],
+      "missed_sections": [
+        "Consumer Protection Act"
+      ],
+      "missed_facts": [
+        "District",
+        "compensation"
+      ],
+      "matched_keywords": [
+        "Consumer",
+        "defective"
+      ],
+      "matched_sections": [],
+      "matched_facts": [
+        "defective"
+      ],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'A consumer bought a defective car worth Rs 15 lakhs from an authorized dealer. The dealer refuses to' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "A consumer bought a defective car worth Rs 15 lakhs from an authorized dealer. The dealer refuses to replace or refund. Which consumer forum should the consumer approach and what remedies are availabl",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'A consumer bought a defective car worth Rs 15 lakhs from an authorized dealer.",
+          "confidence": 0.95,
+          "sources": 8,
+          "latency_sec": 0.756
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "question": "What is RERA and how does it protect homebuyers in India?",
+      "category": "property",
+      "difficulty": "intermediate",
+      "composite_score": 0.85,
+      "keyword_score": 0.8333,
+      "section_score": 1.0,
+      "fact_score": 0.75,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 3,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.801,
+      "first_response_latency_sec": 0.801,
+      "missed_keywords": [
+        "builder"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "builder"
+      ],
+      "matched_keywords": [
+        "RERA",
+        "Real Estate",
+        "Regulatory Authority",
+        "homebuyer",
+        "registration"
+      ],
+      "matched_sections": [
+        "RERA"
+      ],
+      "matched_facts": [
+        "Real Estate",
+        "Regulatory Authority",
+        "registration"
+      ],
+      "final_answer_preview": "**Case Summary**: The Real Estate (Regulation and Development) Act, 2016 (RERA) is a landmark legislation in India that aims to protect the interests of homebuyers by promoting transparency, accountability, and fairness in the real estate sector. The Act establishes a regulatory framework for the development and sale of real estate projects, ensuring that developers comply with certain norms and standards.\n\n**Legal Framework**: The RERA is governed by the provisions of the Real Estate (Regulatio",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is RERA and how does it protect homebuyers in India?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**: The Real Estate (Regulation and Development) Act, 2016 (RERA) is a landmark legislation in India that aims to protect the interests of homebuyers by promoting transparency, accountab",
+          "confidence": 0.95,
+          "sources": 3,
+          "latency_sec": 0.801
+        }
+      ]
+    },
+    {
+      "question_number": 23,
+      "question": "What is the right to free legal aid in India and who is entitled to it?",
+      "category": "constitutional",
+      "difficulty": "intermediate",
+      "composite_score": 0.52,
+      "keyword_score": 0.4,
+      "section_score": 0.0,
+      "fact_score": 1.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.805,
+      "first_response_latency_sec": 0.805,
+      "missed_keywords": [
+        "Article 39A",
+        "Legal Services",
+        "weaker sections"
+      ],
+      "missed_sections": [
+        "Article 39A",
+        "Legal Services Authorities Act"
+      ],
+      "missed_facts": [],
+      "matched_keywords": [
+        "legal aid",
+        "free"
+      ],
+      "matched_sections": [],
+      "matched_facts": [
+        "legal aid",
+        "free"
+      ],
+      "final_answer_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is the right to free legal aid in India and who is entitled to it?' relates to Indian law. Please try again.",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is the right to free legal aid in India and who is entitled to it?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "I was unable to generate a complete answer due to a service issue. Based on the retrieved documents, your question about 'What is the right to free legal aid in India and who is entitled to it?' relat",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.805
+        }
+      ]
+    },
+    {
+      "question_number": 24,
+      "question": "What is Section 498A of the IPC and why has it been controversial?",
+      "category": "criminal",
+      "difficulty": "advanced",
+      "composite_score": 0.7,
+      "keyword_score": 0.6667,
+      "section_score": 1.0,
+      "fact_score": 0.5,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 3,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.838,
+      "first_response_latency_sec": 0.838,
+      "missed_keywords": [
+        "relatives",
+        "dowry"
+      ],
+      "missed_sections": [],
+      "missed_facts": [
+        "relatives",
+        "dowry"
+      ],
+      "matched_keywords": [
+        "498A",
+        "cruelty",
+        "husband",
+        "misuse"
+      ],
+      "matched_sections": [
+        "Section 498A",
+        "IPC"
+      ],
+      "matched_facts": [
+        "cruelty",
+        "husband"
+      ],
+      "final_answer_preview": "**Case Summary**\nSection 498A of the Indian Penal Code (IPC) is a provision that deals with husband or relative of husband of a woman subjecting her to cruelty. The section has been a subject of controversy due to its potential for misuse and the challenges faced by the accused in defending themselves against false allegations. The controversy surrounding Section 498A has led to a significant amount of debate and discussion in the context of Indian law.\n\n**Legal Framework**\nSection 498A of the I",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is Section 498A of the IPC and why has it been controversial?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nSection 498A of the Indian Penal Code (IPC) is a provision that deals with husband or relative of husband of a woman subjecting her to cruelty. The section has been a subject of contr",
+          "confidence": 0.95,
+          "sources": 3,
+          "latency_sec": 0.838
+        }
+      ]
+    },
+    {
+      "question_number": 25,
+      "question": "What is anticipatory bail under Indian law and when can it be granted?",
+      "category": "procedural",
+      "difficulty": "intermediate",
+      "composite_score": 1.0,
+      "keyword_score": 1.0,
+      "section_score": 1.0,
+      "fact_score": 1.0,
+      "total_turns": 1,
+      "got_final_answer": true,
+      "final_confidence": 0.95,
+      "final_sources": 5,
+      "final_strategy": "n/a",
+      "total_latency_sec": 0.775,
+      "first_response_latency_sec": 0.775,
+      "missed_keywords": [],
+      "missed_sections": [],
+      "missed_facts": [],
+      "matched_keywords": [
+        "anticipatory bail",
+        "arrest",
+        "non-bailable",
+        "Section 438",
+        "High Court",
+        "Sessions Court"
+      ],
+      "matched_sections": [
+        "Section 438",
+        "CrPC"
+      ],
+      "matched_facts": [
+        "anticipatory bail",
+        "arrest",
+        "non-bailable"
+      ],
+      "final_answer_preview": "**Case Summary**\nAnticipatory bail is a provision under Indian law that allows an individual to seek bail before they are arrested. This provision is enshrined in Section 438 of the Code of Criminal Procedure (CrPC), 1973. The Bharatiya Nyaya Sanhita (BNS), 2023, which is set to replace the Indian Penal Code (IPC), 1860, also contains provisions related to bail. However, the BNS is yet to come into force, and the CrPC, 1973, remains the governing law for criminal procedure in India. In this anal",
+      "conversation": [
+        {
+          "role": "user",
+          "message_preview": "What is anticipatory bail under Indian law and when can it be granted?",
+          "confidence": 0.0,
+          "sources": 0,
+          "latency_sec": 0.0
+        },
+        {
+          "role": "assistant",
+          "message_preview": "**Case Summary**\nAnticipatory bail is a provision under Indian law that allows an individual to seek bail before they are arrested. This provision is enshrined in Section 438 of the Code of Criminal P",
+          "confidence": 0.95,
+          "sources": 5,
+          "latency_sec": 0.775
+        }
+      ]
+    }
+  ]
+}

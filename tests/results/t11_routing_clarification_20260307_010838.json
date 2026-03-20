@@ -1,0 +1,137 @@
+{
+  "test_id": "T11",
+  "base_url": "https://lawgpt-backend2024.azurewebsites.net",
+  "total_pass": 15,
+  "total_cases": 16,
+  "accuracy": 0.9375,
+  "part_a": [
+    {
+      "id": "RC-S01",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 335,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 11.27
+    },
+    {
+      "id": "RC-S02",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 336,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 11.11
+    },
+    {
+      "id": "RC-S03",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 347,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 8.55
+    },
+    {
+      "id": "RC-S04",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 341,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 21.76
+    },
+    {
+      "id": "RC-S05",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 324,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 10.16
+    },
+    {
+      "id": "RC-S06",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 340,
+      "kw_hits": 2,
+      "kw_total": 2,
+      "lat": 7.94
+    }
+  ],
+  "part_b": [
+    {
+      "id": "RC-C01",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.31,
+      "preview": "What is the exact date of termination and did you receive a termination letter o"
+    },
+    {
+      "id": "RC-C02",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.33,
+      "preview": "What is the exact date of vacating the property and do you have written confirma"
+    },
+    {
+      "id": "RC-C03",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 28.23,
+      "preview": "What is the exact date of the loan agreement and do you have a copy of the loan "
+    },
+    {
+      "id": "RC-C04",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 28.22,
+      "preview": "Can you provide the exact date of marriage and the marriage registration documen"
+    }
+  ],
+  "part_c": [
+    {
+      "turn": 0,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 26.7
+    },
+    {
+      "turn": 1,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 26.66
+    },
+    {
+      "turn": 2,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 7.06
+    },
+    {
+      "turn": 3,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 7.24
+    },
+    {
+      "turn": 4,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 8.14
+    },
+    {
+      "turn": 5,
+      "passed": false,
+      "query_type": "clarification",
+      "words": 37,
+      "kw_hits": 1,
+      "lat": 8.27
+    }
+  ]
+}

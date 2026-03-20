@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<title>LAW-GPT 10-Dimension Accuracy Report — 20260302_232804</title>
+<style>
+  body{background:#0f172a;color:#e2e8f0;font-family:monospace;padding:20px}
+  h1{color:#7dd3fc;} h2{color:#94a3b8;}
+  .summary{background:#1e293b;border-radius:8px;padding:20px;margin-bottom:20px}
+  .stat{display:inline-block;margin:0 20px;text-align:center}
+  .stat .val{font-size:2em;font-weight:bold;color:#38bdf8}
+  table{width:100%;border-collapse:collapse;}
+  th{background:#1e293b;color:#94a3b8;padding:8px;text-align:left;font-size:12px}
+  td{padding:6px 10px;border-bottom:1px solid #1e293b;font-size:12px}
+  .dim-header td{font-size:13px}
+</style>
+</head>
+<body>
+<h1>LAW-GPT v3.0 — 10-Dimension Accuracy Comparison</h1>
+<div class="summary">
+  <div class="stat"><div class="val" style="color:#22c55e">93.8%</div><div>Overall</div></div>
+  <div class="stat"><div class="val">61/65</div><div>Pass/Total</div></div>
+  <div class="stat"><div class="val" style="color:#ef4444">4</div><div>Failed</div></div>
+  <div class="stat"><div class="val">817.6s</div><div>Duration</div></div>
+  <div class="stat"><div class="val" style="color:#94a3b8">20260302_232804</div><div>Timestamp</div></div>
+</div>
+<table>
+  <tr>
+    <th>ID</th><th>Status</th><th>Question</th><th>Score</th>
+    <th>KW</th><th>Sec</th><th>Fact</th><th>Latency</th><th>Strategy</th>
+  </tr>
+  
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            ACT — Statute Lookup Accuracy (PageIndex) &nbsp;
+            <span style="color:#22c55e">8/8 (100.0%)</span>
+            avg_score=92.4% avg_lat=13.8s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-01</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What is the exact punishment prescribed under Section 101 of the Bharatiya Nyaya">What is the exact punishment prescribed under Section 101 of...</td>
+          <td>100%</td>
+          <td>6/6</td>
+          <td>3/3</td>
+          <td>3/3</td>
+          <td>18.91s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-02</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What does Section 170 of the Bharatiya Nyaya Sanhita say about abduction?">What does Section 170 of the Bharatiya Nyaya Sanhita say abo...</td>
+          <td>100%</td>
+          <td>6/6</td>
+          <td>2/2</td>
+          <td>2/2</td>
+          <td>14.59s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-03</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Cite the exact text or scope of Section 376 IPC regarding rape. What is the mini">Cite the exact text or scope of Section 376 IPC regarding ra...</td>
+          <td>80%</td>
+          <td>4/5</td>
+          <td>2/2</td>
+          <td>2/3</td>
+          <td>7.48s</td>
+          <td>statute_lookup</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-04</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What does Article 21 of the Indian Constitution guarantee?">What does Article 21 of the Indian Constitution guarantee?...</td>
+          <td>86%</td>
+          <td>6/6</td>
+          <td>1/1</td>
+          <td>2/3</td>
+          <td>11.42s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-05</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What are the requirements under Section 304B IPC (BNS Section 80) for dowry deat">What are the requirements under Section 304B IPC (BNS Sectio...</td>
+          <td>87%</td>
+          <td>6/7</td>
+          <td>4/4</td>
+          <td>4/5</td>
+          <td>18.3s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-06</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What does Section 438 CrPC say about anticipatory bail and who can grant it?">What does Section 438 CrPC say about anticipatory bail and w...</td>
+          <td>84%</td>
+          <td>4/5</td>
+          <td>2/2</td>
+          <td>3/4</td>
+          <td>15.44s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-07</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What is Section 3 of the Protection of Women from Domestic Violence Act, 2005 an">What is Section 3 of the Protection of Women from Domestic V...</td>
+          <td>100%</td>
+          <td>6/6</td>
+          <td>2/2</td>
+          <td>5/5</td>
+          <td>15.06s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>ACT-08</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What is Section 498A of the IPC and what is its punishment?">What is Section 498A of the IPC and what is its punishment?...</td>
+          <td>100%</td>
+          <td>6/6</td>
+          <td>2/2</td>
+          <td>5/5</td>
+          <td>9.3s</td>
+          <td>simple</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            VEC — Vector / Semantic RAG Accuracy &nbsp;
+            <span style="color:#22c55e">8/8 (100.0%)</span>
+            avg_score=83.6% avg_lat=8.0s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-01</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Explain the significance of the Kesavananda Bharati judgment and the basic struc">Explain the significance of the Kesavananda Bharati judgment...</td>
+          <td>84%</td>
+          <td>4/5</td>
+          <td>1/1</td>
+          <td>3/4</td>
+          <td>8.13s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-02</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What are the fundamental rights guaranteed under Part III of the Indian Constitu">What are the fundamental rights guaranteed under Part III of...</td>
+          <td>60%</td>
+          <td>4/6</td>
+          <td>3/3</td>
+          <td>1/4</td>
+          <td>2.58s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-03</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="How did the Supreme Court establish the right to privacy as a fundamental right ">How did the Supreme Court establish the right to privacy as ...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>1/1</td>
+          <td>4/4</td>
+          <td>10.56s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What was the Supreme Court's decision in Navtej Singh Johar v. Union of India re">What was the Supreme Court's decision in Navtej Singh Johar ...</td>
+          <td>78%</td>
+          <td>3/5</td>
+          <td>3/3</td>
+          <td>3/4</td>
+          <td>9.19s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Explain the key features and protections under the Consumer Protection Act 2019.">Explain the key features and protections under the Consumer ...</td>
+          <td>55%</td>
+          <td>2/5</td>
+          <td>1/1</td>
+          <td>1/3</td>
+          <td>8.76s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-06</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What are the Vishaka Guidelines and why are they significant?">What are the Vishaka Guidelines and why are they significant...</td>
+          <td>100%</td>
+          <td>5/5</td>
+          <td>1/1</td>
+          <td>4/4</td>
+          <td>8.27s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-07</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="How does RERA protect homebuyers and what are its key provisions?">How does RERA protect homebuyers and what are its key provis...</td>
+          <td>100%</td>
+          <td>6/6</td>
+          <td>1/1</td>
+          <td>4/4</td>
+          <td>9.39s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>VEC-08</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What is the scope of free legal aid under Indian law and who qualifies?">What is the scope of free legal aid under Indian law and who...</td>
+          <td>91%</td>
+          <td>5/7</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>7.42s</td>
+          <td>simple</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            PAX — PageIndex + Agentic Wiring Verify &nbsp;
+            <span style="color:#22c55e">5/5 (100.0%)</span>
+            avg_score=86.8% avg_lat=15.2s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>PAX-01</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="Exactly what does Section 101 BNS say about murder and its punishment?">Exactly what does Section 101 BNS say about murder and its p...</td>
+          <td>100%</td>
+          <td>5/5</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>33.65s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>PAX-02</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What does Section 303 BNS say about theft and what is the punishment?">What does Section 303 BNS say about theft and what is the pu...</td>
+          <td>80%</td>
+          <td>4/5</td>
+          <td>2/2</td>
+          <td>2/3</td>
+          <td>19.75s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>PAX-03</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What is Article 14 of the Indian Constitution? Give the exact text.">What is Article 14 of the Indian Constitution? Give the exac...</td>
+          <td>80%</td>
+          <td>4/4</td>
+          <td>1/1</td>
+          <td>1/2</td>
+          <td>7.02s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>PAX-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Cite the exact provision of Section 17 of the Consumer Protection Act 2019.">Cite the exact provision of Section 17 of the Consumer Prote...</td>
+          <td>92%</td>
+          <td>3/4</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>7.73s</td>
+          <td>statute_lookup</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>PAX-05</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What does Section 63 of the Indian Contract Act, 1872 say about promissory estop">What does Section 63 of the Indian Contract Act, 1872 say ab...</td>
+          <td>80%</td>
+          <td>4/5</td>
+          <td>2/2</td>
+          <td>2/3</td>
+          <td>7.97s</td>
+          <td>simple</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            MHR — Multi-hop Reasoning Accuracy &nbsp;
+            <span style="color:#22c55e">5/5 (100.0%)</span>
+            avg_score=90.3% avg_lat=14.4s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>MHR-01</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="If a person commits murder and also destroys evidence to cover it up, what BNS/I">If a person commits murder and also destroys evidence to cov...</td>
+          <td>90%</td>
+          <td>7/7</td>
+          <td>2/3</td>
+          <td>3/3</td>
+          <td>17.47s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>MHR-02</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="A woman in a live-in relationship suffers physical and economic abuse from her p">A woman in a live-in relationship suffers physical and econo...</td>
+          <td>100%</td>
+          <td>6/6</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>16.56s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>MHR-03</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="A builder delays delivery of a flat by 3 years. The buyer's agreement was worth ">A builder delays delivery of a flat by 3 years. The buyer's ...</td>
+          <td>95%</td>
+          <td>6/7</td>
+          <td>2/2</td>
+          <td>4/4</td>
+          <td>16.58s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>MHR-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Can an FIR be quashed under Section 482 CrPC? What are the key Supreme Court gui">Can an FIR be quashed under Section 482 CrPC? What are the k...</td>
+          <td>85%</td>
+          <td>6/7</td>
+          <td>2/2</td>
+          <td>3/4</td>
+          <td>10.01s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>MHR-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What happens legally when an accused is acquitted on merit in India under the ne">What happens legally when an accused is acquitted on merit i...</td>
+          <td>80%</td>
+          <td>5/6</td>
+          <td>1/2</td>
+          <td>4/4</td>
+          <td>11.51s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            FPR — Factual Precision &nbsp;
+            <span style="color:#f59e0b">3/6 (50.0%)</span>
+            avg_score=67.9% avg_lat=19.2s
+          </td>
+        </tr>
+        <tr style="background:#450a0a">
+          <td>FPR-01</td>
+          <td><span style="color:#ef4444">FAIL</span></td>
+          <td title="On exactly what date did the Bharatiya Nyaya Sanhita, 2023 come into force?">On exactly what date did the Bharatiya Nyaya Sanhita, 2023 c...</td>
+          <td>50%</td>
+          <td>2/3</td>
+          <td>1/1</td>
+          <td>0/1</td>
+          <td>13.51s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#450a0a">
+          <td>FPR-02</td>
+          <td><span style="color:#ef4444">FAIL</span></td>
+          <td title="How many chapters and sections does the Bharatiya Nyaya Sanhita, 2023 contain?">How many chapters and sections does the Bharatiya Nyaya Sanh...</td>
+          <td>50%</td>
+          <td>4/4</td>
+          <td>0/1</td>
+          <td>1/2</td>
+          <td>23.23s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#450a0a">
+          <td>FPR-03</td>
+          <td><span style="color:#ef4444">FAIL</span></td>
+          <td title="What are the three new criminal laws that replaced India's colonial-era criminal">What are the three new criminal laws that replaced India's c...</td>
+          <td>33%</td>
+          <td>1/3</td>
+          <td>1/3</td>
+          <td>1/3</td>
+          <td>31.65s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>FPR-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What is the pecuniary jurisdiction of the National Consumer Disputes Redressal C">What is the pecuniary jurisdiction of the National Consumer ...</td>
+          <td>74%</td>
+          <td>4/5</td>
+          <td>1/1</td>
+          <td>1/2</td>
+          <td>14.42s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>FPR-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="In which year was the Navtej Singh Johar judgment delivered, and which article w">In which year was the Navtej Singh Johar judgment delivered,...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>14.29s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>FPR-06</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="How many new offences were added in the BNS that were not present in the IPC?">How many new offences were added in the BNS that were not pr...</td>
+          <td>100%</td>
+          <td>5/5</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>18.03s</td>
+          <td>research</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            HAL — Hallucination Guard &nbsp;
+            <span style="color:#22c55e">5/5 (100.0%)</span>
+            avg_score=76.0% avg_lat=18.4s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>HAL-01</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What does the non-existent Section 999 of the Indian Penal Code say?">What does the non-existent Section 999 of the Indian Penal C...</td>
+          <td>90%</td>
+          <td>4/5</td>
+          <td>0/1</td>
+          <td>2/2</td>
+          <td>7.4s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>HAL-02</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What did the Supreme Court decide in Sharma v. Sharma (1997) regarding property ">What did the Supreme Court decide in Sharma v. Sharma (1997)...</td>
+          <td>50%</td>
+          <td>1/1</td>
+          <td>0/1</td>
+          <td>0/1</td>
+          <td>25.05s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>HAL-03</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Does Indian law have a Section 150 in the Bharatiya Nyaya Sanhita regarding cybe">Does Indian law have a Section 150 in the Bharatiya Nyaya Sa...</td>
+          <td>90%</td>
+          <td>2/3</td>
+          <td>1/1</td>
+          <td>1/1</td>
+          <td>16.65s</td>
+          <td>statute_lookup</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>HAL-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What is the 2023 Supreme Court judgment on Universal Basic Income in India?">What is the 2023 Supreme Court judgment on Universal Basic I...</td>
+          <td>50%</td>
+          <td>1/1</td>
+          <td>0/1</td>
+          <td>0/1</td>
+          <td>14.9s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>HAL-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Under which section of the BNSS 2023 can police detain a person for 90 days with">Under which section of the BNSS 2023 can police detain a per...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>1/1</td>
+          <td>1/1</td>
+          <td>28.22s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            SRV — Strategy Routing Verification &nbsp;
+            <span style="color:#22c55e">5/5 (100.0%)</span>
+            avg_score=95.0% avg_lat=13.7s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>SRV-01</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="What is Section 302 IPC?">What is Section 302 IPC?...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>2/2</td>
+          <td>2/2</td>
+          <td>11.46s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>SRV-02</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Compare the IPC and BNS on the treatment of organised crime.">Compare the IPC and BNS on the treatment of organised crime....</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>12.47s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>SRV-03</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#f59e0b;font-size:10px">strat?</span></td>
+          <td title="Article 21 of the Constitution.">Article 21 of the Constitution....</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>9.72s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>SRV-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What are the latest changes to India's GST law in 2025 and 2026?">What are the latest changes to India's GST law in 2025 and 2...</td>
+          <td>100%</td>
+          <td>2/2</td>
+          <td>1/1</td>
+          <td>1/1</td>
+          <td>19.87s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>SRV-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="A person was arrested in Delhi at 3 AM for theft. The police refuse to show the ">A person was arrested in Delhi at 3 AM for theft. The police...</td>
+          <td>75%</td>
+          <td>4/6</td>
+          <td>1/2</td>
+          <td>3/3</td>
+          <td>15.08s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            AFV — Agentic Feature Verification &nbsp;
+            <span style="color:#22c55e">4/5 (80.0%)</span>
+            avg_score=87.7% avg_lat=13.0s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-01</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What is Section 302 IPC for murder punishment?">What is Section 302 IPC for murder punishment?...</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>7.32s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-02</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is Section 302 IPC for murder punishment?">What is Section 302 IPC for murder punishment?...</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>2.6s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-03</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Explain the fundamental rights under Part III of the Indian Constitution in deta">Explain the fundamental rights under Part III of the Indian ...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>10.82s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#450a0a">
+          <td>AFV-04</td>
+          <td><span style="color:#ef4444">FAIL</span></td>
+          <td title="What does Section 101 of the BNS say?">What does Section 101 of the BNS say?...</td>
+          <td>50%</td>
+          <td>1/4</td>
+          <td>2/2</td>
+          <td>1/3</td>
+          <td>30.8s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>AFV-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="How does the Agentic RAG system in LAW-GPT work? What is the reasoning trace?">How does the Agentic RAG system in LAW-GPT work? What is the...</td>
+          <td>87%</td>
+          <td>3/4</td>
+          <td>0/1</td>
+          <td>1/1</td>
+          <td>13.41s</td>
+          <td>research</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            REG — Regression Baseline (20/20 Questions) &nbsp;
+            <span style="color:#22c55e">10/10 (100.0%)</span>
+            avg_score=87.3% avg_lat=2.6s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-01</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is the punishment for murder under the Bharatiya Nyaya Sanhita (BNS)?">What is the punishment for murder under the Bharatiya Nyaya ...</td>
+          <td>85%</td>
+          <td>5/5</td>
+          <td>1/2</td>
+          <td>2/2</td>
+          <td>2.61s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-02</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What are the fundamental rights guaranteed under Part III of the Indian Constitu">What are the fundamental rights guaranteed under Part III of...</td>
+          <td>60%</td>
+          <td>4/7</td>
+          <td>3/3</td>
+          <td>1/3</td>
+          <td>2.6s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-03</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is the right to privacy in India and which Supreme Court case established i">What is the right to privacy in India and which Supreme Cour...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>1/1</td>
+          <td>3/3</td>
+          <td>2.58s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-04</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="When did the Bharatiya Nyaya Sanhita (BNS) come into effect and what laws did it">When did the Bharatiya Nyaya Sanhita (BNS) come into effect ...</td>
+          <td>79%</td>
+          <td>3/4</td>
+          <td>1/1</td>
+          <td>2/3</td>
+          <td>2.6s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-05</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is domestic violence under the PWDVA 2005? What types of abuse are covered?">What is domestic violence under the PWDVA 2005? What types o...</td>
+          <td>100%</td>
+          <td>6/6</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>2.59s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-06</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is the significance of the Kesavananda Bharati case in Indian constitutiona">What is the significance of the Kesavananda Bharati case in ...</td>
+          <td>100%</td>
+          <td>5/5</td>
+          <td>1/1</td>
+          <td>3/3</td>
+          <td>2.64s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-07</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What were the Vishaka Guidelines and why were they important for workplace sexua">What were the Vishaka Guidelines and why were they important...</td>
+          <td>100%</td>
+          <td>5/5</td>
+          <td>1/1</td>
+          <td>4/4</td>
+          <td>2.63s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-08</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is Section 498A of the IPC and why has it been controversial?">What is Section 498A of the IPC and why has it been controve...</td>
+          <td>68%</td>
+          <td>3/5</td>
+          <td>2/2</td>
+          <td>2/4</td>
+          <td>2.64s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-09</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is anticipatory bail under Indian law and when can it be granted?">What is anticipatory bail under Indian law and when can it b...</td>
+          <td>100%</td>
+          <td>5/5</td>
+          <td>2/2</td>
+          <td>3/3</td>
+          <td>2.64s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>REG-10</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is RERA and how does it protect homebuyers in India?">What is RERA and how does it protect homebuyers in India?...</td>
+          <td>80%</td>
+          <td>4/5</td>
+          <td>1/1</td>
+          <td>2/3</td>
+          <td>2.63s</td>
+          <td>n/a</td>
+        </tr>
+        <tr class="dim-header">
+          <td colspan="9" style="background:#1e293b;color:#94a3b8;font-weight:bold;padding:8px 12px;">
+            LAT — Latency Benchmarks &nbsp;
+            <span style="color:#22c55e">8/8 (100.0%)</span>
+            avg_score=91.6% avg_lat=7.8s
+          </td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-01</td>
+          <td><span style="color:#22c55e">PASS</span> <span style="color:#38bdf8;font-size:10px">CACHE</span></td>
+          <td title="What is Section 302 IPC?">What is Section 302 IPC?...</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>1/1</td>
+          <td>2.64s</td>
+          <td>n/a</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-02</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Explain the three new criminal laws that replaced India's colonial-era laws in 2">Explain the three new criminal laws that replaced India's co...</td>
+          <td>65%</td>
+          <td>2/4</td>
+          <td>1/3</td>
+          <td>2/2</td>
+          <td>8.43s</td>
+          <td>research</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-03</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What is Article 21 of the Constitution?">What is Article 21 of the Constitution?...</td>
+          <td>100%</td>
+          <td>2/2</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>7.46s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-04</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="What are the fundamental rights in the Indian Constitution?">What are the fundamental rights in the Indian Constitution?...</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>7.87s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-05</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Analyse all legal remedies available to a domestic violence victim under Indian ">Analyse all legal remedies available to a domestic violence ...</td>
+          <td>77%</td>
+          <td>3/4</td>
+          <td>1/2</td>
+          <td>2/2</td>
+          <td>12.95s</td>
+          <td>multi_hop</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-06</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Section 438 CrPC anticipatory bail">Section 438 CrPC anticipatory bail...</td>
+          <td>90%</td>
+          <td>2/3</td>
+          <td>1/1</td>
+          <td>1/1</td>
+          <td>8.31s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-07</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Consumer Protection Act 2019 jurisdiction of three commissions">Consumer Protection Act 2019 jurisdiction of three commissio...</td>
+          <td>100%</td>
+          <td>4/4</td>
+          <td>1/1</td>
+          <td>3/3</td>
+          <td>7.56s</td>
+          <td>simple</td>
+        </tr>
+        <tr style="background:#052e16">
+          <td>LAT-08</td>
+          <td><span style="color:#22c55e">PASS</span></td>
+          <td title="Kesavananda Bharati basic structure doctrine Supreme Court">Kesavananda Bharati basic structure doctrine Supreme Court...</td>
+          <td>100%</td>
+          <td>3/3</td>
+          <td>1/1</td>
+          <td>2/2</td>
+          <td>7.06s</td>
+          <td>simple</td>
+        </tr>
+</table>
+</body></html>

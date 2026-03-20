@@ -1,0 +1,242 @@
+{
+  "timestamp": "2025-12-20T10:22:08.258293",
+  "overall_score": 70.92,
+  "overall_grade": "B - GOOD with Minor Issues",
+  "recommendation": "\u26a0\ufe0f  System is functional but needs refinement",
+  "results": [
+    {
+      "test_id": "Q1",
+      "title": "Constitutional + Criminal Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 30.0,
+        "case_laws": 6.7,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [],
+      "strengths": [
+        "Comprehensive response length",
+        "Cited: Kedar Nath",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 86.7,
+      "grade": "A - Excellent",
+      "duration": 4.88
+    },
+    {
+      "test_id": "Q2",
+      "title": "Civil Procedure + Limitation",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 22.5,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 72.5,
+      "grade": "B - Good",
+      "duration": 3.84
+    },
+    {
+      "test_id": "Q3",
+      "title": "Family Law + Criminal Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 5,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited",
+        "Limited source retrieval"
+      ],
+      "strengths": [
+        "Comprehensive response length"
+      ],
+      "critical_issues": [],
+      "total_score": 55.0,
+      "grade": "D - Poor",
+      "duration": 2.02
+    },
+    {
+      "test_id": "Q4",
+      "title": "Contract Law + Arbitration",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 65.0,
+      "grade": "C - Acceptable",
+      "duration": 2.03
+    },
+    {
+      "test_id": "Q5",
+      "title": "Consumer Law + Medical Negligence",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 10.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [],
+      "strengths": [
+        "Comprehensive response length",
+        "Cited: Jacob Mathew",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 75.0,
+      "grade": "B - Good",
+      "duration": 2.04
+    },
+    {
+      "test_id": "Q6",
+      "title": "Property Law + Constitutional Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 65.0,
+      "grade": "C - Acceptable",
+      "duration": 2.03
+    },
+    {
+      "test_id": "Q7",
+      "title": "Cyber Law + Evidence Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 10.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [],
+      "strengths": [
+        "Comprehensive response length",
+        "Cited: Anvar P.V.",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 75.0,
+      "grade": "B - Good",
+      "duration": 2.03
+    },
+    {
+      "test_id": "Q8",
+      "title": "Criminal Law + Bail Jurisprudence",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 15.0,
+        "case_laws": 0.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [
+        "No landmark case laws cited"
+      ],
+      "strengths": [
+        "Comprehensive response length",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 65.0,
+      "grade": "C - Acceptable",
+      "duration": 2.05
+    },
+    {
+      "test_id": "Q9",
+      "title": "Administrative Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 7.5,
+        "case_laws": 10.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [],
+      "strengths": [
+        "Comprehensive response length",
+        "Cited: Maneka Gandhi",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [
+        "CRITICAL: Major legal elements missing"
+      ],
+      "total_score": 67.5,
+      "grade": "C - Acceptable",
+      "duration": 2.02
+    },
+    {
+      "test_id": "Q10",
+      "title": "Special Marriage Act + Constitutional Law",
+      "scores": {
+        "completeness": 25,
+        "legal_elements": 22.5,
+        "case_laws": 10.0,
+        "sources": 15,
+        "structure": 10
+      },
+      "gaps": [],
+      "strengths": [
+        "Comprehensive response length",
+        "Cited: Puttaswamy",
+        "Retrieved 5 sources"
+      ],
+      "critical_issues": [],
+      "total_score": 82.5,
+      "grade": "A - Excellent",
+      "duration": 2.04
+    }
+  ],
+  "statistics": {
+    "total_tests": 10,
+    "completed": 10,
+    "critical_failures": 1,
+    "passed": 5,
+    "failed": 1
+  },
+  "top_gaps": [
+    [
+      "No landmark case laws cited",
+      5
+    ],
+    [
+      "Limited source retrieval",
+      1
+    ]
+  ]
+}

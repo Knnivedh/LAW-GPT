@@ -1,0 +1,182 @@
+{
+  "acc_user_96476914": {
+    "user_id": "acc_user_96476914",
+    "preferred_language": "en",
+    "legal_domains_of_interest": [
+      "Bharatiya Nyaya Sanhita (BNS)",
+      "IPC",
+      "Indian Constitution",
+      "Supreme Court of India",
+      "BNS",
+      "Indian Penal Code",
+      "PWDVA 2005",
+      "Indian Family Law",
+      "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+      "CrPC",
+      "RERA",
+      "Real Estate (Regulation and Development) Act, 2016"
+    ],
+    "past_queries_summary": [
+      "What is the punishment for murder under the Bharatiya Nyaya Sanhita (BNS)?",
+      "What are the fundamental rights guaranteed under Part III of the Indian Constitution?",
+      "What is the right to privacy in India and which Supreme Court case established it as a fundamental right?",
+      "When did the Bharatiya Nyaya Sanhita (BNS) come into effect and what laws did it replace?",
+      "What is domestic violence under the PWDVA 2005? What types of abuse are covered?",
+      "What is the significance of the Kesavananda Bharati case in Indian constitutional law?",
+      "What were the Vishaka Guidelines and why were they important for workplace sexual harassment law in India?",
+      "What is Section 498A of the IPC and why has it been controversial?",
+      "What is anticipatory bail under Indian law and when can it be granted?",
+      "What is RERA and how does it protect homebuyers in India?"
+    ],
+    "interaction_count": 10,
+    "last_seen": 1772474270.7917888,
+    "preferences": {}
+  },
+  "acc_user_a6247adc": {
+    "user_id": "acc_user_a6247adc",
+    "preferred_language": "en",
+    "legal_domains_of_interest": [
+      "Indian Contract Act, 1872",
+      "PWDVA",
+      "Consumer Protection Act",
+      "RERA (Real Estate Regulatory Act)",
+      "Supreme Court Judgments",
+      "Bharatiya Nyaya Sanhita",
+      "BNSS",
+      "IPC",
+      "BNS 2023",
+      "Indian Constitution",
+      "GST",
+      "Indian Tax Law",
+      "CrPC",
+      "NHRC guidelines",
+      "BNS",
+      "Narcotic Drugs and Psychotropic Substances Act",
+      "Indian Penal Code",
+      "Code of Criminal Procedure",
+      "Consumer Protection Act, 2019",
+      "Indian Constitutional Law"
+    ],
+    "past_queries_summary": [
+      "What did the Supreme Court decide in Sharma v. Sharma (1997) regarding property rights?",
+      "Does Indian law have a Section 150 in the Bharatiya Nyaya Sanhita regarding cyber defamation?",
+      "What is the 2023 Supreme Court judgment on Universal Basic Income in India?",
+      "Under which section of the BNSS 2023 can police detain a person for 90 days without bail?",
+      "What is Section 302 IPC?",
+      "Compare the IPC and BNS on the treatment of organised crime.",
+      "Article 21 of the Constitution.",
+      "What are the latest changes to India's GST law in 2025 and 2026?",
+      "A person was arrested in Delhi at 3 AM for theft. The police refuse to show the arrest memo. What should the person's fa",
+      "What is Section 302 IPC for murder punishment?",
+      "Explain the fundamental rights under Part III of the Indian Constitution in detail.",
+      "What does Section 101 of the BNS say?",
+      "How does the Agentic RAG system in LAW-GPT work? What is the reasoning trace?",
+      "Explain the three new criminal laws that replaced India's colonial-era laws in 2024.",
+      "What is Article 21 of the Constitution?",
+      "What are the fundamental rights in the Indian Constitution?",
+      "Analyse all legal remedies available to a domestic violence victim under Indian law including criminal, civil, and const",
+      "Section 438 CrPC anticipatory bail",
+      "Consumer Protection Act 2019 jurisdiction of three commissions",
+      "Kesavananda Bharati basic structure doctrine Supreme Court"
+    ],
+    "interaction_count": 52,
+    "last_seen": 1772475103.297424,
+    "preferences": {}
+  },
+  "test_user_b944396d": {
+    "user_id": "test_user_b944396d",
+    "preferred_language": "en",
+    "legal_domains_of_interest": [
+      "IPC",
+      "BNS",
+      "Criminal Law",
+      "Narcotic Drugs",
+      "CPA"
+    ],
+    "past_queries_summary": [
+      "What is BNS Section 302?",
+      "Explain the difference between IPC 302 and BNS 103 with relevant cases",
+      "What is Section 498A IPC?",
+      "What is BNS Section 103?",
+      "What is the punishment for that?",
+      "What is Consumer Protection Act 2019?"
+    ],
+    "interaction_count": 6,
+    "last_seen": 1772475364.1010482,
+    "preferences": {}
+  },
+  "mem_test_df4523ec": {
+    "user_id": "mem_test_df4523ec",
+    "preferred_language": "en",
+    "legal_domains_of_interest": [
+      "Indian Constitution"
+    ],
+    "past_queries_summary": [
+      "What is Article 21 of the Indian Constitution?"
+    ],
+    "interaction_count": 1,
+    "last_seen": 1772475302.4531004,
+    "preferences": {}
+  },
+  "accuracy_user_dc075090": {
+    "user_id": "accuracy_user_dc075090",
+    "preferred_language": "en",
+    "legal_domains_of_interest": [
+      "BNS",
+      "IPC",
+      "CrPC",
+      "CPA",
+      "Protection of Women from Domestic Violence Act, 2005",
+      "Consumer Protection Act, 2019",
+      "Legal Services Authorities Act, 1987"
+    ],
+    "past_queries_summary": [
+      "What are the new offences added in the Bharatiya Nyaya Sanhita (BNS) that were not in the IPC?",
+      "Has sedition been removed under the new criminal law reforms in India? What replaced it?",
+      "What is the punishment for theft under Indian law?",
+      "What is the legal definition and punishment for dowry death in India?",
+      "What did the Supreme Court hold in the Navtej Singh Johar case regarding Section 377?",
+      "What are the key features of the Consumer Protection Act, 2019 and how is it different from the 1986 Act?",
+      "What are the consumer rights defined under the Consumer Protection Act 2019?",
+      "What is the jurisdiction of District, State and National Consumer Disputes Redressal Commissions?",
+      "What is domestic violence under the Protection of Women from Domestic Violence Act, 2005? What types of abuse are covere",
+      "What reliefs can an aggrieved woman seek under the Protection of Women from Domestic Violence Act?",
+      "What are the three new criminal laws that replaced the colonial-era laws in India in 2024?",
+      "How many chapters and sections does the Bharatiya Nyaya Sanhita have?",
+      "If a person commits murder and also destroys evidence to cover it up, what are the applicable BNS/IPC sections and their",
+      "A woman in a live-in relationship faces physical and economic abuse from her partner. What legal remedies are available ",
+      "A consumer bought a defective car worth Rs 15 lakhs from an authorized dealer. The dealer refuses to replace or refund. ",
+      "What is the right to free legal aid in India and who is entitled to it?"
+    ],
+    "interaction_count": 16,
+    "last_seen": 1772475563.157038,
+    "preferences": {}
+  },
+  "acc_user_8925eb30": {
+    "user_id": "acc_user_8925eb30",
+    "preferred_language": "en",
+    "legal_domains_of_interest": [
+      "BNS",
+      "IPC",
+      "Consumer Protection Act 2019",
+      "Indian Constitution",
+      "Narcotic Drugs",
+      "General"
+    ],
+    "past_queries_summary": [
+      "On exactly what date did the Bharatiya Nyaya Sanhita, 2023 come into force?",
+      "How many chapters and sections does the Bharatiya Nyaya Sanhita, 2023 contain?",
+      "What are the three new criminal laws that replaced India's colonial-era criminal laws in 2024?",
+      "What is the pecuniary jurisdiction of the National Consumer Disputes Redressal Commission under the Consumer Protection ",
+      "In which year was the Navtej Singh Johar judgment delivered, and which article was primarily invoked for decriminalizing",
+      "How many new offences were added in the BNS that were not present in the IPC?",
+      "What is Section 302 IPC for murder punishment?",
+      "Explain the fundamental rights under Part III of the Indian Constitution in detail.",
+      "What does Section 101 of the BNS say?",
+      "How does the Agentic RAG system in LAW-GPT work? What is the reasoning trace?"
+    ],
+    "interaction_count": 10,
+    "last_seen": 1772478705.9917874,
+    "preferences": {}
+  }
+}

@@ -1,0 +1,939 @@
+[
+  {
+    "scenario_id": "SCENARIO_1_CONSTITUTIONAL_MEDIA",
+    "domain": "Constitutional + Criminal + Media Trial",
+    "query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?",
+    "answer": "**Legal Principles (Statutes/Rules)**\n\n1.  **Article 19(1)(a) of the Indian Constitution**: Guarantees freedom of speech and expression to all citizens.\n2.  **The Contempt of Courts Act, 1971**: Defines contempt of court and prescribes punishments for the same.\n3.  **The Indian Evidence Act, 1872**: Deals with the admissibility of evidence in court proceedings.\n4.  **The Information Technology Act, 2000**: Regulates the use of technology, including hacking and cybercrime.\n5.  **The Indian Penal Code, 1860**: Prescribes punishments for various criminal offenses, including those related to public servants and contempt of court.\n\n**Analysis of the Scenario**\n\n1.  **Conflict between Article 19(1)(a) and contempt of court**: The journalist's publication of the leaked WhatsApp chats may be seen as a breach of contempt of court, as it potentially interferes with the administration of justice. However, the journalist may argue that the publication is protected under Article 19(1)(a) as a form of free speech and expression.\n2.  **Illegally obtained evidence**: The chats were obtained through hacking, which is a criminal offense under the IT Act. However, the journalist may argue that the publication of the chats is justified in the public interest, as it exposes potential wrongdoing by a public servant.\n3.  **Impeachment as a constitutional remedy**: Impeachment is a constitutional remedy for removing a judge from office, but it requires a formal process and proof of misconduct. In this case, the PIL seeking impeachment may be seen as a premature or inappropriate remedy.\n4.  **Whistleblower protection**: The journalist may claim protection as a whistleblower, but this would depend on the specific circumstances and the journalist's motivations for publishing the chats.\n5.  **Prior restraint on media**: Prior restraint on media is generally not justified, as it restricts the freedom of speech and expression. However, in exceptional cases, such as national security or contempt of court, prior restraint may be justified.\n\n**Conclusion and Practical Advice**\n\n1.  The journalist's publication of the leaked WhatsApp chats raises complex legal issues, including contempt of court, illegally obtained evidence, and whistleblower protection.\n2.  The journalist should be prepared to defend their actions in court, potentially arguing that the publication is protected under Article 19(1)(a) and that the chats were published in the public interest.\n3.  The judge and the police should exercise caution in pursuing contempt of court and criminal charges against the journalist, as this may be seen as an attempt to restrict freedom of speech and expression.\n4.  The PIL seeking impeachment may be seen as a premature or inappropriate remedy, and the petitioner should consider alternative remedies, such as a formal complaint to the judicial authorities.\n5.  The media should exercise caution in publishing sensitive information, ensuring that they are not compromising national security or contempt of court.",
+    "reasoning_path": "Hierarchical synthesis of query: A journalist publishes leaked WhatsApp chats of a ...",
+    "source_documents": [
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0215",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 218 (Chunk 218)\nContent: --- Section 217 ---\nBNS\nChapter XIII\nS.\n217\nFalse information, with intent to cause public servant to use his lawful power to the injury of another person.\nDescription\nWhoever gives to any public servant any information which he knows or believes to be false, intending thereby to cause, or knowing it to be likely that he will thereby cause, such public servan\nto do or omit anything which such public servant ought not to do or omit if the true state of facts respecting which such information is given were known by him; or\nto use the lawful power of such public servant to the injury or annoyance of any person, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to ten thousand rupees, or with both.\nIllustrations:\nA informs a Magistrate that Z, a police-officer, subordinate to such Magistrate, has been guilty of neglect of duty or misconduct, knowing such information to be false, and knowing it to be likely that the information will cause the Magistrate to dismiss Z. A has committed the offence defined in this section.\nA falsely informs a public servant that Z has contraband salt in a secret place, knowing such information to be false, and knowing that it is likely that the consequence of the information will be a search of Z’s premises, attended with annoyance to Z. A has committed the offence defined in this section.\nA falsely informs a policeman that he has been assaulted and robbed in the neighbourhood of a particular village. He does not mention the name of any person as one of his assailants, but knows it to be likely that in consequence of this information the police will make enquiries and institute searches in the village to the annoyance of the villagers or some of them. A has committed an offence under this section.\nBNSS\nClassification\nImprisonment for 1 year, or with fine of 10,000 rupees, or both.\nNon-cognizable\nBailable\nTriable by Any Magistrate.",
+        "metadata": {
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_title": "Chunk 218",
+          "section_number": "218",
+          "domain": "statutes",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json"
+        },
+        "rrf_score": 0.015873015873015872,
+        "vector_score": 0.06802749633789062,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.127355575561523,
+        "rank": 1,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0351",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 354 (Chunk 354)\nContent: --- Section 353 ---\nBNS\nChapter XIX\nS.\n353\nStatements conducing to public mischief.\nDescription\nWhoever makes, publishes or circulates any statement, false information, rumour, or report, including through electronic means,\nwith intent to cause, or which is likely to cause, any officer, soldier, sailor or airman in the Army, Navy or Air Force of India to mutiny or otherwise disregard or fail in his duty as such; or\nwith intent to cause, or which is likely to cause, fear or alarm to the public, or to any section of the public whereby any person may be induced to commit an offence against the State or against the public tranquility; or\nwith intent to incite, or which is likely to incite, any class or community of persons to commit any offence against any other class or community, shall be punished with imprisonment which may extend to three years, or with fine, or with both.\nWhoever makes, publishes or circulates any statement or report containing false information, rumour or alarming news, including through electronic means, with intent to create or promote, or which is likely to create or promote, on grounds of religion, race, place of birth, residence, language, caste or community or any other ground whatsoever, feelings of enmity, hatred or ill will between different religious, racial, language or regional groups or castes or communities shall be punished with imprisonment which may extend to three years, or with fine, or with both.\nWhoever commits an offence specified in sub-section (2) in any place of worship or in any assembly engaged in the performance of religious worship or religious ceremonies, shall be punished with imprisonment which may extend to five years and shall also be liable to fine.\nException:\nIt does not amount to an offence, within the meaning of this section, when the person making, publishing or circulating any such statement, false information, rumour or report, has reasonable grounds for believing that such statement, false information, rumour or report is true and makes, publishes or circulates it in good faith and without any such intent as aforesaid.",
+        "metadata": {
+          "section_title": "Chunk 354",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "354",
+          "domain": "statutes",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json"
+        },
+        "rrf_score": 0.01639344262295082,
+        "vector_score": 0.10516250133514404,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.2215657234191895,
+        "rank": 2,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      },
+      {
+        "id": "STAT_The_Contempt_Of_Courts_Act_1971_0000",
+        "text": "Act: The Contempt Of Courts Act, 1971\nSection: 70 of 1971 (70 of 1971)\nContent: Union of India - Act\nThe Contempt Of Courts Act, 1971\nUNION OF INDIA\nIndia\nThe Contempt Of Courts Act, 1971\nAct 70 of 1971\nPublished in Gazette 70 on 1 January 1980\nAssented to on 1 January 1980\nCommenced on 1 January 1980\n\n[Amended by\nTHE CONTEMPT OF COURTS (AMENDMENT) ACT, 2006 (Act 06 of 2006)\non\n17 March 2006\n]\nThe Contempt Of Courts Act, 1971\n1.\nShort title and extent.—\n(1)\nThis Act may be called the Contempt of Courts Act, 1971.\n(2)\nIt extends to the whole of India:\nProvided that it shall not apply to the State of Jammu and Kashmir except to the extent to which the provisions of this Act relate to contempt of the Supreme Court.\n2.\nDefinitions.—\nIn this Act, unless the context otherwise requires,—\n(a)\n“contempt of court” means civil contempt or criminal contempt;\n(b)\n“civil contempt” means wilful disobedience to any judgment, decree, direction, order, writ or other process of a court or wilful breach of an undertaking given to a court;\n(c)\n“criminal contempt” means the publication (whether by words, spoken or written, or by signs, or by visible representation, or otherwise) of any matter or the doing of any other act whatsoever which—\n(i)\nscandalises or tends to scandalise, or lowers or tends to lower the authority of, any court; or\n(ii)\nprejudices, or interferes or tends to interfere with, the due course of any judicial proceeding; or\n(iii)\ninterferes or tends to interfere with, or obstructs or tends to obstruct, the administration of justice in any other manner;\n(d)\n“High Court” means the High Court for a State or a Union territory, and includes the court of the Judicial Commissioner in any Union territory.\n3.\nInnocent publication and distribution of matter not contempt.—\n(1)\nA person shall not be guilty of contempt of court on the ground that he has published (whether by words, spoken or written, or by signs, or by visible representations, or otherwise) any matter which interferes or tends to interfere with, or obstructs or tends to obstruct, the course of justice in connection with any civil or criminal proceeding pending at that time of publication, if at that time he had no reasonable grounds for believing that the proceeding was pending.\n(2)\nNotwithstanding anything to the contrary contained in this Act or any other law for the time being in force, the publication of any such matter as is mentioned in sub-section (1) in connection with any civil or criminal proceeding which is not pending at the time of publication shall not be deemed to constitute contempt of court.\n(3)\nA person shall not be guilty of contempt of court on the ground that he has distributed a publication containing any such matter as is mentioned in sub-section (1), if at the time of distribution he had no reasonable grounds for believing that it contained or was likely to contain any such matter as aforesaid:\nProvided that this sub-section shall not apply in respect of the distribution of—\n(i)\nany publication which is a book or paper printed or published otherwise than in conformity with the rules contained in section 3 of the Press and Registration of Books Act, 1867 (25 of 1867);\n(ii)\nany publication which is a newspaper published otherwise than in conformity with the rules contained in section 5 of the said Act.\nExplanation.—\nFor the purposes of this section, a judicial proceeding—\n(a)\nis said to be pending—\n(A)\nin the case of a civil proceeding, when it is instituted by the filing of a plaint or otherwise,\n(B)\nin the case of a criminal proceeding under the Code of Criminal Procedure, 1898 (5 of 1898), or any other law—\n(i)\nwhere it relates to the commission of an offence, when the charge-sheet or challan is filed, or when the court issues summons or warrant, as the case may be, against the accused, and\n(ii)\nin any other case, when the court takes cognizance of the matter to which the proceeding relates, and\nin the case of a civil or criminal proceeding, shall be deemed to continue to be pending until it is heard and finally decided, that is to say, in a case where an appeal or revision is competent, until the appeal or revision is heard and finally decided or, where no appeal or revision is preferred, until the period of limitation prescribed for such appeal or revision has expired;\n(b)\nwhich has been heard and finally decided shall not be deemed to be pending merely by reason of the fact that proceedings for the execution of the decree, order or sentence passed therein are pending.\n4.\nFair and accurate report of judicial proceeding not contempt.—\nSubject to the provisions contained in section 7, a person shall not be guilty of contempt of court for publishing a fair and accurate report of a judicial proceeding or any stage thereof.\n5.\nFair criticism of judicial act not contempt.—\nA person shall not be guilty of contempt of court for publishing any fair comment on the merits of any case which has been heard and finally decided.\n6.\nComplaint against presiding officers of subordinate courts when not contempt.—\nA person shall not be guilty of contempt of court in respect of any statement made by him in good faith concerning the presiding officer of any subordinate court to—\n(a)\nany other subordinate court, or\n(b)\nthe High Court,\nto which it is subordinate.\nExplanation.—\nIn this section, “subordinate court” means any court subordinate to a High Court.\n7.\nPublication of information relating to proceedings in chambers or in camera not contempt except in certain cases.—\n(1)\nNotwithstanding anything contained in this Act, a person shall not be guilty of contempt of court for publishing a fair and accurate report of a judicial proceeding before any court sitting in chambers or in camera except in the following cases, that is to say,—\n(a)\nwhere the publication is contrary to the provisions of any enactment for the time being in force;\n(b)\nwhere the court, on grounds of public policy or in exercise of any power vested in it, expressly prohibits the publication of all information relating to the proceeding or of information of the description which is published;\n(c)\nwhere the court sits in chambers or in camera for reasons connected with public order or the security of the State, the publication of information relating to those proceedings;\n(d)\nwhere the information relates to a secret process, discovery or invention which is an issue in the proceedings.\n(2)\nWithout prejudice to the provisions contained in sub-section (1), a person shall not be guilty of contempt of court for publishing the text or a fair and accurate summary of the whole, or any part, of an order made by a court sitting in chambers or in camera, unless the court has expressly prohibited the publication thereof on grounds of public policy, or for reasons connected with public order or the security of the State, or on the ground that it contains information relating to a secret process, discovery or invention, or in exercise of any power vested in it.\n8.\nOther defences not affected.—\nNothing contained in this Act shall be construed as implying that any other defence which would have been a valid defence in any proceedings for contempt of court has ceased to be available merely by reason of the provisions of this Act.\n9.\nAct not to imply enlargement of scope of contempt.—\nNothing contained in this Act shall be construed as implying that any disobedience, breach, publication or other act is punishable as contempt of court which would not be so punishable a part from this Act.\n10.\nPower of High Court to punish contempts of subordinate courts.—\nEvery High Court shall have and exercise the same jurisdiction, powers and authority, in accordance with the same procedure and practice, in respect of contempts of courts subordinate to it as it has and exercises in respect of contempts of itself:\nProvided that no High Court shall take cognizance of a contempt alleged to have been committed in respect of a court subordinate to it where such contempt is an offence punishable under the Indian Penal Code (45 of 1860).\n11.\nPower of High Court to try offences committed or offenders found outside jurisdiction.—\nA High Court shall have jurisdiction to inquire into or try a contempt of itself or of any court subordinate to it, whether the contempt is alleged to have been committed within or outside the local limits of its jurisdiction, and whether the person alleged to be guilty of contempt is within or outside such limits.\n12.\nPunishment for contempt of court.—\n(1)\nSave as otherwise expressly provided in this Act or in any other law, a contempt of court may be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to two thousand rupees, or with both:\nProvided that the accused may be discharged or the punishment awarded may be remitted on apology being made to the satisfaction of the court.\nExplanation.—\nAn apology shall not be rejected merely on the ground that it is qualified or conditional if the accused makes it bona fide.\n(2)\nNotwithstanding anything contained in any other law for the time being in force, no court shall impose a sentence in excess of that specified in sub-section (1) for any contempt either in respect of itself or of a court subordinate to it.\n(3)\nNotwithstanding anything contained in this section, where a person is found guilty of a civil contempt, the court, if it considers that a fine will not meet the ends of justice and that a sentence of imprisonment is necessary shall, instead of sentencing him to simple imprisonment, direct that he be detained in a civil prison for such period not exceeding six months as it may think fit.\n(4)\nWhere the person found guilty of contempt of court in respect of any undertaking given to a court is a company, every person who, at the time the contempt was committed, was in charge of, and was responsible to, the company for the conduct of business of the company, as well as the company, shall be deemed to be guilty of the contempt and the punishment may be enforced, with the leave of the court, by the detention in civil prison of each such person:\nProvided that nothing contained in this sub-section shall render any such person liable to such punishment if he proves that the contempt was committed without his knowledge or that he exercised all due diligence to prevent its commission.\n(5)\nNotwithstanding anything contained in sub-section (4), where the contempt of court referred to therein has been committed by a company and it is proved that the contempt has been committed with the consent or connivance of, or is attributable to any neglect on the part of, any director, manager, secretary or other officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty of the contempt and the punishment may be enforced, with the leave of the court, by the detention in civil prison of such director, manager, secretary or other officer.\nExplanation.—\nFor the purposes of sub-sections (4) and (5),—\n(a)\n“company” means any body corporate and includes a firm or other association of individuals; and\n(b)\n“director”, in relation to a firm, means a partner in the firm.\n13.\nContempts not punishable in certain cases.—\nNotwithstanding anything contained in any law for the time being in force,—\n(a)\nno court shall impose a sentence under this Act for a contempt of court unless it is satisfied that the contempt is of such a nature that it substantially interferes, or tends substantially to interfere with the due course of justice;\n(b)\nthe court may permit, in any proceeding for contempt of court, justification by truth as a valid defence if it is satisfied that it is in public interest and the request for invoking the said defence is bona fide.\n14.\nProcedure where contempt is in the face of the Supreme Court or a High Court.—\n(1)\nWhen it is alleged, or appears to the Supreme Court or the High Court upon its own view, that a person has been guilty of contempt committed in its presence or hearing, the Court may cause such person to be detained in custody, and, at any time before the rising of the Court, on the same day, or as early as possible thereafter, shall—\n(a)\ncause him to be informed in writing of the contempt with which he is charged;\n(b)\nafford him an opportunity to make his defence to the charge;\n(c)\nafter taking such evidence as may be necessary or as may be offered by such person and after hearing him, proceed, either forthwith or after adjournment, to determine the matter of the charge; and\n(d)\nmake such order for the punishment or discharge of such person as may be just.\n(2)\nNotwithstanding anything contained in sub-section (1), where a person charged with contempt under that sub-section applies, whether orally or in writing, to have the charge against him tried by some Judge other than the Judge or Judges in whose presence or hearing the offence is alleged to have been committed, and the Court is of opinion that it is practicable to do so and that in the interests of proper administration of justice the application should be allowed, it shall cause the matter to be placed, together with a statement of the facts of the case, before the Chief Justice for such directions as he may think fit to issue as respects the trial thereof.\n(3)\nNotwithstanding anything contained in any other law, in any trial of a person charged with contempt under sub-section (1) which is held, in pursuance of a direction given under sub-section (2), by a Judge other than the Judge or Judges in whose presence or hearing the offence is alleged to have been committed, it shall not be necessary for the Judge or Judges in whose presence or hearing the offence is alleged to have been committed to appear as a witness and the statement placed before the Chief Justice under sub-section (2) shall be treated as evidence in the case.\n(4)\nPending the determination of the charge, the Court may direct that a person charged with contempt under this section shall be detained in such custody as it may specify:\nProvided that he shall be released on bail, if a bond for such sum of money as the Court thinks sufficient is executed with or without sureties conditioned that the person charged shall attend at the time and place mentioned in the bond and shall continue to so attend until otherwise directed by the Court:\nProvided further that the Court may, if it thinks fit, instead of taking bail from such person, discharge him on his executing a bond without sureties for his attendance as aforesaid.\n15.\nCognizance of criminal contempt in other cases.—\n(1)\nIn the case of a criminal contempt, other than a contempt referred to in section 14, the Supreme Court or the High Court may take action on its own motion or on a motion made by—\n(a)\nthe Advocate-General, or\n(b)\nany other person, with the consent in writing to the Advocate-General, or\n(c)\nin relation to the High Court for the Union territory of Delhi, such Law Officer as the Central Government may, by notification in the Official Gazette, specify in this behalf, or any other person, with the consent in writing of such Law Officer.\n(2)\nIn the case of any criminal contempt of a subordinate court, the High Court may take action on a reference made to it by the subordinate court or on a motion made by the Advocate-General or, in relation to a Union territory, by such Law Officer as the Central Government may, by notification in the Official Gazette, specify in this behalf.\n(3)\nEvery motion or reference made under this section shall specify the contempt of which the person charged is alleged to be guilty.\nExplanation.—\nIn this section, the expression “Advocate-General” means—\n(a)\nin relation to the Supreme Court, the Attorney-General or the Solicitor-General;\n(b)\nin relation to the High Court, the Advocate-General of the State or any of the States for which the High Court has been established;\n(c)\nin relation to the Court of a Judicial Commissioner, such Law Officer as the Central Government may, by notification in the Official Gazette, specify in this behalf.\n16.\nContempt by Judge, Magistrate or other person acting judicially.—\n(1)\nSubject to the provisions of any law for the time being in force, a Judge, Magistrate or other person acting judicially shall also be liable for contempt of his own court or of any other court in the same manner as any other individual is liable and the provisions of this Act shall, so far as may be, apply accordingly.\n(2)\nNothing in this section shall apply to any observations or remarks made by a Judge, Magistrate or other person acting judicially, regarding a subordinate court in an appeal or revision pending before such Judge, Magistrate or other person against the order or judgment of the subordinate court.\n17.\nProcedure after cognizance.—\n(1)\nNotice of every proceeding under section 15 shall be served personally on the person charged, unless the court for reasons to be recorded directs otherwise.\n(2)\nThe notice shall be accompanied—\n(a)\nin the case of proceedings commenced on a motion, by a copy of the motion as also copies of the affidavits, if any, on which such motion is founded; and\n(b)\nin case of proceedings commenced on a reference by a subordinate court, by a copy of the reference.\n(3)\nThe Court may, if it is satisfied that a person charged under section 15 is likely to abscond or keep out of the way to avoid service of the notice, order the attachment of his property of such value or amount as it may deem reasonable.\n(4)\nEvery attachment under sub-section (3) shall be effected in the manner provided in the Code of Civil Procedure, 1908 (5 of 1908), for the attachment of property in execution of a decree for payment of money, and if, after such attachment, the person charged appears and shows to the satisfaction of the court that he did not abscond or keep out of the way to avoid service of the notice, the Court shall order the release of his property from attachment upon such terms as to costs or otherwise as it may think fit.\n(5)\nAny person charged with contempt under section 15 may file an affidavit in support of his defence, and the court may determine the matter of the charge either on the affidavits filed or after taking such further evidence as may be necessary, and pass such order as the justice of the case requires.\n18.\nHearing of cases of criminal contempt to be by Benches.—\n(1)\nEvery case of criminal contempt under section 15 shall be heard and determined by a Bench of not less than two Judges.\n(2)\nSub-section (1) shall not apply to the Court of a Judicial Commissioner.\n19.\nAppeals.—\n(1)\nAn appeal shall lie as of right from any order or decision of High Court in the exercise of its jurisdiction to punish for contempt—\n(a)\nwhere the order or decision is that of a single Judge, to a Bench of not less than two Judges of the Court;\n(b)\nwhere the order or decision is that of a Bench, to the Supreme Court:\nProvided that where the order or decision is that of the Court of the Judicial Commissioner in any Union territory, such appeal shall lie to the Supreme Court.\n(2)\nPending any appeal, the appellate Court may order that—\n(a)\nthe execution of the punishment or order appealed against be suspended;\n(b)\nif the appellant is in confinement, he be released on bail; and\n(c)\nthe appeal be heard notwithstanding that the appellant has not purged his contempt.\n(3)\nWhere any person aggrieved by any order against which an appeal may be filed satisfies the High Court that he intends to prefer an appeal, the High Court may also exercise all or any of the powers conferred by sub-section (2).\n(4)\nAn appeal under sub-section (1) shall be filed—\n(a)\nin the case of an appeal to a Bench of the High Court, within thirty days;\n(b)\nin the case of an appeal to the Supreme Court, within sixty days,\nfrom the date of the order appealed against.\n20.\nLimitation for actions for contempt.—\nNo court shall initiate any proceedings of contempt, either on its own motion or otherwise, after the expiry of a period of one year from the date on which the contempt is alleged to have been committed.\n21.\nAct not to apply to Nyaya Panchayats or other village courts.—\nNothing contained in this Act shall apply in relation to contempt of Nyaya Panchayats or other village courts, by whatever name known, for the administration of justice, established under any law.\n22.\nAct to be in addition to, and not in derogation of, other laws relating to contempt.—\nThe provisions of this Act shall be in addition to, and not in derogation of the provisions of any other law relating to contempt of courts.\n23.\nPower of Supreme Court and High Courts to make rules.—\nThe Supreme Court or, as the case may be, any High Court, may make rules, not inconsistent with the provisions of this Act, providing for any matter relating to its procedure.\n24.\nRepeal.—\nThe Contempt of Courts Act, 1952 (32 of 1952), is hereby repealed.",
+        "metadata": {
+          "domain": "statutes",
+          "act": "The Contempt Of Courts Act, 1971",
+          "section_number": "70 of 1971",
+          "section_title": "70 of 1971",
+          "source_file": "The_Contempt_Of_Courts_Act_1971.json"
+        },
+        "rrf_score": 0.01639344262295082,
+        "vector_score": 0,
+        "bm25_score": 252.8292899731621,
+        "sources": [
+          "bm25"
+        ],
+        "rerank_score": -6.335283279418945,
+        "rank": 3,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      },
+      {
+        "id": "STAT_The_Indian_Evidence_Act_1872_0009",
+        "text": "Act: The Indian Evidence Act, 1872\nSection: (4) ((4))\nContent: [\nSection 10FZA\n]\n \n [\nEntire Act\n]\nUnion of India - Subsection\nSection 10FZA(4) in The Companies Act, 1956\n(4)\nAll proceedings before the Tribunal or the Appellate Tribunal shall be deemed to be judicial proceedings within the meaning of sections 193 and 228, and for the purposes of section 196 of the Indian Penal Code (45 of 1860) and the Tribunal and the Appellate Tribunal shall be deemed to be a Civil Court for the purposes of section 195 and Chapter XXVI of the Code of Criminal Procedure, 1973 (2 of 1974).",
+        "metadata": {
+          "section_title": "(4)",
+          "section_number": "(4)",
+          "act": "The Indian Evidence Act, 1872",
+          "source_file": "The_Indian_Evidence_Act_1872.json",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.027479766610201392,
+        "vector_score": 0.018427908420562744,
+        "bm25_score": 190.08533200139038,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -6.663808822631836,
+        "rank": 4,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      },
+      {
+        "id": "STAT_The_Companies_Act_1956_0149",
+        "text": "Act: The Companies Act, 1956\nSection: (1) ((1))\nContent: [\nSection 10FV\n]\n \n [\nEntire Act\n]\nUnion of India - Subsection\nSection 10FV(1) in The Companies Act, 1956\n(1)\nThe Central Government may, in consultation with the Chief Justice of India, remove from office the Chairperson or any Member of the Appellate Tribunal, who-\n(a)\nhas been adjudged an insolvent; or\n(b)\nhas been convicted of an offence which, in the opinion of the Central Government, involves moral turpitude; or\n(c)\nhas become physically or mentally incapable of acting as such Chairperson or Member of the Appellate Tribunal; or\n(d)\nhas acquired such financial or other interest as is likely to affect prejudicially his functions as such Chairperson or Member of the Appellate Tribunal; or\n(e)\nhas so abused his position as to render his continuance in office prejudicial to the public interest.",
+        "metadata": {
+          "section_number": "(1)",
+          "domain": "statutes",
+          "act": "The Companies Act, 1956",
+          "section_title": "(1)",
+          "source_file": "The_Companies_Act_1956.json"
+        },
+        "rrf_score": 0.015625,
+        "vector_score": 0.039748549461364746,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.735403060913086,
+        "rank": 5,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      },
+      {
+        "id": "STAT_The_Companies_Act_1956_1854",
+        "text": "Act: The Companies Act, 1956\nSection: (1) ((1))\nContent: [\nSection 242\n]\n \n [\nEntire Act\n]\nUnion of India - Subsection\nSection 242(1) in The Companies Act, 1956\n(1)\nIf, from any report made under section 241, it appears to the Central Government that any person has, in relation to the company or in relation to any other body corporate, [* * *] whose affairs have been investigated by virtue of section 239, been guilty of any offence for which he is criminally liable, the Central Government may, after taking such legal advice as it thinks fit, prosecute such person for the offence; and it shall be the duty of [all officers and other employees]\n\nand [agents of the company or body corporate,]\n\nas the case may be, (other than the accused in the proceedings), to give the Central Government all assistance in connection with the prosecution which they are reasonably able to give.",
+        "metadata": {
+          "domain": "statutes",
+          "section_number": "(1)",
+          "act": "The Companies Act, 1956",
+          "source_file": "The_Companies_Act_1956.json",
+          "section_title": "(1)"
+        },
+        "rrf_score": 0.014925373134328358,
+        "vector_score": 0.02457350492477417,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.892340660095215,
+        "rank": 6,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      },
+      {
+        "id": "STAT_The_Companies_Act_1956_0148",
+        "text": "Act: The Companies Act, 1956\nSection: 10FV. (10FV.)\nContent: [\nEntire Act\n]\nUnion of India - Section\nSection 10FV in The Companies Act, 1956\n10FV. Removal and suspension of Chairperson and Members of Appellate Tribunal .-\n(1)\nThe Central Government may, in consultation with the Chief Justice of India, remove from office the Chairperson or any Member of the Appellate Tribunal, who-\n(a)\nhas been adjudged an insolvent; or\n(b)\nhas been convicted of an offence which, in the opinion of the Central Government, involves moral turpitude; or\n(c)\nhas become physically or mentally incapable of acting as such Chairperson or Member of the Appellate Tribunal; or\n(d)\nhas acquired such financial or other interest as is likely to affect prejudicially his functions as such Chairperson or Member of the Appellate Tribunal; or\n(e)\nhas so abused his position as to render his continuance in office prejudicial to the public interest.\n(2)\nThe Chairperson or a Member of the Appellate Tribunal shall not be removed from his office except by an order made by the Central Government on the ground of proved misbehaviour or incapacity after an inquiry made by a Judge of the Supreme Court in which such Chairperson or Member had been informed of the charges against him and given a reasonable opportunity of being heard in respect of those charges.\n(3)\nThe Central Government may suspend from office the Chairperson or a Member of the Appellate Tribunal in respect of whom a reference has been made to the Judge of the Supreme Court under sub-section (2) until the Central Government has passed orders on receipt of the report of the Judge of the Supreme Court on such reference.\n(4)\nThe Central Government may, by rules, regulate the procedure for the investigation of misbehaviour or incapacity of the Chairperson or a Member referred to in sub-section (2).",
+        "metadata": {
+          "act": "The Companies Act, 1956",
+          "section_number": "10FV.",
+          "domain": "statutes",
+          "source_file": "The_Companies_Act_1956.json",
+          "section_title": "10FV."
+        },
+        "rrf_score": 0.015151515151515152,
+        "vector_score": 0.026043057441711426,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.916491508483887,
+        "rank": 7,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      },
+      {
+        "id": "STAT_The_Companies_Act_1956_0175",
+        "text": "Act: The Companies Act, 1956\nSection: 10FZA. (10FZA.)\nContent: [\nEntire Act\n]\nUnion of India - Section\nSection 10FZA in The Companies Act, 1956\n10FZA. Procedure and powers of Tribunal and Appellate Tribunal .-\n(1)\nThe Tribunal and the Appellate Tribunal shall not be bound by the procedure laid down in the Code of Civil Procedure, 1908 (5 of 1908), but shall be guided by the principles of natural justice and, subject to the other provisions of this Act and of any rules made by the Central Government, the Tribunal and the Appellate Tribunal shall have power to regulate their own procedure.\n(2)\nThe Tribunal and the Appellate Tribunal shall have, for the purposes of discharging its functions under this Act, the same powers as are vested in a Civil Court under the Code of Civil Procedure, 1908 (5 of 1908) while trying a suit in respect of the following matters, namely:-\n(a)\nsummoning and enforcing the attendance of any person and examining him on oath;\n(b)\nrequiring the discovery and production of documents;\n(c)\nreceiving evidence on affidavits;\n(d)\nsubject to the provisions of sections 123 and 124 of the Indian Evidence Act, 1872 (\n1 of 1872\n), requisitioning any public record or document or copy of such record or document from any office;\n(e)\nissuing commissions for the examination of witnesses or documents;\n(f)\nreviewing its decisions;\n(g)\ndismissing a representation for default or deciding it ex parte ;\n(h)\nsetting aside any order of dismissal of any representation for default or any order passed by it ex parte ; and\n(i)\nany other matter which may be prescribed by the Central Government.\n(3)\nAny order made by the Tribunal or the Appellate Tribunal may be enforced by that Tribunal in the same manner as if it were a decree made by a Court in a suit pending therein, and it shall be lawful for the Tribunal or the Appellate Tribunal to send in case of its inability to execute such order, to the Court within the local limits of whose jurisdiction,-\n(a)\nin the case of an order against a company, the registered office of the company is situate; or\n(b)\nin the case of an order against any other person, the person concerned voluntarily resides or carries on business or personally works for gain.\n(4)\nAll proceedings before the Tribunal or the Appellate Tribunal shall be deemed to be judicial proceedings within the meaning of sections 193 and 228, and for the purposes of section 196 of the Indian Penal Code (45 of 1860) and the Tribunal and the Appellate Tribunal shall be deemed to be a Civil Court for the purposes of section 195 and Chapter XXVI of the Code of Criminal Procedure, 1973 (2 of 1974).",
+        "metadata": {
+          "domain": "statutes",
+          "act": "The Companies Act, 1956",
+          "section_number": "10FZA.",
+          "section_title": "10FZA.",
+          "source_file": "The_Companies_Act_1956.json"
+        },
+        "rrf_score": 0.015873015873015872,
+        "vector_score": 0,
+        "bm25_score": 219.3448364069946,
+        "sources": [
+          "bm25"
+        ],
+        "rerank_score": -6.920901298522949,
+        "rank": 8,
+        "retrieval_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here? Indian Penal Code Penal Code First Information Report Section 154 CrPC Central Administrative Tribunal Right to Information proceedings hearing Indian Evidence Act examination cross-examination",
+        "normalized_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an First Information Report against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+      }
+    ],
+    "metadata": {
+      "retrieval_time": 0.943913459777832,
+      "document_count": 8,
+      "search_domain": "general",
+      "complexity": "complex",
+      "enhanced_query": "A journalist publishes leaked WhatsApp chats of a sitting High Court judge allegedly coordinating with a senior police officer to influence the outcome of a politically sensitive criminal trial. The chats were obtained by hacking the judge's personal phone by an anonymous source. \n        After publication: 1. The judge files a contempt of court petition. 2. The police register an FIR against the journalist under the IT Act and IPC. 3. A PIL is filed seeking the judge's impeachment and a CBI probe.\n        \n        Analyze: \n        1. Conflict between Article 19(1)(a) and contempt of court.\n        2. Can illegally obtained evidence be published in public interest?\n        3. Is impeachment the correct constitutional remedy?\n        4. Can the journalist claim protection as a whistleblower?\n        5. Is prior restraint on media justified here?"
+    },
+    "duration": 17.14224910736084
+  },
+  {
+    "scenario_id": "SCENARIO_2_CONTRACT_CORPORATE_IBC",
+    "domain": "Contract + Corporate + Insolvency",
+    "query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?",
+    "answer": "**Legal Principles (Statutes/Rules)**\n\n1.  **Section 27 of the Contract Act**: This section states that every agreement by which anyone is restrained from exercising a lawful profession, trade or business of any kind is to that extent void.\n2.  **Insolvency and Bankruptcy Code (IBC)**: The IBC is a comprehensive code that consolidates and amends the laws relating to reorganization and insolvency resolution of corporate persons, partnership firms, and individuals in a time-bound manner.\n3.  **Arbitration and Conciliation Act**: This act provides for the enforcement of arbitration agreements and the conduct of arbitral proceedings.\n4.  **Specific Relief Act**: This act provides for specific relief in certain cases, including the enforcement of contracts.\n\n**Analysis of the Scenario**\n\n1.  **Non-compete clause**: The non-compete clause in the Shareholders' Agreement (SHA) restricts the promoters from starting a similar business for 5 years post-exit. However, under Section 27 of the Contract Act, such a clause is void to the extent it restrains the promoters from exercising a lawful profession, trade, or business.\n2.  **IBC and Arbitration**: The IBC has an overriding effect on other laws, including the Arbitration and Conciliation Act. However, the IBC does not explicitly override arbitration clauses. In this scenario, the arbitration clause in the SHA may still be enforceable, but the IBC proceedings may take precedence.\n3.  **Liquidated damages**: The liquidated damages clause in the SHA provides for damages worth Rs. 50 crore. However, during the moratorium period under the IBC, all legal proceedings against the corporate debtor are stayed. Therefore, the liquidated damages clause may not be enforceable during the moratorium period.\n4.  **Restraint on promoters**: The promoters starting a similar business during the CIRP proceedings may be considered a violation of the non-compete clause. However, as discussed earlier, the non-compete clause may be void under Section 27 of the Contract Act. Moreover, the IBC proceedings may not necessarily restrain the promoters from starting a new business.\n5.  **IBC vs. Arbitration Act**: In this scenario, the IBC may prevail over the Arbitration Act to the extent that the IBC proceedings take precedence over arbitration proceedings. However, the arbitration clause in the SHA may still be enforceable after the IBC proceedings are completed.\n\n**Conclusion and Practical Advice**\n\n1.  **Non-compete clause**: The non-compete clause in the SHA may be void under Section 27 of the Contract Act. Therefore, the promoters may not be restrained from starting a similar business.\n2.  **IBC and Arbitration**: The IBC proceedings may take precedence over arbitration proceedings. However, the arbitration clause in the SHA may still be enforceable after the IBC proceedings are completed.\n3.  **Liquidated damages**: The liquidated damages clause in the SHA may not be enforceable during the moratorium period under the IBC.\n4.  **Restraint on promoters**: The promoters may not be restrained from starting a new business during the CIRP proceedings, especially if the non-compete clause is void under Section 27 of the Contract Act.\n5.  **IBC vs. Arbitration Act**: The IBC may prevail over the Arbitration Act to the extent that the IBC proceedings take precedence over arbitration proceedings.",
+    "reasoning_path": "Hierarchical synthesis of query: A startup enters into a Shareholders' Agreement (S...",
+    "source_documents": [
+      {
+        "id": "STAT_The_Companies_Act_1956_0861",
+        "text": "Act: The Companies Act, 1956\nSection: 116. (116.)\nContent: [\nEntire Act\n]\nUnion of India - Section\nSection 116 in The Companies Act, 1956\n116. Penalty for personation of shareholder .-\nIf any person deceitfully personates an owner of any share or interest in a company, or of any share warrant or coupon, issued in pursuance of this Act, and thereby obtains or attempts to obtain any such shares or interest or any such share warrant or coupon, or receives or attempts to receive any money due to any such owner, he shall be punishable with imprisonment for a term which may extend to three years and shall also be liable to fine.\nSpecial provisions as to debentures",
+        "metadata": {
+          "domain": "statutes",
+          "section_number": "116.",
+          "source_file": "The_Companies_Act_1956.json",
+          "section_title": "116.",
+          "act": "The Companies Act, 1956"
+        },
+        "rrf_score": 0.014705882352941176,
+        "vector_score": -0.04858207702636719,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -5.021487712860107,
+        "rank": 1,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      },
+      {
+        "id": "STAT_Competition_Act_2002_0002",
+        "text": "Act: Competition Act 2002\nSection: 3. Anti-competitive agreements. (3. Anti-competitive agreements.)\nContent: (1) No enterprise or association of enterprises or person or association of persons shall enter into any agreement in respect of production, supply, distribution, storage, acquisition or control of goods or provision of services, which causes or is likely to cause an appreciable adverse effect on competition within India.\n(2) Any agreement entered into in contravention of the provisions contained in sub-section (1) shall be void.",
+        "metadata": {
+          "source_file": "Competition_Act_2002.json",
+          "section_number": "3. Anti-competitive agreements.",
+          "section_title": "3. Anti-competitive agreements.",
+          "act": "Competition Act 2002",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.015384615384615385,
+        "vector_score": -0.022070765495300293,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -5.084026336669922,
+        "rank": 2,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      },
+      {
+        "id": "STAT_The_Companies_Act_1956_0449",
+        "text": "Act: The Companies Act, 1956\nSection: (3) ((3))\nContent: [\nSection 71\n]\n \n [\nEntire Act\n]\nUnion of India - Subsection\nSection 71(3) in The Companies Act, 1956\n(3)\nIf any Director of a company knowingly contravenes, or wilfully authorises or permits the contravention of, any of the provisions of section 69 or 70 with respect to allotment, he shall be liable to compensate the company and the allottee respectively for any loss, damages or costs which the company or the allottee may have sustained or incurred thereby:\nProvided that proceedings to recover any such loss, damages or costs shall not be commenced after the expiration of two years from the date of the allotment.",
+        "metadata": {
+          "act": "The Companies Act, 1956",
+          "section_title": "(3)",
+          "domain": "statutes",
+          "source_file": "The_Companies_Act_1956.json",
+          "section_number": "(3)"
+        },
+        "rrf_score": 0.014925373134328358,
+        "vector_score": -0.027886390686035156,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -5.853363990783691,
+        "rank": 3,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      },
+      {
+        "id": "STAT_The_Companies_Act_1956_0415",
+        "text": "Act: The Companies Act, 1956\nSection: 68. (68.)\nContent: [\nEntire Act\n]\nUnion of India - Section\nSection 68 in The Companies Act, 1956\n68. Penalty for fraudulently inducing persons to invest money .-\nAny person who, either by knowingly or recklessly making any statement, promise or forecast which is false, deceptive or misleading, or by any dishonest concealment of material facts, induces or attempts to induce another person to enter into, or to offer to enter into-\n(a)\nany agreement for, or with a view to, acquiring, disposing of, sub-scribing for, or underwriting shares or debentures; or\n(b)\nany agreement the purpose or pretended purpose of which is to secure a profit to any of the parties from the yield of shares or debentures, or by reference to fluctuations in the value of shares or debentures;\nshall be punishable with imprisonment for a term which may extend to five years, or with fine which may extend to [one lakh rupees], or with both.",
+        "metadata": {
+          "act": "The Companies Act, 1956",
+          "domain": "statutes",
+          "section_title": "68.",
+          "section_number": "68.",
+          "source_file": "The_Companies_Act_1956.json"
+        },
+        "rrf_score": 0.015151515151515152,
+        "vector_score": -0.027233123779296875,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.019296646118164,
+        "rank": 4,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      },
+      {
+        "id": "STAT_Competition_Act_2002_0001",
+        "text": "Act: Competition Act 2002\nSection: 2. Definitions. (2. Definitions.)\nContent: In this Act, unless the context otherwise requires,—\n(a) “acquisition” means, directly or indirectly, acquiring or agreeing to acquire— (i) shares, voting rights or assets of any enterprise; or (ii) control over management or control over assets of any enterprise;\n(b) “agreement” includes any arrangement or understanding or action in concert, whether or not, such arrangement, understanding or action is formal or in writing; or whether or not such arrangement, understanding or action is intended to be enforceable by legal proceedings;\n(c) “Commission” means the Competition Commission of India established under sub-section (1) of section 7;\n(e) “Member” means a Member of the Commission appointed under sub-section (1) of section 8 and includes the Chairperson;",
+        "metadata": {
+          "section_title": "2. Definitions.",
+          "section_number": "2. Definitions.",
+          "act": "Competition Act 2002",
+          "source_file": "Competition_Act_2002.json",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.016129032258064516,
+        "vector_score": -0.013893842697143555,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.054164409637451,
+        "rank": 5,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      },
+      {
+        "id": "STAT_The_Companies_Act_1956_1856",
+        "text": "Act: The Companies Act, 1956\nSection: 243. (243.)\nContent: [\nEntire Act\n]\nUnion of India - Section\nSection 243 in The Companies Act, 1956\n243. Application for winding up of company or an order under section 397 or 398.-\nIf any such company or other body corporate [* * *] is liable to be wound up under this Act and it appears to the Central Government from any such report as aforesaid that it is expedient so to do by reason of any such circumstances as are referred to in sub-clause (i) or (ii) of clause (b) of section 237, the Central Government may, unless [the company or body corporate]\n\nis already being wound up by the [Tribunal]\n\n, cause to be presented to the [Tribunal]\n\nby any person authorised by the Central Government in this behalf,-\n(a)\na petition for the winding up of [the company or body corporate]\n\non the ground that it is just and equitable that it should be wound-up;\n(b)\nan application for an order under section 397 or 398; or\n(c)\nboth a petition and an application as aforesaid.",
+        "metadata": {
+          "source_file": "The_Companies_Act_1956.json",
+          "section_title": "243.",
+          "section_number": "243.",
+          "domain": "statutes",
+          "act": "The Companies Act, 1956"
+        },
+        "rrf_score": 0.015625,
+        "vector_score": -0.019057869911193848,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.224887847900391,
+        "rank": 6,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      },
+      {
+        "id": "STAT_Specific_Relief_Act_1963_0013",
+        "text": "Act: Specific Relief Act 1963\nSection: 14 (Contracts not specifically enforceable.—)\nContent: (1)\nThe following contracts cannot be specifically enforced, namely:—\n(a)\na contract for the non-performance of which compensation in money is an adequate relief;\n(b)\na contract which runs into such minute or numerous details or which is so dependent on the personal qualifications or volition of the parties, or otherwise from its nature is such, that the court cannot enforce specific performance of its material terms;\n(c)\na contract which is in its nature determinable;\n(d)\na contract the performance of which involves the performance of a continuous duty which the court cannot supervise.\n(2)\nSave as provided by the Arbitration Act, 1940 (10 of 1940), no contract to refer present or future differences to arbitration shall be specifically enforced; but if any person who has made such a contract (other than an arbitration agreement to which the provisions of the said Act apply) and has refused to perform it, sues in respect of any subject which he has contracted to refer, the existence of such contract shall bar the suit.\n(3)\nNotwithstanding anything contained in clause (a) or clause (c) or clause (d) of sub-section (1), the court may enforce specific performance in the following cases:—\n(a)\nwhere the suit is for the enforcement of a contract,—\n(i)\nto execute a mortgage or furnish any other security for securing the repayment of any loan which the borrower is not willing to repay at once:\nProvided that where only a part of the loan has been advanced the lendor is willing to advance the remaining part of the loan in terms of the contract; or\n(ii)\nto take up and pay for any debentures of a company;\n(b)\nwhere the suit is for,—\n(i)\nthe execution of a formal deed of partnership, the parties having commenced to carry on the business of the partnership; or\n(ii)\nthe purchase of a share of a partner in a firm;\n(c)\nwhere the suit is for the enforcement of a contract for the construction of any building or the execution of any other work on land:\nProvided that the following conditions are fulfilled, namely:—\n(i)\nthe building or other work is described in the contract in terms sufficiently precise to enable the court to determine the exact nature of the building or work;\n(ii)\nthe plaintiff has a substantial interest in the performance of the contract and the interest is of such a nature that compensation in money for non-performance of the contract is not an adequate relief; and\n(iii)\nthe defendant has, in persuance of the contract, obtained possession of the whole or any part of the land on which the building is to be constructed or other work is to be executed.",
+        "metadata": {
+          "domain": "statutes",
+          "act": "Specific Relief Act 1963",
+          "section_number": "14",
+          "section_title": "Contracts not specifically enforceable.—",
+          "source_file": "Specific_Relief_Act_1963.json"
+        },
+        "rrf_score": 0.016129032258064516,
+        "vector_score": 0,
+        "bm25_score": 138.16720840674995,
+        "sources": [
+          "bm25"
+        ],
+        "rerank_score": -6.569425582885742,
+        "rank": 7,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      },
+      {
+        "id": "STAT_IB_Code_2016_0001",
+        "text": "Act: IB Code 2016\nSection: 3. Definitions. (3. Definitions.)\nContent: In this Code, unless the context otherwise requires,—\n(1) “Board” means the Insolvency and Bankruptcy Board of India established under section 188;\n(2) “bench” means a bench of the Adjudicating Authority;\n(6) “claim” means—\n(a) a right to payment, whether or not such right is reduced to judgment, fixed, disputed, undisputed, legal, equitable, secured or unsecured;\n(b) right to remedy for breach of contract under any law for the time being in force, if such breach gives rise to a right to payment, whether or not such right is reduced to judgment, fixed, matured, unmatured, disputed, undisputed, secured or unsecured;\n(7) “corporate person” means a company as defined in clause (20) of section 2 of the Companies Act, 2013, a limited liability partnership, as defined in clause (n) of sub-section (1) of section 2 of the Limited Liability Partnership Act, 2008, or any other person incorporated with limited liability under any law for the time being in force but shall not include any financial service provider;",
+        "metadata": {
+          "act": "IB Code 2016",
+          "domain": "statutes",
+          "source_file": "IB_Code_2016.json",
+          "section_number": "3. Definitions.",
+          "section_title": "3. Definitions."
+        },
+        "rrf_score": 0.01639344262295082,
+        "vector_score": 0.04948610067367554,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.594383239746094,
+        "rank": 8,
+        "retrieval_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act? deed",
+        "normalized_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+      }
+    ],
+    "metadata": {
+      "retrieval_time": 1.1821587085723877,
+      "document_count": 8,
+      "search_domain": "general",
+      "complexity": "complex",
+      "enhanced_query": "A startup enters into a Shareholders' Agreement (SHA) with a foreign VC fund. The SHA contains: A non-compete clause for 5 years post-exit, Arbitration seated in Singapore, Liquidated damages clause worth Rs. 50 crore. \n        The startup later: Goes into CIRP under IBC, Promoters start a similar business, The VC invokes arbitration and claims damages.\n        \n        Analyze: \n        1. Is the non-compete clause enforceable under Section 27 of the Contract Act?\n        2. Does IBC override the arbitration clause?\n        3. Can liquidated damages be enforced during moratorium?\n        4. Can promoters be restrained during CIRP?\n        5. Which law prevails: IBC or Arbitration Act?"
+    },
+    "duration": 12.800293684005737
+  },
+  {
+    "scenario_id": "SCENARIO_3_CRIMINAL_GENDER_EVIDENCE",
+    "domain": "Criminal Law + Gender Law + Evidence",
+    "query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?",
+    "answer": "**Legal Principles (Statutes/Rules)**\n\n1.  **Section 498A IPC**: This section deals with \"Husband or relative of husband of a woman subjecting her to cruelty.\" It states that whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine.\n2.  **Section 306 IPC**: This section deals with \"Abetment of suicide.\" It states that if any person commits suicide, whoever abets the commission of such suicide, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\n3.  **Section 113A Evidence Act**: This section deals with the presumption of abetment of suicide by a person charged with cruelty. It states that when a woman commits suicide within seven years of her marriage and it is shown that her husband or any relative of her husband had subjected her to cruelty, the court may presume, having regard to all the other circumstances of the case, that such suicide had been abetted by her husband or by such relative of her husband.\n4.  **Section 86 IPC**: This section deals with \"Cruelty defined.\" It states that for the purposes of section 85, \"cruelty\" means any wilful conduct which is of such a nature as is likely to drive the woman to commit suicide or to cause grave injury or danger to life, limb or health (whether mental or physical) of the woman.\n\n**Analysis of the Scenario**\n\n1.  **Can Section 498A IPC and Section 306 IPC both apply?**\n\n    *   Yes, both sections can apply. Section 498A IPC deals with cruelty by the husband or his relatives, while Section 306 IPC deals with abetment of suicide. If the husband or his relatives are found to have subjected the woman to cruelty, which led to her suicide, they can be charged under both sections.\n2.  **What is the evidentiary value of a suicide note?**\n\n    *   A suicide note can be considered as evidence, but its admissibility and weightage depend on various factors, such as the authenticity of the note, the mental state of the person writing it, and the presence of any external influence. In this case, the husband claims that the suicide note is forged, which may affect its evidentiary value.\n3.  **How does presumption under Section 113A Evidence Act operate?**\n\n    *   The presumption under Section 113A Evidence Act operates when a woman commits suicide within seven years of her marriage and it is shown that her husband or any relative of her husband had subjected her to cruelty. The court may presume that such suicide had been abetted by her husband or by such relative of her husband. However, this presumption is rebuttable, and the accused can provide evidence to prove that they did not abet the suicide.\n4.  **Can employer be prosecuted under criminal law?**\n\n    *   Yes, the employer can be prosecuted under criminal law if it is found that they subjected the woman to workplace harassment, which led to her suicide. However, the employer's liability would depend on the specific circumstances of the case and the applicable laws.\n5.  **Is mental cruelty alone sufficient for conviction?**\n\n    *   Yes, mental cruelty alone can be sufficient for conviction under Section 498A IPC. The section defines cruelty as any wilful conduct which is of such a nature as is likely to drive the woman to commit suicide or to cause grave injury or danger to life, limb or health (whether mental or physical) of the woman. Mental cruelty can include emotional abuse, constant taunts, and harassment.\n\n**Conclusion and Practical Advice**\n\nIn this scenario, the husband and his relatives can be charged under Section",
+    "reasoning_path": "Hierarchical synthesis of query: A married woman dies by suicide within 3 years of ...",
+    "source_documents": [
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0078",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 81 (Chunk 81)\nContent: --- Section 80 ---\nBNS\nChapter V\nS.\n80\nDowry death.\nDescription\nWhere the death of a woman is caused by any burns or bodily injury or occurs otherwise than under normal circumstances within seven years of her marriage and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called “dowry death”, and such husband or relative shall be deemed to have caused her death.\nExplanation:\nFor the purposes of this sub-section, “dowry” shall have the same meaning as in section 2 of the Dowry Prohibition Act, 1961.\nWhoever commits dowry death shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life.\nBNSS\nClassification\nImprisonment for not less than 7 years but which may extend to imprisonment for life.\nCognizable\nNon-bailable\nTriable by Court of Session",
+        "metadata": {
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "81",
+          "section_title": "Chunk 81",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.03057889822595705,
+        "vector_score": 0.05166351795196533,
+        "bm25_score": 142.19784748170207,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -0.35615864396095276,
+        "rank": 1,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0083",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 86 (Chunk 86)\nContent: --- Section 85 ---\nBNS\nChapter V\nS.\n85\nHusband or relative of husband of a woman subjecting her to cruelty.\nDescription\nWhoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine.\nBNSS\nClassification\nImprisonment for 3 years and fine.\nCognizable if information relating to the commission of the offence is given to an officer in charge of a police station by the person aggrieved by the offence or by any person related to her by blood, marriage or adoption or if there is no such relative, by any public servant belonging to such class or category as may be notified by the State Government in this behalf.\nNon-bailable\nTriable by Magistrate of the first class",
+        "metadata": {
+          "section_title": "Chunk 86",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "86",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.031754032258064516,
+        "vector_score": 0.18745845556259155,
+        "bm25_score": 146.33284820459497,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -1.4967453479766846,
+        "rank": 2,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0065",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 68 (Chunk 68)\nContent: --- Section 67 ---\nBNS\nChapter V\nS.\n67\nSexual intercourse by husband upon his wife during separation.\nDescription\nIPC\nSection\n376B\nWhoever has sexual intercourse with his own wife, who is living separately, whether under a decree of separation or otherwise, without her consent, shall be punished with imprisonment of either description for a term which shall not be less than two years but which may extend to seven years, and shall also be liable to fine.\nExplanation:\nIn this section, “sexual intercourse” shall mean any of the acts mentioned in clauses (a) to (d) of section\n63\n.\nBNSS\nClassification\nImprisonment for not less than 2 years but which may extend to 7 years and fine.\nCognizable (only on the complaint of the victim)\nBailable\nTriable by Court of Session",
+        "metadata": {
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "section_title": "Chunk 68",
+          "section_number": "68",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.026547116736990152,
+        "vector_score": -0.016472339630126953,
+        "bm25_score": 115.48313079957622,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -2.7335171699523926,
+        "rank": 3,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0106",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 109 (Chunk 109)\nContent: --- Section 108 ---\nBNS\nChapter VI\nS.\n108\nAbetment of suicide.\nDescription\nIPC\nSection\n306\nIf any person commits suicide, whoever abets the commission of such suicide, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\nBNSS\nClassification\nImprisonment for 10 years and fine.\nCognizable\nNon-Bailable\nTriable by Court of Session.",
+        "metadata": {
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "109",
+          "section_title": "Chunk 109",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.01639344262295082,
+        "vector_score": 0.29830485582351685,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -2.984257698059082,
+        "rank": 4,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0224",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 227 (Chunk 227)\nContent: --- Section 226 ---\nBNS\nChapter XIII\nS.\n226\nAttempt to commit suicide to compel or restraint exercise of lawful power.\nDescription\nWhoever attempts to commit suicide with the intent to compel or restrain any public servant from discharging his official duty shall be punished with simple imprisonment for a term which may extend to one year or with fine or with both or with community service.\nBNSS\nClassification\nImprisonment for 1 year, or fine, or both, or community service.\nNon-cognizable\nBailable\nTriable by Any Magistrate.",
+        "metadata": {
+          "domain": "statutes",
+          "section_number": "227",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "section_title": "Chunk 227"
+        },
+        "rrf_score": 0.015384615384615385,
+        "vector_score": 0.07537233829498291,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -3.8911032676696777,
+        "rank": 5,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0084",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 87 (Chunk 87)\nContent: --- Section 86 ---\nBNS\nChapter V\nS.\n86\nCruelty defined.\nDescription\nIPC\nSection\n498A\nFor the purposes of section\n85\n, “cruelty” means:\nany wilful conduct which is of such a nature as is likely to drive the woman to commit suicide or to cause grave injury or danger to life, limb or health (whether mental or physical) of the woman; or\nharassment of the woman where such harassment is with a view to coercing her or any person related to her to meet any unlawful demand for any property or valuable security or is on account of failure by her or any person related to her to meet such demand.",
+        "metadata": {
+          "domain": "statutes",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "section_title": "Chunk 87",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "87"
+        },
+        "rrf_score": 0.032266458495966696,
+        "vector_score": 0.21051549911499023,
+        "bm25_score": 182.61191660832634,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -4.030447483062744,
+        "rank": 6,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0105",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 108 (Chunk 108)\nContent: --- Section 107 ---\nBNS\nChapter VI\nS.\n107\nAbetment of suicide of child or person of unsound mind.\nDescription\nIPC\nSection\n305\nIf any person under eighteen years of age, any person with mental illness, any delirious person or any person in a state of intoxication, commits suicide, whoever abets the commission of such suicide, shall be punished with death or imprisonment for life, or imprisonment for a term not exceeding ten years, and shall also be liable to fine.\nBNSS\nClassification\nDeath, or imprisonment for life, or imprisonment for 10 years and fine.\nCognizable\nNon-Bailable\nTriable by Court of Session.",
+        "metadata": {
+          "section_title": "Chunk 108",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "108",
+          "domain": "statutes",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json"
+        },
+        "rrf_score": 0.031054405392392875,
+        "vector_score": 0.21812987327575684,
+        "bm25_score": 134.7203519992236,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -4.108418941497803,
+        "rank": 7,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0101",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 104 (Chunk 104)\nContent: --- Section 103 ---\nBNS\nChapter VI\nS.\n103\nPunishment for murder.\nDescription\nIPC\nSection\n302\nWhoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine.\nWhen a group of five or more persons acting in concert commits murder on the ground of race, caste or community, sex, place of birth, language, personal belief or any other ground each member of such group shall be punished with death or with imprisonment for life or imprisonment for a term which shall not be less than seven years, and shall also be liable to fine.\nBNSS\nClassification\nDeath or imprisonment for life and fine.\nCognizable\nNon-Bailable\nTriable by Court of Session.",
+        "metadata": {
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_title": "Chunk 104",
+          "domain": "statutes",
+          "section_number": "104",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json"
+        },
+        "rrf_score": 0.015151515151515152,
+        "vector_score": 0.058304548263549805,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -4.237929821014404,
+        "rank": 8,
+        "retrieval_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction? Indian Penal Code Penal Code IPC Section 304B Indian Evidence Act examination cross-examination",
+        "normalized_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+      }
+    ],
+    "metadata": {
+      "retrieval_time": 0.6773695945739746,
+      "document_count": 8,
+      "search_domain": "general",
+      "complexity": "complex",
+      "enhanced_query": "A married woman dies by suicide within 3 years of marriage. Her suicide note accuses: Husband of emotional abuse, Mother-in-law of constant taunts, Employer of workplace harassment. \n        The husband claims: The suicide note is forged, The woman was under depression, No physical cruelty ever occurred.\n        \n        Analyze:\n        1. Can Section 498A IPC and Section 306 IPC both apply?\n        2. What is the evidentiary value of a suicide note?\n        3. How does presumption under Section 113A Evidence Act operate?\n        4. Can employer be prosecuted under criminal law?\n        5. Is mental cruelty alone sufficient for conviction?"
+    },
+    "duration": 21.30142855644226
+  },
+  {
+    "scenario_id": "SCENARIO_4_CYBER_PRIVACY_SECURITY",
+    "domain": "Cyber Law + Privacy + National Security",
+    "query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?",
+    "answer": "**Legal Principles (Statutes/Rules)**\n\n1. **Article 21 of the Indian Constitution**: Protects the right to privacy, which includes the right to protection of personal data and biometric information.\n2. **Digital Personal Data Protection Act, 2023**: Regulates the processing of personal data, including biometric data, and imposes obligations on data fiduciaries to ensure the security and confidentiality of personal data.\n3. **Puttaswamy proportionality test**: A judicial test to determine the proportionality of a restriction on a fundamental right, including the right to privacy.\n\n**Analysis of the Scenario**\n\n1. **Violation of Article 21 (Right to Privacy)**: The use of AI-based facial recognition software without specific legislation backing it may violate the right to privacy under Article 21. The collection, storage, and processing of biometric data without consent or a lawful basis may infringe upon the individual's right to privacy.\n2. **Executive Action without Legislation**: Executive action alone may not be sufficient to justify the use of facial recognition software, as it may not provide adequate safeguards for the protection of personal data and the right to privacy. Legislation is necessary to provide a clear framework for the use of such technology.\n3. **Puttaswamy Proportionality Test**: To determine the proportionality of the restriction on the right to privacy, the following factors must be considered:\n\t* **Legality**: Is the restriction imposed by a law or a legitimate aim?\n\t* **Necessity**: Is the restriction necessary to achieve the legitimate aim?\n\t* **Proportionality**: Is the restriction proportionate to the legitimate aim?\n\t* **Balancing**: Does the restriction strike a balance between the individual's right to privacy and the legitimate aim?\n4. **Liability for Data Breach**: The data fiduciary (in this case, the government agency) may be liable for the data breach under the Digital Personal Data Protection Act, 2023. The Act imposes penalties for failure to take reasonable security safeguards to prevent personal data breaches.\n5. **Damages against the State**: The individual may be able to claim damages against the State for the violation of their right to privacy and the data breach. The State may be liable for compensation under the Consumer Protection Act, 2019, or other relevant laws.\n\n**Conclusion and Practical Advice**\n\nThe use of AI-based facial recognition software without specific legislation backing it may violate the right to privacy under Article 21. The government agency's executive action alone may not be sufficient to justify the use of such technology. The Puttaswamy proportionality test must be applied to determine the proportionality of the restriction on the right to privacy.\n\nTo avoid liability, the government agency should:\n\n1. Obtain specific legislation backing the use of facial recognition software.\n2. Ensure that the collection, storage, and processing of biometric data are done in accordance with the Digital Personal Data Protection Act, 2023.\n3. Implement reasonable security safeguards to prevent personal data breaches.\n4. Provide adequate notice and consent mechanisms for individuals whose biometric data is being collected and processed.\n\nIndividuals who have been affected by the data breach may be able to claim damages against the State for the violation of their right to privacy and the data breach.",
+    "reasoning_path": "Hierarchical synthesis of query: A government agency uses AI-based facial recogniti...",
+    "source_documents": [
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0312",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 315 (Chunk 315)\nContent: --- Section 314 ---\nBNS\nChapter XVII\nS.\n314\nDishonest misappropriation of property.\nDescription\nWhoever dishonestly misappropriates or converts to his own use any movable property, shall be punished with imprisonment of either description for a term which shall not be less than six months but which may extend to two years and with fine.\nIllustrations:\nA takes property belonging to Z out of Z’s possession, in good faith believing at the time when he takes it, that the property belongs to himself. A is not guilty of theft; but if A, after discovering his mistake, dishonestly appropriates the property to his own use, he is guilty of an offence under this section.\nA, being on friendly terms with Z, goes into Z’s library in Z’s absence, and takes away a book without Z’s express consent. Here, if A was under the impression that he had Z’s implied consent to take the book for the purpose of reading it, A has not committed theft. But, if A afterwards sells the book for his own benefit, he is guilty of an offence under this section.\nA and B, being, joint owners of a horse. A takes the horse out of B’s possession, intending to use it. Here, as A has a right to use the horse, he does not dishonestly misappropriate it. But, if A sells the horse and appropriates the whole proceeds to his own use, he is guilty of an offence under this section.\nExplanation 1:\nA dishonest misappropriation for a time only is a misappropriation within the meaning of this section.\nIllustration:\nA finds a Government promissory note belonging to Z, bearing a blank endorsement. A, knowing that the note belongs to Z, pledges it with a banker as a security for a loan, intending at a future time to restore it to Z. A has committed an offence under this section.\nExplanation 2:\nA person who finds property not in the possession of any other person, and takes such property for the purpose of protecting it for, or of restoring it to, the owner, does not take or misappropriate it dishonestly, and is not guilty of an offence; but he is guilty of the offence above defined, if he appropriates it to his own use, when he knows or has the means of discovering the owner, or before he has used reasonable means to discover and give notice to the owner and has kept the property a reasonable time to enable the owner to claim it. What are reasonable means or what is a reasonable time in such a case, is a question of fact. It is not necessary that the finder should know who is the owner of the property, or that any particular person is the owner of it; it is sufficient if, at the time of appropriating it, he does not believe it to be his own property, or in good faith believe that the real owner cannot be found.\nIllustrations:\nA finds a rupee on the high road, not knowing to whom the rupee belongs, A picks up the rupee. Here A has not committed the offence defined in this section.\nA finds a letter on the road, containing a bank note. From the direction and contents of the letter he learns to whom the note belongs. He appropriates the note. He is guilty of an offence under this section.\nA finds a cheque payable to bearer. He can form no conjecture as to the person who has lost the cheque. But the name of the person, who has drawn the cheque, appears. A knows that this person can direct him to the person in whose favour the cheque was drawn. A appropriates the cheque without attempting to discover the owner. He is guilty of an offence under this section.\nA sees Z drop his purse with money in it. A picks up the purse with the intention of restoring it to Z, but afterwards appropriates it to his own use. A has committed an offence under this section.\nA finds a purse with money, not knowing to whom it belongs; he afterwards discovers that it belongs to Z, and appropriates it to his own use. A is guilty of an offence under this section.\nA finds a valuable ring, not knowing to whom it belongs. A sells it immediately without attempting to discover the owner. A is guilty of an offence under this section.\nBNSS\nClassification\nImprisonment of not less than 6 months but which may extend to 2 years and fine.\nNon-cognizable\nBailable\nTriable by Any Magistrate.",
+        "metadata": {
+          "domain": "statutes",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "315",
+          "section_title": "Chunk 315",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json"
+        },
+        "rrf_score": 0.014705882352941176,
+        "vector_score": 0,
+        "bm25_score": 86.42323206717734,
+        "sources": [
+          "bm25"
+        ],
+        "rerank_score": -6.155388355255127,
+        "rank": 1,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0215",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 218 (Chunk 218)\nContent: --- Section 217 ---\nBNS\nChapter XIII\nS.\n217\nFalse information, with intent to cause public servant to use his lawful power to the injury of another person.\nDescription\nWhoever gives to any public servant any information which he knows or believes to be false, intending thereby to cause, or knowing it to be likely that he will thereby cause, such public servan\nto do or omit anything which such public servant ought not to do or omit if the true state of facts respecting which such information is given were known by him; or\nto use the lawful power of such public servant to the injury or annoyance of any person, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to ten thousand rupees, or with both.\nIllustrations:\nA informs a Magistrate that Z, a police-officer, subordinate to such Magistrate, has been guilty of neglect of duty or misconduct, knowing such information to be false, and knowing it to be likely that the information will cause the Magistrate to dismiss Z. A has committed the offence defined in this section.\nA falsely informs a public servant that Z has contraband salt in a secret place, knowing such information to be false, and knowing that it is likely that the consequence of the information will be a search of Z’s premises, attended with annoyance to Z. A has committed the offence defined in this section.\nA falsely informs a policeman that he has been assaulted and robbed in the neighbourhood of a particular village. He does not mention the name of any person as one of his assailants, but knows it to be likely that in consequence of this information the police will make enquiries and institute searches in the village to the annoyance of the villagers or some of them. A has committed an offence under this section.\nBNSS\nClassification\nImprisonment for 1 year, or with fine of 10,000 rupees, or both.\nNon-cognizable\nBailable\nTriable by Any Magistrate.",
+        "metadata": {
+          "domain": "statutes",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "218",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "section_title": "Chunk 218"
+        },
+        "rrf_score": 0.015873015873015872,
+        "vector_score": -0.14681673049926758,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.5391387939453125,
+        "rank": 2,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      },
+      {
+        "id": "STAT_Digital_Personal_Data_Protection_Act_2023_0000",
+        "text": "Act: Digital Personal Data Protection Act, 2023\nSection: 8 (General obligations of Data Fiduciary)\nContent: 8. (1) A Data Fiduciary shall, irrespective of any agreement to the contrary or failure of a Data Principal to carry out the duties provided under this Act, be responsible for complying with the provisions of this Act and the rules made thereunder in respect of any processing undertaken by it or on its behalf by a Data Processor.\n(2) A Data Fiduciary may engage, appoint, use or otherwise involve a Data Processor to process personal data on its behalf for any activity related to offering of goods or services to Data Principals only under a valid contract.\n(3) Where personal data processed by a Data Fiduciary is likely to be— (a) used to make a decision that affects the Data Principal; or (b) disclosed to another Data Fiduciary, the Data Fiduciary processing such personal data shall ensure its completeness, accuracy and consistency.\n(4) A Data Fiduciary shall implement appropriate technical and organisational measures to ensure effective observance of the provisions of this Act.\n(5) A Data Fiduciary shall protect personal data in its possession or under its control by taking reasonable security safeguards to prevent personal data breach.\n(6) In the event of a personal data breach, the Data Fiduciary shall give the Board and each affected Data Principal, intimation of such breach in such form and manner as may be prescribed.\n(7) A Data Fiduciary shall erase personal data, upon the Data Principal withdrawing her consent or as soon as it is reasonable to assume that the specified purpose is no longer being served.",
+        "metadata": {
+          "section_title": "General obligations of Data Fiduciary",
+          "act": "Digital Personal Data Protection Act, 2023",
+          "section_number": "8",
+          "domain": "statutes",
+          "source_file": "Digital_Personal_Data_Protection_Act_2023.json"
+        },
+        "rrf_score": 0.030886196246139225,
+        "vector_score": -0.18615186214447021,
+        "bm25_score": 95.26995011368273,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -6.771751403808594,
+        "rank": 3,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      },
+      {
+        "id": "STAT_Digital_Personal_Data_Protection_Act_2023_0001",
+        "text": "Act: Digital Personal Data Protection Act, 2023\nSection: 33 (Penalties)\nContent: 33. (1) If the Board determines on conclusion of an inquiry that a significant breach of the provisions of this Act or the rules made thereunder has occurred, it may impose a monetary penalty.\n(2) The detailed penalties are specified in the Schedule:\n(a) Failure of Data Fiduciary to take reasonable security safeguards to prevent personal data breach: up to two hundred and fifty crore rupees;\n(b) Failure to notify the Board and affected Data Principals of a personal data breach: up to two hundred crore rupees;\n(c) Breach in observance of additional obligations in relation to children: up to two hundred crore rupees;\n(d) Breach in observance of additional obligations of Significant Data Fiduciary: up to one hundred and fifty crore rupees;\n(e) Breach in observance of the duties by Data Principal: up to ten thousand rupees;\n(f) Breach of any other provision of this Act or rules made thereunder: up to fifty crore rupees.",
+        "metadata": {
+          "source_file": "Digital_Personal_Data_Protection_Act_2023.json",
+          "section_title": "Penalties",
+          "section_number": "33",
+          "domain": "statutes",
+          "act": "Digital Personal Data Protection Act, 2023"
+        },
+        "rrf_score": 0.030886196246139225,
+        "vector_score": -0.12687277793884277,
+        "bm25_score": 85.07102975891743,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -6.825505256652832,
+        "rank": 4,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0335",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 338 (Chunk 338)\nContent: --- Section 337 ---\nBNS\nChapter XVIII\nS.\n337\nForgery of record of Court or of public register, etc.\nDescription\nWhoever forges a document or an electronic record, purporting to be a record or proceeding of or in a Court or an identity document issued by Government including voter identity card or Aadhaar Card, or a register of birth, marriage or burial, or a register kept by a public servant as such, or a certificate or document purporting to be made by a public servant in his official capacity, or an authority to institute or defend a suit, or to take any proceedings therein, or to confess judgment, or a power of attorney, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.\nExplanation:\nFor the purposes of this section, “register” includes any list, data or record of any entries maintained in the electronic form as defined in clause (r ) of sub-section (1) of section 2 of the Information Technology Act, 2000.\nBNSS\nClassification\nImprisonment for 7 years, or fine.\nNon-cognizable\nNon-bailable\nTriable by Magistrate of the first class.",
+        "metadata": {
+          "section_number": "338",
+          "domain": "statutes",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json",
+          "section_title": "Chunk 338"
+        },
+        "rrf_score": 0.028371628371628373,
+        "vector_score": -0.1554175615310669,
+        "bm25_score": 83.95639841991621,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -6.91876220703125,
+        "rank": 5,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      },
+      {
+        "id": "STAT_Consumer_Protection_Act_2019_0537",
+        "text": "Act: Consumer Protection Act 2019\nSection: 93. (93.)\nContent: [\n\nEntire Act\n\n]\n\nUnion of India - Section\n\nSection 93 in Consumer Protection Act, 2019\n\n93. Vexatious search.\n\n- The Director General or any other officer, exercising powers under section 22, who knows that there are no reasonable grounds for so doing, and yet-\n\n(a)\n\nsearches, or causes to be searched any premises; or\n\n(b)\n\nseizes any record, register or other document or article, shall, for every such offence, be punished with imprisonment for a term which may extend to one year, or with fine which may extend to ten thousand rupees or with both.",
+        "metadata": {
+          "domain": "statutes",
+          "act": "Consumer Protection Act 2019",
+          "section_number": "93.",
+          "source_file": "Consumer_Protection_Act_2019.json",
+          "section_title": "93."
+        },
+        "rrf_score": 0.014925373134328358,
+        "vector_score": -0.17042112350463867,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.978257656097412,
+        "rank": 6,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      },
+      {
+        "id": "STAT_Consumer_Protection_Act_2019_0242",
+        "text": "Act: Consumer Protection Act 2019\nSection: 22. (22.)\nContent: [\n\nEntire Act\n\n]\n\nUnion of India - Section\n\nSection 22 in Consumer Protection Act, 2019\n\n22. Search and seizure.\n\n(1)\n\nFor the purpose of conducting an investigation after preliminary inquiry under sub-section (1) of section 19, the Director-General or any other officer authorised by him in this behalf, or the District Collector, as the case may be, may, if he has any reason to believe that any person has violated any consumer rights or committed unfair trade practice or causes any false or misleading advertisement to be made, shall,-\n\n(a)\n\nenter at any reasonable time into any such premises and search for any document or record or article or any other form of evidence and seize such document, record, article or such evidence;\n\n(b)\n\nmake a note or an inventory of such record or article; or\n\n(c)\n\nrequire any person to produce any record, register or other document or article.\n\n(2)\n\nThe provisions of the Code of Criminal Procedure, 1973, relating to search and seizure shall apply, as far as may be, for search and seizure under this Act (\n\n2 of 1974\n\n).\n\n(3)\n\nEvery document, record or article seized under clause (a) of sub-section (1) or produced under clause (c) of that sub-section shall be returned to the person, from whom they were seized or who produced the same, within a period of twenty days of the date of such seizure or production, as the case may be, after copies thereof or extracts therefrom certified by that person, in such manner as may be prescribed, have been taken.\n\n(4)\n\nWhere any article seized under sub-section (1) are subject to speedy or natural decay, the Director-General or such other officer may dispose of the article in such manner as may be prescribed.\n\n(5)\n\nIn the case of articles other than the articles referred to in sub-section (4), provisions contained in clause (c) of sub-section (2) of section 38 shall mutatis mutandis apply in relation to analysis or tests.",
+        "metadata": {
+          "domain": "statutes",
+          "section_title": "22.",
+          "section_number": "22.",
+          "source_file": "Consumer_Protection_Act_2019.json",
+          "act": "Consumer Protection Act 2019"
+        },
+        "rrf_score": 0.015625,
+        "vector_score": -0.150498628616333,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -6.996909141540527,
+        "rank": 7,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      },
+      {
+        "id": "STAT_Consumer_Protection_Act_2019_0084",
+        "text": "Act: Consumer Protection Act 2019\nSection: (iv) ((iv))\nContent: [\n\nSection 2(28)\n\n]\n \n [\n\nSection 2\n\n]\n \n [\n\nEntire Act\n\n]\n\nUnion of India - Subsection\n\nSection 2(28)(iv) in Consumer Protection Act, 2019\n\n(iv)\n\ndeliberately conceals important information;",
+        "metadata": {
+          "act": "Consumer Protection Act 2019",
+          "source_file": "Consumer_Protection_Act_2019.json",
+          "section_title": "(iv)",
+          "section_number": "(iv)",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.016129032258064516,
+        "vector_score": -0.14387285709381104,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -7.135965347290039,
+        "rank": 8,
+        "retrieval_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State? Right to Information",
+        "normalized_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+      }
+    ],
+    "metadata": {
+      "retrieval_time": 1.1488041877746582,
+      "document_count": 8,
+      "search_domain": "general",
+      "complexity": "complex",
+      "enhanced_query": "A government agency uses AI-based facial recognition software at airports without any specific legislation backing it. A citizen is wrongfully detained due to false match, his biometric data is stored indefinitely, and data later leaks online. The government argues national security.\n        \n        Analyze:\n        1. Does this violate Article 21 (Right to Privacy)?\n        2. Is executive action sufficient without legislation?\n        3. Apply the Puttaswamy proportionality test.\n        4. Who is liable for the data breach?\n        5. Can damages be claimed against the State?"
+    },
+    "duration": 11.400892734527588
+  },
+  {
+    "scenario_id": "SCENARIO_5_PROPERTY_FAMILY_CONSTITUTIONAL",
+    "domain": "Property + Family Law + Constitutional Challenge",
+    "query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?",
+    "answer": "**Legal Principles (Statutes/Rules)**\n\n1.  **Hindu Succession Act, 1956**: This Act governs the succession of property among Hindus. According to Section 6 of the Act, when a male Hindu dies intestate, his property is divided equally among his heirs, which include his sons, daughters, and widow.\n2.  **Transfer of Property Act, 1882**: This Act deals with the transfer of property in India. Section 6 of the Act states that property of any kind may be transferred, except as otherwise provided by this Act or by any other law for the time being in force.\n3.  **Protection of Women from Domestic Violence Act, 2005**: This Act provides protection to women from domestic violence. Section 2(a) of the Act defines \"aggrieved person\" as any woman who is, or has been, in a domestic relationship with the respondent.\n4.  **Article 14 of the Constitution of India**: This Article guarantees equality before the law and equal protection of the laws to all citizens.\n\n**Analysis of the Scenario**\n\n1.  **Daughters' Entitlement to Equal Share**: According to the Hindu Succession Act, 1956, daughters are entitled to an equal share in the property of their father, who dies intestate.\n2.  **Live-in Partner's Inheritance Rights**: A live-in partner, who is not legally married, does not have inheritance rights under the Hindu Succession Act, 1956. However, the live-in partner may be entitled to maintenance under the Protection of Women from Domestic Violence Act, 2005, if she can prove that she was in a domestic relationship with the deceased.\n3.  **Article 14 Override Personal Law**: Article 14 of the Constitution of India guarantees equality before the law and equal protection of the laws to all citizens. However, personal laws, such as the Hindu Succession Act, 1956, are exempt from the purview of Article 14, as they are considered to be a part of the personal laws of the community.\n4.  **Applicability of Protection of Women from Domestic Violence Act**: The Protection of Women from Domestic Violence Act, 2005, is applicable to women who are, or have been, in a domestic relationship with the respondent. In this scenario, the live-in partner may be entitled to protection under this Act, if she can prove that she was in a domestic relationship with the deceased.\n5.  **Courts Reading Constitutional Morality into Succession Law**: Courts in India have the power to read constitutional morality into succession law, if they find that the law is discriminatory or unjust. However, this power is exercised with caution, as it may involve interfering with the personal laws of a community.\n\n**Conclusion and Practical Advice**\n\n1.  The daughters are entitled to an equal share in the property of their father, who dies intestate.\n2.  The live-in partner does not have inheritance rights under the Hindu Succession Act, 1956. However, she may be entitled to maintenance under the Protection of Women from Domestic Violence Act, 2005, if she can prove that she was in a domestic relationship with the deceased.\n3.  Article 14 of the Constitution of India does not override personal laws, such as the Hindu Succession Act, 1956.\n4.  The Protection of Women from Domestic Violence Act, 2005, is applicable to women who are, or have been, in a domestic relationship with the respondent.\n5.  Courts in India have the power to read constitutional morality into succession law, if they find that the law is discriminatory or unjust. However, this power is exercised with caution, as it may involve interfering with the personal laws of a community.\n\nIn this scenario, the daughters are entitled to an equal share in the property of their father, who dies intestate. The live-in partner does",
+    "reasoning_path": "Hierarchical synthesis of query: A Hindu man dies intestate leaving behind: A self-...",
+    "source_documents": [
+      {
+        "id": "STAT_Transfer_of_Property_Act_1882_0063",
+        "text": "Act: Transfer of Property Act 1882\nSection: (b) ((b))\nContent: [\n\nSection 27\n\n]\n \n [\n\nEntire Act\n\n]\n\nUnion of India - Subsection\n\nSection 27(b) in The Transfer Of Property Act, 1882\n\n(b)\n\nA transfers property to his wife; but, in case she should die in his life-time, transfer to B that which he had transferred to her. A and his wife perish together, under circumstances which make it impossible to prove that she died before him. The disposition in favour of B does not take effect.",
+        "metadata": {
+          "section_title": "(b)",
+          "section_number": "(b)",
+          "source_file": "Transfer_of_Property_Act_1882.json",
+          "domain": "statutes",
+          "act": "Transfer of Property Act 1882"
+        },
+        "rrf_score": 0.015625,
+        "vector_score": 0.2045079469680786,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -5.798687934875488,
+        "rank": 1,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      },
+      {
+        "id": "STAT_Transfer_of_Property_Act_1882_0018",
+        "text": "Act: Transfer of Property Act 1882\nSection: (a) ((a))\nContent: [\n\nSection 6\n\n]\n \n [\n\nEntire Act\n\n]\n\nUnion of India - Subsection\n\nSection 6(a) in The Transfer Of Property Act, 1882\n\n(a)\n\nThe chance of an heir-apparent succeeding to an estate, the chance of a relation obtaining a legacy on the death of a kinsman, or any other mere possibility of a like nature, cannot be transferred;",
+        "metadata": {
+          "section_number": "(a)",
+          "act": "Transfer of Property Act 1882",
+          "section_title": "(a)",
+          "source_file": "Transfer_of_Property_Act_1882.json",
+          "domain": "statutes"
+        },
+        "rrf_score": 0.015151515151515152,
+        "vector_score": 0.1843973994255066,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -7.2269792556762695,
+        "rank": 2,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      },
+      {
+        "id": "STAT_Transfer_of_Property_Act_1882_0079",
+        "text": "Act: Transfer of Property Act 1882\nSection: 39. (39.)\nContent: [\n\nEntire Act\n\n]\n\nUnion of India - Section\n\nSection 39 in The Transfer Of Property Act, 1882\n\n39. Transfer where third person is entitled to maintenance.—\n\nWhere a third person has a right to receive maintenance, or a provision for advancement or marriage, from the profits of immoveable property, and such property is transferred, the right may be enforced against the transferee, if he has notice thereof or if the transfer is gratuitous; but not against a transferee for consideration and without notice of the right, nor against such property in his hands.",
+        "metadata": {
+          "act": "Transfer of Property Act 1882",
+          "section_number": "39.",
+          "section_title": "39.",
+          "domain": "statutes",
+          "source_file": "Transfer_of_Property_Act_1882.json"
+        },
+        "rrf_score": 0.027212143650499815,
+        "vector_score": 0.10387414693832397,
+        "bm25_score": 92.10480629995442,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -7.440303802490234,
+        "rank": 3,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      },
+      {
+        "id": "STAT_Transfer_of_Property_Act_1882_0084",
+        "text": "Act: Transfer of Property Act 1882\nSection: 44. (44.)\nContent: [\n\nEntire Act\n\n]\n\nUnion of India - Section\n\nSection 44 in The Transfer Of Property Act, 1882\n\n44. Transfer by one co-owner.—\n\nWhere one of two or more co-owners of immoveable property legally competent in that behalf transfers his share of such property or any interest therein, the transferee acquires as to such share or interest, and so far as is necessary to give, effect to the transfer, the transferor’s right to joint possession or other common or part enjoyment of the property, and to enforce a partition of the same, but subject to the conditions and liabilities affecting at the date of the transfer, the share or interest so transferred.\n\nWhere the transferee of a share of a dwelling-house belonging to an undivided family is not a member of the family, nothing in this section shall be deemed to entitle him to joint possession or other common or part enjoyment of the house.",
+        "metadata": {
+          "domain": "statutes",
+          "section_title": "44.",
+          "act": "Transfer of Property Act 1882",
+          "section_number": "44.",
+          "source_file": "Transfer_of_Property_Act_1882.json"
+        },
+        "rrf_score": 0.029273504273504274,
+        "vector_score": 0.20259737968444824,
+        "bm25_score": 92.45462784569112,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -7.53809928894043,
+        "rank": 4,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      },
+      {
+        "id": "STAT_Bharatiya_Nyaya_Sanhita_2023_0316",
+        "text": "Act: Bharatiya Nyaya Sanhita 2023\nSection: 319 (Chunk 319)\nContent: --- Section 318 ---\nBNS\nChapter XVII\nS.\n318\nCheating.\nDescription\nWhoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property, is said to “cheat”.\nExplanation:\nA dishonest concealment of facts is a deception within the meaning of this section.\nIllustrations:\nA, by falsely pretending to be in the Civil Service, intentionally deceives Z, and thus dishonestly induces Z to let him have on credit goods for which he does not mean to pay. A cheats.\nA, by putting a counterfeit mark on an article, intentionally deceives Z into a belief that this article was made by a certain celebrated manufacturer, and thus dishonestly induces Z to buy and pay for the article. A cheats.\nA, by exhibiting to Z a false sample of an article intentionally deceives Z into believing that the article corresponds with the sample, and thereby dishonestly induces Z to buy and pay for the article. A cheats.\nA, by tendering in payment for an article a bill on a house with which A keeps no money, and by which A expects that the bill will be dishonoured, intentionally deceives Z, and thereby dishonestly induces Z to deliver the article, intending not to pay for it. A cheats.\nA, by pledging as diamond articles which he knows are not diamonds, intentionally deceives Z, and thereby dishonestly induces Z to lend money. A cheats.\nA intentionally deceives Z into a belief that A means to repay any money that Z may lend to him and thereby dishonestly induces Z to lend him money, A not intending to repay it. A cheats.\nA intentionally deceives Z into a belief that A means to deliver to Z a certain quantity of indigo plant which he does not intend to deliver, and thereby dishonestly induces Z to advance money upon the faith of such delivery. A cheats; but if A, at the time of obtaining the money, intends to deliver the indigo plant, and afterwards breaks his contract and does not deliver it, he does not cheat, but is liable only to a civil action for breach of contract.\nA intentionally deceives Z into a belief that A has performed A’s part of a contract made with Z, which he has not performed, and thereby dishonestly induces Z to pay money. A cheats.\nA sells and conveys an estate to B. A, knowing that in consequence of such sale he has no right to the property, sells or mortgages the same to Z, without disclosing the fact of the previous sale and conveyance to B, and receives the purchase or mortgage money from Z. A cheats.\nWhoever cheats shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.\nWhoever cheats with the knowledge that he is likely thereby to cause wrongful loss to a person whose interest in the transaction to which the cheating relates, he was bound, either by law, or by a legal contract, to protect, shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.\nWhoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security, or anything which is signed or sealed, and which is capable of being converted into a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+        "metadata": {
+          "domain": "statutes",
+          "act": "Bharatiya Nyaya Sanhita 2023",
+          "section_number": "319",
+          "section_title": "Chunk 319",
+          "source_file": "Bharatiya_Nyaya_Sanhita_2023.json"
+        },
+        "rrf_score": 0.014925373134328358,
+        "vector_score": 0,
+        "bm25_score": 98.30914227135779,
+        "sources": [
+          "bm25"
+        ],
+        "rerank_score": -7.728632926940918,
+        "rank": 5,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      },
+      {
+        "id": "STAT_Transfer_of_Property_Act_1882_0052",
+        "text": "Act: Transfer of Property Act 1882\nSection: 24. (24.)\nContent: [\n\nEntire Act\n\n]\n\nUnion of India - Section\n\nSection 24 in The Transfer Of Property Act, 1882\n\n24. Transfer to such of certain persons as survive at some period not specified.—\n\nWhere, on a transfer of property, an interest therein is to accrue to such of certain persons as shall be surviving at some period, but the exact period is not specified, the interest shall go to such of them as shall be alive when the intermediate or precedent interest ceases to exist, unless a contrary intention appears from the terms of the transfer.\n\nIllustration\n\nA transfers property to B for life, and after his death to C and D, equally to be divided between them, or to the survivor of them. C dies during the life of B. D survives B. At B’s death the property passes to D.",
+        "metadata": {
+          "act": "Transfer of Property Act 1882",
+          "domain": "statutes",
+          "source_file": "Transfer_of_Property_Act_1882.json",
+          "section_number": "24.",
+          "section_title": "24."
+        },
+        "rrf_score": 0.014492753623188406,
+        "vector_score": 0.1532871127128601,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -7.964290142059326,
+        "rank": 6,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      },
+      {
+        "id": "STAT_Transfer_of_Property_Act_1882_0017",
+        "text": "Act: Transfer of Property Act 1882\nSection: 6. (6.)\nContent: [\n\nEntire Act\n\n]\n\nUnion of India - Section\n\nSection 6 in The Transfer Of Property Act, 1882\n\n6. What may be transferred.—\n\nProperty of any kind may be transferred, except as otherwise provided by this Act or by any other law for the time being in force,—\n\n(a)\n\nThe chance of an heir-apparent succeeding to an estate, the chance of a relation obtaining a legacy on the death of a kinsman, or any other mere possibility of a like nature, cannot be transferred;\n\n(b)\n\nA mere right of re-entry for breach of a condition subsequent cannot be transferred to any one except the owner of the property affected thereby;\n\n(c)\n\nAn easement cannot be transferred apart from the dominant heritage;\n\n(d)\n\nAll interest in property restricted in its enjoyment to the owner personally cannot be transferred by him;\n\n(dd)\n\nA right to future maintenance, in whatsoever manner arising, secured or determined, cannot be transferred;\n\n(e)\n\nA mere right to sue cannot be transferred;\n\n(f)\n\nA public office cannot be transferred, nor can the salary of a public officer, whether before or after it has become payable;\n\n(g)\n\nStipends allowed to military naval, air-force and civil pensioners of the Government and political pensions cannot be transferred;\n\n(h)\n\nNo transfer can be made (1) in so far as it is opposed to the nature of the interest affected thereby, or (2) for an unlawful object or consideration within the meaning of section 23 of the Indian Contract Act, 1872 (9 of 1872), or (3) to a person legally disqualified to be transferee;\n\n(i)\n\nNothing in this section shall be deemed to authorise a tenant having an untransferable right of occupancy, the farmer of an estate in respect of which default has been made in paying revenue, or the lessee of an estate, under the management of a Court of Wards, to assign his interest as such tenant, farmer or lessee.",
+        "metadata": {
+          "act": "Transfer of Property Act 1882",
+          "source_file": "Transfer_of_Property_Act_1882.json",
+          "section_number": "6.",
+          "domain": "statutes",
+          "section_title": "6."
+        },
+        "rrf_score": 0.030090497737556562,
+        "vector_score": 0.15551763772964478,
+        "bm25_score": 102.92466401214125,
+        "sources": [
+          "vector",
+          "bm25"
+        ],
+        "rerank_score": -7.97218132019043,
+        "rank": 7,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      },
+      {
+        "id": "STAT_Transfer_of_Property_Act_1882_0083",
+        "text": "Act: Transfer of Property Act 1882\nSection: 43. (43.)\nContent: [\n\nEntire Act\n\n]\n\nUnion of India - Section\n\nSection 43 in The Transfer Of Property Act, 1882\n\n43. Transfer by unauthorised person who subsequently acquires interest in property transferred.—\n\nWhere a person fraudulently or erroneously represents that he is authorised to transfer certain immoveable property and professes to transfer such property for consideration, such transfer shall, at the option of the transferee, operate on any interest which the transferor may acquire in such property at any time during which the contract of transfer subsists.\n\nNothing in this section shall impair the right of transferees in good faith for consideration without notice of the existence of the said option.\n\nIllustration\n\nA, a Hindu who has separated from his father B, sells to C three fields, X, Y and Z, representing that A is authorised to transfer the same. Of these fields Z does not belong to A, it having been retained by B on the partition; but on B’s dying A as heir obtains Z. C, not having rescinded the contract of sale, may require A to deliver Z to him.",
+        "metadata": {
+          "section_title": "43.",
+          "section_number": "43.",
+          "domain": "statutes",
+          "source_file": "Transfer_of_Property_Act_1882.json",
+          "act": "Transfer of Property Act 1882"
+        },
+        "rrf_score": 0.015873015873015872,
+        "vector_score": 0.2100464105606079,
+        "bm25_score": 0,
+        "sources": [
+          "vector"
+        ],
+        "rerank_score": -8.040801048278809,
+        "rank": 8,
+        "retrieval_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law? Right to Information real estate land immovable property Transfer of Property Act registration deed",
+        "normalized_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+      }
+    ],
+    "metadata": {
+      "retrieval_time": 0.7178003787994385,
+      "document_count": 8,
+      "search_domain": "general",
+      "complexity": "complex",
+      "enhanced_query": "A Hindu man dies intestate leaving behind: A self-acquired property, Two daughters, One son, A second wife from a live-in relationship (not legally married). The second woman claims: Maintenance, Share in property, Protection under Article 14.\n        \n        Analyze:\n        1. Are daughters entitled to equal share?\n        2. Does a live-in partner have inheritance rights?\n        3. Can Article 14 override personal law?\n        4. Applicability of Protection of Women from Domestic Violence Act.\n        5. Can courts read constitutional morality into succession law?"
+    },
+    "duration": 13.835447311401367
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "test_id": "T11",
+  "base_url": "https://lawgpt-backend2024.azurewebsites.net",
+  "total_pass": 16,
+  "total_cases": 16,
+  "accuracy": 1.0,
+  "part_a": [
+    {
+      "id": "RC-S01",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 202,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 2.2
+    },
+    {
+      "id": "RC-S02",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 239,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 3.59
+    },
+    {
+      "id": "RC-S03",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 231,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 4.87
+    },
+    {
+      "id": "RC-S04",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 154,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 3.25
+    },
+    {
+      "id": "RC-S05",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 198,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 4.96
+    },
+    {
+      "id": "RC-S06",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 177,
+      "kw_hits": 2,
+      "kw_total": 2,
+      "lat": 3.53
+    }
+  ],
+  "part_b": [
+    {
+      "id": "RC-C01",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.3,
+      "preview": "Q2: \"Do you have your appointment letter, salary slips, and termination letter, "
+    },
+    {
+      "id": "RC-C02",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.25,
+      "preview": "What is the exact date of vacating the property and the amount of security depos"
+    },
+    {
+      "id": "RC-C03",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 29.28,
+      "preview": "\"What is the exact date of the loan agreement, the amount borrowed, and the outs"
+    },
+    {
+      "id": "RC-C04",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 28.22,
+      "preview": "What is the exact date of your marriage, and do you have the marriage registrati"
+    }
+  ],
+  "part_c": [
+    {
+      "turn": 0,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 26.25
+    },
+    {
+      "turn": 1,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 7.08
+    },
+    {
+      "turn": 2,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 8.08
+    },
+    {
+      "turn": 3,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 9.14
+    },
+    {
+      "turn": 4,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 9.14
+    },
+    {
+      "turn": 5,
+      "passed": true,
+      "query_type": "case_consultation",
+      "words": 645,
+      "kw_hits": 5,
+      "lat": 17.32
+    }
+  ]
+}

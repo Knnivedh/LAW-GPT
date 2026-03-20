@@ -1,0 +1,68 @@
+{
+  "timestamp": "20260305_010251",
+  "target_url": "https://lawgpt-backend2024.azurewebsites.net",
+  "overall_accuracy": 0.24,
+  "total_questions": 25,
+  "total_passed": 6,
+  "suites_passed": 0,
+  "suites_total": 2,
+  "avg_latency_sec": 45.52,
+  "modules": [
+    {
+      "test_id": "T5-TOKEN",
+      "test_name": "Token Efficiency (word count + density)",
+      "total": 15,
+      "passed": 1,
+      "accuracy": 0.0667,
+      "avg_latency_sec": 52.72,
+      "suite_pass": false,
+      "extra": {
+        "tier_stats": {
+          "LOW": {
+            "pass": 1,
+            "total": 5,
+            "densities": [
+              5.85,
+              28.57,
+              27.78,
+              0.0,
+              30.3
+            ]
+          },
+          "MEDIUM": {
+            "pass": 0,
+            "total": 5,
+            "densities": [
+              48.78,
+              0.0,
+              55.56,
+              25.64,
+              71.43
+            ]
+          },
+          "HIGH": {
+            "pass": 0,
+            "total": 5,
+            "densities": [
+              46.51,
+              0.0,
+              42.55,
+              23.81,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "test_id": "T10-ROBUST",
+      "test_name": "Robustness (noisy input variants)",
+      "total": 10,
+      "passed": 5,
+      "accuracy": 0.5,
+      "avg_latency_sec": 38.32,
+      "suite_pass": false,
+      "extra": {}
+    }
+  ]
+}

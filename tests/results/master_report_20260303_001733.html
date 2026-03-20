@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>LAW-GPT Master Test Report 20260303_001733</title>
+<style>
+  body{background:#0f172a;color:#e2e8f0;font-family:'Segoe UI',sans-serif;margin:0;padding:24px}
+  h1{margin:0 0 4px;font-size:28px;color:#f8fafc}
+  .subtitle{color:#94a3b8;font-size:13px;margin-bottom:24px}
+  .summary{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:28px}
+  .card{background:#1e293b;border-radius:10px;padding:16px 24px;min-width:120px;text-align:center}
+  .card .num{font-size:32px;font-weight:700;margin-bottom:4px}
+  .card .lbl{font-size:12px;color:#94a3b8}
+  table{width:100%;border-collapse:collapse;background:#1e293b;border-radius:10px;overflow:hidden}
+  th{background:#0f172a;padding:10px 14px;text-align:left;font-size:12px;color:#64748b;text-transform:uppercase;letter-spacing:.5px}
+  tr:hover{background:#263248}
+  .footer{margin-top:24px;color:#475569;font-size:11px;text-align:center}
+</style>
+</head>
+<body>
+<h1>⚖ LAW-GPT v3.0 — Master Test Report</h1>
+<div class="subtitle">Generated 20260303_001733 | Backend: https://lawgpt-backend2024.azurewebsites.net</div>
+<div class="summary">
+  <div class="card"><div class="num" style="color:#ef4444">ISSUES DETECTED</div><div class="lbl">Overall</div></div>
+  <div class="card"><div class="num" style="color:#22c55e">299</div><div class="lbl">Tests Passed</div></div>
+  <div class="card"><div class="num" style="color:#ef4444">11</div><div class="lbl">Tests Failed</div></div>
+  <div class="card"><div class="num" style="color:#93c5fd">96.5%</div><div class="lbl">Pass Rate</div></div>
+  <div class="card"><div class="num" style="color:#fbbf24">7</div><div class="lbl">Suites</div></div>
+</div>
+<table>
+<thead>
+  <tr>
+    <th>Suite</th><th>Status</th><th>Pass</th><th>Fail</th><th>Score</th><th>Duration</th><th>Details</th>
+  </tr>
+</thead>
+<tbody>
+
+        <tr style="border-bottom:1px solid #1e293b">
+          <td style="padding:10px 14px;font-weight:600;color:#e2e8f0">[S1] PageIndex + Agentic RAG Integration</td>
+          <td style="padding:10px 14px;text-align:center"><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px">PASS</span></td>
+          <td style="padding:10px 14px;text-align:center;color:#86efac">25</td>
+          <td style="padding:10px 14px;text-align:center;color:#fca5a5">0</td>
+          <td style="padding:10px 14px;text-align:center;color:#93c5fd">100%</td>
+          <td style="padding:10px 14px;text-align:center;color:#94a3b8">2.4s</td>
+          <td style="padding:10px 14px"><ul style="margin:0;padding-left:16px"></ul></td>
+        </tr>
+        <tr style="border-bottom:1px solid #1e293b">
+          <td style="padding:10px 14px;font-weight:600;color:#e2e8f0">[S2] Agentic RAG Comprehensive (T01–T37)</td>
+          <td style="padding:10px 14px;text-align:center"><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px">PASS</span></td>
+          <td style="padding:10px 14px;text-align:center;color:#86efac">105</td>
+          <td style="padding:10px 14px;text-align:center;color:#fca5a5">0</td>
+          <td style="padding:10px 14px;text-align:center;color:#93c5fd">100%</td>
+          <td style="padding:10px 14px;text-align:center;color:#94a3b8">29.5s</td>
+          <td style="padding:10px 14px"><ul style="margin:0;padding-left:16px"></ul></td>
+        </tr>
+        <tr style="border-bottom:1px solid #1e293b">
+          <td style="padding:10px 14px;font-weight:600;color:#e2e8f0">[S3] Live Deployment Verification (16 endpoints)</td>
+          <td style="padding:10px 14px;text-align:center"><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px">PASS</span></td>
+          <td style="padding:10px 14px;text-align:center;color:#86efac">25</td>
+          <td style="padding:10px 14px;text-align:center;color:#fca5a5">0</td>
+          <td style="padding:10px 14px;text-align:center;color:#93c5fd">100%</td>
+          <td style="padding:10px 14px;text-align:center;color:#94a3b8">85.6s</td>
+          <td style="padding:10px 14px"><ul style="margin:0;padding-left:16px"></ul></td>
+        </tr>
+        <tr style="border-bottom:1px solid #1e293b">
+          <td style="padding:10px 14px;font-weight:600;color:#e2e8f0">[S4] Accuracy Ground Truth (25 questions)</td>
+          <td style="padding:10px 14px;text-align:center"><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px">FAIL</span></td>
+          <td style="padding:10px 14px;text-align:center;color:#86efac">21</td>
+          <td style="padding:10px 14px;text-align:center;color:#fca5a5">4</td>
+          <td style="padding:10px 14px;text-align:center;color:#93c5fd">84%</td>
+          <td style="padding:10px 14px;text-align:center;color:#94a3b8">66.8s</td>
+          <td style="padding:10px 14px"><ul style="margin:0;padding-left:16px"></ul></td>
+        </tr>
+        <tr style="border-bottom:1px solid #1e293b">
+          <td style="padding:10px 14px;font-weight:600;color:#e2e8f0">[S5] Conversational Accuracy (5-Q Rule)</td>
+          <td style="padding:10px 14px;text-align:center"><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px">FAIL</span></td>
+          <td style="padding:10px 14px;text-align:center;color:#86efac">22</td>
+          <td style="padding:10px 14px;text-align:center;color:#fca5a5">3</td>
+          <td style="padding:10px 14px;text-align:center;color:#93c5fd">88%</td>
+          <td style="padding:10px 14px;text-align:center;color:#94a3b8">67.9s</td>
+          <td style="padding:10px 14px"><ul style="margin:0;padding-left:16px"></ul></td>
+        </tr>
+        <tr style="border-bottom:1px solid #1e293b">
+          <td style="padding:10px 14px;font-weight:600;color:#e2e8f0">[S6] Frontend Auth Unit Tests (Vitest)</td>
+          <td style="padding:10px 14px;text-align:center"><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px">PASS</span></td>
+          <td style="padding:10px 14px;text-align:center;color:#86efac">40</td>
+          <td style="padding:10px 14px;text-align:center;color:#fca5a5">0</td>
+          <td style="padding:10px 14px;text-align:center;color:#93c5fd">100%</td>
+          <td style="padding:10px 14px;text-align:center;color:#94a3b8">19.6s</td>
+          <td style="padding:10px 14px"><ul style="margin:0;padding-left:16px"></ul></td>
+        </tr>
+        <tr style="border-bottom:1px solid #1e293b">
+          <td style="padding:10px 14px;font-weight:600;color:#e2e8f0">[S7] 10-Dimension Accuracy Comparison (60+ tests)</td>
+          <td style="padding:10px 14px;text-align:center"><span style="background:#ef4444;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px">FAIL</span></td>
+          <td style="padding:10px 14px;text-align:center;color:#86efac">61</td>
+          <td style="padding:10px 14px;text-align:center;color:#fca5a5">4</td>
+          <td style="padding:10px 14px;text-align:center;color:#93c5fd">94%</td>
+          <td style="padding:10px 14px;text-align:center;color:#94a3b8">240.2s</td>
+          <td style="padding:10px 14px"><ul style="margin:0;padding-left:16px"></ul></td>
+        </tr>
+</tbody>
+</table>
+<div class="footer">LAW-GPT Agentic RAG v3.0 | PageIndex Vectorless Retrieval | Azure Deployed</div>
+</body>
+</html>

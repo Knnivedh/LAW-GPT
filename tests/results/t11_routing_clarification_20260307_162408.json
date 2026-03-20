@@ -1,0 +1,137 @@
+{
+  "test_id": "T11",
+  "base_url": "https://lawgpt-backend2024.azurewebsites.net",
+  "total_pass": 15,
+  "total_cases": 16,
+  "accuracy": 0.9375,
+  "part_a": [
+    {
+      "id": "RC-S01",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 202,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 1.9
+    },
+    {
+      "id": "RC-S02",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 239,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 3.23
+    },
+    {
+      "id": "RC-S03",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 228,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 3.0
+    },
+    {
+      "id": "RC-S04",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 130,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 4.9
+    },
+    {
+      "id": "RC-S05",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 193,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 2.87
+    },
+    {
+      "id": "RC-S06",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 143,
+      "kw_hits": 2,
+      "kw_total": 2,
+      "lat": 1.8
+    }
+  ],
+  "part_b": [
+    {
+      "id": "RC-C01",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.05,
+      "preview": "Do you have the appointment letter, employment contract, or any other document t"
+    },
+    {
+      "id": "RC-C02",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 3.24,
+      "preview": "Do you have a written rental agreement or any communication with your landlord r"
+    },
+    {
+      "id": "RC-C03",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 29.08,
+      "preview": "What is the exact nature of the cheque bounce case, including any previous commu"
+    },
+    {
+      "id": "RC-C04",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 27.34,
+      "preview": "What is the exact date of marriage registration and where was the marriage regis"
+    }
+  ],
+  "part_c": [
+    {
+      "turn": 0,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 27.23
+    },
+    {
+      "turn": 1,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 7.07
+    },
+    {
+      "turn": 2,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 8.08
+    },
+    {
+      "turn": 3,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 8.19
+    },
+    {
+      "turn": 4,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 10.21
+    },
+    {
+      "turn": 5,
+      "passed": false,
+      "query_type": "case_consultation",
+      "words": 205,
+      "kw_hits": 5,
+      "lat": 20.48
+    }
+  ]
+}

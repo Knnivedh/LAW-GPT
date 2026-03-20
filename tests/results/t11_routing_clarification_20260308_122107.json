@@ -1,0 +1,139 @@
+{
+  "test_id": "T11",
+  "base_url": "https://lawgpt-backend2024.azurewebsites.net",
+  "total_pass": 15,
+  "total_cases": 17,
+  "accuracy": 0.8824,
+  "part_a": [
+    {
+      "id": "RC-S01",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 220,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 2.25
+    },
+    {
+      "id": "RC-S02",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 207,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 2.02
+    },
+    {
+      "id": "RC-S03",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 226,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 2.18
+    },
+    {
+      "id": "RC-S04",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 161,
+      "kw_hits": 3,
+      "kw_total": 3,
+      "lat": 5.05
+    },
+    {
+      "id": "RC-S05",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 160,
+      "kw_hits": 2,
+      "kw_total": 3,
+      "lat": 3.03
+    },
+    {
+      "id": "RC-S06",
+      "passed": true,
+      "query_type": "simple_direct",
+      "words": 153,
+      "kw_hits": 2,
+      "kw_total": 2,
+      "lat": 3.35
+    }
+  ],
+  "part_b": [
+    {
+      "id": "RC-C01",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.04,
+      "preview": "Do you have the appointment letter and termination letter (if applicable), and c"
+    },
+    {
+      "id": "RC-C02",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 2.0,
+      "preview": "Do you have the invoice/receipt for the security deposit paid to the landlord, a"
+    },
+    {
+      "id": "RC-C03",
+      "passed": true,
+      "query_type": "clarification",
+      "is_question": true,
+      "lat": 29.09,
+      "preview": "What is the exact date of the cheque that bounced and the total amount it was fo"
+    },
+    {
+      "id": "RC-C04",
+      "passed": false,
+      "error": "API call failed after 2 attempts: HTTPSConnectionPool(host='lawgpt-backend2024.azurewebsites.net', port=443): Max retries exceeded with url: /api/query (Caused by NameResolutionError(\"HTTPSConnection(host='lawgpt-backend2024.azurewebsites.net', port=443): Failed to resolve 'lawgpt-backend2024.azurewebsites.net' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "id": "RC-C05",
+      "passed": false,
+      "error": "API call failed after 2 attempts: HTTPSConnectionPool(host='lawgpt-backend2024.azurewebsites.net', port=443): Max retries exceeded with url: /api/query (Caused by NameResolutionError(\"HTTPSConnection(host='lawgpt-backend2024.azurewebsites.net', port=443): Failed to resolve 'lawgpt-backend2024.azurewebsites.net' ([Errno 11001] getaddrinfo failed)\"))"
+    }
+  ],
+  "part_c": [
+    {
+      "turn": 0,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 4.99
+    },
+    {
+      "turn": 1,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 1.45
+    },
+    {
+      "turn": 2,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 1.5
+    },
+    {
+      "turn": 3,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 1.69
+    },
+    {
+      "turn": 4,
+      "passed": true,
+      "query_type": "clarification",
+      "lat": 1.08
+    },
+    {
+      "turn": 5,
+      "passed": true,
+      "query_type": "case_consultation",
+      "words": 611,
+      "kw_hits": 5,
+      "lat": 9.98
+    }
+  ]
+}
