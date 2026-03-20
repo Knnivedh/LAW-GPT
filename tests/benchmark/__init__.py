@@ -1,1 +1,0 @@
-# LAW-GPT Benchmark Suite
