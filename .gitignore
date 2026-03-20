@@ -79,3 +79,11 @@ __*.json
 push_error.txt
 payload.json
 *consistency.png
+
+# Strict Codebase Rules
+*.md
+!README.md
+!ADVANCED_AGENTIC_RAG_GUIDE.md
+tests/
+test_*.py
+*_test.py
