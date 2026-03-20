@@ -62,3 +62,20 @@ frontend/dist/
 # Large Files
 *.zip
 *.exe
+
+# Cleanup Exclusions
+*.bat
+*.ps1
+*FIX*.md
+*SUMMARY*.md
+*_COMPLETE.md
+*.docx
+tests/results/
+kaanoon_test/*.json
+*report*.json
+advanced_legal_test_*.json
+*accuracy_report*.json
+__*.json
+push_error.txt
+payload.json
+*consistency.png
