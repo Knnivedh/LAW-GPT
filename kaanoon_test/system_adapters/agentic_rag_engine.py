@@ -249,7 +249,9 @@ class AgenticRAGEngine:
 
         # ── 1b. INTERACTIVE CLARIFICATION (NEW for v3.0) ──────────────────
         # If complexity is high, check for fact gaps before proceeding to RAG
-        if plan.complexity == "high" and not chat_history:
+        # NOTE: Removed `not chat_history` constraint — complex scenarios need
+        # clarification even in ongoing conversations.
+        if plan.complexity == "high":
             trace.append("checking_for_gaps")
             # We use the initial plan reasoned by the LLM as 'pre-retrieval context'
             gaps = self.clarifier.identify_gaps(user_query, plan.reasoning)

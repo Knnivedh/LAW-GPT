@@ -552,16 +552,25 @@ class ClarificationSession:
                 "message": "Namaste! 🙏 I am your AI Legal Assistant. Please describe your legal issue (e.g., 'I want a divorce' or 'Property dispute')."
             }
 
+        # --- 1A. COMPLEX CASE MATRIX → FORCE CLARIFICATION (Highest Priority) ---
+        # Multi-party, multi-domain scenarios (fintech data breach + consumer
+        # commission + PIL + arbitration) MUST enter the 5-question interview
+        # loop to gather missing facts, EVEN when they have no personal pronouns
+        # and look "academic".  Only bypass if user explicitly asked for one-shot.
+        if self._looks_like_complex_case_matrix(query) and not self._has_explicit_direct_instruction(query):
+            logger.info(f"Detected COMPLEX CASE MATRIX → forcing 5Q clarification loop: {query[:70]}...")
+            # Fall through to the clarification path (skipping academic/simple checks)
+            # We still need intent analysis + pre-loop RAG, so jump to section 3 below.
+            pass  # handled after section 2 — the _is_simple_query() check below
+                  # already has a complex_case_matrix guard, so it won't bypass.
+
         # --- 1B. ACADEMIC / MOOT-STYLE COMPLEX ANALYSIS (Direct full RAG) ---
         # These should bypass the 5Q client-interview loop, but they still need the
         # full-depth analysis path rather than the lightweight simple-mode answerer.
-        if (
+        # NOTE: Complex case matrices are handled by 1A above and will NOT reach here.
+        elif (
             self._is_academic_legal_analysis(query)
             and not self._has_personal_case_indicators(query)
-            and (
-                self._has_explicit_direct_instruction(query)
-                or not self._looks_like_complex_case_matrix(query)
-            )
         ):
             logger.info("Detected ACADEMIC ANALYSIS QUERY. Bypassing clarification loop and using full RAG analysis.")
             return {
@@ -577,7 +586,9 @@ class ClarificationSession:
         # mention recent events (e.g., 2024 criminal law reforms) that fall after the LLM's
         # training cutoff.  General knowledge / academic legal queries should ALWAYS bypass
         # scope check and go directly to RAG.
-        if self._is_simple_query(query):
+        # NOTE: Complex case matrices will NOT hit this because _is_simple_query() has
+        # a complex_case_matrix guard at line 507.
+        if not self._looks_like_complex_case_matrix(query) and self._is_simple_query(query):
             logger.info("Detected SIMPLE QUERY. Bypassing scope check & clarification loop for direct RAG answer.")
             return {
                 "status": "simple_direct",
