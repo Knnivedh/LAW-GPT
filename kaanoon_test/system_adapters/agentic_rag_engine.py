@@ -53,6 +53,15 @@ from kaanoon_test.system_adapters.focused_legal_prompts import (
     detect_legal_frameworks_needed,
 )
 from kaanoon_test.system_adapters.clarification_agent import ClarificationAgent
+from kaanoon_test.system_adapters.domain_specialist_profiles import (
+    resolve_domain,
+    get_domain_profile,
+    get_planner_directive,
+    get_synthesiser_system_prompt,
+    get_verifier_domain_check,
+    get_domain_boost_keywords,
+    get_expanded_filter_keywords,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -165,6 +174,12 @@ class AgenticRAGEngine:
             chat_history: Optional[List[Dict]] = None,
             simple_mode: bool = False,
             ) -> AgenticResult:
+        # ── DOMAIN SPECIALIST RESOLUTION ──────────────────────────────────
+        # Auto-detect domain from query by default; manual user category overrides
+        domain_profile = resolve_domain(category, user_query)
+        if domain_profile:
+            logger.info(f"[AGENT] Domain specialist active: {domain_profile.display_name} "
+                         f"(source={'manual' if category and category.lower() not in ('general','all','') else 'auto'})")
         """
         Main entry point. Runs the full agentic loop.
 
@@ -222,7 +237,7 @@ class AgenticRAGEngine:
             trace.append("simple_mode")
             logger.info(f"[AGENT] Simple mode: skipping Plan/Verify loop for '{user_query[:60]}'")
             try:
-                simple_result = self._simple_mode_answer(user_query, category, session_id)
+                simple_result = self._simple_mode_answer(user_query, category, session_id, domain_profile=domain_profile)
                 if simple_result and len(simple_result.split()) >= 40:
                     if session_id:
                         self.memory.remember_turn(session_id, "assistant", simple_result[:500])
@@ -241,7 +256,9 @@ class AgenticRAGEngine:
 
         # ── 1. PLAN ──────────────────────────────────────────────────────
         trace.append("planning")
-        plan = self._plan(user_query, conv_context, user_profile, category)
+        plan = self._plan(user_query, conv_context, user_profile, category, domain_profile=domain_profile)
+        if domain_profile:
+            trace.append(f"domain_specialist={domain_profile.domain_id}")
         trace.append(f"strategy={plan.strategy}")
         trace.append(f"sub_queries={len(plan.sub_queries)}")
         logger.info(f"[AGENT] Plan: strategy={plan.strategy}, "
@@ -281,7 +298,7 @@ class AgenticRAGEngine:
             trace.append(f"loop_{loop_idx}")
 
             # ── 2. RETRIEVE ──────────────────────────────────────────────
-            retrieval = self._retrieve(plan, conv_context)
+            retrieval = self._retrieve(plan, conv_context, domain_profile=domain_profile)
             trace.append(f"retrieved_{len(retrieval.documents)}_docs")
 
             # Merge web research if plan says so
@@ -302,7 +319,8 @@ class AgenticRAGEngine:
                 full_context += "\n\n--- Web Research ---\n" + web_context[:2000]
 
             answer = self._synthesise(
-                plan, full_context, conv_context, user_profile
+                plan, full_context, conv_context, user_profile,
+                domain_profile=domain_profile,
             )
             trace.append("synthesised")
 
@@ -318,7 +336,8 @@ class AgenticRAGEngine:
                 )
             else:
                 verification = self._verify(
-                    user_query, answer, full_context, plan
+                    user_query, answer, full_context, plan,
+                    domain_profile=domain_profile,
                 )
             trace.append(f"confidence={verification.confidence:.2f}")
             logger.info(f"[AGENT] Loop {loop_idx}: confidence={verification.confidence:.2f}, "
@@ -373,11 +392,13 @@ class AgenticRAGEngine:
     #  SIMPLE MODE: fast single-pass answer for factual queries
     # ═══════════════════════════════════════════════════════════════════════
 
-    def _simple_mode_answer(self, query: str, category: str, session_id: str = "") -> str:
+    def _simple_mode_answer(self, query: str, category: str, session_id: str = "",
+                            *, domain_profile=None) -> str:
         """One-shot lightweight answer: retrieve → synthesise with 8b model.
 
         Uses a single parametric RAG retrieval + llama-3.1-8b-instant prompt.
         Avoids Plan→Verify overhead and conserves 70b TPM quota.
+        Domain-aware: injects specialist persona when domain_profile is active.
         """
         recent_context = ""
         retrieval_query = query
@@ -408,25 +429,44 @@ class AgenticRAGEngine:
 
         # Retrieve relevant context
         try:
+            # Boost retrieval query with domain keywords
+            boosted_query = retrieval_query
+            if domain_profile:
+                boost_kw = get_domain_boost_keywords(domain_profile, limit=3)
+                if boost_kw:
+                    boosted_query = f"{retrieval_query} {' '.join(boost_kw)}"
             rag_params = {
-                "search_domain": category,
+                "search_domain": domain_profile.domain_id if domain_profile else category,
                 "complexity": "simple",
-                "keywords": retrieval_query.split()[:12],
+                "keywords": boosted_query.split()[:12],
             }
-            retrieval = self.parametric_rag.retrieve_with_params(retrieval_query, rag_params)
+            retrieval = self.parametric_rag.retrieve_with_params(boosted_query, rag_params)
             context = retrieval.get("context", "")[:3000]
         except Exception as e:
             logger.warning(f"[SIMPLE] Retrieval failed: {e} — answering from training")
             context = ""
 
-        system_msg = (
-            "You are a highly capable Indian legal expert assistant. Answer the question accurately in 150-350 words. "
-            "Cite the specific section/article number and act. Mention 1-2 key cases if relevant. "
-            "CRITICAL INSTRUCTIONS:\n"
-            "1. NEVER use conversational filler like 'Based on the provided context', 'According to the context', or 'I could not find it in the context'. Answer directly with authority.\n"
-            "2. If the user asks for a specific statute (e.g. IPC Section 302) and its exact text is missing from the retrieved context, rely on your robust training data for major Indian laws to provide the accurate description. NEVER conflate different sections (e.g., do NOT confuse IPC 301 or 304A with IPC 302).\n"
-            "3. End with a one-line ⚠️ Disclaimer that this is general information only."
-        )
+        # Domain-specialist persona injection for simple mode
+        if domain_profile:
+            system_msg = (
+                f"You are {domain_profile.expert_persona}. "
+                f"Answer the question accurately in 150-350 words, focused on {domain_profile.display_name}. "
+                f"Cite statutes from: {', '.join(domain_profile.core_statutes[:4])}. "
+                f"Mention relevant cases from: {', '.join(p.split(' — ')[0] for p in domain_profile.key_precedents[:3])}. "
+                f"CRITICAL: Stay focused on {domain_profile.display_name}. "
+                f"{domain_profile.synthesis_instructions}\n"
+                "NEVER use conversational filler. Answer directly with authority.\n"
+                "End with a one-line ⚠️ Disclaimer that this is general information only."
+            )
+        else:
+            system_msg = (
+                "You are a highly capable Indian legal expert assistant. Answer the question accurately in 150-350 words. "
+                "Cite the specific section/article number and act. Mention 1-2 key cases if relevant. "
+                "CRITICAL INSTRUCTIONS:\n"
+                "1. NEVER use conversational filler like 'Based on the provided context', 'According to the context', or 'I could not find it in the context'. Answer directly with authority.\n"
+                "2. If the user asks for a specific statute (e.g. IPC Section 302) and its exact text is missing from the retrieved context, rely on your robust training data for major Indian laws to provide the accurate description. NEVER conflate different sections (e.g., do NOT confuse IPC 301 or 304A with IPC 302).\n"
+                "3. End with a one-line ⚠️ Disclaimer that this is general information only."
+            )
         user_msg = (
             f"Question: {query}\n\n"
             + (f"Recent conversation context:\n{recent_context}\n\n" if recent_context else "")
@@ -450,7 +490,8 @@ class AgenticRAGEngine:
     # ═══════════════════════════════════════════════════════════════════════
 
     def _plan(self, query: str, conv_context: str,
-              user_profile: Optional[Any], category: str) -> AgentPlan:
+              user_profile: Optional[Any], category: str,
+              *, domain_profile=None) -> AgentPlan:
         """
         LLM-powered planner that analyses the query and decides strategy.
         """
@@ -487,6 +528,10 @@ class AgenticRAGEngine:
             "Detect all relevant legal domains (IPC/BNS, CrPC/BNSS, CPA, GST, IT Act, etc.).\n"
             "Set needs_web_search=true only for very recent events or topics not in law databases."
         )
+
+        # ── DOMAIN LOCK: inject specialist directive into planner ──────
+        if domain_profile:
+            system_msg += get_planner_directive(domain_profile)
 
         user_msg = f"{conv_hint}{profile_hint}\nUser query: {query}\nCategory hint: {category}"
 
@@ -559,21 +604,34 @@ class AgenticRAGEngine:
     #  STAGE 2: RETRIEVER — multi-hop, sub-query expansion
     # ═══════════════════════════════════════════════════════════════════════
 
-    def _retrieve(self, plan: AgentPlan, conv_context: str) -> RetrievalPacket:
-        """Execute retrieval based on plan strategy."""
+    def _retrieve(self, plan: AgentPlan, conv_context: str,
+                  *, domain_profile=None) -> RetrievalPacket:
+        """Execute retrieval based on plan strategy. Domain-boosted when profile active."""
         t0 = time.time()
         all_docs: List[Dict] = []
 
+        # Boost retrieval query with domain keywords
+        retrieval_query = plan.rewritten_query
+        if domain_profile:
+            boost_kw = get_domain_boost_keywords(domain_profile, limit=3)
+            # Only append keywords not already in the query
+            new_kw = [kw for kw in boost_kw if kw.lower() not in retrieval_query.lower()]
+            if new_kw:
+                retrieval_query = f"{retrieval_query} {' '.join(new_kw)}"
+                logger.info(f"[RETRIEVER] Domain-boosted query: +{new_kw}")
+
         # Primary retrieval
         rag_params = {
-            "search_domain": plan.detected_domains[0] if plan.detected_domains else "general",
+            "search_domain": domain_profile.domain_id if domain_profile else (
+                plan.detected_domains[0] if plan.detected_domains else "general"
+            ),
             "complexity": plan.complexity,
-            "keywords": plan.rewritten_query.split()[:5],
+            "keywords": retrieval_query.split()[:5],
         }
 
         try:
             primary = self.parametric_rag.retrieve_with_params(
-                plan.rewritten_query, rag_params
+                retrieval_query, rag_params
             )
             primary_docs = primary.get("documents", [])
             all_docs.extend(primary_docs)
@@ -653,8 +711,10 @@ class AgenticRAGEngine:
     # ═══════════════════════════════════════════════════════════════════════
 
     def _synthesise(self, plan: AgentPlan, context: str,
-                    conv_context: str, user_profile: Optional[Any]) -> str:
-        """Generate the answer using LLM with structured legal prompt."""
+                    conv_context: str, user_profile: Optional[Any],
+                    *, domain_profile=None) -> str:
+        """Generate the answer using LLM with structured legal prompt.
+        Domain-specialist persona injected when domain_profile is active."""
 
         # Personalisation hints
         lang_hint = ""
@@ -677,13 +737,23 @@ class AgenticRAGEngine:
         )
 
         if should_use_focused_prompt:
-            system_msg = (
-                "You are an expert Indian legal AI assistant. Follow the provided legal-analysis "
-                "instructions exactly, preserve issue-by-issue structure, and do not invent statutory "
-                "section numbers or case names. If an exact citation is uncertain, say so rather than "
-                "hallucinating it."
-                f"{lang_hint}"
-            )
+            # Domain-specialist focused prompt
+            if domain_profile:
+                system_msg = get_synthesiser_system_prompt(domain_profile, lang_hint)
+                system_msg += (
+                    "\nFollow the provided legal-analysis instructions exactly, "
+                    "preserve issue-by-issue structure, and do not invent statutory "
+                    "section numbers or case names. If an exact citation is uncertain, "
+                    "say so rather than hallucinating it."
+                )
+            else:
+                system_msg = (
+                    "You are an expert Indian legal AI assistant. Follow the provided legal-analysis "
+                    "instructions exactly, preserve issue-by-issue structure, and do not invent statutory "
+                    "section numbers or case names. If an exact citation is uncertain, say so rather than "
+                    "hallucinating it."
+                    f"{lang_hint}"
+                )
             user_msg = build_focused_legal_prompt(
                 question=plan.rewritten_query,
                 context=(context + history_hint)[:4500],
@@ -696,25 +766,36 @@ class AgenticRAGEngine:
                 conversation_context=conv_context[-400:] if conv_context else "",
             )
         else:
-            system_msg = (
-                "You are an expert Indian legal AI assistant with encyclopaedic knowledge "
-                "of Indian statutes, constitutional law, and Supreme Court / High Court judgments.\n\n"
-                "Structure every answer:\n"
-                "**Case Summary** → **Legal Framework** (cite specific sections/articles) → "
-                "**Key Precedents** (cite actual case names & years) → "
-                "**Legal Reasoning** (step-by-step) → **Practical Advice** → **Conclusion**\n\n"
-                "Rules:\n"
-                "- Cite SPECIFIC sections (e.g., Section 302 BNS, Article 21 Constitution)\n"
-                "- Name REAL landmark cases with years\n"
-                "- If the retrieved documents don't contain enough info, supplement from your training\n"
-                "- For comparative questions, present BOTH sides\n"
-                "- If you cannot verify a case name exists, say so explicitly\n"
-                "- Aim for 800-1500 words\n"
-                "- NEVER use conversational filler like 'Based on the provided context' or 'According to the context'.\n"
-                "- NEVER hallucinate the text of a statute. If describing a major section (like IPC 302), provide its true meaning from memory if the retrieved context does not contain its exact wording.\n"
-                "- End with ⚠️ Disclaimer"
-                f"{lang_hint}"
-            )
+            # Domain-specialist standard prompt
+            if domain_profile:
+                system_msg = get_synthesiser_system_prompt(domain_profile, lang_hint)
+                system_msg += (
+                    "\nStructure every answer:\n"
+                    "**Case Summary** → **Legal Framework** (cite specific sections/articles) → "
+                    "**Key Precedents** (cite actual case names & years) → "
+                    "**Legal Reasoning** (step-by-step) → **Practical Advice** → **Conclusion**\n\n"
+                    "Aim for 800-1500 words.\n"
+                )
+            else:
+                system_msg = (
+                    "You are an expert Indian legal AI assistant with encyclopaedic knowledge "
+                    "of Indian statutes, constitutional law, and Supreme Court / High Court judgments.\n\n"
+                    "Structure every answer:\n"
+                    "**Case Summary** → **Legal Framework** (cite specific sections/articles) → "
+                    "**Key Precedents** (cite actual case names & years) → "
+                    "**Legal Reasoning** (step-by-step) → **Practical Advice** → **Conclusion**\n\n"
+                    "Rules:\n"
+                    "- Cite SPECIFIC sections (e.g., Section 302 BNS, Article 21 Constitution)\n"
+                    "- Name REAL landmark cases with years\n"
+                    "- If the retrieved documents don't contain enough info, supplement from your training\n"
+                    "- For comparative questions, present BOTH sides\n"
+                    "- If you cannot verify a case name exists, say so explicitly\n"
+                    "- Aim for 800-1500 words\n"
+                    "- NEVER use conversational filler like 'Based on the provided context' or 'According to the context'.\n"
+                    "- NEVER hallucinate the text of a statute. If describing a major section (like IPC 302), provide its true meaning from memory if the retrieved context does not contain its exact wording.\n"
+                    "- End with ⚠️ Disclaimer"
+                    f"{lang_hint}"
+                )
 
             user_msg = (
                 f"Question: {plan.rewritten_query}\n\n"
@@ -764,10 +845,12 @@ class AgenticRAGEngine:
     # ═══════════════════════════════════════════════════════════════════════
 
     def _verify(self, original_query: str, answer: str,
-                context: str, plan: AgentPlan) -> VerificationResult:
+                context: str, plan: AgentPlan,
+                *, domain_profile=None) -> VerificationResult:
         """
         LLM-powered self-critique.
         Checks: completeness, accuracy, hallucination risk, relevance.
+        Domain-aware: adds domain-specific quality checks when profile active.
         """
         system_msg = (
             "You are a LEGAL ANSWER VERIFIER. You review AI-generated legal answers "
@@ -795,6 +878,10 @@ class AgenticRAGEngine:
             f"STRATEGY USED: {plan.strategy}\n"
             f"DOMAINS: {', '.join(plan.detected_domains)}"
         )
+
+        # ── Domain-specific quality checks (boost precision) ──────────
+        if domain_profile:
+            user_msg += get_verifier_domain_check(domain_profile)
 
         try:
             resp = self._llm_call(system_msg, user_msg,

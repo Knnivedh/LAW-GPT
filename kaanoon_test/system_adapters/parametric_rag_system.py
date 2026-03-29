@@ -254,50 +254,73 @@ class ParametricRAGSystem:
         domain: str,
         sections: List[str]
     ) -> List[Dict]:
-        """Filter results by legal domain"""
-        
-        # Domain keywords for filtering
-        domain_keywords = {
-            'IPC': ['ipc', 'indian penal code', 'section', 'criminal'],
-            'GST': ['gst', 'goods and services tax', 'tax', 'cgst', 'sgst'],
-            'DPDP': ['dpdp', 'data protection', 'privacy', 'personal data'],
-            'Contract': ['contract', 'agreement', 'indian contract act'],
-            'Property': ['property', 'ownership', 'transfer', 'land'],
-            'Criminal': ['criminal', 'offense', 'punishment', 'ipc'],
-            'Civil': ['civil', 'suit', 'damages', 'tort'],
-            'Corporate': ['company', 'corporate', 'director', 'companies act']
+        """Filter results by legal domain using BOOST approach (80/20).
+
+        Domain-relevant documents get boosted score (80% weight on domain match),
+        but cross-domain documents are NEVER dropped — they get 20% base weight.
+        This prevents missing constitutional/procedural cross-references.
+
+        Uses expanded keywords from domain_specialist_profiles when available.
+        """
+        # Try to get expanded keywords from domain specialist module
+        try:
+            from kaanoon_test.system_adapters.domain_specialist_profiles import (
+                get_domain_profile, get_expanded_filter_keywords
+            )
+            profile = get_domain_profile(domain)
+            expanded_kw = get_expanded_filter_keywords(profile) if profile else []
+        except ImportError:
+            expanded_kw = []
+
+        # Fallback domain keywords (legacy, used when domain_specialist_profiles not available)
+        _legacy_domain_keywords = {
+            'IPC': ['ipc', 'indian penal code', 'section', 'criminal', 'bns', 'penal'],
+            'GST': ['gst', 'goods and services tax', 'tax', 'cgst', 'sgst', 'igst'],
+            'DPDP': ['dpdp', 'dpdpa', 'data protection', 'privacy', 'personal data', 'it act'],
+            'Contract': ['contract', 'agreement', 'indian contract act', 'breach', 'consideration'],
+            'Property': ['property', 'ownership', 'transfer', 'land', 'rera', 'registration', 'deed'],
+            'Criminal': ['criminal', 'offense', 'punishment', 'ipc', 'bns', 'fir', 'bail', 'arrest'],
+            'Civil': ['civil', 'suit', 'damages', 'tort', 'negligence', 'injunction'],
+            'Corporate': ['company', 'corporate', 'director', 'companies act', 'nclt', 'sebi', 'ibc'],
         }
-        
-        keywords = domain_keywords.get(domain, [])
+
+        # Use expanded keywords if available, otherwise fallback
+        keywords = expanded_kw if expanded_kw else _legacy_domain_keywords.get(domain, [])
         if not keywords:
             return results  # No filtering if domain not recognized
-        
-        # Score results by domain relevance
-        scored_results = []
+
+        # ── BOOST APPROACH: score ALL results, never drop any ──────────
+        DOMAIN_WEIGHT = 0.80   # 80% weight for domain relevance
+        BASE_WEIGHT   = 0.20   # 20% weight for original retrieval score
+
         for result in results:
             text = result.get('text', '').lower()
-            metadata = result.get('metadata', {})
-            
-            # Calculate domain match score
-            match_score = sum(1 for kw in keywords if kw in text)
-            
-            # Boost if specific section mentioned
+            original_score = result.get('score', 0.5)
+
+            # Calculate domain keyword match count
+            domain_hits = sum(1 for kw in keywords if kw in text)
+
+            # Boost for specific section mentions
+            section_bonus = 0
             if sections:
                 for section in sections:
                     if section in text or f"section {section}" in text:
-                        match_score += 5
-            
-            if match_score > 0:
-                result['domain_score'] = match_score
-                scored_results.append(result)
-        
-        # Sort by domain relevance + original score
-        scored_results.sort(
-            key=lambda x: (x.get('domain_score', 0) * 0.3 + x.get('score', 0) * 0.7),
-            reverse=True
-        )
-        
-        return scored_results if scored_results else results  # Return filtered or original
+                        section_bonus += 3
+
+            # Normalise domain score (0.0 – 1.0 range)
+            max_possible = max(len(keywords), 1)
+            domain_score = min((domain_hits + section_bonus) / max_possible, 1.0)
+
+            # Combined boosted score: blend domain relevance + original relevance
+            result['domain_score'] = domain_hits + section_bonus
+            result['boosted_score'] = (
+                DOMAIN_WEIGHT * domain_score + BASE_WEIGHT * original_score
+            )
+
+        # Sort by boosted score (domain-relevant docs bubble up)
+        results.sort(key=lambda x: x.get('boosted_score', 0), reverse=True)
+
+        return results  # ALWAYS return all results (boost, don't block)
     
     def _build_context(
         self,
